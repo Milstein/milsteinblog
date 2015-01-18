@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="InstallWizard.aspx.cs" Inherits="Install_InstallWizard" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="InstallWizard.aspx.cs" Inherits="Install_InstallWizard" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -182,10 +182,10 @@
     <div id="sfInstallWrapper" class="clearfix">
         <div class="sfLogo">
             <h1>
-                <asp:Label ID="lblTitle" runat="server" />
+                <asp:Label ID="lblTitle" runat="server" meta:resourcekey="lblTitleResource1" />
             </h1>
             <div class="sfVersion">
-                <asp:Label ID="lblVersion" runat="server" />
+                <asp:Label ID="lblVersion" runat="server" meta:resourcekey="lblVersionResource1" />
             </div>
         </div>
         <div id="divHelp" class="sfHelp">
@@ -193,15 +193,15 @@
         </div>
         <div class="sfOuter sfCurve">
             <div class="sfInner sfCurve">
-                <asp:Label ID="lblInstallError" runat="server" Visible="false" />
-                <asp:HiddenField ID="hdnConnectionStringForAll" runat="server" Value="" />
+                <asp:Label ID="lblInstallError" runat="server" Visible="False" meta:resourcekey="lblInstallErrorResource1" />
+                <asp:HiddenField ID="hdnConnectionStringForAll" runat="server" />
                 <asp:HiddenField ID="hdnNextButtonClientID" runat="server" Value="0" />
                 <asp:Label ID="lblPermissionsError" runat="server" CssClass="cssClasssNormalRed"
-                    EnableViewState="false" Visible="false" />
-                <asp:Label ID="lblDataBaseError" runat="server" CssClass="cssClasssNormalRed" EnableViewState="false" />
+                    EnableViewState="False" Visible="False" meta:resourcekey="lblPermissionsErrorResource1" />
+                <asp:Label ID="lblDataBaseError" runat="server" CssClass="cssClasssNormalRed" EnableViewState="False" meta:resourcekey="lblDataBaseErrorResource1" />
                 <asp:Label ID="lblRequiredDatabaseName" runat="server" CssClass="cssClasssNormalRed"
-                    EnableViewState="false" />
-                <asp:Panel ID="pnlStartInstall" runat="server">
+                    EnableViewState="False" meta:resourcekey="lblRequiredDatabaseNameResource1" />
+                <asp:Panel ID="pnlStartInstall" runat="server" meta:resourcekey="pnlStartInstallResource1">
                     <div class="sfInstallpart">
                         <div class="sfFormwrapper">
                             <p class="sfWelcomeText">
@@ -209,87 +209,80 @@
                             </p>
                             <h2>
                                 Let's get started !</h2>
-                            <table id="tblDatabase" runat="Server" cellpadding="0" cellspacing="0" border="0"
+                            <table id="tblDatabase" runat="server" cellpadding="0" cellspacing="0" border="0"
                                 width="100%" class="sfInstalllationTable">
-                                <tr>
-                                    <td colspan="3">
+                                <tr runat="server">
+                                    <td colspan="3" runat="server">
                                         <h3>
                                             Database Credentials</h3>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td width="140px">
-                                        <%--<asp:Label ID="lblFileName" runat="Server" CssClass="sfFormlabel" />--%>
-                                        <asp:Label ID="lblServer" runat="Server" CssClass="sfFormlabel" />
+                                <tr runat="server">
+                                    <td width="140px" runat="server">
+                                        <asp:Label ID="lblServer" runat="server" CssClass="sfFormlabel" />
                                     </td>
-                                    <td colspan="2">
-                                        <asp:TextBox ID="txtServer" runat="Server" CssClass="sfInputbox" />
+                                    <td colspan="2" runat="server">
+                                        <asp:TextBox ID="txtServer" runat="server" CssClass="sfInputbox" />
                                         <i class="icon-info" data-title="Enter the Name or IP Address of the computer where the Database is located.">
                                         </i>
-                                        <%--<asp:Label ID="lblServerHelp" runat="Server" CssClass="sfHelptext icon-info" />--%>
                                         <label id="lblServerError" class="sfError">
                                         </label>
                                         <br />
                                         <br />
                                     </td>
                                 </tr>
-                                <tr class="sfTdseperator">
-                                    <td>
-                                        <asp:Label ID="lblIntegrated" runat="Server" CssClass="sfFormlabel" />
+                                <tr class="sfTdseperator" runat="server">
+                                    <td runat="server">
+                                        <asp:Label ID="lblIntegrated" runat="server" CssClass="sfFormlabel" />
                                     </td>
-                                    <td colspan="2">
-                                        <asp:CheckBox ID="chkIntegrated" runat="Server" AutoPostBack="True" OnCheckedChanged="chkIntegrated_CheckedChanged"
+                                    <td colspan="2" runat="server">
+                                        <asp:CheckBox ID="chkIntegrated" runat="server" AutoPostBack="True" OnCheckedChanged="chkIntegrated_CheckedChanged"
                                             CssClass="sfCheckBox" />
-                                        <asp:Label ID="lblIntegratedHelp" runat="Server" CssClass="sfHelptext sfInline" />
+                                        <asp:Label ID="lblIntegratedHelp" runat="server" CssClass="sfHelptext sfInline" />
                                     </td>
                                 </tr>
-                                <tr id="trDatabaseName" runat="server" visible="false" class="sfTdseperator">
-                                    <td>
+                                <tr id="trDatabaseName" runat="server" visible="False" class="sfTdseperator">
+                                    <td runat="server">
                                         <br />
                                         <span class="sfFormlabel">Database Name</span>
                                     </td>
-                                    <td colspan="2">
+                                    <td colspan="2" runat="server">
                                         <br />
-                                        <%--<asp:Label ID="lblDatabase" runat="Server" CssClass="sfFormlabel" Text="Data Base:" />--%>
-                                        <asp:TextBox ID="txtDataBase" runat="Server" CssClass="sfInputbox" />
+                                        <asp:TextBox ID="txtDataBase" runat="server" CssClass="sfInputbox" />
                                         <i class="icon-info" data-title="Enter a database name"></i>
-                                        <%-- <asp:Label ID="lblDatabaseNameHelp" runat="Server" CssClass="sfHelptext icon-info" />--%>
                                         <label id="Label1" class="sfError">
                                         </label>
                                     </td>
                                 </tr>
-                                <tr id="trUser" runat="Server" class="sfTdseperator">
-                                    <td>
+                                <tr id="trUser" runat="server" class="sfTdseperator">
+                                    <td runat="server">
                                     </td>
-                                    <td colspan="2" class="sfCustomLabel">
+                                    <td colspan="2" class="sfCustomLabel" runat="server">
                                         <table cellpadding="0" cellspacing="0" width="100%" border="0" class="sfSubTable">
                                             <tr>
                                                 <td width="75px;">
-                                                    <asp:Label ID="lblUserID" runat="Server" CssClass="sfFormlabel" />
+                                                    <asp:Label ID="lblUserID" runat="server" CssClass="sfFormlabel" />
                                                 </td>
                                                 <td width="215px;">
-                                                    <asp:TextBox ID="txtUserId" runat="Server" CssClass="sfInputbox" />
+                                                    <asp:TextBox ID="txtUserId" runat="server" CssClass="sfInputbox" />
                                                     <label id="lblUserIdError" class="sfError">
                                                     </label>
                                                 </td>
                                                 <td>
                                                     <i class="icon-info" data-title="User ID to access the server"></i>
-                                                    <%-- <asp:Label ID="lblUserHelp" runat="Server" CssClass="sfHelptext icon-info" />--%>
                                                 </td>
                                             </tr>
-                                            <tr id="trPassword" runat="Server" class="sfTdseperator">
-                                                <td>
-                                                    <asp:Label ID="lblPassword" runat="Server" CssClass="sfFormlabel" />
+                                            <tr id="trPassword" runat="server" class="sfTdseperator">
+                                                <td runat="server">
+                                                    <asp:Label ID="lblPassword" runat="server" CssClass="sfFormlabel" />
                                                 </td>
-                                                <td>
-                                                    <asp:TextBox ID="txtPassword" runat="Server" CssClass="sfInputbox" TextMode="Password"
-                                                        EnableViewState="true" />
+                                                <td runat="server">
+                                                    <asp:TextBox ID="txtPassword" runat="server" CssClass="sfInputbox" TextMode="Password" />
                                                     <label id="lblPasswordError" class="sfError">
                                                     </label>
                                                 </td>
-                                                <td>
+                                                <td runat="server">
                                                     <i class="icon-info" data-title="Password to access the server"></i>
-                                                    <%--<asp:Label ID="lblPasswordHelp" runat="Server" CssClass="sfHelptext icon-info" />--%>
                                                 </td>
                                             </tr>
                                         </table>
@@ -297,7 +290,7 @@
                                     </td>
                                 </tr>
                                 <tr id="trDatabaseHeading" runat="server">
-                                    <td>
+                                    <td runat="server">
                                         <span class="sfFormlabel">Database Name</span>
                                     </td>
                                     <td id="trrdbCreateDatabase" runat="server" class="sfTdseperator">
@@ -311,18 +304,16 @@
                                             Existing Database</label>
                                     </td>
                                 </tr>
-                                <tr class="sfDBNameField">
-                                    <td>
+                                <tr class="sfDBNameField" runat="server">
+                                    <td runat="server">
                                     </td>
                                     <td id="trnewDatabase" runat="server" class="sfgap">
-                                        <asp:TextBox ID="txtNewDataBaseName" runat="Server" CssClass="sfInputbox" AutoPostBack="false" />
-                                        <%--<asp:Label ID="lblNewDatabaseHelp" runat="Server" CssClass="sfHelptext icon-info" />--%>
+                                        <asp:TextBox ID="txtNewDataBaseName" runat="server" CssClass="sfInputbox" />
                                         <label id="lblNewDatabaseError" class="sfError">
                                         </label>
                                     </td>
                                     <td id="trExistingDatabase" runat="server" class="sfgap2">
-                                        <asp:TextBox ID="txtExistingDatabaseName" runat="Server" CssClass="sfInputbox" AutoPostBack="false" />
-                                        <%--<asp:Label ID="lblExistingDatabaseHelp" runat="Server" CssClass="sfHelptext icon-info" />--%>
+                                        <asp:TextBox ID="txtExistingDatabaseName" runat="server" CssClass="sfInputbox" />
                                         <label id="lblExistingDatabaseError" class="sfError">
                                         </label>
                                     </td>
@@ -334,7 +325,7 @@
                                     check whether you have configured database properly or not. However, you can skip
                                     this step and install SageFrame directly as well.</p>
                                 <asp:Button ID="btnTestPermission" runat="server" CssClass="sfBtn" Text=" Test Configuration"
-                                    OnClick="btnTestPermission_Click" /></div>
+                                    OnClick="btnTestPermission_Click" meta:resourcekey="btnTestPermissionResource1" /></div>
                         </div>
                         <div id="divTemplateList" class="sfTemplate">
                             <h3>
@@ -345,11 +336,11 @@
                                     <ItemTemplate>
                                         <li>
                                             <p>
-                                                <asp:RadioButton ID="chkIsActive" runat="server" GroupName="SelectTemplate" Text='<%#Eval("TemplateName") %>' />
-                                                <asp:Label ID="lblTemplateName" runat="server" Text='<%#Eval("TemplateName") %>'
-                                                    CssClass="sfHide" />
+                                                <asp:RadioButton ID="chkIsActive" runat="server" GroupName="SelectTemplate" Text='<%# Eval("TemplateName") %>' meta:resourcekey="chkIsActiveResource1" />
+                                                <asp:Label ID="lblTemplateName" runat="server" Text='<%# Eval("TemplateName") %>'
+                                                    CssClass="sfHide" meta:resourcekey="lblTemplateNameResource1" />
                                             </p>
-                                            <asp:Image ID="imgThubNail" runat="server" ImageUrl='<%#Eval("ThumbImage") %>' />
+                                            <asp:Image ID="imgThubNail" runat="server" ImageUrl='<%# Eval("ThumbImage") %>' meta:resourcekey="imgThubNailResource1" />
                                             <br />
                                         </li>
                                     </ItemTemplate>
@@ -362,11 +353,11 @@
             </div>
             <div class="sfinstalbtn">
                 <asp:Button ID="btnInstall" runat="server" CssClass="sfBtn" Text="Install SageFrame"
-                    OnClick="btnInstall_Click" />
+                    OnClick="btnInstall_Click" meta:resourcekey="btnInstallResource1" />
             </div>
             </asp:Panel>
             <asp:Timer runat="server" ID="UpdateTimer" Interval="1000" OnTick="UpdateTimer_Tick"
-                Enabled="false" />
+                Enabled="False" />
             <asp:UpdatePanel runat="server" ID="TimedPanel" UpdateMode="Conditional">
                 <Triggers>
                     <asp:AsyncPostBackTrigger ControlID="UpdateTimer" EventName="Tick" />
@@ -376,18 +367,18 @@
                         <div class="sfmaincontent">
                             <div class="sfloadingDiv" id="loadingDiv" runat="server">
                                <h2> <asp:Label ID="lblDBProgress" runat="server" Text="Installing Database Scripts ...Please wait...This may take a moment"
-                                    EnableViewState="false"></asp:Label></h2>
+                                    EnableViewState="False" meta:resourcekey="lblDBProgressResource1"></asp:Label></h2>
                                 <asp:Image ID="imgDBProgress" runat="server" AlternateText="Installing Database Scripts..."
-                                    ToolTip="Installing Database Scripts..." />
+                                    ToolTip="Installing Database Scripts..." meta:resourcekey="imgDBProgressResource1" />
                             </div>
                             <asp:TextBox ID="txtFeedback" runat="server" class="cssClassFeedBack" Columns="60"
-                                Rows="6" TextMode="MultiLine" ReadOnly="true"></asp:TextBox>
-                            <asp:Label ID="lblInstallErrorOccur" runat="server" Visible="false" EnableViewState="false" />
+                                Rows="6" TextMode="MultiLine" ReadOnly="True" meta:resourcekey="txtFeedbackResource1"></asp:TextBox>
+                            <asp:Label ID="lblInstallErrorOccur" runat="server" Visible="False" EnableViewState="False" meta:resourcekey="lblInstallErrorOccurResource1" />
                         </div>
                     </div>
                     <div class="sfButtonwrapper">
-                        <asp:Button ID="btnCancel" runat="server" CssClass="sfBtn" Text="Cancel" Visible="false"
-                            OnClick="btnCancel_Click" />
+                        <asp:Button ID="btnCancel" runat="server" CssClass="sfBtn" Text="Cancel" Visible="False"
+                            OnClick="btnCancel_Click" meta:resourcekey="btnCancelResource1" />
                     </div>
                 </ContentTemplate>
             </asp:UpdatePanel>

@@ -269,9 +269,9 @@
                                 <asp:ListBox ID="lstSelectedRoles" runat="server" SelectionMode="Multiple" CssClass="sfListmenubig"></asp:ListBox>
                             </td>
                         </tr>
-                        <tr>
-                            <td></td>
-                            <td>
+                        <tr runat="server">
+                            <td runat="server"></td>
+                            <td runat="server">
                                 <div class="sfButtonwrapper">
                                     <asp:LinkButton ID="imgManageRoleSave" runat="server" OnClick="imgManageRoleSave_Click"
                                         CssClass="icon-update sfBtn" Text="Update" />
@@ -905,13 +905,13 @@
                     <asp:Label ID="lblSRow" runat="server" Text="Show rows" CssClass="sfFormlabel" meta:resourcekey="lblSRowResource1"></asp:Label>
                     <asp:DropDownList ID="ddlRecordsPerPage" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlRecordsPerPage_SelectedIndexChanged"
                         CssClass="sfListmenu sfAuto" meta:resourcekey="ddlRecordsPerPageResource1">
-                        <asp:ListItem Value="10" meta:resourcekey="ListItemResource4">10</asp:ListItem>
-                        <asp:ListItem Value="25" meta:resourcekey="ListItemResource5">25</asp:ListItem>
-                        <asp:ListItem Value="50" meta:resourcekey="ListItemResource6">50</asp:ListItem>
-                        <asp:ListItem Value="100" meta:resourcekey="ListItemResource7">100</asp:ListItem>
-                        <asp:ListItem Value="150" meta:resourcekey="ListItemResource8">150</asp:ListItem>
-                        <asp:ListItem Value="200" meta:resourcekey="ListItemResource9">200</asp:ListItem>
-                        <asp:ListItem Value="250" meta:resourcekey="ListItemResource10">250</asp:ListItem>
+                        <asp:ListItem Value="10" meta:resourcekey="ListItemResource4" Text="10"></asp:ListItem>
+                        <asp:ListItem Value="25" meta:resourcekey="ListItemResource5" Text="25"></asp:ListItem>
+                        <asp:ListItem Value="50" meta:resourcekey="ListItemResource6" Text="50"></asp:ListItem>
+                        <asp:ListItem Value="100" meta:resourcekey="ListItemResource7" Text="100"></asp:ListItem>
+                        <asp:ListItem Value="150" meta:resourcekey="ListItemResource8" Text="150"></asp:ListItem>
+                        <asp:ListItem Value="200" meta:resourcekey="ListItemResource9" Text="200"></asp:ListItem>
+                        <asp:ListItem Value="250" meta:resourcekey="ListItemResource10" Text="250"></asp:ListItem>
                     </asp:DropDownList>
                 </td>
             </tr>
@@ -926,9 +926,15 @@
                 <asp:TemplateField meta:resourcekey="TemplateFieldResource1">
                     <HeaderTemplate>
                         <input id="chkBoxHeader" runat="server" type="checkbox"></input>
+                    </input>
+                    </input>
+                    </input>
                     </HeaderTemplate>
                     <ItemTemplate>
                         <input id="chkBoxItem" runat="server" class="sfSelectall" type="checkbox"></input>
+                    </input>
+                    </input>
+                    </input>
                     </input>
                     </ItemTemplate>
                     <HeaderStyle CssClass="sfCheckbox" />
@@ -975,11 +981,17 @@
                         <input id="chkBoxIsActiveHeader" runat="server" type="checkbox"></input>
                         </input>
                         </input>
+                        </input>
+                        </input>
+                        </input>
                         <asp:Label ID="lblIsActive" runat="server" Text="Active" meta:resourcekey="lblIsActiveResource1"></asp:Label>
                     </HeaderTemplate>
                     <ItemTemplate>
                         <asp:HiddenField ID="hdnIsActive" runat="server" Value='<%# Eval("IsActive") %>' />
                         <input id="chkBoxIsActiveItem" runat="server" class="sfIsactive" type="checkbox"></input>
+                    </input>
+                    </input>
+                    </input>
                     </input>
                     </ItemTemplate>
                     <HeaderStyle CssClass="sfIsactive" />
@@ -1014,7 +1026,7 @@
                     <table cellpadding="0" cellspacing="0">
                         <tr style="display: none">
                             <td>
-                                <asp:Label runat="server" ID="lblDupNames" CssClass="sfFormlabel" meta:resourcekey="lblDupNamesResource1">Allow Duplicate UserNames Across Portals</asp:Label>
+                                <asp:Label runat="server" ID="lblDupNames" CssClass="sfFormlabel" meta:resourcekey="lblDupNamesResource1" Text="Allow Duplicate UserNames Across Portals"></asp:Label>
                             </td>
                             <td>
                                 <asp:CheckBox ID="chkEnableDupNames" runat="server" meta:resourcekey="chkEnableDupNamesResource1" />
@@ -1022,7 +1034,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <asp:Label runat="server" ID="lblDupEmail" CssClass="sfFormlabel" meta:resourcekey="lblDupEmailResource1">Allow Duplicate Email</asp:Label>
+                                <asp:Label runat="server" ID="lblDupEmail" CssClass="sfFormlabel" meta:resourcekey="lblDupEmailResource1" Text="Allow Duplicate Email"></asp:Label>
                             </td>
                             <td>
                                 <asp:CheckBox ID="chkEnableDupEmail" runat="server" meta:resourcekey="chkEnableDupEmailResource1" />
@@ -1030,7 +1042,7 @@
                         </tr>
                         <tr style="display: none">
                             <td>
-                                <asp:Label runat="server" ID="lblDupRoles" CssClass="sfFormlabel" meta:resourcekey="lblDupRolesResource1">Enable Duplicate Roles Across Portals</asp:Label>
+                                <asp:Label runat="server" ID="lblDupRoles" CssClass="sfFormlabel" meta:resourcekey="lblDupRolesResource1" Text="Enable Duplicate Roles Across Portals"></asp:Label>
                             </td>
                             <td>
                                 <asp:CheckBox ID="chkEnableDupRole" runat="server" meta:resourcekey="chkEnableDupRoleResource1" />
@@ -1038,7 +1050,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <asp:Label runat="server" ID="lblEnableCaptcha" CssClass="sfFormlabel" meta:resourcekey="lblEnableCaptchaResource1">Enable Captcha For User Registration</asp:Label>
+                                <asp:Label runat="server" ID="lblEnableCaptcha" CssClass="sfFormlabel" meta:resourcekey="lblEnableCaptchaResource1" Text="Enable Captcha For User Registration"></asp:Label>
                             </td>
                             <td>
                                 <asp:CheckBox ID="chkEnableCaptcha" runat="server" meta:resourcekey="chkEnableCaptchaResource1" />
@@ -1051,8 +1063,8 @@
                         CssClass="sfPasswordstorage"
                         Visible="False" meta:resourcekey="pnlPasswordEncTypesResource1">
                         <asp:RadioButtonList ID="rdbLst" runat="server" meta:resourcekey="rdbLstResource1">
-                            <asp:ListItem Value="2" meta:resourcekey="ListItemResource11">One Way Hashed</asp:ListItem>
-                            <asp:ListItem Value="3" meta:resourcekey="ListItemResource12">Encrypted</asp:ListItem>
+                            <asp:ListItem Value="2" meta:resourcekey="ListItemResource11" Text="One Way Hashed"></asp:ListItem>
+                            <asp:ListItem Value="3" meta:resourcekey="ListItemResource12" Text="Encrypted"></asp:ListItem>
                         </asp:RadioButtonList>
                     </asp:Panel>
                 </td>
@@ -1084,7 +1096,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblImportUserName" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportUserNameResource1">UserName</asp:Label>
+                    <asp:Label ID="lblImportUserName" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportUserNameResource1" Text="UserName"></asp:Label>
                 </td>
                 <td>:
                 </td>
@@ -1096,7 +1108,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblImportFirstName" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportFirstNameResource1">First Name</asp:Label>
+                    <asp:Label ID="lblImportFirstName" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportFirstNameResource1" Text="First Name"></asp:Label>
                 </td>
                 <td>:
                 </td>
@@ -1108,7 +1120,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblImportLastName" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportLastNameResource1">Last Name</asp:Label>
+                    <asp:Label ID="lblImportLastName" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportLastNameResource1" Text="Last Name"></asp:Label>
                 </td>
                 <td>:
                 </td>
@@ -1120,7 +1132,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblImportEmail" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportEmailResource1">Email</asp:Label>
+                    <asp:Label ID="lblImportEmail" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportEmailResource1" Text="Email"></asp:Label>
                 </td>
                 <td>:
                 </td>
@@ -1132,7 +1144,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblImportPassword" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportPasswordResource1">Password</asp:Label>
+                    <asp:Label ID="lblImportPassword" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportPasswordResource1" Text="Password"></asp:Label>
                 </td>
                 <td>:
                 </td>
@@ -1144,7 +1156,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblImportPasswordSalt" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportPasswordSaltResource1">Password Salt</asp:Label>
+                    <asp:Label ID="lblImportPasswordSalt" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportPasswordSaltResource1" Text="Password Salt"></asp:Label>
                 </td>
                 <td>:
                 </td>
@@ -1156,7 +1168,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblImportPasswordFormat" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportPasswordFormatResource1">Password Format</asp:Label>
+                    <asp:Label ID="lblImportPasswordFormat" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportPasswordFormatResource1" Text="Password Format"></asp:Label>
                 </td>
                 <td>:
                 </td>
@@ -1168,7 +1180,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblImportRoleName" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportRoleNameResource1">Role Name</asp:Label>
+                    <asp:Label ID="lblImportRoleName" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportRoleNameResource1" Text="Role Name"></asp:Label>
                 </td>
                 <td>:
                 </td>
@@ -1180,7 +1192,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblImportPortalID" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportPortalIDResource1">PortalID</asp:Label>
+                    <asp:Label ID="lblImportPortalID" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportPortalIDResource1" Text="PortalID"></asp:Label>
                 </td>
                 <td>:
                 </td>
@@ -1192,7 +1204,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblImportIsApproved" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportIsApprovedResource1">IsActive</asp:Label>
+                    <asp:Label ID="lblImportIsApproved" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblImportIsApprovedResource1" Text="IsActive"></asp:Label>
                 </td>
                 <td>:
                 </td>

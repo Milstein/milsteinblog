@@ -189,17 +189,17 @@
     <div id="fade">
     </div>
     <div class="sfTabcontainer">
-        <asp:Panel ID="pnlExtensionEditFirst" runat="server">
-            <cc1:TabContainer ID="TabSetting" runat="server" ActiveTabIndex="0">
-                <cc1:TabPanel ID="TabMainSetting" runat="server">
+        <asp:Panel ID="pnlExtensionEditFirst" runat="server" meta:resourcekey="pnlExtensionEditFirstResource1">
+            <cc1:TabContainer ID="TabSetting" runat="server" ActiveTabIndex="0" meta:resourcekey="TabSettingResource1">
+                <cc1:TabPanel ID="TabMainSetting" runat="server" meta:resourcekey="TabMainSettingResource1">
                     <HeaderTemplate>
-                        <asp:Label ID="lblMasterSetting" runat="server" Text="FAQ List"></asp:Label>
+                        <asp:Label ID="lblMasterSetting" runat="server" Text="FAQ List" meta:resourcekey="lblMasterSettingResource1"></asp:Label>
                     </HeaderTemplate>
                     <ContentTemplate>
                         <div id="dvAddFAQ" runat="server" class="sfButtonwrapper">
-                            <asp:ImageButton ID="imbAddFaq" runat="server" OnClick="imbAddFaq_Click" />
+                            <asp:ImageButton ID="imbAddFaq" runat="server" OnClick="imbAddFaq_Click" meta:resourcekey="imbAddFaqResource1" />
                             <asp:Label ID="lblAddFaq" CssClass="sfFormlabel" runat="server" AssociatedControlID="imbAddFaq"
-                                Text="Add FAQs"></asp:Label>
+                                Text="Add FAQs" meta:resourcekey="lblAddFaqResource1"></asp:Label>
                         </div>
                         <div runat="server" id="dvForm" class="sfFormwrapper">
                             <table id="tblAddFAQ" runat="server" width="100%">
@@ -236,38 +236,38 @@
                                     </td>
                                     <td id="Td4" runat="server">
                                         <CKEditor:CKEditorControl ID="CkEditorFAQAnswer" runat="server" Width="900px"
-                                            textmode="MultiLine"></CKEditor:CKEditorControl>
+                                            textmode="MultiLine" textmode="MultiLine"></CKEditor:CKEditorControl>
                                         <asp:RequiredFieldValidator ID="rfv" runat="server" CssClass="sfLocalee" ErrorMessage="Answer is required !!"
                                             ControlToValidate="CkEditorFAQAnswer" ValidationGroup="btnSave"></asp:RequiredFieldValidator><br />
                                     </td>
                                 </tr>
                             </table>
                             <div class="sfButtonwrapper">
-                                <asp:ImageButton ID="imgSave" runat="server" ValidationGroup="btnSave" OnClick="imgSave_Click" />
+                                <asp:ImageButton ID="imgSave" runat="server" ValidationGroup="btnSave" OnClick="imgSave_Click" meta:resourcekey="imgSaveResource1" />
                                 <asp:Label ID="lblSave" CssClass="sfFormlabel sfLocalee" runat="server" AssociatedControlID="imgSave"
-                                    Text="Save"></asp:Label>
-                                <asp:ImageButton ID="imbCancel" runat="server" OnClick="imbCancel_Click" />
+                                    Text="Save" meta:resourcekey="lblSaveResource1"></asp:Label>
+                                <asp:ImageButton ID="imbCancel" runat="server" OnClick="imbCancel_Click" meta:resourcekey="imbCancelResource1" />
                                 <asp:Label ID="lblCancel" CssClass="sfFormlabel sfLocalee" runat="server" AssociatedControlID="imbCancel"
-                                    Text="Cancel"></asp:Label>
+                                    Text="Cancel" meta:resourcekey="lblCancelResource1"></asp:Label>
                             </div>
                         </div>
                         <div id="divGrid" runat="server">
                             <div class="sfFaqHeader clear">
                                 <div class="sfCategoryList">
-                                    <asp:Label ID="lblFilterCategory" runat="server" CssClass="sfFormlabel" Text="Filter By Category :"></asp:Label>
+                                    <asp:Label ID="lblFilterCategory" runat="server" CssClass="sfFormlabel" Text="Filter By Category :" meta:resourcekey="lblFilterCategoryResource1"></asp:Label>
                                     <asp:DropDownList ID="ddlCategoryList" runat="server" CssClass="sfListmenu" AutoPostBack="True"
-                                        OnSelectedIndexChanged="ddlCategoryList_SelectedIndexChanged">
+                                        OnSelectedIndexChanged="ddlCategoryList_SelectedIndexChanged" meta:resourcekey="ddlCategoryListResource1">
                                     </asp:DropDownList>
 
                                 </div>
                                 <div class="sfFAQSearch">
-                                    <asp:Label ID="lblSearchFaq" runat="server" Text="Search :" CssClass="sfFormlabel"></asp:Label>
-                                    <asp:TextBox ID="txtSearchFAQ" CssClass="sfInputbox" runat="server"></asp:TextBox>
-                                    <asp:ImageButton ID="imbSearchFAQ" OnClick="imbSearchFAQ_Click" runat="server" />
+                                    <asp:Label ID="lblSearchFaq" runat="server" Text="Search :" CssClass="sfFormlabel" meta:resourcekey="lblSearchFaqResource1"></asp:Label>
+                                    <asp:TextBox ID="txtSearchFAQ" CssClass="sfInputbox" runat="server" meta:resourcekey="txtSearchFAQResource1"></asp:TextBox>
+                                    <asp:ImageButton ID="imbSearchFAQ" OnClick="imbSearchFAQ_Click" runat="server" meta:resourcekey="imbSearchFAQResource1" />
 
                                 </div>
                                 <div class="sfPageSize">
-                                    <asp:Label ID="lblRows" runat="server" Text="Show rows" CssClass="sfFormlabel sfLocalee"></asp:Label>
+                                    <asp:Label ID="lblRows" runat="server" Text="Show rows" CssClass="sfFormlabel sfLocalee" meta:resourcekey="lblRowsResource1"></asp:Label>
                                     <asp:DropDownList ID="ddlRecordsPerPage" runat="server" CssClass="sfListmenu sfAuto"
                                         AutoPostBack="True" OnSelectedIndexChanged="ddlRecordsPerPage_SelectedIndexChanged"
                                         meta:resourcekey="ddlRecordsPerPageResource1">
@@ -284,36 +284,36 @@
                                 <asp:GridView Width="100%" runat="server" ID="gdvFAQ" GridLines="None" AutoGenerateColumns="False"
                                     EmptyDataText="..........No Data Found.........." OnRowCommand="gdvFAQ_RowCommand"
                                     OnRowDataBound="gdvFAQ_RowDataBound" OnRowDeleting="gdvFAQ_RowDeleting" OnRowEditing="gdvFAQ_RowEditing"
-                                    OnSelectedIndexChanged="gdvFAQ_SelectedIndexChanged" OnSelectedIndexChanging="gdvFAQ_SelectedIndexChanging" OnPageIndexChanging="gdvFAQ_PageIndexChanging" AllowPaging="True">
+                                    OnSelectedIndexChanged="gdvFAQ_SelectedIndexChanged" OnSelectedIndexChanging="gdvFAQ_SelectedIndexChanging" OnPageIndexChanging="gdvFAQ_PageIndexChanging" AllowPaging="True" meta:resourcekey="gdvFAQResource1">
                                     <AlternatingRowStyle CssClass="sfEven" />
                                     <Columns>
-                                        <asp:TemplateField HeaderText="S.N">
+                                        <asp:TemplateField HeaderText="S.N" meta:resourcekey="TemplateFieldResource1">
                                             <ItemTemplate>
                                                 <%# Container.DataItemIndex+1 %>
                                             </ItemTemplate>
                                             <HeaderStyle CssClass="sfEdit" VerticalAlign="Top" />
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="Title">
+                                        <asp:TemplateField HeaderText="Title" meta:resourcekey="TemplateFieldResource2">
                                             <ItemTemplate>
                                                 <table style="width: 100%; border: none;">
                                                     <tr>
                                                         <td onclick='flipFlopException(&#039;_<%# Eval("FAQId") %>&#039;)' style="cursor: pointer; width: 30%"><span style="overflow: hidden;">&nbsp;
-                                                            <asp:Label ID="lblPageHead" runat="server" Font-Bold="True" Text='<%# Eval("Question") %>'></asp:Label>
+                                                            <asp:Label ID="lblPageHead" runat="server" Font-Bold="True" Text='<%# Eval("Question") %>' meta:resourcekey="lblPageHeadResource1"></asp:Label>
                                                         </span></td>
                                                     </tr>
                                                     <tr id='_<%# (DataBinder.Eval(Container.DataItem,"FAQId").ToString()) %>' style="display: none; width: 100%">
                                                         <td class="sfFAQDetails" colspan="4">
-                                                            <asp:Panel ID="pnlClientIP" runat="server" Width="100%">
+                                                            <asp:Panel ID="pnlClientIP" runat="server" Width="100%" meta:resourcekey="pnlClientIPResource1">
                                                                 <p>
-                                                                    <asp:Label ID="lblAnswer" runat="server" CssClass="sfFormlabel" Text="Answer:"></asp:Label>
+                                                                    <asp:Label ID="lblAnswer" runat="server" CssClass="sfFormlabel" Text="Answer:" meta:resourcekey="lblAnswerResource1"></asp:Label>
                                                                     <asp:Literal ID="ltrAnswer" runat="server" Text='<%# (DataBinder.Eval(Container.DataItem,"Answer").ToString()) %>'></asp:Literal>
                                                                 </p>
                                                                 <p>
-                                                                    <asp:Label ID="lblAddedBy" runat="server" CssClass="sfFormlabel" Text="Added By:"></asp:Label>
+                                                                    <asp:Label ID="lblAddedBy" runat="server" CssClass="sfFormlabel" Text="Added By:" meta:resourcekey="lblAddedByResource1"></asp:Label>
                                                                     <asp:Literal ID="ltrAddedBy" runat="server" Text='<%# (DataBinder.Eval(Container.DataItem,"AddedBy").ToString()) %>'></asp:Literal>
                                                                 </p>
                                                                 <p>
-                                                                    <asp:Label ID="lblAddedOn" runat="server" CssClass="sfFormlabel" Text="AddedOn:"></asp:Label>
+                                                                    <asp:Label ID="lblAddedOn" runat="server" CssClass="sfFormlabel" Text="AddedOn:" meta:resourcekey="lblAddedOnResource1"></asp:Label>
                                                                     <asp:Literal ID="ltrAddedOn" runat="server" Text='<%# (DataBinder.Eval(Container.DataItem,"AddedOn").ToString()) %>'></asp:Literal>
                                                                 </p>
                                                             </asp:Panel>
@@ -322,27 +322,27 @@
                                                 </table>
                                             </ItemTemplate>
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="UserView">
+                                        <asp:TemplateField HeaderText="UserView" meta:resourcekey="TemplateFieldResource3">
                                             <ItemTemplate>
-                                                <asp:ImageButton ID="imgUserReview" runat="server" CausesValidation="False" CommandArgument='<%# Eval("FAQId") %>' CommandName="Graph" ImageUrl='<%# GetTemplateImageUrl("imgpreview.png", true) %>' />
+                                                <asp:ImageButton ID="imgUserReview" runat="server" CausesValidation="False" CommandArgument='<%# Eval("FAQId") %>' CommandName="Graph" ImageUrl='<%# GetTemplateImageUrl("imgpreview.png", true) %>' meta:resourcekey="imgUserReviewResource1" />
                                             </ItemTemplate>
                                             <HeaderStyle CssClass="sfEdit" VerticalAlign="Top" />
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="Graph">
+                                        <asp:TemplateField HeaderText="Graph" meta:resourcekey="TemplateFieldResource4">
                                             <ItemTemplate>
-                                                <asp:ImageButton ID="imgViewGraph" runat="server" CausesValidation="False" CommandArgument='<%# Eval("FAQId") %>' CommandName="Graph" CssClass="sfEdit" ImageUrl='<%# GetTemplateImageUrl("menu.png", true) %>' />
+                                                <asp:ImageButton ID="imgViewGraph" runat="server" CausesValidation="False" CommandArgument='<%# Eval("FAQId") %>' CommandName="Graph" CssClass="sfEdit" ImageUrl='<%# GetTemplateImageUrl("menu.png", true) %>' meta:resourcekey="imgViewGraphResource1" />
                                             </ItemTemplate>
                                             <HeaderStyle CssClass="sfEdit" VerticalAlign="Top" />
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="Edit">
+                                        <asp:TemplateField HeaderText="Edit" meta:resourcekey="TemplateFieldResource5">
                                             <ItemTemplate>
-                                                <asp:ImageButton ID="imgEdit" runat="server" CausesValidation="False" CommandArgument='<%# Eval("FAQId") %>' CommandName="Edit" CssClass="sfEdit" ImageUrl='<%# GetTemplateImageUrl("imgedit.png", true) %>' />
+                                                <asp:ImageButton ID="imgEdit" runat="server" CausesValidation="False" CommandArgument='<%# Eval("FAQId") %>' CommandName="Edit" CssClass="sfEdit" ImageUrl='<%# GetTemplateImageUrl("imgedit.png", true) %>' meta:resourcekey="imgEditResource1" />
                                             </ItemTemplate>
                                             <HeaderStyle CssClass="sfEdit" VerticalAlign="Top" />
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="Delete">
+                                        <asp:TemplateField HeaderText="Delete" meta:resourcekey="TemplateFieldResource6">
                                             <ItemTemplate>
-                                                <asp:ImageButton ID="ImgDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("FAQId") %>' CommandName="Delete" ImageUrl='<%# GetTemplateImageUrl("imgdelete.png", true) %>' OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete FAQ ?');" />
+                                                <asp:ImageButton ID="ImgDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("FAQId") %>' CommandName="Delete" ImageUrl='<%# GetTemplateImageUrl("imgdelete.png", true) %>' OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete FAQ ?');" meta:resourcekey="ImgDeleteResource1" />
                                             </ItemTemplate>
                                             <HeaderStyle CssClass="sfDelete" VerticalAlign="Top" />
                                         </asp:TemplateField>
@@ -354,31 +354,31 @@
                         </div>
                     </ContentTemplate>
                 </cc1:TabPanel>
-                <cc1:TabPanel ID="TabPanel1" runat="server">
+                <cc1:TabPanel ID="TabPanel1" runat="server" meta:resourcekey="TabPanel1Resource1">
                     <HeaderTemplate>
-                        <asp:Label ID="Label1" runat="server" Text="FAQ Category"></asp:Label>
+                        <asp:Label ID="Label1" runat="server" Text="FAQ Category" meta:resourcekey="Label1Resource1"></asp:Label>
                     </HeaderTemplate>
                     <ContentTemplate>
                         <div id="dvUpdateCategory" runat="server">
                             <table>
                                 <tr>
                                     <td>
-                                        <asp:Label ID="lblCategoryName" CssClass="sfFormlabel" Text="Enter Category" runat="server"></asp:Label>
+                                        <asp:Label ID="lblCategoryName" CssClass="sfFormlabel" Text="Enter Category" runat="server" meta:resourcekey="lblCategoryNameResource1"></asp:Label>
                                     </td>
                                     <td style="width: 30px">:
                                     </td>
                                     <td>
                                         <asp:TextBox ID="txtCategoryName" Width="500px" runat="server" ValidationGroup="btnSaveCategory"
-                                            CssClass="sfInputbox"></asp:TextBox>
+                                            CssClass="sfInputbox" meta:resourcekey="txtCategoryNameResource1"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="rfvCategory" runat="server" ErrorMessage="Enter Category !"
-                                            ControlToValidate="txtCategoryName" ValidationGroup="btnSaveCategory"></asp:RequiredFieldValidator>
+                                            ControlToValidate="txtCategoryName" ValidationGroup="btnSaveCategory" meta:resourcekey="rfvCategoryResource1"></asp:RequiredFieldValidator>
                                     </td>
                                     <td>
                                         <div class="sfButtonwrapper">
                                             <asp:ImageButton ID="imbSaveCategory" runat="server" ValidationGroup="btnSaveCategory"
-                                                OnClick="imbSaveCategory_Click" />
+                                                OnClick="imbSaveCategory_Click" meta:resourcekey="imbSaveCategoryResource1" />
                                             <asp:Label ID="lblSavecategory" CssClass="sfFormlabel" runat="server" AssociatedControlID="imbSaveCategory"
-                                                Text="Save"></asp:Label>
+                                                Text="Save" meta:resourcekey="lblSavecategoryResource1"></asp:Label>
                                         </div>
                                     </td>
                                 </tr>
@@ -390,36 +390,35 @@
                                 OnPageIndexChanging="gdvCategory_PageIndexChanging" OnRowCommand="gdvCategory_RowCommand"
                                 OnRowDataBound="gdvCategory_RowDataBound" OnRowDeleting="gdvCategory_RowDeleting"
                                 OnRowEditing="gdvCategory_RowEditing" OnSelectedIndexChanged="gdvCategory_SelectedIndexChanged"
-                                OnSelectedIndexChanging="gdvCategory_SelectedIndexChanging">
+                                OnSelectedIndexChanging="gdvCategory_SelectedIndexChanging" meta:resourcekey="gdvCategoryResource1">
                                 <AlternatingRowStyle CssClass="sfEven" />
                                 <Columns>
-                                    <asp:TemplateField HeaderText="S.N">
+                                    <asp:TemplateField HeaderText="S.N" meta:resourcekey="TemplateFieldResource7">
                                         <ItemTemplate>
                                             <%# Container.DataItemIndex+1 %>
                                         </ItemTemplate>
                                         <HeaderStyle CssClass="sfEdit" VerticalAlign="Top" />
                                     </asp:TemplateField>
-                                    <asp:TemplateField HeaderText="Category">
+                                    <asp:TemplateField HeaderText="Category" meta:resourcekey="TemplateFieldResource8">
                                         <ItemTemplate>
-                                            <asp:Label ID="lblPageHead" runat="server" Font-Bold="True" Text='<%# Eval("CategoryName") %>'></asp:Label>
+                                            <asp:Label ID="lblPageHead" runat="server" Font-Bold="True" meta:resourcekey="lblPageHeadResource2" Text='<%# Eval("CategoryName") %>'></asp:Label>
                                         </ItemTemplate>
                                         <HeaderStyle VerticalAlign="Top" />
                                     </asp:TemplateField>
-                                    <asp:TemplateField HeaderText="Edit">
+                                    <asp:TemplateField HeaderText="Edit" meta:resourcekey="TemplateFieldResource9">
                                         <ItemTemplate>
-                                            <asp:ImageButton ID="imgEdit" runat="server" CausesValidation="False" CommandArgument='<%# Eval("CategoryID") %>' CommandName="Edit" CssClass="sfEdit" ImageUrl='<%# GetTemplateImageUrl("imgedit.png", true) %>' />
+                                            <asp:ImageButton ID="imgEdit" runat="server" CausesValidation="False" CommandArgument='<%# Eval("CategoryID") %>' CommandName="Edit" CssClass="sfEdit" ImageUrl='<%# GetTemplateImageUrl("imgedit.png", true) %>' meta:resourcekey="imgEditResource2" />
                                         </ItemTemplate>
                                         <HeaderStyle CssClass="sfEdit" VerticalAlign="Top" />
                                     </asp:TemplateField>
-                                    <asp:TemplateField HeaderText="Delete">
+                                    <asp:TemplateField HeaderText="Delete" meta:resourcekey="TemplateFieldResource10">
                                         <ItemTemplate>
                                             <asp:HiddenField ID="hdnCategoryID" runat="server" Value='<%# Eval("CategoryID") %>' />
-                                            <asp:ImageButton ID="ImgDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("CategoryID") %>' CommandName="Delete" ImageUrl='<%# GetTemplateImageUrl("imgdelete.png", true) %>' OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete with all category List ?');" />
+                                            <asp:ImageButton ID="ImgDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("CategoryID") %>' CommandName="Delete" ImageUrl='<%# GetTemplateImageUrl("imgdelete.png", true) %>' meta:resourcekey="ImgDeleteResource2" OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete with all category List ?');" />
                                         </ItemTemplate>
                                         <HeaderStyle CssClass="sfDelete" VerticalAlign="Top" />
                                     </asp:TemplateField>
                                 </Columns>
-                                <AlternatingRowStyle CssClass="sfEven" />
                                 <PagerStyle CssClass="sfPagination" />
                                 <RowStyle CssClass="sfOdd" />
                             </asp:GridView>

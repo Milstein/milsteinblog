@@ -9,16 +9,10 @@
                 <uc1:LoginStatus ID="LoginStatus1" runat="server" />
             </li>
             <li>New User?</li>
-            <li><a href='<%= RegisterURL %>'>
-                <%= SageFrame.Web.SystemSetting.Register %></a></li>
+            <li><a href=''></a></li>
         </AnonymousTemplate>
         <LoggedInTemplate>
-            <li>
-                <%=userName%>
-            </li>
-            <%--<li>
-                <uc1:LoginStatus ID="LoginStatus2" runat="server" />
-            </li>--%>
+            <li></li>
         </LoggedInTemplate>
     </asp:LoginView>
 </ul>

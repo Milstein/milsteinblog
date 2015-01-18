@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="SageFrame.Sagin_Default" Async="true" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="SageFrame.Sagin_Default" Async="true" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Src="~/Controls/TopStickyBar.ascx" TagName="TopStickyBar" TagPrefix="ucstickybar" %>
@@ -51,9 +51,9 @@
         @*/
     </script>
     <asp:PlaceHolder ID="pchHolder" runat="server"></asp:PlaceHolder>
-    <asp:Literal ID="SageFrameCoreCss" EnableViewState="False" runat="server"></asp:Literal>
-    <asp:Literal ID="SageFrameModuleCSSlinks" runat="server"></asp:Literal>
-    <asp:Literal ID="LitLangResc" runat="server"></asp:Literal>
+    <asp:Literal ID="SageFrameCoreCss" EnableViewState="False" runat="server" meta:resourcekey="SageFrameCoreCssResource1"></asp:Literal>
+    <asp:Literal ID="SageFrameModuleCSSlinks" runat="server" meta:resourcekey="SageFrameModuleCSSlinksResource1"></asp:Literal>
+    <asp:Literal ID="LitLangResc" runat="server" meta:resourcekey="LitLangRescResource1"></asp:Literal>
     <title>SageFrame Website</title>
 </head>
 <body onload="__loadScript();">
@@ -66,9 +66,9 @@
             <div class="sfLoadingbg">
                 &nbsp;</div>
             <div class="sfLoadingdiv">
-                <asp:Image ID="imgPrgress" runat="server" AlternateText="Loading..." ToolTip="Loading..." />
+                <asp:Image ID="imgPrgress" runat="server" AlternateText="Loading..." ToolTip="Loading..." meta:resourcekey="imgPrgressResource1" />
                 <br />
-                <asp:Label ID="lblPrgress" runat="server" Text="Please wait..."></asp:Label>
+                <asp:Label ID="lblPrgress" runat="server" Text="Please wait..." meta:resourcekey="lblPrgressResource1"></asp:Label>
             </div>
         </ProgressTemplate>
     </asp:UpdateProgress>
@@ -83,22 +83,22 @@
                         <div class="sfLogo">
                             <a href="../Admin/Admin<%=Extension %>">
                                 <img src="<%=appPath%>/Administrator/Templates/Default/images/sageframe.png" alt="Sageframe" /></a>
-                            <asp:Label runat="server" ID="lblVersion"></asp:Label>
+                            <asp:Label runat="server" ID="lblVersion" meta:resourcekey="lblVersionResource1"></asp:Label>
                         </div>
                     </li>
                     <li class="sfUpgrade">
-                        <asp:HyperLink ID="hypUpgrade" runat="server" Text="Upgrade"></asp:HyperLink></li>
+                        <asp:HyperLink ID="hypUpgrade" runat="server" Text="Upgrade" meta:resourcekey="hypUpgradeResource1"></asp:HyperLink></li>
                 </ul>
                 <ul class="right">
                     <li class="home">
-                        <asp:HyperLink ID="hypHome" runat="server" CssClass="icon-home"></asp:HyperLink>
+                        <asp:HyperLink ID="hypHome" runat="server" CssClass="icon-home" meta:resourcekey="hypHomeResource1" Text="[hypHome]"></asp:HyperLink>
                     </li>
                     <li class="preview">
-                        <asp:HyperLink ID="hypPreview" runat="server" Text="Preview" Target="_blank" CssClass="icon-preview"></asp:HyperLink>
+                        <asp:HyperLink ID="hypPreview" runat="server" Text="Preview" Target="_blank" CssClass="icon-preview" meta:resourcekey="hypPreviewResource1"></asp:HyperLink>
                     </li>
                     <li class="loggedin"><span class="icon-user">
                         <%--  <asp:Image runat="server" ID="adminImage" CssClass="icon-user" />--%>
-                        <asp:Literal ID="litUserName" runat="server" Text="Logged As"></asp:Literal>
+                        <asp:Literal ID="litUserName" runat="server" Text="Logged As" meta:resourcekey="litUserNameResource1"></asp:Literal>
                         &nbsp; </span><strong>
                             <%= userName%></strong></li>
                     <li class="logout"><span class='myProfile  icon-arrow-s'></span>
@@ -108,9 +108,9 @@
                                     <%= userName%>
                                 </li>
                                 <li>
-                                    <asp:HyperLink runat="server" ID="lnkAccount" Text="Logged As">                                
-                                <strong>Profile</strong>
-                                    </asp:HyperLink></li>
+                                    <asp:HyperLink runat="server" ID="lnkAccount" Text="                                
+                                &lt;strong&gt;Profile&lt;/strong&gt;
+                                    " meta:resourcekey="lnkAccountResource1"></asp:HyperLink></li>
                                 <li>
                                     <uc1:LoginStatus ID="LoginStatus1" runat="server" />
                                 </li>
@@ -125,10 +125,10 @@
                         <h6>
                             Theme</h6>
                         <asp:RadioButtonList CssClass="sfTableThemeColor" runat="server" ID="rdTemplate"
-                            AutoPostBack="True" OnSelectedIndexChanged="rdTemplate_SelectedIndexChanged">
-                            <asp:ListItem Text="Default UI" Value="green"></asp:ListItem>
-                            <asp:ListItem Text="Gray UI" Value="gray"></asp:ListItem>
-                            <asp:ListItem Text="Dark UI" Value="dark"></asp:ListItem>
+                            AutoPostBack="True" OnSelectedIndexChanged="rdTemplate_SelectedIndexChanged" meta:resourcekey="rdTemplateResource1">
+                            <asp:ListItem Text="Default UI" Value="green" meta:resourcekey="ListItemResource1"></asp:ListItem>
+                            <asp:ListItem Text="Gray UI" Value="gray" meta:resourcekey="ListItemResource2"></asp:ListItem>
+                            <asp:ListItem Text="Dark UI" Value="dark" meta:resourcekey="ListItemResource3"></asp:ListItem>
                         </asp:RadioButtonList>
                         <h6>
                             SideBar Position</h6>
@@ -136,11 +136,11 @@
                             <tr>
                                 <td>
                                     <asp:RadioButton GroupName="position" runat="server" ID="rdLeft" Text="Left" AutoPostBack="True"
-                                        OnCheckedChanged="rdLeft_CheckedChanged" />
+                                        OnCheckedChanged="rdLeft_CheckedChanged" meta:resourcekey="rdLeftResource1" />
                                 </td>
                                 <td>
                                     <asp:RadioButton GroupName="position" runat="server" ID="rdRight" AutoPostBack="True"
-                                        Text="Right" OnCheckedChanged="rdRight_CheckedChanged" />
+                                        Text="Right" OnCheckedChanged="rdRight_CheckedChanged" meta:resourcekey="rdRightResource1" />
                                 </td>
                             </tr>
                         </table>
@@ -199,7 +199,7 @@
         <label id="sf_lblConfirmation">
         </label>
     </div>
-    <asp:Literal ID="LitSageScript" runat="server"></asp:Literal>
+    <asp:Literal ID="LitSageScript" runat="server" meta:resourcekey="LitSageScriptResource1"></asp:Literal>
     </form>
     <script type="text/javascript">
         $(function () {

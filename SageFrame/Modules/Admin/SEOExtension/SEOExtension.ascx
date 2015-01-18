@@ -57,17 +57,17 @@
                             </td>
                             <td>
                                 <asp:DropDownList ID="ddlPriorityValues" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlPriorityValuesResource1">
-                                    <asp:ListItem meta:resourcekey="ListItemResource1">0.0</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource2">0.1</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource3">0.2</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource4">0.3</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource5">0.4</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource6">0.5</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource7">0.6</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource8">0.7</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource9">0.8</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource10">0.9</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource11">1.0</asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource1" Text="0.0"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource2" Text="0.1"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource3" Text="0.2"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource4" Text="0.3"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource5" Text="0.4"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource6" Text="0.5"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource7" Text="0.6"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource8" Text="0.7"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource9" Text="0.8"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource10" Text="0.9"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource11" Text="1.0"></asp:ListItem>
                                 </asp:DropDownList>
                             </td>
                         </tr>
@@ -78,13 +78,13 @@
                             </td>
                             <td>
                                 <asp:DropDownList ID="ddlChangeFrequency" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlChangeFrequencyResource1">
-                                    <asp:ListItem meta:resourcekey="ListItemResource12">Always</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource13">Hourly</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource14">Daily</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource15">Weekly</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource16">Monthly</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource17">Yearly</asp:ListItem>
-                                    <asp:ListItem meta:resourcekey="ListItemResource18">Never</asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource12" Text="Always"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource13" Text="Hourly"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource14" Text="Daily"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource15" Text="Weekly"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource16" Text="Monthly"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource17" Text="Yearly"></asp:ListItem>
+                                    <asp:ListItem meta:resourcekey="ListItemResource18" Text="Never"></asp:ListItem>
                                 </asp:DropDownList>
                             </td>
                         </tr>
@@ -109,10 +109,10 @@
                                 <div class="sfCheckbox">
                                     <asp:CheckBoxList ID="chkSubmitSitemap" runat="server" RepeatDirection="Horizontal"
                                         ValidationGroup="checkselected" meta:resourcekey="chkSubmitSitemapResource1">
-                                        <asp:ListItem meta:resourcekey="ListItemResource19">Google</asp:ListItem>
-                                        <asp:ListItem meta:resourcekey="ListItemResource20">Yahoo</asp:ListItem>
-                                        <asp:ListItem meta:resourcekey="ListItemResource21">Bing</asp:ListItem>
-                                        <asp:ListItem meta:resourcekey="ListItemResource22">Ask</asp:ListItem>
+                                        <asp:ListItem meta:resourcekey="ListItemResource19" Text="Google"></asp:ListItem>
+                                        <asp:ListItem meta:resourcekey="ListItemResource20" Text="Yahoo"></asp:ListItem>
+                                        <asp:ListItem meta:resourcekey="ListItemResource21" Text="Bing"></asp:ListItem>
+                                        <asp:ListItem meta:resourcekey="ListItemResource22" Text="Ask"></asp:ListItem>
                                     </asp:CheckBoxList>
                                 </div>
                             </td>
@@ -140,10 +140,10 @@
                                 <div class="sfCheckbox">
                                     <asp:CheckBoxList ID="chkChoice" runat="server" RepeatDirection="Horizontal"
                                         ValidationGroup="checkselected" meta:resourcekey="chkChoiceResource1">
-                                        <asp:ListItem meta:resourcekey="ListItemResource23">Google</asp:ListItem>
-                                        <asp:ListItem meta:resourcekey="ListItemResource24">Yahoo</asp:ListItem>
-                                        <asp:ListItem meta:resourcekey="ListItemResource25">Bing</asp:ListItem>
-                                        <asp:ListItem meta:resourcekey="ListItemResource26">Msn</asp:ListItem>
+                                        <asp:ListItem meta:resourcekey="ListItemResource23" Text="Google"></asp:ListItem>
+                                        <asp:ListItem meta:resourcekey="ListItemResource24" Text="Yahoo"></asp:ListItem>
+                                        <asp:ListItem meta:resourcekey="ListItemResource25" Text="Bing"></asp:ListItem>
+                                        <asp:ListItem meta:resourcekey="ListItemResource26" Text="Msn"></asp:ListItem>
                                     </asp:CheckBoxList>
                                 </div>
                             </td>

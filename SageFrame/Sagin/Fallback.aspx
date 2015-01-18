@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Fallback.aspx.cs" Inherits="Sagin_Fallback" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Fallback.aspx.cs" Inherits="Sagin_Fallback" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -45,7 +45,7 @@
     <div class="sfFallback">
         <div class="sfLogoholder">
             <a class="sflogo" target="_blank" href="http://www.sageframe.com/">
-                <asp:Image ID="imgLogo" runat="server" alt="SageFrame" />
+                <asp:Image ID="imgLogo" runat="server" alt="SageFrame" meta:resourcekey="imgLogoResource1" />
             </a>
         </div>
         <div class="sfFallbackHolder">
@@ -58,7 +58,7 @@
                     <div class="sfExceptionHead">
                         View Exception Details</div>
                     <div class="sfException">
-                        <asp:Literal ID="ltrErrorMessage" runat="server"></asp:Literal>
+                        <asp:Literal ID="ltrErrorMessage" runat="server" meta:resourcekey="ltrErrorMessageResource1"></asp:Literal>
                     </div>
                 </div>
                 <div class="sfButtonWrapper">
@@ -66,7 +66,7 @@
                         Do you want to switch to the default template?</h4>
 					<%--                    <span id="btnActivate" class="sfBtn">Yes, Switch to default</span>--%>
                     <asp:Button runat="server" ID="btnFallback" Text="Yes, Switch to Default" 
-                        CssClass="sfBtn" onclick="btnFallback_Click" />
+                        CssClass="sfBtn" onclick="btnFallback_Click" meta:resourcekey="btnFallbackResource1" />
                 </div>
             </div>
         </div>

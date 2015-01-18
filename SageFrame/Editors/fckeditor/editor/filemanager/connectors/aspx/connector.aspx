@@ -1,5 +1,5 @@
 <%@ Page Language="c#" Trace="false" Inherits="FredCK.FCKeditorV2.FileBrowser.Connector"
-    AutoEventWireup="false" Theme="" StylesheetTheme="" %>
+    AutoEventWireup="false" Theme="" StylesheetTheme="" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
 
 <%@ Register Src="config.ascx" TagName="Config" TagPrefix="FCKeditor" %>
 <%--

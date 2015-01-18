@@ -228,7 +228,7 @@
             </asp:Panel>
             <div class="sfButtonwrapper">
                 <input type="button" id="btnAddMessageTokenOk" runat="server" value="Add" class="sfBtn" />
-                &nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
         </div>
     </div>
@@ -261,7 +261,7 @@
                         Visible="False" meta:resourcekey="lblErrorMessageTemplateTypeResource1"></asp:Label>
                     <asp:RequiredFieldValidator ID="rfvMessageTemplateType" runat="server" ControlToValidate="txtMessageTemplateType"
                         Display="Dynamic" ErrorMessage="Message Template Type Name Is Required" ValidationGroup="AddMsgTempType"
-                        SetFocusOnError="True" meta:resourcekey="rfvMessageTemplateTypeResource1">*</asp:RequiredFieldValidator>
+                        SetFocusOnError="True" meta:resourcekey="rfvMessageTemplateTypeResource1" Text="*"></asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -298,7 +298,7 @@
                         Text="*" Visible="False" meta:resourcekey="lblErrorMessageTemplateTokenResource1"></asp:Label>
                     <asp:RequiredFieldValidator ID="rfvMessageTemplateToken" runat="server" ControlToValidate="txtMessageTemplateToken"
                         Display="Dynamic" ErrorMessage="Message Template Token Name Is Required" ValidationGroup="AddMsgTempToken"
-                        SetFocusOnError="True" meta:resourcekey="rfvMessageTemplateTokenResource1">*</asp:RequiredFieldValidator>
+                        SetFocusOnError="True" meta:resourcekey="rfvMessageTemplateTokenResource1" Text="*"></asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>

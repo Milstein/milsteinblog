@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="HandleModuleControls.aspx.cs"
-    Inherits="Sagin_HandleModuleControls" %>
+    Inherits="Sagin_HandleModuleControls" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajax" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -10,10 +10,10 @@
     <meta http-equiv="Expires" content="0">
     <title>Untitled Page</title>
     <asp:PlaceHolder ID="pchHolder" runat="server"></asp:PlaceHolder>
-    <asp:Literal ID="SageFrameCoreCss" EnableViewState="False" runat="server"></asp:Literal>
-    <asp:Literal ID="SageFrameModuleCSSlinks" runat="server"></asp:Literal>
+    <asp:Literal ID="SageFrameCoreCss" EnableViewState="False" runat="server" meta:resourcekey="SageFrameCoreCssResource1"></asp:Literal>
+    <asp:Literal ID="SageFrameModuleCSSlinks" runat="server" meta:resourcekey="SageFrameModuleCSSlinksResource1"></asp:Literal>
     <link href="../Administrator/Templates/Default/css/iframe.css" rel="stylesheet" type="text/css" />
-    <asp:Literal ID="LitLangResc" runat="server"></asp:Literal>
+    <asp:Literal ID="LitLangResc" runat="server" meta:resourcekey="LitLangRescResource1"></asp:Literal>
 </head>
 <body>
     <form runat="server" id="form1">
@@ -21,20 +21,20 @@
         </asp:ScriptManager>
         <div class="sfFormwrapper">
             <asp:PlaceHolder ID="message" runat="server"></asp:PlaceHolder>
-            <ajax:TabContainer ID="TabContainerManagePages" runat="server" ActiveTabIndex="0">
-                <ajax:TabPanel ID="TabPanelEdit" runat="server" HeaderText="Edit">
+            <ajax:TabContainer ID="TabContainerManagePages" runat="server" ActiveTabIndex="0" CssClass="" meta:resourcekey="TabContainerManagePagesResource1">
+                <ajax:TabPanel ID="TabPanelEdit" runat="server" HeaderText="Edit" meta:resourcekey="TabPanelEditResource1">
                     <ContentTemplate>
                         <asp:PlaceHolder ID="pchEdit" runat="server"></asp:PlaceHolder>
                     </ContentTemplate>
                 </ajax:TabPanel>
-                <ajax:TabPanel ID="TabPanelSettings" runat="server" HeaderText="Settings">
+                <ajax:TabPanel ID="TabPanelSettings" runat="server" HeaderText="Settings" meta:resourcekey="TabPanelSettingsResource1">
                     <ContentTemplate>
                         <asp:PlaceHolder ID="pchSetting" runat="server"></asp:PlaceHolder>
                     </ContentTemplate>
                 </ajax:TabPanel>
             </ajax:TabContainer>
         </div>
-        <asp:Literal ID="LitSageScript" runat="server"></asp:Literal>
+        <asp:Literal ID="LitSageScript" runat="server" meta:resourcekey="LitSageScriptResource1"></asp:Literal>
 
         <script type="text/javascript">
             //<![CDATA[

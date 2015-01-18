@@ -117,20 +117,83 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ddlAvailableLocalesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvLocalPageResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvLocalPageResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvLocalPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbCancelResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbUpdateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbUpdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFlagResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFlagResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="lblAvailableLocalesResource1.Text" xml:space="preserve">
     <value>Available Locales</value>
+  </data>
+  <data name="lblAvailableLocalesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbldefaultValueResource1.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="lblLocalPageEditorResource1.Text" xml:space="preserve">
     <value>Localize Menu</value>
   </data>
+  <data name="lblLocalPageEditorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
   <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
-    <value>S.No.</value>
+    <value>S.N</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
   </data>
   <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
     <value>Default Values</value>
   </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
   <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
     <value>Local Values</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
   </data>
   <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
     <value>Local Caption</value>

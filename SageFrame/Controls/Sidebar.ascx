@@ -179,4 +179,4 @@
     //]]>	
 </script>
 
-<asp:Literal ID="ltrSidebar" runat="server"></asp:Literal>
+<asp:Literal ID="ltrSidebar" runat="server" meta:resourcekey="ltrSidebarResource1"></asp:Literal>

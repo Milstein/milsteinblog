@@ -1768,4 +1768,4 @@
         <input type="button" id="btnConfirmNo" value="No" style="float: none" class="sfBtn" />
     </div>
 </div>
-<asp:HiddenField ID="hdnDestinationPath" runat="server" Value="" />
+<asp:HiddenField ID="hdnDestinationPath" runat="server" />

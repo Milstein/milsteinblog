@@ -57,12 +57,12 @@
                                 <asp:Label ID="lblRecord" CssClass="sfFormlabel" runat="server" Text="Show rows :" meta:resourcekey="lblRecordResource1"></asp:Label>
                                 <asp:DropDownList ID="ddlGridPageSize" CssClass="sfListmenusmall" AutoPostBack="True"
                                     runat="server" OnSelectedIndexChanged="ddlGridPageSize_SelectedIndexChanged" meta:resourcekey="ddlGridPageSizeResource1">
-                                    <asp:ListItem Value="0" meta:resourcekey="ListItemResource1">All</asp:ListItem>
-                                    <asp:ListItem Value="10" Selected="True" meta:resourcekey="ListItemResource2">10</asp:ListItem>
-                                    <asp:ListItem Value="25" meta:resourcekey="ListItemResource3">25</asp:ListItem>
-                                    <asp:ListItem Value="50" meta:resourcekey="ListItemResource4">50</asp:ListItem>
-                                    <asp:ListItem Value="75" meta:resourcekey="ListItemResource5">75</asp:ListItem>
-                                    <asp:ListItem Value="100" meta:resourcekey="ListItemResource6">100</asp:ListItem>
+                                    <asp:ListItem Value="0" meta:resourcekey="ListItemResource1" Text="All"></asp:ListItem>
+                                    <asp:ListItem Value="10" Selected="True" meta:resourcekey="ListItemResource2" Text="10"></asp:ListItem>
+                                    <asp:ListItem Value="25" meta:resourcekey="ListItemResource3" Text="25"></asp:ListItem>
+                                    <asp:ListItem Value="50" meta:resourcekey="ListItemResource4" Text="50"></asp:ListItem>
+                                    <asp:ListItem Value="75" meta:resourcekey="ListItemResource5" Text="75"></asp:ListItem>
+                                    <asp:ListItem Value="100" meta:resourcekey="ListItemResource6" Text="100"></asp:ListItem>
                                 </asp:DropDownList>
                             </td>
 

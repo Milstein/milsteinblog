@@ -77,7 +77,7 @@
 </div>
 <asp:HiddenField ID="hdntemp" runat="server" />
 <asp:HyperLink ID="hlRefresh" runat="server" NavigateUrl="~/SageFrame/Admin/Localization.aspx"
-    Visible="False" meta:resourcekey="hlRefreshResource1">There has been few action on the website's culture so ,Please click here to refresh the page.</asp:HyperLink>
+    Visible="False" meta:resourcekey="hlRefreshResource1" Text="There has been few action on the website's culture so ,Please click here to refresh the page."></asp:HyperLink>
 <div id="langEditFirstDiv" runat="server">
     <h1>
         <asp:Label ID="lblTimeZoneEditor" runat="server" Text="Language Manager" meta:resourcekey="lblTimeZoneEditorResource1"></asp:Label>

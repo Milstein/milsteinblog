@@ -54,7 +54,6 @@
                         <div class="sfModuleDetails">
                             <div>
                                 <asp:Label ID="lblTemplateName" runat="server" Text='<%# Eval("FileName") %>' meta:resourcekey="lblTemplateNameResource1" />
-                                 <%--<asp:Label ID="lblDescription" CssClass="sfDescription" runat="server" Text='<%#Eval("Description") %>' />--%>
                                 <asp:LinkButton CssClass="icon-download sfBtn" runat="server" ID="lnkDownLoad" CommandName="DownLoad"
                                     CommandArgument='<%# Eval("URL") %>' meta:resourcekey="lnkDownLoadResource1"></asp:LinkButton>
                             </div>

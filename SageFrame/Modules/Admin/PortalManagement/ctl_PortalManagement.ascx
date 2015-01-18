@@ -157,11 +157,17 @@
                                                 </input>
                                                 </input>
                                                 </input>
+                                                </input>
+                                                </input>
+                                                </input>
                                                 <asp:Label ID="lblIsActive" runat="server" Text="Active" meta:resourcekey="lblIsActiveResource1"></asp:Label>
                                             </HeaderTemplate>
                                             <ItemTemplate>
                                                 <asp:HiddenField ID="hdnIsActive" runat="server" Value='<%# Eval("IsPortalModuleActive") %>' />
                                                 <input id="chkBoxIsActiveItem" runat="server" class="cssCheckBoxIsActiveItem" type="checkbox"></input>
+                                            </input>
+                                            </input>
+                                            </input>
                                             </input>
                                             </ItemTemplate>
                                             <HeaderStyle CssClass="cssClassColumnIsActive" />

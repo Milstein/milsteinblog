@@ -166,7 +166,7 @@
     <value />
   </data>
   <data name="Label10Resource1.Text" xml:space="preserve">
-    <value>Resident Phone</value>
+    <value>Res. Phone</value>
   </data>
   <data name="Label10Resource1.ToolTip" xml:space="preserve">
     <value />
@@ -316,7 +316,7 @@
     <value />
   </data>
   <data name="lblResPhoneResource1.Text" xml:space="preserve">
-    <value>Resident Phone</value>
+    <value>Res. Phone</value>
   </data>
   <data name="lblResPhoneResource1.ToolTip" xml:space="preserve">
     <value />

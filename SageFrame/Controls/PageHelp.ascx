@@ -5,11 +5,11 @@
         <%=pageName%>
     </h4>
     <div id="sfPageHelpDetails">
-        <asp:Literal runat="server" ID="ltrPageHelp"></asp:Literal>
+        <asp:Literal runat="server" ID="ltrPageHelp" meta:resourcekey="ltrPageHelpResource1"></asp:Literal>
     </div>
     <div class="sfPageHelpMoreInfo">
     	<h6>For more information</h6>
-        <asp:HyperLink Target="_blank" runat="server" ID="lnkpage" Text="Documentation on "></asp:HyperLink>
+        <asp:HyperLink Target="_blank" runat="server" ID="lnkpage" Text="Documentation on " meta:resourcekey="lnkpageResource1"></asp:HyperLink>
     </div>
 </div>
 

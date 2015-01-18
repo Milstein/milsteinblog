@@ -55,7 +55,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <asp:Label ID="lblMetaHelpText" runat="server" CssClass="sfNote" meta:resourcekey="lblMetaHelpTextResource1">These Meta information are for the default value of page Meta tags. If site administrator leaves any of these Meta tags while adding and updating a page, then these Meta information will be overwritten for that Meta value of a page.</asp:Label>
+                        <asp:Label ID="lblMetaHelpText" runat="server" CssClass="sfNote" meta:resourcekey="lblMetaHelpTextResource1" Text="These Meta information are for the default value of page Meta tags. If site administrator leaves any of these Meta tags while adding and updating a page, then these Meta information will be overwritten for that Meta value of a page."></asp:Label>
                     </div>
                 </div>
             </div>

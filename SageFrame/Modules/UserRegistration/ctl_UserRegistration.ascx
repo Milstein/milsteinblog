@@ -171,9 +171,6 @@
                                     <asp:RequiredFieldValidator ID="rfvCaptchaValueValidator" runat="server" ControlToValidate="CaptchaValue"
                                         Display="Dynamic" ErrorMessage="*" ValidationGroup="CreateUserWizard1" CssClass="sfError"
                                         meta:resourcekey="rfvCaptchaValueValidatorResource1"></asp:RequiredFieldValidator>
-                                    <%-- <asp:CompareValidator ID="cvCaptchaValue" runat="server" Display="Dynamic" ErrorMessage="*"
-                                                ValidationGroup="CreateUserWizard1" ControlToValidate="CaptchaValue"
-                                                CssClass="sfError" meta:resourcekey="cvCaptchaValueResource1"></asp:CompareValidator>--%>
                                 </ContentTemplate>
                             </asp:UpdatePanel>
                         </td>
