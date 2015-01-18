@@ -1,0 +1,88 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\SageFrame.Upgrade.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\SageFrame.Upgrade.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\SageFrame.Common.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\SageFrame.Core.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\AjaxControlToolkit.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\SageFrame.Templating.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\SageFrame.CDN.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\Ionic.Zip.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\SageFrame.Core.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\SageFrame.Common.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\SageFrame.Templating.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\SageFrame.CDN.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\bin\Release\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Upgrade.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Upgrade.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Common.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Core.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\AjaxControlToolkit.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Templating.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.CDN.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\Ionic.Zip.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Core.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Common.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Templating.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.CDN.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Upgrade.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Upgrade.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Common.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Core.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\AjaxControlToolkit.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Templating.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.CDN.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\Ionic.Zip.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Core.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Common.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Templating.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.CDN.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.pdb
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Upgrade.dll
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Upgrade.pdb
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Common.dll
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Core.dll
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\AjaxControlToolkit.dll
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Templating.dll
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.CDN.dll
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Scheduler.dll
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\Ionic.Zip.dll
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Core.pdb
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Common.pdb
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Templating.pdb
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.CDN.pdb
+D:\SageFrameV3.1\SageFrame.Upgrade\bin\Release\SageFrame.Scheduler.pdb
+D:\SageFrameV3.1\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.dll
+D:\SageFrameV3.1\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.pdb
+D:\SageFrameV3.1\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Upgrade.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Upgrade.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Common.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Core.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\AjaxControlToolkit.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Templating.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.CDN.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Scheduler.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\Ionic.Zip.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Core.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Common.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Templating.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.CDN.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Scheduler.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.pdb

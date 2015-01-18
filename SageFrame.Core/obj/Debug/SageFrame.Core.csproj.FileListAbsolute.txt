@@ -1,0 +1,25 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.Core.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.Core.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Core\obj\Debug\SageFrame.Core.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Core\obj\Debug\SageFrame.Core.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Core\obj\Debug\SageFrame.Core.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.Core.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.Core.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Core\obj\Debug\SageFrame.Core.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Core\obj\Debug\SageFrame.Core.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Core\obj\Debug\SageFrame.Core.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.Core.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.Core.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Core\obj\Debug\SageFrame.Core.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Core\obj\Debug\SageFrame.Core.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Core\obj\Debug\SageFrame.Core.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.Core.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.Core.pdb
+D:\SageFrameV3.1\SageFrame.Core\obj\Debug\SageFrame.Core.csprojResolveAssemblyReference.cache
+D:\SageFrameV3.1\SageFrame.Core\obj\Debug\SageFrame.Core.dll
+D:\SageFrameV3.1\SageFrame.Core\obj\Debug\SageFrame.Core.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Core.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Core.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Core\obj\Debug\SageFrame.Core.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Core\obj\Debug\SageFrame.Core.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Core\obj\Debug\SageFrame.Core.pdb

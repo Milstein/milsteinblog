@@ -1,0 +1,31 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Logo\bin\Release\SageFrame.Logo.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Logo\bin\Release\SageFrame.Logo.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Logo\bin\Release\SageFrame.Common.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Logo\bin\Release\SageFrame.Common.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Logo\obj\Release\SageFrame.Logo.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Logo\obj\Release\SageFrame.Logo.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Logo\bin\Release\SageFrame.Logo.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Logo\bin\Release\SageFrame.Logo.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Logo\bin\Release\SageFrame.Common.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Logo\bin\Release\SageFrame.Common.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Logo\obj\Release\SageFrame.Logo.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Logo\obj\Release\SageFrame.Logo.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Logo\bin\Release\SageFrame.Logo.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Logo\bin\Release\SageFrame.Logo.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Logo\bin\Release\SageFrame.Common.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Logo\bin\Release\SageFrame.Common.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Logo\obj\Release\SageFrame.Logo.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Logo\obj\Release\SageFrame.Logo.pdb
+D:\SageFrameV3.1\SageFrame.Logo\bin\Release\SageFrame.Logo.dll
+D:\SageFrameV3.1\SageFrame.Logo\bin\Release\SageFrame.Logo.pdb
+D:\SageFrameV3.1\SageFrame.Logo\bin\Release\SageFrame.Common.dll
+D:\SageFrameV3.1\SageFrame.Logo\bin\Release\SageFrame.Common.pdb
+D:\SageFrameV3.1\SageFrame.Logo\obj\Release\SageFrame.Logo.dll
+D:\SageFrameV3.1\SageFrame.Logo\obj\Release\SageFrame.Logo.pdb
+D:\SageFrameV3.1\SageFrame.Logo\obj\Release\SageFrame.Logo.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Logo\bin\Release\SageFrame.Logo.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Logo\bin\Release\SageFrame.Logo.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Logo\bin\Release\SageFrame.Common.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Logo\bin\Release\SageFrame.Common.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Logo\obj\Release\SageFrame.Logo.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Logo\obj\Release\SageFrame.Logo.pdb

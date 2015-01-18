@@ -1,0 +1,23 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.PortalManagement.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.PortalManagement.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.PortalManagement.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.PortalManagement.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.PortalManagement.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.PortalManagement.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.PortalManagement.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.PortalManagement.pdb
+D:\SageFrameV3.1\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.dll
+D:\SageFrameV3.1\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.pdb
+D:\SageFrameV3.1\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.PortalManagement.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.PortalManagement.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.pdb

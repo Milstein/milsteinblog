@@ -1,0 +1,23 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.BreadCrum.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.BreadCrum.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.BreadCrum.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.BreadCrum.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.BreadCrum.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.BreadCrum.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.BreadCrum.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.BreadCrum.pdb
+D:\SageFrameV3.1\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\SageFrameV3.1\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\SageFrameV3.1\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.BreadCrum.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.BreadCrum.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb

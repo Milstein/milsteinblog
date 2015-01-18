@@ -1,0 +1,21 @@
+﻿.click
+{
+    border: 1px solid #666666;
+    color: #999999;
+}
+.Paging
+{
+    border-radius: 50% 50% 50% 50%;
+    color: #AAAAAA;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    height: 20px;
+    margin: 3px;
+    text-align: center;
+    width: 20px;
+}
+#previous, #next
+{
+    cursor: pointer;
+}

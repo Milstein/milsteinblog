@@ -1,0 +1,25 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.MenuManager.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.MenuManager.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.MenuManager.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.MenuManager.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.MenuManager.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.MenuManager.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.MenuManager.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.MenuManager.pdb
+D:\SageFrameV3.1\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.csprojResolveAssemblyReference.cache
+D:\SageFrameV3.1\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.dll
+D:\SageFrameV3.1\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.MenuManager.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.MenuManager.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.MenuManager\obj\Debug\SageFrame.MenuManager.pdb

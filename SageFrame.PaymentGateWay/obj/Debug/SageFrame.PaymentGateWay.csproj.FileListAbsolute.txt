@@ -1,0 +1,28 @@
+D:\!@My Jobs So far\!@latest\SageFrameV3.5_Source\SageFrame\bin\SageFrame.PaymentGateWay.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.5_Source\SageFrame\bin\SageFrame.PaymentGateWay.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.5_Source\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.5_Source\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.5_Source\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.PaymentGateWay.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.PaymentGateWay.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.PaymentGateWay.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.PaymentGateWay.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.PaymentGateWay.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.PaymentGateWay.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.PaymentGateWay.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.PaymentGateWay.pdb
+D:\SageFrameV3.1\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.dll
+D:\SageFrameV3.1\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.pdb
+D:\SageFrameV3.1\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.PaymentGateWay.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.PaymentGateWay.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.pdb

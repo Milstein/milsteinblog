@@ -1,0 +1,23 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\DashBoardControl.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\DashBoardControl.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\DashBoardControl.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\DashBoardControl.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\DashBoardControl.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\DashBoardControl.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb
+D:\SageFrameV3.1\SageFrame\bin\DashBoardControl.dll
+D:\SageFrameV3.1\SageFrame\bin\DashBoardControl.pdb
+D:\SageFrameV3.1\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
+D:\SageFrameV3.1\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb
+D:\SageFrameV3.1\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\DashBoardControl.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\DashBoardControl.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.csprojResolveAssemblyReference.cache

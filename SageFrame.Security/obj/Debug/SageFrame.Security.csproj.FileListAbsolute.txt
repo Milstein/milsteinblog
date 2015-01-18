@@ -1,0 +1,23 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.Security.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.Security.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Security\obj\Debug\SageFrame.Security.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Security\obj\Debug\SageFrame.Security.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.Security.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.Security.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Security\obj\Debug\SageFrame.Security.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Security\obj\Debug\SageFrame.Security.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Security\obj\Debug\SageFrame.Security.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.Security.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.Security.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Security\obj\Debug\SageFrame.Security.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Security\obj\Debug\SageFrame.Security.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.Security.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.Security.pdb
+D:\SageFrameV3.1\SageFrame.Security\obj\Debug\SageFrame.Security.dll
+D:\SageFrameV3.1\SageFrame.Security\obj\Debug\SageFrame.Security.pdb
+D:\SageFrameV3.1\SageFrame.Security\obj\Debug\SageFrame.Security.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Security.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Security.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Security\obj\Debug\SageFrame.Security.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Security\obj\Debug\SageFrame.Security.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Security\obj\Debug\SageFrame.Security.pdb

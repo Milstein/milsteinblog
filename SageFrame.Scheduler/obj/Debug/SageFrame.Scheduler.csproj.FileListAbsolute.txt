@@ -1,0 +1,23 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.Scheduler.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.Scheduler.pdb
+D:\SageFrameV3.1\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.dll
+D:\SageFrameV3.1\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.pdb
+D:\SageFrameV3.1\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Scheduler.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Scheduler.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.csprojResolveAssemblyReference.cache

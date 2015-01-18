@@ -1,0 +1,23 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.ExtractTemplate.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.ExtractTemplate.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.ExtractTemplate.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.ExtractTemplate.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.ExtractTemplate.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.ExtractTemplate.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.ExtractTemplate.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.ExtractTemplate.pdb
+D:\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.dll
+D:\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.pdb
+D:\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.ExtractTemplate.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.ExtractTemplate.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.csprojResolveAssemblyReference.cache

@@ -1,0 +1,38 @@
+﻿<sageframe version="1.0.0.0" type="Module">
+  <folders>
+    <folder>
+      <name>SmartBlogTopPost</name>
+      <friendlyname>SmartBlogTopPost</friendlyname>
+      <foldername>SmartBlogTopPost</foldername>
+      <modulename>SmartBlogTopPost</modulename>
+      <description>Smart Blog TopPost.</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass>SageFrame.Modules.SmartBlogTopPost.SmartBlogController, SageFrame.Modules.SmartBlogDataProvider</businesscontrollerclass>
+      <compatibleversions>^[0]?[4-9]{1}\.[0-9]{1}[7-9]{1}\.[0-9]{1}[0-9]{1}$</compatibleversions>
+      <owner>Sageframe Pvt. Ltd.</owner>
+      <organization>Sageframe Pvt. Ltd.</organization>
+      <url>www.sageframe.com</url>
+      <email>info@sageframe.com</email>
+      <releasenotes>This is  release notes for Smart_Blog_TopPost</releasenotes>
+      <license>This is  license copy for Smart_Blog_TopPost Control Application</license>
+      <modules>
+        <module>
+          <friendlyname>SmartBlogTopPost</friendlyname>
+          <cachetime>-1</cachetime>
+          <controls>
+            <control>
+			  <key>SmartBlogTopPost</key>
+              <title>SmartBlogTopPost</title>
+              <src>Modules/SmartBlog/SmartBlogTopPost.ascx</src>
+              <type>View</type>
+              <helpurl>http://www.sageframe.com/default.aspx</helpurl>
+              <supportspartialrendering>true</supportspartialrendering>
+            </control>			
+             </controls>
+			
+        </module>
+      </modules>
+     
+    </folder>
+  </folders>
+</sageframe>

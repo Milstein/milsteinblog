@@ -1,0 +1,23 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.Upgrade.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.Upgrade.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.Upgrade.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.Upgrade.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.Upgrade.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.Upgrade.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.Upgrade.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.Upgrade.pdb
+D:\SageFrameV3.1\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.dll
+D:\SageFrameV3.1\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.pdb
+D:\SageFrameV3.1\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Upgrade.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Upgrade.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.pdb

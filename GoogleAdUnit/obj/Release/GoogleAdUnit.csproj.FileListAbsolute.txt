@@ -1,0 +1,22 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\GoogleAdUnit\obj\Release\GoogleAdUnit.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\GoogleAdUnit\obj\Release\GoogleAdUnit.csprojResolveAssemblyReference.cache
+D:\SageFrameV3.1\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.dll
+D:\SageFrameV3.1\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
+D:\SageFrameV3.1\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
+D:\SageFrameV3.1\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb

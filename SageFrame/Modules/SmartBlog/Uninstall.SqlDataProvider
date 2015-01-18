@@ -1,0 +1,154 @@
+
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetFeaturedPost]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetFeaturedPost]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetGivenNumberOfPosts]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetGivenNumberOfPosts]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetPost]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetPost]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetPostByPostID]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetPostByPostID]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetPostByTagCloud]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetPostByTagCloud]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetArchiveByDate]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetArchiveByDate]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogViewPost]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogViewPost]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetArchiveByMonth]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetArchiveByMonth]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetCommentByPostID]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetCommentByPostID]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetCommentEmailByPostID]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetCommentEmailByPostID]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetEmail]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetEmail]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogAddCategory]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogAddCategory]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogAddTag]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogAddTag]
+GO
+/****** Object:  StoredProcedure [dbo].[Usp_smartblogaddupdatepost]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[Usp_smartblogaddupdatepost]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogAddUpdSetting]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogAddUpdSetting]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogApproveComment]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogApproveComment]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogApprovePost]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogApprovePost]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogCheckIP]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogCheckIP]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogCommentCount]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogCommentCount]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogCountApproveComment]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogCountApproveComment]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogCountUnapproveComment]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogCountUnapproveComment]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogDeleteComment]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogDeleteComment]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogDeletePost]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogDeletePost]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogDeleteTagCategoryByID]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogDeleteTagCategoryByID]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetArchive]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetArchive]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetPostCommentByPostID]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetPostCommentByPostID]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetSetting]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetSetting]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetTagCategory]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetTagCategory]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetTagCategoryID]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetTagCategoryID]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetTagCloud]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetTagCloud]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogGetTopPost]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogGetTopPost]
+GO
+/****** Object:  StoredProcedure [dbo].[Usp_smartblogImportPost]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[Usp_smartblogImportPost]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogPost_count]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogPost_count]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogSaveComment]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogSaveComment]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogSaveLike]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogSaveLike]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogUnapproveComment]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogUnapproveComment]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SmartBlogUpdateComment]    Script Date: 07/22/2014 10:39:29 ******/
+DROP PROCEDURE [dbo].[usp_SmartBlogUpdateComment]
+GO
+/****** Object:  UserDefinedFunction [dbo].[fn_GetCategories]    Script Date: 07/22/2014 10:39:30 ******/
+DROP FUNCTION [dbo].[fn_GetCategories]
+GO
+/****** Object:  UserDefinedFunction [dbo].[fn_GetTags]    Script Date: 07/22/2014 10:39:30 ******/
+DROP FUNCTION [dbo].[fn_GetTags]
+GO
+/****** Object:  Table [dbo].[SmartBlogBlockedUser]    Script Date: 07/22/2014 10:39:28 ******/
+DROP TABLE [dbo].[SmartBlogBlockedUser]
+GO
+/****** Object:  Table [dbo].[SmartBlogCategory]    Script Date: 07/22/2014 10:39:28 ******/
+DROP TABLE [dbo].[SmartBlogCategory]
+GO
+/****** Object:  Table [dbo].[SmartBlogComment]    Script Date: 07/22/2014 10:39:28 ******/
+DROP TABLE [dbo].[SmartBlogComment]
+GO
+/****** Object:  Table [dbo].[SmartBlogLikePost]    Script Date: 07/22/2014 10:39:28 ******/
+DROP TABLE [dbo].[SmartBlogLikePost]
+GO
+/****** Object:  Table [dbo].[SmartBlogPost]    Script Date: 07/22/2014 10:39:28 ******/
+DROP TABLE [dbo].[SmartBlogPost]
+GO
+/****** Object:  Table [dbo].[SmartBlogPostCategory]    Script Date: 07/22/2014 10:39:28 ******/
+DROP TABLE [dbo].[SmartBlogPostCategory]
+GO
+/****** Object:  Table [dbo].[SmartBlogPostComment]    Script Date: 07/22/2014 10:39:28 ******/
+DROP TABLE [dbo].[SmartBlogPostComment]
+GO
+/****** Object:  Table [dbo].[SmartBlogPostTag]    Script Date: 07/22/2014 10:39:28 ******/
+DROP TABLE [dbo].[SmartBlogPostTag]
+GO
+/****** Object:  Table [dbo].[SmartBlogSetting]    Script Date: 07/22/2014 10:39:28 ******/
+DROP TABLE [dbo].[SmartBlogSetting]
+GO
+/****** Object:  Table [dbo].[SmartBlogSettingKey]    Script Date: 07/22/2014 10:39:28 ******/
+DROP TABLE [dbo].[SmartBlogSettingKey]
+GO
+/****** Object:  Table [dbo].[SmartBlogSettingValue]    Script Date: 07/22/2014 10:39:28 ******/
+DROP TABLE [dbo].[SmartBlogSettingValue]
+GO
+/****** Object:  Table [dbo].[SmartBlogTag]    Script Date: 07/22/2014 10:39:28 ******/
+DROP TABLE [dbo].[SmartBlogTag]
+GO

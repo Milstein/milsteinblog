@@ -1,0 +1,25 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.Templating.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.Templating.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Templating\obj\Debug\SageFrame.Templating.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.Templating.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.Templating.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Templating\obj\Debug\SageFrame.Templating.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.Templating.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.Templating.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Templating\obj\Debug\SageFrame.Templating.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.Templating.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.Templating.pdb
+D:\SageFrameV3.1\SageFrame.Templating\obj\Debug\SageFrame.Templating.csprojResolveAssemblyReference.cache
+D:\SageFrameV3.1\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+D:\SageFrameV3.1\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Templating.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Templating.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Templating\obj\Debug\SageFrame.Templating.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb

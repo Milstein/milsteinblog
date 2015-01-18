@@ -1,0 +1,34 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Scheduler\bin\Release\SageFrame.Common.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Scheduler\bin\Release\SageFrame.Common.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Scheduler\bin\Release\SageFrame.Common.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Scheduler\bin\Release\SageFrame.Common.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Scheduler\bin\Release\SageFrame.Common.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Scheduler\bin\Release\SageFrame.Common.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.pdb
+D:\SageFrameV3.1\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.dll
+D:\SageFrameV3.1\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.pdb
+D:\SageFrameV3.1\SageFrame.Scheduler\bin\Release\SageFrame.Common.dll
+D:\SageFrameV3.1\SageFrame.Scheduler\bin\Release\SageFrame.Common.pdb
+D:\SageFrameV3.1\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.dll
+D:\SageFrameV3.1\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.pdb
+D:\SageFrameV3.1\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\bin\Release\SageFrame.Common.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\bin\Release\SageFrame.Common.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.pdb

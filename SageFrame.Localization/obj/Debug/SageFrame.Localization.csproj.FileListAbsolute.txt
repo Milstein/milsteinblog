@@ -1,0 +1,23 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.Localization.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.Localization.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.Localization.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.Localization.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Localization\obj\Debug\SageFrame.Localization.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.Localization.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.Localization.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.Localization.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.Localization.pdb
+D:\SageFrameV3.1\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\SageFrameV3.1\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\SageFrameV3.1\SageFrame.Localization\obj\Debug\SageFrame.Localization.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Localization.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Localization.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb

@@ -1,0 +1,23 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.TaskToDo.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.TaskToDo.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.TaskToDo.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.TaskToDo.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.TaskToDo.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.TaskToDo.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.TaskToDo.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.TaskToDo.pdb
+D:\SageFrameV3.1\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.dll
+D:\SageFrameV3.1\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.pdb
+D:\SageFrameV3.1\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.TaskToDo.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.TaskToDo.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.csprojResolveAssemblyReference.cache

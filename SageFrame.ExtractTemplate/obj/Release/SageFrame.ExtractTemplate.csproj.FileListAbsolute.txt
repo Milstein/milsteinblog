@@ -1,0 +1,31 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.ExtractTemplate\bin\Release\SageFrame.ExtractTemplate.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.ExtractTemplate\bin\Release\SageFrame.ExtractTemplate.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.ExtractTemplate\bin\Release\SageFrame.ExtractTemplate.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.ExtractTemplate\bin\Release\SageFrame.ExtractTemplate.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.ExtractTemplate\bin\Release\SageFrame.ExtractTemplate.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.ExtractTemplate\bin\Release\SageFrame.ExtractTemplate.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.pdb
+D:\SageFrameV3.1\SageFrame.ExtractTemplate\bin\Release\SageFrame.ExtractTemplate.dll
+D:\SageFrameV3.1\SageFrame.ExtractTemplate\bin\Release\SageFrame.ExtractTemplate.pdb
+D:\SageFrameV3.1\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.dll
+D:\SageFrameV3.1\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.pdb
+D:\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.dll
+D:\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.pdb
+D:\SageFrameV3.1\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ExtractTemplate\bin\Release\SageFrame.ExtractTemplate.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ExtractTemplate\bin\Release\SageFrame.ExtractTemplate.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.pdb

@@ -1,0 +1,23 @@
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.SageBanner.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame\bin\SageFrame.SageBanner.pdb
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.dll
+D:\!@My Jobs So far\!@latest\SageFrameFuc\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.SageBanner.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame\bin\SageFrame.SageBanner.pdb
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.csprojResolveAssemblyReference.cache
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.dll
+D:\!@My Jobs So far\!@latest\SageFrameV3.1\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.SageBanner.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame\bin\SageFrame.SageBanner.pdb
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.dll
+D:\!@My Jobs So far\!@latest\!@Latest\SageFrameV3.1\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.SageBanner.dll
+D:\SageFrameV3.1\SageFrame\bin\SageFrame.SageBanner.pdb
+D:\SageFrameV3.1\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.dll
+D:\SageFrameV3.1\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb
+D:\SageFrameV3.1\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.SageBanner.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.SageBanner.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.dll
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb
