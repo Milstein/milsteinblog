@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <SageFrameMessage>
   <UserManagement>
+    <ConflictInUserNameRoleName>Conflict  of UserName with RoleName so  please enter another UserName.</ConflictInUserNameRoleName>
+    <NoDuplicateList>No any duplicate user list.</NoDuplicateList>
+    <ColumnMappingError>Incorrect Column mapping.</ColumnMappingError>
+    <UsersNotAdded>Users import process is cancelled because the users or users' email in the excel file already exist in the system. Export the  duplicate user report by clicking in "Export Duplicate User" button.</UsersNotAdded>
+    <InvalidUserFileExtension>Invalid File extension, please upload .csv file</InvalidUserFileExtension>
+    <PleaseSelectUserFile>Please select .csv file.</PleaseSelectUserFile>
+    <UsersAddedSuccessfully>User List Added Successfully.</UsersAddedSuccessfully>
+    <UsersAddedSuccessfullyWithDuplicateUserReport>User List Added Successfully. Export the  duplicate user report by clicking in "Export Duplicate User" button.</UsersAddedSuccessfullyWithDuplicateUserReport>
+    <DuplicateUsers>Duplicate users found in your User List.</DuplicateUsers>
     <RoleSavedSuccessfully>Role has been saved successfully.</RoleSavedSuccessfully>
     <ThisRoleAlreadyExists>Please enter a new role. This Role already exists!</ThisRoleAlreadyExists>
     <ThisIsSystemRoleAndCannotBeDeleted>System role cannot be deleted.</ThisIsSystemRoleAndCannotBeDeleted>
@@ -24,7 +33,7 @@
     <UserInformationSaveSuccessfully>User information has been saved successfully.</UserInformationSaveSuccessfully>
     <PleaseEnterTheRequiredFields>Please enter all the required fields.</PleaseEnterTheRequiredFields>
     <UserRolesUpdatedSuccessfully>User roles has been updated successfully.</UserRolesUpdatedSuccessfully>
-    <UnknownErrorOccur>Unknown Error occurred: Please try again. </UnknownErrorOccur>
+    <UnknownErrorOccur>An Unknown Error occurred: Please try again.</UnknownErrorOccur>
     <UserPasswordChangedSuccessfully>User password has been changed successfully.</UserPasswordChangedSuccessfully>
     <PleaseEnterTheRequiredField>Please enter all the required fields.</PleaseEnterTheRequiredField>
     <SelectedUsersAreDeletedSuccessfully>Selected users have been deleted successfully.</SelectedUsersAreDeletedSuccessfully>
@@ -58,8 +67,8 @@
     <PleaseSelectRole>Please select a role.</PleaseSelectRole>
     <FromIsLowerThanTo>End date cannot be smaller than start date.</FromIsLowerThanTo>
     <PasswordLength>Password must be at least 4 characters long.</PasswordLength>
-    <SecureConnection>You have been registered but problem occurred while sending mail!It may be because server does not support secure connection. Please contact the administrator. </SecureConnection>
-    <UserDoesNotExist>User does not exist.</UserDoesNotExist>
+    <SecureConnection>You have been registered but problem occurred while sending mail! It may be because server does not support secure connection. Please contact the administrator. </SecureConnection>
+    <UserDoesnotExist>Invalid username or password!</UserDoesnotExist>
     <ImageTooLarge>Image size cannot exceed 3 MB.</ImageTooLarge>
     <InvalidImageFormat>Invalid Image Format</InvalidImageFormat>
   </UserManagement>
@@ -69,7 +78,7 @@
   <UserLogin>
     <Youarenotauthenticatedtothisportal>No tiene permisos para acceder a este portal!</Youarenotauthenticatedtothisportal>
     <UsernameandPasswordcombinationdoesntmatched>Nombre de usuario y una contraseña No se han encontrado!</UsernameandPasswordcombinationdoesntmatched>
-    <UserDoesnotExist>El usuario no existe!</UserDoesnotExist>
+    <UserDoesnotExist>Nombre de usuario o contraseña no válidos!</UserDoesnotExist>
   </UserLogin>
   <LoginStatus>
     <MyProfile>perfil</MyProfile>
@@ -112,8 +121,8 @@
   </PAGES>
   <MessageManagement>
     <MessageTemplateIsUpdatedSuccessfully>Message template has been updated successfully.</MessageTemplateIsUpdatedSuccessfully>
-    <MessageTemplateCouldnotBeUpdated>Error: Couldn't update Message Template! Please try again! </MessageTemplateCouldnotBeUpdated>
-    <MessageTemplateCouldnotBeAdded>Error:Couldn't add Message Template ! Please try again! </MessageTemplateCouldnotBeAdded>
+    <MessageTemplateCouldnotBeUpdated>Error: Couldn't update Message Template! Please try again!</MessageTemplateCouldnotBeUpdated>
+    <MessageTemplateCouldnotBeAdded>Error:Couldn't add Message Template ! Please try again!</MessageTemplateCouldnotBeAdded>
     <PleaseFill>Please fill up the field(s) below. </PleaseFill>
     <MessageTemplateSubject>Message template subject </MessageTemplateSubject>
     <MessageTemplateBody>Message template body </MessageTemplateBody>
@@ -166,7 +175,7 @@
     <ModuleDefinitionIsUpdatedSuccessfully>Module definition has been updated successfully.</ModuleDefinitionIsUpdatedSuccessfully>
     <ModuleExtensionIsAddedSuccessfully>Module extension has been added successfully.</ModuleExtensionIsAddedSuccessfully>
     <ModuleExtensionIsUpdatedSuccessfully>Module extension has been updated successfully.</ModuleExtensionIsUpdatedSuccessfully>
-    <ModuleIsDeletedSuccessfully>Module has been deleted successfully.</ModuleIsDeletedSuccessfully>
+    <ModuleIsDeletedSuccessfully>Module has been deleted successfully.</ModuleIsDeletedSuccessfully>    
     <TheModuleIsInstalledSuccessfully>Module has been installed successfully.</TheModuleIsInstalledSuccessfully>
     <LastUpdatedBy>Last Updated By: </LastUpdatedBy>
     <WarningMessageWillDeleteAllFiles>Repairing  previous installed module will overwrite all database and files content.</WarningMessageWillDeleteAllFiles>
