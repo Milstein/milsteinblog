@@ -8,14 +8,14 @@
             ignore: ':hidden',
             rules: {
                 '<%=Email.UniqueID %>': { email: true }
-                },
-                messages: {
-                    '<%=Email.UniqueID %>': "<br/>Email must be in a correct format."
-                }
-            });
+            },
+            messages: {
+                '<%=Email.UniqueID %>': "<br/>Email must be in a correct format."
+            }
+        });
 
 
-        $(".sfLocalee").SystemLocalize();
+        $(".sfLocale").SystemLocalize();
         var FinishButton = '#' + '<%=FinishButton.ClientID %>';
         var pwdID = '#' + '<%=Password.ClientID%>';
         $('#minchar').remove();
@@ -47,22 +47,21 @@
         if (args.get_isPartialLoad()) {
             $('.password').pstrength({ minchar: 4 });
         }
-
-
-
     }
     //]]>	
 </script>
 
 <div class="sfUserRegistrationPage">
     <div class="sfUserRegistration">
-        <h2>Registration</h2>
+        <h2>
+            <asp:Label ID="lblTitle" runat="server" Text="Registration" meta:resourcekey="lblTitleResource1"></asp:Label>
+        </h2>
         <div class="sfFormwrapper">
             <div class="sfUserRegistrationInfoLeft" id="divRegister" runat="server">
                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                         <td colspan="2">
-                            <span class="sfAllrequired sfLocalee">* All Fields are compulsory. </span>
+                            <span class="sfAllrequired sfLocale">* All Fields are compulsory.</span>
                         </td>
                     </tr>
                     <tr>

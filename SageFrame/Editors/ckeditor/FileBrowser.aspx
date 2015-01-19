@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FileBrowser.aspx.cs" Inherits="FileBrowser" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FileBrowser.aspx.cs" Inherits="FileBrowser" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -51,10 +51,10 @@ li:hover{background-color:#eee;}
     <form id="form1" runat="server">
     <div class="top">
 	Server Folder :
-    <asp:Label ID="dirLabel" runat="server" Text="Label" meta:resourcekey="dirLabelResource1"></asp:Label>
+    <asp:Label ID="dirLabel" runat="server" Text="Label"></asp:Label>
       <div>
-    Upload a new file:  <asp:FileUpload ID="fuImage" runat="server" meta:resourcekey="fuImageResource1" />
-                <asp:Button ID="btnUpload" runat="server" Text="Upload" OnClick="btnUpload_Click" meta:resourcekey="btnUploadResource1" />
+    Upload a new file:  <asp:FileUpload ID="fuImage" runat="server" />
+                <asp:Button ID="btnUpload" runat="server" Text="Upload" OnClick="btnUpload_Click" />
     </div>
     </div>
 	

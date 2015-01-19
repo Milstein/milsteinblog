@@ -3,9 +3,11 @@
 
 <div id="divPackageSettings" runat="server">
     <div class="sfMarginTopPri sfFormwrapper sfPadding">
-        <h3>Package Settings</h3>
+        <h3>
+            Package Settings</h3>
         <p class="sfNote">
-            <asp:Label ID="lblPackageSettingsHelp" runat="server" Text="In this section you can configure the package information for this Module." meta:resourcekey="lblPackageSettingsHelpResource1"></asp:Label>
+            <asp:Label ID="lblPackageSettingsHelp" runat="server" Text="In this section you can configure the package information for this Module."
+                meta:resourcekey="lblPackageSettingsHelpResource1"></asp:Label>
         </p>
         <table border="0" cellpadding="0" cellspacing="0" width="100%">
             <tr>
@@ -77,7 +79,8 @@
                     <asp:TextBox ID="txtUrl" runat="server" CssClass="sfInputbox" meta:resourcekey="txtUrlResource1"></asp:TextBox>
                     <asp:RegularExpressionValidator ID="revUrl" runat="server" ControlToValidate="txtUrl"
                         CssClass="sfRequired" ErrorMessage="The Url is not valid." SetFocusOnError="True"
-                        ValidationExpression="^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&amp;?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$" meta:resourcekey="revUrlResource1"></asp:RegularExpressionValidator>
+                        ValidationExpression="^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&amp;?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$"
+                        meta:resourcekey="revUrlResource1"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
@@ -87,7 +90,8 @@
                 <td>
                     <asp:TextBox ID="txtEmail" runat="server" CssClass="sfInputbox" meta:resourcekey="txtEmailResource1"></asp:TextBox>
                     <asp:RegularExpressionValidator ID="revEmail" runat="server" ErrorMessage="Email address is not valid."
-                        CssClass="sfRequired" ControlToValidate="txtEmail" SetFocusOnError="True" ValidationExpression="^[a-zA-Z][a-zA-Z0-9_-]+@[a-zA-Z]+[.]{1}[a-zA-Z]+$" meta:resourcekey="revEmailResource1"></asp:RegularExpressionValidator>
+                        CssClass="sfRequired" ControlToValidate="txtEmail" SetFocusOnError="True" ValidationExpression="^[a-zA-Z][a-zA-Z0-9_-]+@[a-zA-Z]+[.]{1}[a-zA-Z]+$"
+                        meta:resourcekey="revEmailResource1"></asp:RegularExpressionValidator>
                 </td>
             </tr>
         </table>

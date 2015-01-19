@@ -4,7 +4,7 @@
     //<![CDATA[    
     var DefaultPortalHomePage = '<%=DefaultPortalHomePage %>';
     var Extension = '<%=Extension %>';
-    $(function () {
+    $(function() {
         $(this).BreadCrumbBuilder({
             baseURL: BreadCrumPagePath + 'Modules/BreadCrumb/BreadCrumbWebService.asmx/',
             PagePath: BreadCrumPageLink,
@@ -18,4 +18,5 @@
     //]]>	
 </script>
 <div class="sfBreadcrumb">
+    
 </div>

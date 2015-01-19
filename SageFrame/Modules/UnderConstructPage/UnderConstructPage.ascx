@@ -2,7 +2,7 @@
     Inherits="Modules_UnderConstructPage_UnderConstructPage" %>
 <div>
     <h2>
-        Under Construction. Meet You Soon</h2>
+        Under Construction.Meet You Soon</h2>
 </div>
 <asp:Image ID="imgUC" ImageUrl="~/Modules/UnderConstructPage/Img/under-construction.jpg"
     AlternateText="Under Construction Page" runat="server" meta:resourcekey="imgUCResource1" />

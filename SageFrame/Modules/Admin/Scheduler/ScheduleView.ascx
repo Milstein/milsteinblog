@@ -8,15 +8,15 @@
             <span>Job Scheduler</span></h1>
     </div>
     <div class="cssClassGridWrapper" id="divShowItemRatingDetails">
-        <div class="sfButtonwrapper">
-            <%--<img src="<%=ImagePath%>images/add.png" onclick="ShowNewTaskPopUp(true)" style="float: left" />--%>
-            <label class="icon-addnew sfBtn" onclick="ShowNewTaskPopUp(true)">
-                Add New Task</label>
+        <div class="sfButtonwrapper">      
+                <%--<img src="<%=ImagePath%>images/add.png" onclick="ShowNewTaskPopUp(true)" style="float: left" />--%>
+                <label class="icon-addnew sfBtn" onclick="ShowNewTaskPopUp(true)">
+                    Add New Task</label>          
         </div>
     </div>
     <div class="sfGridwrapper">
         <div class="cssClassGridWrapperContent">
-            <%--  <div id="loading">
+          <%--  <div id="loading">
                 <img src="<%=ImagePath%>images/ajax-loader.gif" />
             </div>--%>
             <div id="log">
@@ -30,7 +30,8 @@
 </div>
 </div>
 <div id="popDiv" class="invisibleDiv">
-    <h2 align="center">This is another div</h2>
+    <h2 align="center">
+        This is another div</h2>
     <div style="text-align: center">
         <input type="text" name="tb" />
         <input type="button" name="btn" value="Click" />
@@ -42,7 +43,7 @@
 <div id="newScheduleDiv" class="invisibleDiv sfFormwrapper">
     <div class="cssClassPopUpBoxInfo cssClassPadding10 cssClassCurve">
         <span class="closePopUp">
-            <input type="image" src="<%=ImagePath%>images/closelabel.png" onclick="javascript: return false" />
+            <input type="image" src="<%=ImagePath%>images/closelabel.png" onclick="javascript:return false" />
         </span>
         <h2>
             <span class="headerSpan">ADD NEW TASK</span></h2>
@@ -95,8 +96,10 @@
                                     <input id="txtEndDate" type="text" name="endDates" class="cssClassNormalTextBox required ValidDates"
                                         style="width: 60px;" />
                                 </td>
-                                <td></td>
-                                <td></td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
                             </tr>
                             <tr>
                                 <td>
@@ -110,8 +113,10 @@
                                     <select id="txtMins" class="required sfShortSelectbox">
                                     </select>
                                 </td>
-                                <td></td>
-                                <td></td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
                             </tr>
                             <tr>
                                 <td colspan="4">
@@ -133,8 +138,10 @@
                                         <option value="5">Once</option>
                                     </select>
                                 </td>
-                                <td></td>
-                                <td></td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
                             </tr>
                             <tr>
                                 <td colspan="4" id="running_mode_selection">
@@ -233,7 +240,8 @@
                         <option value="6">Month</option>
                     </select>
                 </td>
-                <td></td>
+                <td>
+                </td>
             </tr>
             <tr id="trDllUpload" style="display: ">
                 <td>
@@ -247,9 +255,10 @@
                 </td>
             </tr>
             <tr>
-                <td></td>
                 <td>
-                    <label id="lblFile"></label>
+                </td>
+                <td>
+                <label id="lblFile"></label>
                     <input type="hidden" id="uploadFileName" />
                 </td>
             </tr>
@@ -264,7 +273,8 @@
                         <option value="2">APPLICATION_START</option>
                     </select>
                 </td>
-                <td></td>
+                <td>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -301,9 +311,8 @@
         </ul>
         <div class="sfButtonwrapper clearfix">
             <span class="btnRunNow">
-                <input type="button" class="btnRunSchedule sfBtn" onclick="javascript: return false"
-                    value="Run Now" /></span>
-        </div>
+                <input type="button" class="btnRunSchedule sfBtn" onclick="javascript:return false"
+                    value="Run Now" /></span></div>
     </div>
     <div class="sfGridwrapper cssClassmarginTop10">
         <table width="100%" border="0" cellpadding="0" cellspacing="0" id="gdvSchedularHistoryList">

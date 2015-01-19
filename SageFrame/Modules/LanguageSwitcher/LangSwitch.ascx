@@ -2,19 +2,19 @@
 
 <script type="text/javascript">
     //<![CDATA[  
-    // var cultureCode = '<%=CultureCode%>';
+   // var cultureCode = '<%=CultureCode%>';
     $(function () {
         $(this).langswitcher({
             PortalID: '<%=PortalID%>',
             UserModuleID: '<%=UserModuleID%>',
-            CultureCode: '<%=CultureCode%>',
+            CultureCode:'<%=CultureCode%>',
             LangSwitchContainerID: '#' + '<%=ContainerClientID%>'
         });
     });
     //]]>	   
 </script>
 <div class="sfLanguageContainer">
-    <asp:Label ID="lblLang" runat="server" Text="Your Language:"
-        CssClass="sfFormlabel" meta:resourcekey="lblLangResource1"></asp:Label>
-    <asp:Literal ID="ltrNav" runat="server" EnableViewState="False" meta:resourcekey="ltrNavResource1"></asp:Literal>
+	<asp:Label ID="lblLang" runat="server" Text="Your Language:" 
+    CssClass="sfFormlabel" meta:resourcekey="lblLangResource1"></asp:Label>
+	<asp:Literal ID="ltrNav" runat="server" EnableViewState="False" meta:resourcekey="ltrNavResource1"></asp:Literal>
 </div>

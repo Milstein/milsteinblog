@@ -10,7 +10,7 @@
             <td>
                 <asp:Label ID="lblSelectSqlScriptFile" runat="server" CssClass="sfFormlabel sfFloatLeft" Text="SQL File"
                     ToolTip="Upload a file into the SQL Query window (Optional)." meta:resourcekey="lblSelectSqlScriptFileResource1"></asp:Label>
-                <div class="sfButtonwrapper sfSql">
+                    <div class="sfButtonwrapper sfSql">
                     <asp:FileUpload ID="fluSqlScript" runat="server" meta:resourcekey="fluSqlScriptResource1" />
                     <label class="sfLocale icon-upload sfBtn">
                         Upload
@@ -18,7 +18,9 @@
                             ToolTip="Load the selected file." meta:resourcekey="imbUploadSqlScriptResource1" /></label>
                 </div>
             </td>
-            <td></td>
+            <td>
+                
+            </td>
         </tr>
         <tr>
             <td colspan="2">
@@ -30,7 +32,8 @@
             <td>
                 <div class="sfButtonwrapper">
                     <asp:CheckBox ID="chkRunAsScript" runat="server" Text="Run as Script"
-                        ToolTip="include 'GO' directives; for testing &amp; update scripts" CssClass="sfCheckbox" meta:resourcekey="chkRunAsScriptResource1" />
+                        ToolTip="include 'GO' directives; for testing &amp; update scripts" CssClass="sfCheckbox"
+                        meta:resourcekey="chkRunAsScriptResource1" />
                     <label class="icon-execute sfLocale sfBtn">
                         Execute
                         <asp:Button ID="imbExecuteSql" runat="server" Style="margin-left: 15px" OnClick="imbExecuteSql_Click"
@@ -44,7 +47,8 @@
 <div class="sfGridwrapper" style="overflow: scroll;">
     <asp:GridView ID="gdvResults" runat="server" EnableViewState="False" meta:resourcekey="gdvResultsResource1">
         <EmptyDataTemplate>
-            <asp:Label ID="lblEmptyText" runat="server" Text="The query did not return any data" meta:resourcekey="lblEmptyTextResource1" />
+            <asp:Label ID="lblEmptyText" runat="server" Text="The query did not return any data"
+                meta:resourcekey="lblEmptyTextResource1" />
         </EmptyDataTemplate>
         <RowStyle CssClass="sfOdd" />
         <AlternatingRowStyle CssClass="sfEven" />

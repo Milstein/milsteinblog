@@ -1028,7 +1028,7 @@
             },
             BindLayoutList: function (data) {
                 var layouts = data.d;
-                var html = '<table><tr ><td >S.N</td><td>Layout</td><td>Activate</td><td>Edit</td><td>Delete</td></tr>';
+                var html = '<table><tr ><td >S.No.</td><td>Layout</td><td>Activate</td><td>Edit</td><td>Delete</td></tr>';
                 $.each(layouts, function (index, item) {
                     var sn = parseInt(index) + 1;
                     var flag = item.Key === LayoutManager.config.ActiveLayout + ".xml" ? LayoutManager.config.ActiveFlag : LayoutManager.config.InActiveFlag;
@@ -1096,7 +1096,7 @@
             //            },
             BindSectionList: function (data) {
                 var blocks = data.d;
-                var html = '<table><tr ><td >S.N</td><td>Section</td><td>Edit</td><td>Delete</td></tr>';
+                var html = '<table><tr ><td >S.No.</td><td>Section</td><td>Edit</td><td>Delete</td></tr>';
                 $.each(blocks, function (index, item) {
                     var sn = parseInt(index) + 1;
                     html += '<tr><td>' + sn + '</td><td>' + item.SectionName + '</td><td><input type="hidden" value=' + item.SectionName + '><img class="edit" src="' + LayoutManager.config.EditButton + '"/></td><td><img src="' + LayoutManager.config.DeleteButton + '"/></td></tr>';
@@ -1118,7 +1118,7 @@
             },
             BindThemes: function (data) {
                 var themes = data.d;
-                var html = '<table width="100%" cellspacing="0" cellpadding="0"><tr ><th class="sfIndex">S.N</th><th>Theme</th><th class="sfDelete">Delete</th></tr>';
+                var html = '<table width="100%" cellspacing="0" cellpadding="0"><tr ><th class="sfIndex">S.No.</th><th>Theme</th><th class="sfDelete">Delete</th></tr>';
                 if (data.d.length < 1) {
                     html = SageFrame.messaging.showdivmessage("No themes available");
                 }

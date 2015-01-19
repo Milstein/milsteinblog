@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" EnableViewState="False"
-    Inherits="SageFrame._Default" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
+    Inherits="SageFrame._Default" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Src="~/Controls/TopStickyBar.ascx" TagName="TopStickyBar" TagPrefix="ucstickybar" %>
@@ -30,9 +30,9 @@
     <!--[if lt IE 7]>
         <script type="text/javascript" src="/js/SageFrameCorejs/IE8.js"></script> 
      <![endif]-->
-    <asp:Literal ID="SageFrameModuleCSSlinks" EnableViewState="False" runat="server" meta:resourcekey="SageFrameModuleCSSlinksResource1"></asp:Literal>
-    <asp:Literal ID="SageFrameCoreCss" EnableViewState="False" runat="server" meta:resourcekey="SageFrameCoreCssResource1"></asp:Literal>
-    <asp:Literal ID="LitLangResc" runat="server" meta:resourcekey="LitLangRescResource1"></asp:Literal>
+    <asp:Literal ID="SageFrameModuleCSSlinks" EnableViewState="False" runat="server"></asp:Literal>
+    <asp:Literal ID="SageFrameCoreCss" EnableViewState="False" runat="server"></asp:Literal>
+    <asp:Literal ID="LitLangResc" runat="server"></asp:Literal>
     <title>SageFrame Website</title>
 </head>
 <body>
@@ -47,15 +47,15 @@
     <noscript>
         <asp:Label ID="lblnoScript" EnableViewState="False" runat="server" Text="This page requires java-script to be enabled. Please adjust your browser-settings."></asp:Label>
     </noscript>
-    <asp:Literal ID="ltrPlaceholders" runat="server" meta:resourcekey="ltrPlaceholdersResource1"></asp:Literal>
+    <asp:Literal ID="ltrPlaceholders" runat="server"></asp:Literal>
     <div class="sfMessagewrapper" id="divMessage" runat="server">
     </div>
     <asp:PlaceHolder ID="pchWhole" runat="server"></asp:PlaceHolder>
     <asp:PlaceHolder ID="pchtest" runat="server"></asp:PlaceHolder>
-    <asp:Literal ID="LitSageScript" runat="server" meta:resourcekey="LitSageScriptResource1"></asp:Literal>
+    <asp:Literal ID="LitSageScript" runat="server"></asp:Literal>
     <iframe id="divFrame" style="display: none" width='100%'></iframe>
     <div class="sfCpanel sfInnerwrapper" runat="server" id="divActivation">
-        <asp:Literal runat="server" ID="ltrActivation" meta:resourcekey="ltrActivationResource1"></asp:Literal>
+        <asp:Literal runat="server" ID="ltrActivation"></asp:Literal>
     </div>
 
     <script type="text/javascript">

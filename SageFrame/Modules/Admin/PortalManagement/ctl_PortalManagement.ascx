@@ -36,15 +36,15 @@
         <asp:Label ID="lblPortalManagement" runat="server" Text="Portal Management" meta:resourcekey="lblPortalManagementResource1"></asp:Label></h1>
     <asp:Panel ID="pnlPortal" runat="server" meta:resourcekey="pnlPortalResource1">
         <asp:HiddenField ID="hdnPortalID" runat="server" />
-        <ajax:TabContainer CssClass="tabcontainer ajax__tab_xp" ID="TabContainerManagePortal"
-            runat="server" ActiveTabIndex="0" meta:resourcekey="TabContainerManagePortalResource1">
+        <ajax:TabContainer ID="TabContainerManagePortal" runat="server" ActiveTabIndex="0" meta:resourcekey="TabContainerManagePortalResource1">
             <ajax:TabPanel ID="TabPanelPortalAddEdit" runat="server" meta:resourcekey="TabPanelPortalAddEditResource1">
                 <HeaderTemplate>
                     <asp:Label ID="lblAEP" runat="server" Text="Add/Edit Portal" meta:resourcekey="lblAEPResource1"></asp:Label>
                 </HeaderTemplate>
                 <ContentTemplate>
                     <p class="sfNote">
-                        <asp:Label ID="lblBasicSettingsHelp1" runat="server" Text="In this section, you can add/edit portal details in your system." meta:resourcekey="lblBasicSettingsHelp1Resource1"></asp:Label>
+                        <asp:Label ID="lblBasicSettingsHelp1" runat="server" Text="In this section, you can add/edit portal details in your system."
+                            meta:resourcekey="lblBasicSettingsHelp1Resource1"></asp:Label>
                     </p>
                     <div>
                         <div id="tblPortalAddEdit" runat="server">
@@ -62,27 +62,30 @@
                                                 ControlToValidate="txtEmail" Display="Dynamic" ValidationGroup="PortalManagement"
                                                 ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                                         </td>
-                                        <td id="Td3" runat="server">&nbsp;
+                                        <td id="Td3" runat="server">
+                                            &nbsp;
                                         </td>
                                     </tr>
                                     <tr id="Tr1" runat="server">
                                         <td id="Td4" width="20%" runat="server">
-                                            <asp:Label ID="lblPortalName" runat="server" CssClass="sfFormlabel" Text="Portal Name"></asp:Label>
+                                            <asp:Label ID="lblPortalName" runat="server" CssClass="sfFormlabel" Text="Portal Name"
+                                                meta:resourcekey="lblPortalNameResource1"></asp:Label>
                                         </td>
                                         <td id="Td5" runat="server">
-                                            <asp:TextBox ID="txtPortalName" runat="server" CssClass="sfInputbox"
+                                            <asp:TextBox ID="txtPortalName" runat="server" CssClass="sfInputbox" meta:resourcekey="txtPortalNameResource1"
                                                 MaxLength="20"></asp:TextBox>
                                             <asp:Label runat="server" ID="lblDefaultPortal"></asp:Label>
                                             <asp:RequiredFieldValidator ID="rfvPortalName" runat="server" Display="Dynamic" ErrorMessage="Portal Name is required!"
                                                 ControlToValidate="txtPortalName" ValidationGroup="PortalManagement"></asp:RequiredFieldValidator>
                                             <asp:RegularExpressionValidator ID="revPortalName" runat="server" ErrorMessage="Please enter only letter and numeric characters"
                                                 ControlToValidate="txtPortalName" ValidationExpression="^([a-zA-Z0-9_\s\-]*)$"
-                                                ValidationGroup="PortalManagement" Display="Dynamic"></asp:RegularExpressionValidator>
+                                                ValidationGroup="PortalManagement" Display="Dynamic" meta:resourcekey="revPortalNameResource1"></asp:RegularExpressionValidator>
                                             <asp:RegularExpressionValidator ID="rfvPortalNameSpace" runat="server" ControlToValidate="txtPortalName"
                                                 ValidationGroup="PortalManagement" ErrorMessage="Spaces are not allowed!" ValidationExpression="[^\s]+"
                                                 Display="Dynamic" />
                                         </td>
-                                        <td id="Td6" runat="server">&nbsp;
+                                        <td id="Td6" runat="server">
+                                            &nbsp;
                                         </td>
                                     </tr>
                                     <tr id="Tr2" runat="server">
@@ -109,10 +112,12 @@
                     <div class="sfButtonwrapper">
                         <label class="sfLocale icon-save sfBtn">
                             Save
-                            <asp:Button ID="imgSave" runat="server" OnClick="imgSave_Click" ValidationGroup="PortalManagement" meta:resourcekey="imgSaveResource1" /></label>
+                            <asp:Button ID="imgSave" runat="server" OnClick="imgSave_Click" ValidationGroup="PortalManagement"
+                                meta:resourcekey="imgSaveResource1" /></label>
                         <label class="sfLocale icon-close sfBtn">
                             Cancel
-                            <asp:Button ID="imgCancel" runat="server" CausesValidation="False" OnClick="imgCancel_Click" meta:resourcekey="imgCancelResource1" /></label>
+                            <asp:Button ID="imgCancel" runat="server" CausesValidation="False" OnClick="imgCancel_Click"
+                                meta:resourcekey="imgCancelResource1" /></label>
                     </div>
                 </ContentTemplate>
             </ajax:TabPanel>
@@ -122,8 +127,8 @@
                 </HeaderTemplate>
                 <ContentTemplate>
                     <p class="sfNote">
-                        <asp:Label ID="lblBasicSettingsHelp2" runat="server" Text="In this section, you can enable/disable portal modules in your the selected portal." meta:resourcekey="lblBasicSettingsHelp2Resource1"></asp:Label>
-                    </p>
+                        <asp:Label ID="lblBasicSettingsHelp2" runat="server" Text="In this section, you can enable/disable portal modules in your the selected portal."
+                            meta:resourcekey="lblBasicSettingsHelp2Resource1"></asp:Label></p>
                     <div>
                         <div id="tblPortalModulesManagement" runat="server">
                             <div class="sfGridwrapper" id="divPortalModulesLists">
@@ -131,43 +136,37 @@
                                     AllowPaging="True" GridLines="None" Width="100%" EmptyDataText="Portal Modules not found"
                                     PageSize="20" OnPageIndexChanging="gdvPortalModulesLists_PageIndexChanging" OnRowCommand="gdvPortalModulesLists_RowCommand"
                                     OnRowDataBound="gdvPortalModulesLists_RowDataBound" OnRowDeleting="gdvPortalModulesLists_RowDeleting"
-                                    OnRowEditing="gdvPortalModulesLists_RowEditing" OnRowUpdating="gdvPortalModulesLists_RowUpdating" meta:resourcekey="gdvPortalModulesListsResource1">
+                                    OnRowEditing="gdvPortalModulesLists_RowEditing" OnRowUpdating="gdvPortalModulesLists_RowUpdating"
+                                    meta:resourcekey="gdvPortalModulesListsResource1">
                                     <AlternatingRowStyle CssClass="sfEven" />
                                     <Columns>
-                                        <asp:TemplateField HeaderText="ModuleName" meta:resourcekey="TemplateFieldResource1">
+                                        <asp:TemplateField HeaderText="ModuleName" meta:resourceKey="TemplateFieldResource1">
                                             <ItemTemplate>
                                                 <asp:HiddenField ID="hdnIsAdmin" runat="server" Value='<%# Eval("IsAdmin") %>' />
                                                 <asp:HiddenField ID="hdnModuleID" runat="server" Value='<%# Eval("ModuleID") %>' />
-                                                <asp:Label ID="lblModuleName" runat="server" CssClass="sfFormlabel" Text='<%# Eval("FriendlyName") %>' meta:resourcekey="lblModuleNameResource1"></asp:Label>
+                                                <asp:Label ID="lblModuleName" runat="server" CssClass="sfFormlabel" meta:resourceKey="lblModuleNameResource1" Text='<%# Eval("FriendlyName") %>'></asp:Label>
                                             </ItemTemplate>
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="Description" meta:resourcekey="TemplateFieldResource2">
+                                        <asp:TemplateField HeaderText="Description" meta:resourceKey="TemplateFieldResource2">
                                             <ItemTemplate>
-                                                <asp:Label ID="lblDescription" runat="server" Text='<%# Eval("Description") %>' meta:resourcekey="lblDescriptionResource1"></asp:Label>
+                                                <asp:Label ID="lblDescription" runat="server" meta:resourceKey="lblDescriptionResource1" Text='<%# Eval("Description") %>'></asp:Label>
                                             </ItemTemplate>
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="Version" meta:resourcekey="TemplateFieldResource3">
+                                        <asp:TemplateField HeaderText="Version" meta:resourceKey="TemplateFieldResource3">
                                             <ItemTemplate>
-                                                <asp:Label ID="lblVersion" runat="server" Text='<%# Eval("Version") %>' meta:resourcekey="lblVersionResource1"></asp:Label>
+                                                <asp:Label ID="lblVersion" runat="server" meta:resourceKey="lblVersionResource1" Text='<%# Eval("Version") %>'></asp:Label>
                                             </ItemTemplate>
                                         </asp:TemplateField>
-                                        <asp:TemplateField meta:resourcekey="TemplateFieldResource4">
+                                        <asp:TemplateField meta:resourceKey="TemplateFieldResource4">
                                             <HeaderTemplate>
-                                                <input id="chkBoxIsActiveHeader" runat="server" class="cssCheckBoxIsActiveHeader" type="checkbox"></input>
+                                                <input id="chkBoxIsActiveHeader" runat="server" class="cssCheckBoxIsActiveHeader" type="checkbox"></input> </input>
                                                 </input>
                                                 </input>
-                                                </input>
-                                                </input>
-                                                </input>
-                                                </input>
-                                                <asp:Label ID="lblIsActive" runat="server" Text="Active" meta:resourcekey="lblIsActiveResource1"></asp:Label>
+                                                <asp:Label ID="lblIsActive" runat="server" meta:resourceKey="lblIsActiveResource1" Text="Active"></asp:Label>
                                             </HeaderTemplate>
                                             <ItemTemplate>
                                                 <asp:HiddenField ID="hdnIsActive" runat="server" Value='<%# Eval("IsPortalModuleActive") %>' />
                                                 <input id="chkBoxIsActiveItem" runat="server" class="cssCheckBoxIsActiveItem" type="checkbox"></input>
-                                            </input>
-                                            </input>
-                                            </input>
                                             </input>
                                             </ItemTemplate>
                                             <HeaderStyle CssClass="cssClassColumnIsActive" />
@@ -181,10 +180,12 @@
                             <div class="sfButtonwrapper">
                                 <label class="sfLocale icon-save sfBtn">
                                     Save Changes
-                                    <asp:Button ID="imbBtnSaveChanges" runat="server" ToolTip="Save changes" OnClick="imbBtnSaveChanges_Click" meta:resourcekey="imbBtnSaveChangesResource1" /></label>
+                                    <asp:Button ID="imbBtnSaveChanges" runat="server" ToolTip="Save changes" OnClick="imbBtnSaveChanges_Click"
+                                        meta:resourcekey="imbBtnSaveChangesResource1" /></label>
                                 <label class="sfLocale icon-close sfBtn">
                                     Cancel
-                                    <asp:Button ID="imgCancelList" runat="server" CausesValidation="False" OnClick="imgCancel_Click" meta:resourcekey="imgCancelListResource1" /></label>
+                                    <asp:Button ID="imgCancelList" runat="server" CausesValidation="False" OnClick="imgCancel_Click"
+                                        meta:resourcekey="imgCancelListResource1" /></label>
                             </div>
                         </div>
                     </div>
@@ -196,7 +197,8 @@
         <div class="sfButtonwrapper">
             <label class="icon-addnew sfBtn">
                 Add Portal
-                <asp:Button ID="imgAdd" runat="server" CausesValidation="False" OnClick="imgAdd_Click" meta:resourcekey="imgAddResource1" /></label>
+                <asp:Button ID="imgAdd" runat="server" CausesValidation="False" OnClick="imgAdd_Click"
+                    meta:resourcekey="imgAddResource1" /></label>
         </div>
         <div class="sfGridwrapper">
             <asp:GridView ID="gdvPortal" runat="server" AutoGenerateColumns="False" Width="100%"
@@ -204,40 +206,40 @@
                 OnRowDataBound="gdvPortal_RowDataBound" meta:resourcekey="gdvPortalResource1">
                 <AlternatingRowStyle CssClass="sfEven" />
                 <Columns>
-                    <asp:TemplateField HeaderText="Portal Title" meta:resourcekey="TemplateFieldResource5">
+                    <asp:TemplateField HeaderText="Portal Title" meta:resourceKey="TemplateFieldResource5">
                         <ItemTemplate>
-                            <asp:LinkButton ID="lnkUsername" runat="server" CommandArgument="<%# Container.DataItemIndex %>" CommandName="EditPortal" Text='<%# Eval("Name") %>' meta:resourcekey="lnkUsernameResource1"></asp:LinkButton>
+                            <asp:LinkButton ID="lnkUsername" runat="server" CommandArgument="<%# Container.DataItemIndex %>" CommandName="EditPortal" meta:resourceKey="lnkUsernameResource1" Text='<%# Eval("Name") %>'></asp:LinkButton>
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:TemplateField HeaderText=" Parent Portal" meta:resourcekey="TemplateFieldResource6">
                         <ItemTemplate>
-                            <asp:Label ID="lblParentportal" runat="server" Text='<%# Eval("ParentPortalName") %>' meta:resourcekey="lblParentportalResource1"></asp:Label>
+                            <asp:Label ID="lblParentportal" runat="server" meta:resourceKey="lblDefaultPageResource1" Text='<%# Eval("ParentPortalName") %>'></asp:Label>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField HeaderText=" Start Up Page" meta:resourcekey="TemplateFieldResource7">
+                    <asp:TemplateField HeaderText=" Start Up Page" meta:resourceKey="TemplateFieldResource6">
                         <ItemTemplate>
-                            <asp:Label ID="lblDefaultPage" runat="server" Text='<%# Eval("DefaultPage") %>' meta:resourcekey="lblDefaultPageResource1"></asp:Label>
+                            <asp:Label ID="lblDefaultPage" runat="server" meta:resourceKey="lblDefaultPageResource1" Text='<%# Eval("DefaultPage") %>'></asp:Label>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField meta:resourcekey="TemplateFieldResource8">
+                    <asp:TemplateField meta:resourceKey="TemplateFieldResource7">
                         <ItemTemplate>
                             <asp:HiddenField ID="hdnPortalID" runat="server" Value='<%# Eval("PortalID") %>' />
                             <asp:HiddenField ID="hdnIsParent" runat="server" Value='<%# Eval("IsParent") %>' />
                             <asp:HiddenField ID="hdnSEOName" runat="server" Value='<%# Eval("SEOName") %>' />
                             <asp:HiddenField ID="hdnParentPortalName" runat="server" Value='<%# Eval("ParentPortalName") %>' />
-                            <asp:HyperLink ID="hypPortalPreview" runat="server" CssClass="icon-preview" Target="_blank" meta:resourcekey="hypPortalPreviewResource1"></asp:HyperLink>
+                            <asp:HyperLink ID="hypPortalPreview" runat="server" CssClass="icon-preview" meta:resourceKey="hypPortalPreviewResource1" Target="_blank"></asp:HyperLink>
                         </ItemTemplate>
                         <HeaderStyle CssClass="sfPreview" />
                     </asp:TemplateField>
-                    <asp:TemplateField meta:resourcekey="TemplateFieldResource9">
+                    <asp:TemplateField meta:resourceKey="TemplateFieldResource8">
                         <ItemTemplate>
-                            <asp:LinkButton ID="imgEdit" runat="server" CausesValidation="False" CommandArgument="<%# Container.DataItemIndex %>" CommandName="EditPortal" CssClass="icon-edit" ToolTip="Edit Portal" meta:resourcekey="imgEditResource1"></asp:LinkButton>
+                            <asp:LinkButton ID="imgEdit" runat="server" CausesValidation="False" CommandArgument="<%# Container.DataItemIndex %>" CommandName="EditPortal" CssClass="icon-edit" meta:resourceKey="imgEditResource1" ToolTip="Edit Portal"></asp:LinkButton>
                         </ItemTemplate>
                         <HeaderStyle CssClass="sfEdit" />
                     </asp:TemplateField>
-                    <asp:TemplateField meta:resourcekey="TemplateFieldResource10">
+                    <asp:TemplateField meta:resourceKey="TemplateFieldResource9">
                         <ItemTemplate>
-                            <asp:LinkButton ID="imgDelete" runat="server" CausesValidation="False" CommandArgument="<%# Container.DataItemIndex %>" CommandName="DeletePortal" CssClass="icon-delete" OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete this portal?');" ToolTip="Delete the portal" meta:resourcekey="imgDeleteResource1"></asp:LinkButton>
+                            <asp:LinkButton ID="imgDelete" runat="server" CausesValidation="False" CommandArgument="<%# Container.DataItemIndex %>" CommandName="DeletePortal" CssClass="icon-delete" meta:resourceKey="imgDeleteResource1" OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete this portal?');" ToolTip="Delete the portal"></asp:LinkButton>
                         </ItemTemplate>
                         <HeaderStyle CssClass="sfDelete" />
                     </asp:TemplateField>

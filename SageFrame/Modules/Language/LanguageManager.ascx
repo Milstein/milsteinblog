@@ -23,9 +23,9 @@
         ID: 0,
         GridID: '<%=gdvResxKeyValue.ClientID%>'
     };
-    $(function () {
-        $(document).on('click', "#" + $.Localization.GridID + ' .sfEdit', function (e) {
-            $('#txtResxValueEditor').ckeditor("config");
+    $(function() {
+        $(document).on('click', "#" + $.Localization.GridID + ' .sfEdit', function(e) {
+		 $('#txtResxValueEditor').ckeditor("config");
             var index = $(this).attr("value");
             $.Localization.ID = index;
             var data = $('#' + $.Localization.GridID + ' textarea[title=' + index + ']').val();
@@ -33,22 +33,22 @@
             ShowPopUp("editorDiv");
             e.preventDefault();
         });
-
+       
         BindEvents();
     });
     function BindEvents() {
-        $('#fade').click(function () {
+        $('#fade').click(function() {
             $('#fade,#editorDiv,#translatorDiv,#divMessagePopUp,#divConfirmPopUp').fadeOut();
         });
-        $('#btnCloseFB').bind("click", function () {
+        $('#btnCloseFB').bind("click", function() {
             var id = $.Localization.ID;
             $('#' + $.Localization.GridID + ' textarea[title="' + id + '"]').val($('#txtResxValueEditor').val());
             $('#editorDiv').dialog("close");
         });
-        $('.closePopUp').bind("click", function () {
+        $('.closePopUp').bind("click", function() {
             $('#fade,#editorDiv,#translatorDiv,#divMessagePopUp,#divConfirmPopUp').fadeOut();
         });
-        $('#btnSave').bind("click", function () {
+        $('#btnSave').bind("click", function() {
             var id = $.Localization.ID;
             $('#' + $.Localization.GridID + ' textarea[title="' + id + '"]').val($('#translatedTxt').val());
             $('#translatorDiv,#fade').fadeOut();
@@ -68,7 +68,7 @@
         dlg.parent().appendTo($('form:first'));
     }
     //]]>	
-
+       
 </script>
 
 <div id="divActivityIndicator">
@@ -85,20 +85,22 @@
     <table cellpadding="0" cellspacing="0" width="100%">
         <tr>
             <td width="10%">
-                <asp:Label ID="lblSysDefault" runat="server" Text="System Default" CssClass="sfFormlabel" meta:resourcekey="lblSysDefaultResource1"></asp:Label>
+                <asp:Label ID="lblSysDefault" runat="server" Text="System Default" CssClass="sfFormlabel"
+                    meta:resourcekey="lblSysDefaultResource1"></asp:Label>
             </td>
             <td>
-                <asp:Image ID="imgFlagSystemDefault" runat="server" meta:resourcekey="imgFlagSystemDefaultResource1" />
+                <asp:Image ID="imgFlagSystemDefault" runat="server" meta:resourcekey="imgFlagSystemDefaultResource2" />
                 <asp:Label ID="lblSystemDefault" runat="server" meta:resourcekey="lblSystemDefaultResource1"></asp:Label>
             </td>
         </tr>
         <tr>
             <td>
-                <asp:Label ID="lblCurrentCultureLbl" runat="server" Text="Current Culture" CssClass="sfFormlabel" meta:resourcekey="lblCurrentCultureLblResource1"></asp:Label>
+                <asp:Label ID="lblCurrentCultureLbl" runat="server" Text="Current Culture" CssClass="sfFormlabel"
+                    meta:resourcekey="lblCurrentCultureLblResource1"></asp:Label>
             </td>
             <td>
                 <asp:Image ID="imgFlagCurrentCulture" runat="server" meta:resourcekey="imgFlagCurrentCultureResource1" />
-                <asp:Label ID="lblCurrentCulture" runat="server" meta:resourcekey="lblCurrentCultureResource1"></asp:Label>
+                <asp:Label ID="lblCurrentCulture" runat="server" meta:resourcekey="lblSiteDefaultResource1"></asp:Label>
             </td>
         </tr>
     </table>
@@ -113,7 +115,8 @@
         </label>
         <label class="icon-package sfBtn sfLocale">
             Create Language Pack
-            <asp:Button ID="imbCreateLangPack" runat="server" OnClick="imbCreateLangPack_Click" meta:resourcekey="imbCreateLangPackResource1" />
+            <asp:Button ID="imbCreateLangPack" runat="server" OnClick="imbCreateLangPack_Click"
+                meta:resourcekey="imbCreateLangPackResource1" />
         </label>
         <label class="icon-time sfBtn sfLocale" time zone editor>
             Time Zone Editor
@@ -121,8 +124,8 @@
         </label>
         <label class="icon-menu sfBtn sfLocale">
             Localize Menu
-            <asp:Button ID="imbLocalizeMenu" OnClick="imbLocalizeMenu_Click" runat="server"
-                Style="width: 14px;" meta:resourcekey="imbLocalizeMenuResource1" />
+            <asp:Button ID="imbLocalizeMenu" OnClick="imbLocalizeMenu_Click" runat="server" meta:resourcekey="imbEditTimeZoneResource1"
+                Style="width: 14px;" />
         </label>
         <label class="icon-menu sfBtn sfLocale">
             Localize Module Title
@@ -136,11 +139,11 @@
                 <tr>
                     <td>
                         <p class="sfNote">
-                            <i class="icon-info"></i>The default site language cannot be disabled
-                        </p>
+                            <i class="icon-info"></i>The default site language cannot be disabled</p>
                     </td>
                     <td class="sfTxtAlignRgt">
-                        <asp:Label ID="lblPageSize" runat="server" Text="Show Rows:" CssClass="sfFormlabel" meta:resourcekey="lblPageSizeResource1"></asp:Label>
+                        <asp:Label ID="lblPageSize" runat="server" Text="Show Rows:" CssClass="sfFormlabel"
+                            meta:resourcekey="lblPageSizeResource1"></asp:Label>
                     </td>
                     <td width="50px;" class="sfTxtAlignRgt">
                         <asp:DropDownList ID="ddlPageSize" runat="server" CssClass="sfListmenu sfAuto" AutoPostBack="True"
@@ -154,12 +157,12 @@
     <div class="sfGridwrapper sfPadding">
         <asp:GridView ID="gdvLangList" runat="server" GridLines="None" AllowPaging="True"
             Width="100%" AutoGenerateColumns="False" OnRowCommand="gdvLangList_RowCommand"
-            OnRowDataBound="gdvLangList_RowDataBound"
-            OnPageIndexChanging="gdvLangList_PageIndexChanging" DataKeyNames="LanguageID" meta:resourcekey="gdvLangListResource1">
+            OnRowDataBound="gdvLangList_RowDataBound" meta:resourcekey="gdvLangListResource1"
+            OnPageIndexChanging="gdvLangList_PageIndexChanging" DataKeyNames="LanguageID">
             <Columns>
                 <asp:TemplateField HeaderText="Language" meta:resourcekey="TemplateFieldResource1">
                     <ItemTemplate>
-                        <asp:Image ID="imgFlag" runat="server" meta:resourcekey="imgFlagResource1" />
+                        <asp:Image ID="imgFlag" runat="server" meta:resourcekey="imgFlagResource2" />
                         <span class="cssClassLangName">
                             <asp:Label ID="lblLanguageName" runat="server" Text='<%# Eval("LanguageN") %>' meta:resourcekey="lblLanguageNameResource1"></asp:Label>
                         </span><span class="cssClassCountry">(
@@ -167,11 +170,12 @@
                             ) </span>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:BoundField DataField="LanguageCode" HeaderText="Code" meta:resourcekey="BoundFieldResource1"></asp:BoundField>
+                <asp:BoundField DataField="LanguageCode" HeaderText="Code" meta:resourcekey="BoundFieldResource1">
+                </asp:BoundField>
                 <asp:TemplateField HeaderText="Enabled" meta:resourcekey="TemplateFieldResource2">
                     <ItemTemplate>
-                        <asp:CheckBox ID="chkIsEnabled" runat="server"
-                            OnCheckedChanged="chkIsEnabled_CheckedChanged" AutoPostBack="True" meta:resourcekey="chkIsEnabledResource1" />
+                        <asp:CheckBox ID="chkIsEnabled" runat="server" meta:resourcekey="chkIsEnabledResource2"
+                            OnCheckedChanged="chkIsEnabled_CheckedChanged" AutoPostBack="True" />
                     </ItemTemplate>
                     <ItemStyle HorizontalAlign="Center" />
                     <HeaderStyle CssClass="sfEnable" />
@@ -189,7 +193,7 @@
                     <ItemTemplate>
                         <asp:LinkButton ID="btnLanguageDelete" runat="server" CssClass="icon-delete" CommandName="DeleteResources"
                             OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete the language?');"
-                            CommandArgument='<%# Container.DataItemIndex %>' meta:resourcekey="btnLanguageDeleteResource1" />
+                            CommandArgument='<%# Container.DataItemIndex %>' meta:resourcekey="btnLanguageDelResource1" />
                     </ItemTemplate>
                     <ItemStyle HorizontalAlign="Center" />
                     <HeaderStyle CssClass="sfDelete" />
@@ -206,11 +210,13 @@
     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
         <ContentTemplate>
             <h1>
-                <asp:Label ID="lblLanguageResourceEditor" runat="server" Text="Language Resource Editor" meta:resourcekey="lblLanguageResourceEditorResource1"></asp:Label>
+                <asp:Label ID="lblLanguageResourceEditor" runat="server" Text="Language Resource Editor"
+                    meta:resourcekey="lblLanguageResourceEditorResource1"></asp:Label>
             </h1>
             <div class="sfFormwrapper sfPadding">
                 <div class="sfTreeview">
-                    <asp:TreeView ID="tvList" ShowLines="True" runat="server" ImageSet="Msdn" OnSelectedNodeChanged="tvList_SelectedNodeChanged" meta:resourcekey="tvListResource1">
+                    <asp:TreeView ID="tvList" ShowLines="True" runat="server" ImageSet="Msdn" OnSelectedNodeChanged="tvList_SelectedNodeChanged"
+                        meta:resourcekey="tvListResource1">
                         <SelectedNodeStyle CssClass="sfSelectednode" />
                     </asp:TreeView>
                 </div>
@@ -246,18 +252,19 @@
                                 </td>
                             </tr>
                         </table>
-
+                        
                     </div>
                     <div class="sfButtonWrapper sfTableOption clearfix">
-                        <label class="sfLocale icon-delete sfBtn sfFloatRight">
-                            Delete File
-                        <asp:ImageButton ID="imbDeleteResxFile" runat="server" OnClick="imbDeleteResxFile_Click" meta:resourcekey="imbDeleteResxFileResource1" />
-                        </label>
-                        <label class="sfLocale icon-save sfBtn sfFloatRight">
-                            Save
+                     <label class="sfLocale icon-delete sfBtn sfFloatRight">
+                        Delete File
+                        <asp:ImageButton ID="imbDeleteResxFile" runat="server" OnClick="imbDeleteResxFile_Click"
+                            meta:resourcekey="imbDeleteResxFileResource1" />
+                    </label>
+                    <label class="sfLocale icon-save sfBtn sfFloatRight">
+                        Save
                         <asp:Button ID="imbUpdate" runat="server" OnClick="imbUpdate_Click" meta:resourcekey="imbUpdateResource1" />
-                        </label>
-
+                    </label>                   
+                   
                     </div>
                     <div class="sfGridwrapper">
                         <asp:GridView ID="gdvResxKeyValue" runat="server" Width="100%" AutoGenerateColumns="False"
@@ -297,11 +304,11 @@
                     <asp:Label ID="lblScriptRunner" runat="server" meta:resourcekey="lblScriptRunnerResource1"></asp:Label>
                 </div>
                 <div class="sfButtonwrapper" id="controlButtons" runat="server">
-                    <label class="sfLocale icon-arrow-slimdouble-w sfBtn" style="margin-left: 20px;">
+                <label class="sfLocale icon-arrow-slimdouble-w sfBtn" style="margin-left:20px;">
                         Back
                         <asp:Button ID="imbCancel" runat="server" OnClick="imbCancel_Click" meta:resourcekey="imbCancelResource1" />
                     </label>
-
+                    
                 </div>
                 <div class="clear">
                 </div>

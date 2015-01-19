@@ -182,7 +182,7 @@
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <td width="150">
-                                <asp:Label ID="lblReadMorePageType" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblReadMorePageTypeResource1" Text="Read More Page Type"></asp:Label>
+                                <asp:Label ID="lblReadMorePageType" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblReadMorePageTypeResource1">Read More Page Type</asp:Label>
                             </td>
                             <td width="30">
                                 :
@@ -190,14 +190,14 @@
                             <td>
                                 <asp:RadioButtonList ID="rdbReadMorePageType" runat="server" CssClass="sfRadiobutton"
                                     onclick="GetRadioButtonListSelectedValue(this);" RepeatDirection="Horizontal" meta:resourcekey="rdbReadMorePageTypeResource1">
-                                    <asp:ListItem Value="0" Selected="True" meta:resourcekey="ListItemResource1" Text="Page"></asp:ListItem>
-                                    <asp:ListItem Value="1" meta:resourcekey="ListItemResource2" Text="Web Url"></asp:ListItem>
+                                    <asp:ListItem Value="0" Selected="True" meta:resourcekey="ListItemResource1">Page</asp:ListItem>
+                                    <asp:ListItem Value="1" meta:resourcekey="ListItemResource2">Web Url</asp:ListItem>
                                 </asp:RadioButtonList>
                             </td>
                         </tr>
                         <tr id="trddlPagesLoad">
                             <td>
-                                <asp:Label ID="lblReadMorePages" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblReadMorePagesResource1" Text="Redirect To:"></asp:Label>
+                                <asp:Label ID="lblReadMorePages" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblReadMorePagesResource1">Redirect To:</asp:Label>
                             </td>
                             <td width="30">
                                 :
@@ -209,18 +209,18 @@
                         </tr>
                         <tr id="trtxtWebUrl" style="display: none;">
                             <td>
-                                <asp:Label ID="lblWebUrl" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblWebUrlResource1" Text="Web Link"></asp:Label>
+                                <asp:Label ID="lblWebUrl" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblWebUrlResource1">Web Link</asp:Label>
                             </td>
                             <td width="30">
                                 :
                             </td>
                             <td>
-                                <asp:TextBox ID="txtWebUrl" runat="server" CssClass="sfInputbox" meta:resourcekey="txtWebUrlResource1" Text="http://"></asp:TextBox>
+                                <asp:TextBox ID="txtWebUrl" runat="server" CssClass="sfInputbox" meta:resourcekey="txtWebUrlResource1">http://</asp:TextBox>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <asp:Label ID="lblChooseFile" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblChooseFileResource1" Text="Choose Image"></asp:Label>
+                                <asp:Label ID="lblChooseFile" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblChooseFileResource1">Choose Image</asp:Label>
                             </td>
                             <td width="30">
                                 :
@@ -240,7 +240,7 @@
                         </tr>
                         <tr style="display: none">
                             <td>
-                                <asp:Label ID="lblCaptionDetail" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblCaptionDetailResource1" Text="Caption"></asp:Label>
+                                <asp:Label ID="lblCaptionDetail" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblCaptionDetailResource1">Caption</asp:Label>
                             </td>
                             <td width="30">
                                 :
@@ -251,7 +251,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <asp:Label ID="lblReadButtonText" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblReadButtonTextResource1" Text="Read Button Text"></asp:Label>
+                                <asp:Label ID="lblReadButtonText" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblReadButtonTextResource1">Read Button Text</asp:Label>
                             </td>
                             <td width="30">
                                 :
@@ -270,7 +270,7 @@
                             </td>
                             <td valign="top">
                                 <CKEditor:CKEditorControl ID="txtBannerDescriptionToBeShown" runat="server" Height="150px"
-                                    TextMode="MultiLine" Width="" meta:resourcekey="txtBannerDescriptionToBeShownResource1" TextMode="MultiLine"></CKEditor:CKEditorControl>
+                                    Width="" meta:resourcekey="txtBannerDescriptionToBeShownResource1" TextMode="MultiLine"></CKEditor:CKEditorControl>
                             </td>
                         </tr>
                         <tr>

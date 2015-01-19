@@ -2,7 +2,7 @@
     EnableViewState="false" %>
 <%@ Register Src="~/Controls/LoginStatus.ascx" TagName="LoginStatus" TagPrefix="uc1" %>
 <script type="text/javascript">
-    $(function () {
+    $(function() {
         $(".sfLocalee").SystemLocalize();
     });
 </script>
@@ -21,11 +21,11 @@
                 <li class="sfWelcomeMsg">
                     <asp:Label ID="lblWelcomeMsg" Text="Welcome" runat="server" meta:resourcekey="lblWelcomeMsgResource1"></asp:Label>
                 </li>
-                <%-- <li class="sfWelcomeMsg">
-                    <asp:Label ID="lblWelcomeMsgSignIN" runat="server" ></asp:Label>
+               <%-- <li class="sfWelcomeMsg">
+                    <asp:Label ID="lblWelcomeMsgSignIN" runat="server" meta:resourcekey="lblWelcomeMsgSignINResource1"></asp:Label>
                 </li>--%>
                 <%--<li>
-                    <asp:Label ID="lblProfileURL" runat="server" ></asp:Label>
+                    <asp:Label ID="lblProfileURL" runat="server" meta:resourcekey="lblProfileURLResource1"></asp:Label>
                 </li>
                 <li class="sfLoggedOut">
                     <uc1:LoginStatus ID="LoginStatus2" runat="server" EnableViewState="False" />

@@ -144,12 +144,6 @@
   <data name="lblDownLoadPathLabelResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblLanguagePackCreatorResource1.Text" xml:space="preserve">
-    <value>Language Pack Creator</value>
-  </data>
-  <data name="lblLanguagePackCreatorResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblModuleNameResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
@@ -175,6 +169,12 @@
     <value>Select All</value>
   </data>
   <data name="lblSelectAllResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeZoneEditorResource1.Text" xml:space="preserve">
+    <value>Language Pack Creator</value>
+  </data>
+  <data name="lblTimeZoneEditorResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="ListItemResource1.Text" xml:space="preserve">

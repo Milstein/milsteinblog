@@ -31,5 +31,6 @@ var SystemLocale = {
 "Click here to UnSubscribe":"Clique aqui para cancelar a inscrição",
 "You are already a subscribed member":"Você já é membro subscrito",
 "Subscribed Successfully":"Inscrito com sucesso",
-"Invalid Email":"E-mail inválido"
+"Invalid Email":"E-mail inválido",
+"UnSubscribe": "unsubscribe"
 };

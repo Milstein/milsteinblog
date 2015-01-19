@@ -1,7 +1,7 @@
 var SystemLocale = {
 "Home":"घर",
 "CPANEL":"नियन्त्रण प्यानल",
-"Customize:":"अनुकूलित:",
+"Customize:":"अनुकुलित:",
 "Themes:":"थीम:",
 "Screen:":"पर्दा:",
 "Layouts:":"लेआउट:",
@@ -31,5 +31,6 @@ var SystemLocale = {
 "Click here to UnSubscribe":"सदस्यता खारेज गर्न यहाँ क्लिक गर्नुहोस्",
 "You are already a subscribed member":"तपाईं पहिले देखि नै एक सदस्यता प्राप्त सदस्य हुनुहुन्छ",
 "Subscribed Successfully":"सफलतापूर्वक सदस्यता ग्रहण भयो|",
-"Invalid Email":"अवैध इमेल!"
+"Invalid Email":"अवैध इमेल!",
+"UnSubscribe": "सदस्यता समाप्त"
 };

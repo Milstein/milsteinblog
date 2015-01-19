@@ -36,3 +36,4 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PaymentGateWay\bin\Relea
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PaymentGateWay\bin\Release\SageFrame.Common.pdb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PaymentGateWay\obj\Release\SageFrame.PaymentGateWay.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PaymentGateWay\obj\Release\SageFrame.PaymentGateWay.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PaymentGateWay\obj\Release\SageFrame.PaymentGateWay.csprojResolveAssemblyReference.cache

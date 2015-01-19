@@ -42,7 +42,7 @@
                 <asp:BoundField DataField="Role" HeaderText="Roles" meta:resourcekey="BoundFieldResource1" />
                 <asp:TemplateField meta:resourcekey="TemplateFieldResource1">
                     <ItemTemplate>
-                        <asp:LinkButton ID="imbDelete" runat="server" CausesValidation="False" CommandArgument="<%# Container.DataItemIndex %>" CommandName="Delete" CssClass="icon-delete" OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete this role?');" ToolTip="Delete the role" meta:resourcekey="imbDeleteResource1"></asp:LinkButton>
+                        <asp:LinkButton ID="imbDelete" runat="server" CausesValidation="False" CommandArgument="<%# Container.DataItemIndex %>" CommandName="Delete" CssClass="icon-delete" meta:resourcekey="imbDeleteResource1" OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete this role?');" ToolTip="Delete the role"></asp:LinkButton>
                     </ItemTemplate>
                     <HeaderStyle CssClass="sfDelete" />
                 </asp:TemplateField>

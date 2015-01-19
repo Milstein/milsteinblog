@@ -123,10 +123,10 @@
   <data name="addResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="btnCancelledResource1.Text" xml:space="preserve">
+  <data name="btnCancelResource2.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="btnCancelledResource1.ToolTip" xml:space="preserve">
+  <data name="btnCancelResource2.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="ddlFirstResource1.ToolTip" xml:space="preserve">

@@ -77,6 +77,6 @@ D:\SageFrameV3.1\SageFrame.layout\obj\Debug\SageFrame.layout.pdb
 D:\SageFrameV3.1\SageFrame.layout\obj\Debug\SageFrame.layout.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.layout.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.layout.pdb
-C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\obj\Debug\SageFrame.layout.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\obj\Debug\SageFrame.layout.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\obj\Debug\SageFrame.layout.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\obj\Debug\SageFrame.layout.csprojResolveAssemblyReference.cache

@@ -5,17 +5,17 @@
 </h1>
 <div class="clearfix">
     <div class="sfTemplatemanger clearfix">
-        <h3>Available Templates</h3>
+        <h3>
+            Available Templates</h3>
         <div class="sftype1 sfCreatetemplate sfTableOption">
             <div class="sfUploadTemplate">
                 <asp:Label ID="lblUploadTemp" CssClass="sfFormlabel" runat="server" meta:resourcekey="lblUploadTempResource1" Text="Upload Template"></asp:Label>
                 <asp:FileUpload ID="fupUploadTemp" runat="server" meta:resourcekey="fupUploadTempResource1" />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please Choose Template"
-                    CssClass="sfUploadError" ControlToValidate="fupUploadTemp" Display="Dynamic" ValidationGroup="rfvTemplate" meta:resourcekey="RequiredFieldValidator1Resource1"></asp:RequiredFieldValidator>
+                 CssClass="sfUploadError"   ControlToValidate="fupUploadTemp" Display="Dynamic" ValidationGroup="rfvTemplate" meta:resourcekey="RequiredFieldValidator1Resource1"></asp:RequiredFieldValidator>
                 <label class="sfLocale icon-upload sfBtn">
                     Upload
-                    <asp:Button ID="btnUpload" runat="server" OnClick="btnUpload_Click" ValidationGroup="rfvTemplate" meta:resourcekey="btnUploadResource1" /></label>
-            </div>
+                    <asp:Button ID="btnUpload" runat="server" OnClick="btnUpload_Click" ValidationGroup="rfvTemplate" meta:resourcekey="btnUploadResource1" /></label></div>
             <div id="sfCreateTemplate" style="display: none" class="clearfix sfFloatRight">
                 <input type="text" id="txtNewTemplate" class="sfInputbox" />
                 <input type="button" id="btnSaveTemplate" class="sfBtn" value="Ok" />
@@ -43,7 +43,8 @@
                                 <td width="15%">
                                     <span class="sfLabel">Template Name</span>
                                 </td>
-                                <td width="30">:
+                                <td width="30">
+                                    :
                                 </td>
                                 <td>
                                     <span class="sfValue" id="spnTemplateName"></span>
@@ -53,7 +54,8 @@
                                 <td>
                                     <span class="sfLabel">Template Author</span>
                                 </td>
-                                <td width="30">:
+                                <td width="30">
+                                    :
                                 </td>
                                 <td>
                                     <span class="sfValue" id="spnAuthor"></span>
@@ -63,7 +65,8 @@
                                 <td>
                                     <span class="sfLabel">Description</span>
                                 </td>
-                                <td width="30">:
+                                <td width="30">
+                                    :
                                 </td>
                                 <td>
                                     <span class="sfValue" id="spnDescription"></span>
@@ -73,7 +76,8 @@
                                 <td>
                                     <span class="sfLabel">Website</span>
                                 </td>
-                                <td width="30">:
+                                <td width="30">
+                                    :
                                 </td>
                                 <td>
                                     <span class="sfValue" id="spnWebsite"></span>
@@ -91,17 +95,20 @@
                 <div id="divMsgTemplate">
                 </div>
                 <div class="sfGridwrapper sfFormwrapper">
-                    <h2>Layouts</h2>
+                    <h2>
+                        Layouts</h2>
                     <div id="activeLayoutList">
                     </div>
                     <div class="sfHolder clearfix">
                         <div class="sfTheme">
-                            <h2>Select Themes</h2>
+                            <h2>
+                                Select Themes</h2>
                             <div id="activeThemeList" class="clearfix">
                             </div>
                         </div>
                         <div class="sfScreen">
-                            <h2>Select Screen</h2>
+                            <h2>
+                                Select Screen</h2>
                             <div id="activeWidthList" class="clearfix">
                                 <ul>
                                     <li class="sfCurve">Wide</li>
@@ -157,8 +164,7 @@
         </div>
         <div class="layoutEditor" id="addPlaceHolder">
             <div class="sflayoutbuilderhead">
-                Create Layout Markup
-            </div>
+                Create Layout Markup</div>
             <div class="sfFormwrapper sfBuilder">
                 <%--<table width="100%" border="0" cellspacing="0" cellpadding="0" >
                     <tr>
@@ -250,8 +256,7 @@
                                 <div id="wrapPreview" class="sfWrappreview">
                                 </div>
                                 &lt;/wrappers&gt;
-                                <img src="/Administrator/Templates/Default/images/copy.png" />
-                            </div>
+                                <img src="/Administrator/Templates/Default/images/copy.png" /></div>
                         </td>
                     </tr>
                 </table>
@@ -332,7 +337,7 @@
 
 <script type="text/javascript">
 
-    $(function () {
+    $(function() {
         $(this).LayoutManager({
             PortalID: '<%=PortalID%>',
             AppPath: '<%=appPath%>',

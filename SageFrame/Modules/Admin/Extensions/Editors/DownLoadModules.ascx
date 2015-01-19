@@ -37,7 +37,8 @@
     <%--<div runat="server" id="progressBar" visible="false">
         Please wait.
     </div>--%>
-    <h3>Choose Module to install.
+    <h3>
+        Choose Module to install.
     </h3>
     <div class="cssClassFormWrapper cssClassControlDiv curve">
         <div class="sfSearchWrapper">
@@ -106,16 +107,18 @@
                 <label class="icon-close sfBtn">
                     Cancel
                     <asp:Button ID="CancelButton" runat="server" AlternateText="Cancel" CausesValidation="False"
-                        CommandName="Cancel" meta:resourcekey="CancelButtonResource2" />
+                        CommandName="Cancel" meta:resourcekey="CancelButtonResource1" />
                 </label>
             </div>
         </StartNavigationTemplate>
         <WizardSteps>
-            <asp:WizardStep ID="Step0" runat="Server" Title="Introduction" StepType="Start" AllowReturn="false" meta:resourcekey="Step0Resource1">
+            <asp:WizardStep ID="Step0" runat="Server" Title="Introduction" StepType="Start" AllowReturn="false"
+                meta:resourcekey="Step0Resource1">
                 <table cellspacing="0" cellpadding="0" border="0" width="100%">
                     <tr>
                         <td>
-                            <asp:Label ID="lblBrowseFileHelp" runat="server" Text="Down load successfully,  click Next to continue." meta:resourcekey="lblBrowseFileHelpResource1"> </asp:Label>
+                            <asp:Label ID="lblBrowseFileHelp" runat="server" Text="Down load successfully,  click Next to continue."
+                                meta:resourcekey="lblBrowseFileHelpResource1"> </asp:Label>
                         </td>
                     </tr>
                     <tr>
@@ -125,17 +128,22 @@
                     </tr>
                 </table>
             </asp:WizardStep>
-            <asp:WizardStep ID="Step1" runat="server" Title="Warnings" StepType="Step" AllowReturn="false" meta:resourcekey="Step1Resource1">
-                <asp:Label ID="lblWarningMessage" runat="server" CssClass="sfError" EnableViewState="False" meta:resourcekey="lblWarningMessageResource1" />
+            <asp:WizardStep ID="Step1" runat="server" Title="Warnings" StepType="Step" AllowReturn="false"
+                meta:resourcekey="Step1Resource1">
+                <asp:Label ID="lblWarningMessage" runat="server" CssClass="sfError" EnableViewState="False"
+                    meta:resourcekey="lblWarningMessageResource1" />
                 <asp:Panel ID="pnlRepair" runat="server" Visible="true" meta:resourcekey="pnlRepairResource1">
-                    <asp:Label ID="lblRepairInstallHelp" runat="server" Text="Repair Install the previous installed Module overwrite all database and files contents." meta:resourcekey="lblRepairInstallHelpResource1" />
+                    <asp:Label ID="lblRepairInstallHelp" runat="server" Text="Repair Install the previous installed Module overwrite all database and files contents."
+                        meta:resourcekey="lblRepairInstallHelpResource1" />
                     <asp:CheckBox ID="chkRepairInstall" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkRepairInstallResource1" />
                 </asp:Panel>
             </asp:WizardStep>
-            <asp:WizardStep ID="Step2" runat="Server" Title="PackageInfo" StepType="Step" AllowReturn="false" meta:resourcekey="Step2Resource1">
-                <asp:Panel ID="pnlPackage" runat="server"
-                    CssClass="sfGridwrapper" meta:resourcekey="pnlPackageResource1">
-                    <asp:GridView ID="gdvModule" runat="server" AutoGenerateColumns="false" Width="100%" meta:resourcekey="gdvModuleResource1">
+            <asp:WizardStep ID="Step2" runat="Server" Title="PackageInfo" StepType="Step" AllowReturn="false"
+                meta:resourcekey="Step2Resource1">
+                <asp:Panel ID="pnlPackage" runat="server" meta:resourcekey="pnlPackageResource1"
+                    CssClass="sfGridwrapper">
+                    <asp:GridView ID="gdvModule" runat="server" AutoGenerateColumns="false" Width="100%"
+                        meta:resourcekey="gdvModuleResource1">
                         <Columns>
                             <asp:TemplateField HeaderText="Name" meta:resourcekey="TemplateFieldResource1">
                                 <ItemTemplate>
@@ -144,7 +152,8 @@
                             </asp:TemplateField>
                             <asp:TemplateField HeaderText="Friendly Name" meta:resourcekey="TemplateFieldResource2">
                                 <ItemTemplate>
-                                    <asp:Label ID="lblFriendlyname" runat="server" Text='<%# Eval("FriendlyName") %>' meta:resourcekey="lblFriendlynameResource1"></asp:Label>
+                                    <asp:Label ID="lblFriendlyname" runat="server" Text='<%# Eval("FriendlyName") %>'
+                                        meta:resourcekey="lblFriendlynameResource1"></asp:Label>
                                 </ItemTemplate>
                             </asp:TemplateField>
                             <asp:TemplateField HeaderText="Description" meta:resourcekey="TemplateFieldResource3">
@@ -166,21 +175,24 @@
                     </asp:GridView>
                 </asp:Panel>
             </asp:WizardStep>
-            <asp:WizardStep ID="Step3" runat="Server" Title="ReleaseNotes" StepType="Step" AllowReturn="false" meta:resourcekey="Step3Resource1">
+            <asp:WizardStep ID="Step3" runat="Server" Title="ReleaseNotes" StepType="Step" AllowReturn="false"
+                meta:resourcekey="Step3Resource1">
                 <div class="sfFormwrapper">
                     <asp:Panel ID="pnlReleaseNotes" runat="server" meta:resourcekey="pnlReleaseNotesResource1">
-                        <asp:Label CssClass="sfFormlabel" ID="lblReleaseNotes" runat="server" Text="Release Notes:" meta:resourcekey="lblReleaseNotesResource1"></asp:Label>
+                        <asp:Label CssClass="sfFormlabel" ID="lblReleaseNotes" runat="server" Text="Release Notes:"
+                            meta:resourcekey="lblReleaseNotesResource1"></asp:Label>
                         <asp:Label ID="lblReleaseNotesD" CssClass="sfFormlabel" runat="server" Text="" meta:resourcekey="lblReleaseNotesDResource1"></asp:Label>
                     </asp:Panel>
                 </div>
             </asp:WizardStep>
-            <asp:WizardStep ID="Step4" runat="server" Title="License" StepType="Step" AllowReturn="false" meta:resourcekey="Step4Resource1">
+            <asp:WizardStep ID="Step4" runat="server" Title="License" StepType="Step" AllowReturn="false"
+                meta:resourcekey="Step4Resource1">
                 <div class="sfFormwrapper">
                     <div class="cssClassLicense">
                         <table cellspacing="0" cellpadding="0" border="0" width="100%">
                             <tr>
                                 <td>
-                                    <asp:Panel ID="Panel1" runat="server" CssClass="" meta:resourcekey="Panel1Resource1">
+                                    <asp:Panel ID="Panel1" runat="server" meta:resourcekey="Panel1Resource1">
                                         <asp:Label ID="lblLicense" runat="server" Text="License:" meta:resourcekey="lblLicenseResource1"></asp:Label>
                                         <asp:Label ID="lblLicenseD" runat="server" Text="" meta:resourcekey="lblLicenseDResource1"></asp:Label>
                                     </asp:Panel>
@@ -194,19 +206,22 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <asp:Label ID="lblAcceptMessage" runat="server" EnableViewState="False" CssClass="sfError" meta:resourcekey="lblAcceptMessageResource1" />
+                                    <asp:Label ID="lblAcceptMessage" runat="server" EnableViewState="False" CssClass="sfError"
+                                        meta:resourcekey="lblAcceptMessageResource1" />
                                 </td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </asp:WizardStep>
-            <asp:WizardStep ID="Step5" runat="Server" Title="InstallResults" StepType="Finish" meta:resourcekey="Step5Resource1">
+            <asp:WizardStep ID="Step5" runat="Server" Title="InstallResults" StepType="Finish"
+                meta:resourcekey="Step5Resource1">
                 <div class="sfFormwrapper">
                     <table cellspacing="0" cellpadding="0" border="0" width="100%">
                         <tr>
                             <td>
-                                <asp:Label ID="lblInstallMessage" runat="server" EnableViewState="False" CssClass="sfSuccess" meta:resourcekey="lblInstallMessageResource1" />
+                                <asp:Label ID="lblInstallMessage" runat="server" EnableViewState="False" CssClass="sfSuccess"
+                                    meta:resourcekey="lblInstallMessageResource1" />
                             </td>
                         </tr>
                     </table>
@@ -223,7 +238,7 @@
                 <label class="icon-close sfBtn">
                     Cancel
                     <asp:Button ID="CancelButton" runat="server" AlternateText="Cancel" CausesValidation="False"
-                        CommandName="Cancel" CssClass="sfBtn" meta:resourcekey="CancelButtonResource3" />
+                        CommandName="Cancel" CssClass="sfBtn" meta:resourcekey="CancelButtonResource2" />
                 </label>
             </div>
         </StepNavigationTemplate>

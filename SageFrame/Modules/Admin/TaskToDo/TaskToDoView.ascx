@@ -3,7 +3,7 @@
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 
 <script type="text/javascript">
-    $(function () {
+    $(function() {
         $(this).TaskEdit
         ({
             BaseUrl: '<%=BaseUrl%>',
@@ -17,7 +17,8 @@
 </script>
 
 <div class="sfTaskToDoWrapper">
-    <h2>To-Do List</h2>
+    <h2>
+        To-Do List</h2>
     <label class="sfLocale icon-addnew sfBtn" id="AddTaskTab" value="Add">
         Add</label>
     <div id="dvSearch" class="sfSearch">
@@ -29,7 +30,7 @@
     <ul>
         <li><a id="liPrevious" href="#tabsPrevious">Previous</a></li>
         <li><a id="liToday" href="#tabsToday">Today</a></li>
-        <li><a id="liTommorow" href="#tabsUpcoming">Upcoming</a></li>
+        <li><a id="liTommorow" href="#tabsUpcomming">Upcoming</a></li>
         <li><a id="liAll" href="#tabsAll">All</a></li>
     </ul>
     <div id="tabsToday">
@@ -38,7 +39,7 @@
     </div>
     <div id="tabsPrevious">
     </div>
-    <div id="tabsUpcoming">
+    <div id="tabsUpcomming">
     </div>
     <div class="divscroll" id="dvScroll">
         <div id="dvTask">
@@ -46,23 +47,20 @@
     </div>
 </div>
 <div class="addNew" id="dvaddNew">
-    <h4>Add Task</h4>
+<h4>Add Task</h4>
     <div>
         <label class="sfLocale sfFormlabel">
             Task</label>
-        <textarea id="txtAddNote" name="txtAddNote" class="sfInputbox" rows="20" cols="5"></textarea>
-    </div>
+        <textarea id="txtAddNote" name="txtAddNote" class="sfInputbox" rows="20" cols="5"></textarea></div>
     <div>
         <label class="sfLocale sfFormlabel">
             Date</label>
-        <input type="text" name="txtDate" id="txtDate" class="sfDatepicker" />
-    </div>
+        <input type="text" name="txtDate" id="txtDate" class="sfDatepicker" /></div>
     <div class="sfButtonwrapper">
         <label id="btnAddNewTask" class="sfLocale icon-addnew sfBtn">
             Add</label>
         <label id="btnTaskCancel" class="sfLocale icon-close sfBtn">
-            Cancel</label>
-    </div>
+            Cancel</label></div>
 </div>
 <div class="divscroll" id="divSearch" style="display: none;">
     <label class="sfLocale icon-arrow-slim-w sfBtn" id="BtnTaskBack" value="back">

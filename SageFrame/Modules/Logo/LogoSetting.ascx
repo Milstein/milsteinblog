@@ -22,7 +22,8 @@
             </td>
         </tr>
         <tr>
-            <td></td>
+            <td>
+            </td>
             <td>
                 <div id="divLogoIcon" style="max-height: 150px">
                 </div>
@@ -55,7 +56,8 @@
             </td>
         </tr>
         <tr>
-            <td></td>
+            <td>
+            </td>
             <td>
                 <div class="sftype1">
                     <label id="btnSaveLogo" class="sfLocale icon-save sfBtn">

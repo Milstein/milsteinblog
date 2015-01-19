@@ -31,5 +31,6 @@
     "Click here to UnSubscribe": "Click here to UnSubscribe",
     "You are already a subscribed member": "You are already a subscribed member",
     "Subscribed Successfully": "Subscribed Successfully",
-    "Invalid Email":"Invalid Email"
+    "Invalid Email": "Invalid Email",
+    "UnSubscribe": "UnSubscribe"
 };

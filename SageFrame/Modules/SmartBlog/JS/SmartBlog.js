@@ -462,13 +462,13 @@
                 var Extra = '';
                 switch (Mode) {
                     case 'A':
-                        Columns = '<tr><th>S.N.</th><th>Title</th><th>Edit</th><th>Comment</th><th>Approve</th><th>Delete</th></tr>';
+                        Columns = '<tr><th>S.No.</th><th>Title</th><th>Edit</th><th>Comment</th><th>Approve</th><th>Delete</th></tr>';
                         Format = ['<td>', 'RowNum', '</td><td>', 'PostTitle', '</td><td><img src="' + SageFrame.utils.GetAdminImage("imgEdit.png") + '" id="del_', 'PostID', '" class="edit">',
                  '</td><td><img src="' + SmartBlog.config.ImagePath + 'unapproveComment.png"  id="com_', 'PostID', '" class="comment">', 'UnApproveComment', '</td><td><img src="' + SmartBlog.config.ImagePath + 'ApproveComment.png" id="apprcom_', 'PostID', '" class="apprcomment">',
                  'ApproveComment', '</td><td><img src="' + SageFrame.utils.GetAdminImage("imgdelete.png") + '" id="edit_', 'PostID', '" class="delete"></td>'];
                         break;
                     case 'U':
-                        Columns = '<tr><th>S.N.</th><th>Title</th><th>Author</th><th>Approve</th><th>Delete</th><th>Edit</th></tr>';
+                        Columns = '<tr><th>S.No.</th><th>Title</th><th>Author</th><th>Approve</th><th>Delete</th><th>Edit</th></tr>';
                         Format = ['<td>', 'RowNum', '</td><td>', 'PostTitle', '</td><td>', 'Author', '</td><td><input type="checkbox" id="appr_', 'PostID', '" class="sfCheckbox"></td><td><img src="' + SageFrame.utils.GetAdminImage("imgdelete.png") + '" id="edit_', 'PostID', '" class="delete"></td><td><img src="' + SageFrame.utils.GetAdminImage("imgEdit.png") + '" id="del_', 'PostID', '" class="edit"></td>'];
                         Extra = '<input type="button" id="btnApprovePost" class="sfBtn" value="Approve Post" title="Apprrove Post">';
                         break;
@@ -500,7 +500,7 @@
                 var lstPost = data.d;
                 html += '<table id="tblPost" width="100%">';
                 html += '<tr>';
-                html += '<th>' + "S.N." + '</th>';
+                html += '<th>' + "S.No." + '</th>';
                 html += '<th>' + "Title" + '</th>';
                 html += '<th>' + "Edit" + '</th>';
                 html += '<th>' + "Comment" + '</th>';
@@ -535,7 +535,7 @@
                 if (lstPost != "") {
                     html += '<table id="tblPost" width= "100%">';
                     html += '<thead><tr>';
-                    html += '<td><h1>' + "S.N." + '</td>';
+                    html += '<td><h1>' + "S.No." + '</td>';
                     html += '<td><h1>' + "Title" + '</td>';
                     html += '<td><h1>' + "Author" + '</td>';
                     html += '<td><h1>' + "Approve" + '</td>';
@@ -776,7 +776,7 @@
                 var html = '';
                 if (lstPosts.length > 0) {
                     html += '<tr>';
-                    html += '<th>S.N.</th>';
+                    html += '<th>S.No.</th>';
                     html += '<th>Comment</th>';
                     html += '<th>User</th>';
                     html += '<th>Approve</th>';

@@ -83,6 +83,6 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\Sage
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Templating.pdb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.CDN.pdb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Scheduler.pdb
-C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.csprojResolveAssemblyReference.cache

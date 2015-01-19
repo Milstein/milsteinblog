@@ -55,7 +55,8 @@
     //]]>	            
 </script>
 <h1>
-    <asp:Label ID="lblEventViewerManagement" runat="server" Text="Event Viewer Management" meta:resourcekey="lblEventViewerManagementResource1"></asp:Label>
+    <asp:Label ID="lblEventViewerManagement" runat="server" Text="Event Viewer Management"
+        meta:resourcekey="lblEventViewerManagementResource1"></asp:Label>
 </h1>
 <div class="sfButtonwrapper">
     <label class="sfLocale icon-clear-log sfBtn">
@@ -79,8 +80,7 @@
             <td>
                 <p class="sfNote">
                     <i class="icon-info"></i>
-                    <asp:Label ID="lblClickRow" runat="server" Text="Click on row for details" meta:resourcekey="lblClickRowResource1" />
-                </p>
+                    <asp:Label ID="lblClickRow" runat="server" Text="Click on row for details" meta:resourcekey="lblClickRowResource1" /></p>
             </td>
             <td class="sfTxtAlignRgt">
                 <asp:Label ID="lblLogType" runat="server" CssClass="sfFormlabel" Text="Type :" meta:resourcekey="lblLogTypeResource1" />
@@ -90,7 +90,8 @@
                     CssClass="sfListmenu" meta:resourcekey="ddlLogTypeResource1" />
             </td>
             <td class="sfTxtAlignRgt">
-                <asp:Label ID="lblRecordsPage" runat="server" CssClass="sfFormlabel" Text="Show rows :" meta:resourcekey="lblRecordsPageResource1" />
+                <asp:Label ID="lblRecordsPage" runat="server" CssClass="sfFormlabel" Text="Show rows :"
+                    meta:resourcekey="lblRecordsPageResource1" />
             </td>
             <td width="80" class="sfTxtAlignRgt">
                 <asp:DropDownList ID="ddlRecordsPerPage" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlRecordsPerPage_SelectedIndexChanged"
@@ -146,15 +147,17 @@
             </asp:TemplateField>
             <asp:TemplateField HeaderText="Client IP" meta:resourcekey="TemplateFieldResource5">
                 <ItemTemplate>
-                    <asp:Label runat="server" Text='<%# Eval("ClientIPAddress") %>' ID="lblClientIP" meta:resourcekey="lblClientIPResource1" />
+                    <asp:Label runat="server" Text='<%# Eval("ClientIPAddress") %>' ID="lblClientIP"
+                        meta:resourcekey="lblClientIPResource1" />
                 </ItemTemplate>
             </asp:TemplateField>
-            <asp:TemplateField meta:resourcekey="TemplateFieldResource6">
+            <asp:TemplateField meta:resourcekey="TemplateFieldResource2">
                 <ItemTemplate>
-                    <asp:Label runat="server" Text='<%# Eval("PageURL") %>' ID="lblPageURL" Visible="False" meta:resourcekey="lblPageURLResource1" />
+                    <asp:Label runat="server" Text='<%# Eval("PageURL") %>' ID="lblPageURL" Visible="False"
+                        meta:resourcekey="lblPageURLResource1" />
                 </ItemTemplate>
             </asp:TemplateField>
-            <asp:TemplateField HeaderStyle-CssClass="sfDelete" meta:resourcekey="TemplateFieldResource7">
+            <asp:TemplateField HeaderStyle-CssClass="sfDelete" meta:resourcekey="TemplateFieldResource3">
                 <ItemTemplate>
                     <asp:LinkButton ID="imbDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("LogID") %>'
                         CommandName="Delete" CssClass="icon-delete" meta:resourcekey="imbDeleteResource1" />
@@ -162,25 +165,27 @@
                 <HeaderStyle VerticalAlign="Top" />
                 <ItemStyle VerticalAlign="Top" />
             </asp:TemplateField>
-            <asp:TemplateField meta:resourcekey="TemplateFieldResource8">
+            <asp:TemplateField meta:resourcekey="TemplateFieldResource6">
                 <ItemTemplate>
                     <tr class="sfEventdetail" style="display: none">
                         <td colspan="8">
-                            <div class="sfEventinfo">
-                                <asp:Panel ID="pnlClientIP" runat="server" Width="100%" meta:resourcekey="pnlClientIPResource1">
-                                    <p>
-                                        <asp:Label ID="lblClientIP1" runat="server" CssClass="sfFormlabel" Text="Client IP:" meta:resourcekey="lblClientIP1Resource1"></asp:Label>
-                                        <asp:Literal ID="ltrClientIP" runat="server" Text='<%# Eval("ClientIPAddress") %>'></asp:Literal>
-                                    </p>
-                                    <p>
-                                        <asp:Label ID="lblPageUrl1" runat="server" Text="PageUrl:" class="sfFormlabel" meta:resourcekey="lblPageUrl1Resource1"></asp:Label>
-                                        <asp:Literal ID="ltrPageUrl" runat="server" Text='<%# Eval("PageUrl") %>'></asp:Literal>
-                                    </p>
-                                    <p>
-                                        <asp:Label ID="lblException1" runat="server" Text="Exception:" class="cssClassBoldText" meta:resourcekey="lblException1Resource1"></asp:Label>
-                                        <asp:Literal ID="ltrException" runat="server" Text='<%# Eval("Exception") %>'></asp:Literal>
-                                    </p>
-                                </asp:Panel>
+                            <div class="sfEventinfo">                            
+                            <asp:Panel ID="pnlClientIP" runat="server" Width="100%" meta:resourcekey="pnlClientIPResource1">
+                                <p>
+                                    <asp:Label ID="lblClientIP1" runat="server" CssClass="sfFormlabel" Text="Client IP:"
+                                        meta:resourcekey="lblClientIP1Resource1"></asp:Label>
+                                    <asp:Literal ID="ltrClientIP" runat="server" Text='<%# Eval("ClientIPAddress") %>'></asp:Literal>
+                                </p>
+                                <p>
+                                    <asp:Label ID="lblPageUrl1" runat="server" Text="PageUrl:" class="sfFormlabel" meta:resourcekey="lblPageUrl1Resource1"></asp:Label>
+                                    <asp:Literal ID="ltrPageUrl" runat="server" Text='<%# Eval("PageUrl") %>'></asp:Literal>
+                                </p>
+                                <p>
+                                    <asp:Label ID="lblException1" runat="server" Text="Exception:" class="cssClassBoldText"
+                                        meta:resourcekey="lblException1Resource1"></asp:Label>
+                                    <asp:Literal ID="ltrException" runat="server" Text='<%# Eval("Exception") %>'></asp:Literal>
+                                </p>
+                            </asp:Panel>
                             </div>
                         </td>
                     </tr>
@@ -194,7 +199,8 @@
 </div>
 <div>
     <div class="sfExceptions">
-        <h3>Send Exceptions</h3>
+        <h3>
+            Send Exceptions</h3>
         <table id="tblSendException" runat="server" cellpadding="0" cellspacing="0" width="100%">
             <tr runat="server">
                 <td colspan="2" runat="server">
@@ -242,7 +248,8 @@
                                 </td>
                             </tr>
                             <tr runat="server">
-                                <td align="left" runat="server">&nbsp;
+                                <td align="left" runat="server">
+                                    &nbsp;
                                 </td>
                                 <td runat="server">
                                     <div class="sfButtonwrapper">

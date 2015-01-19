@@ -12,14 +12,16 @@
 <div class="sfCollapsewrapper">
     <div id="divPackageSettings" runat="server" class="sfCollapsecontent">
         <div class="sfFormwrapper">
-            <h3>New Package Details</h3>
+            <h3>
+                New Package Details</h3>
             <p class="sfNote">
-                <asp:Label ID="lblPackageSettingsHelp" runat="server" Text="In this section you can configure the package information for the Package." meta:resourcekey="lblPackageSettingsHelpResource1"></asp:Label>
-            </p>
+                <asp:Label ID="lblPackageSettingsHelp" runat="server" Text="In this section you can configure the package information for the Package."
+                    meta:resourcekey="lblPackageSettingsHelpResource1"></asp:Label></p>
             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                     <td width="20%">
-                        <asp:Label ID="lblPackageName" runat="server" Text="Package Name" CssClass="sfFormlabel" meta:resourcekey="lblPackageNameResource1"></asp:Label>
+                        <asp:Label ID="lblPackageName" runat="server" Text="Package Name" CssClass="sfFormlabel"
+                            meta:resourcekey="lblPackageNameResource1"></asp:Label>
                     </td>
                     <td>
                         <asp:TextBox ID="txtPackageName" runat="server" CssClass="sfInputbox" meta:resourcekey="txtPackageNameResource1"></asp:TextBox>
@@ -30,7 +32,8 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="lblFriendlyName" runat="server" Text="Friendly Name" CssClass="sfFormlabel" meta:resourcekey="lblFriendlyNameResource1"></asp:Label>
+                        <asp:Label ID="lblFriendlyName" runat="server" Text="Friendly Name" CssClass="sfFormlabel"
+                            meta:resourcekey="lblFriendlyNameResource1"></asp:Label>
                     </td>
                     <td>
                         <asp:TextBox ID="txtFriendlyName" runat="server" CssClass="sfInputbox" meta:resourcekey="txtFriendlyNameResource1"></asp:TextBox>
@@ -41,10 +44,12 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="lblDescription" runat="server" Text="Description" CssClass="sfFormlabel" meta:resourcekey="lblDescriptionResource1"></asp:Label>
+                        <asp:Label ID="lblDescription" runat="server" Text="Description" CssClass="sfFormlabel"
+                            meta:resourcekey="lblDescriptionResource1"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="txtDescription" runat="server" CssClass="sfInputbox" Rows="5" TextMode="MultiLine" meta:resourcekey="txtDescriptionResource1"></asp:TextBox>
+                        <asp:TextBox ID="txtDescription" runat="server" CssClass="sfInputbox" Rows="5" TextMode="MultiLine"
+                            meta:resourcekey="txtDescriptionResource1"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -65,15 +70,18 @@
                         <asp:Label ID="lblLicense" runat="server" Text="License" CssClass="sfFormlabel" meta:resourcekey="lblLicenseResource1"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="txtLicense" runat="server" CssClass="sfInputbox" Rows="5" TextMode="MultiLine" meta:resourcekey="txtLicenseResource1"></asp:TextBox>
+                        <asp:TextBox ID="txtLicense" runat="server" CssClass="sfInputbox" Rows="5" TextMode="MultiLine"
+                            meta:resourcekey="txtLicenseResource1"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="lblReleaseNotes" runat="server" Text="Release Notes" CssClass="sfFormlabel" meta:resourcekey="lblReleaseNotesResource1"></asp:Label>
+                        <asp:Label ID="lblReleaseNotes" runat="server" Text="Release Notes" CssClass="sfFormlabel"
+                            meta:resourcekey="lblReleaseNotesResource1"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="txtReleaseNotes" runat="server" CssClass="sfInputbox" Rows="5" TextMode="MultiLine" meta:resourcekey="txtReleaseNotesResource1"></asp:TextBox>
+                        <asp:TextBox ID="txtReleaseNotes" runat="server" CssClass="sfInputbox" Rows="5" TextMode="MultiLine"
+                            meta:resourcekey="txtReleaseNotesResource1"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -86,7 +94,8 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="lblOrganization" runat="server" Text="Organization" CssClass="sfFormlabel" meta:resourcekey="lblOrganizationResource1"></asp:Label>
+                        <asp:Label ID="lblOrganization" runat="server" Text="Organization" CssClass="sfFormlabel"
+                            meta:resourcekey="lblOrganizationResource1"></asp:Label>
                     </td>
                     <td>
                         <asp:TextBox ID="txtOrganization" runat="server" CssClass="sfInputbox" meta:resourcekey="txtOrganizationResource1"></asp:TextBox>
@@ -100,7 +109,8 @@
                         <asp:TextBox ID="txtUrl" runat="server" CssClass="sfInputbox" meta:resourcekey="txtUrlResource1"></asp:TextBox>
                         <asp:RegularExpressionValidator ID="revUrl" runat="server" ControlToValidate="txtUrl"
                             CssClass="sfError" ErrorMessage="The Url is not valid." SetFocusOnError="True"
-                            ValidationExpression="^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&amp;?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$" meta:resourcekey="revUrlResource1"></asp:RegularExpressionValidator>
+                            ValidationExpression="^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&amp;?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$"
+                            meta:resourcekey="revUrlResource1"></asp:RegularExpressionValidator>
                     </td>
                 </tr>
                 <tr>
@@ -110,7 +120,8 @@
                     <td>
                         <asp:TextBox ID="txtEmail" runat="server" CssClass="sfInputbox" meta:resourcekey="txtEmailResource1"></asp:TextBox>
                         <asp:RegularExpressionValidator ID="revEmail" runat="server" ErrorMessage="Email address is not valid."
-                            CssClass="sfError" ControlToValidate="txtEmail" SetFocusOnError="True" ValidationExpression="^[a-zA-Z][a-zA-Z0-9_-]+@[a-zA-Z]+[.]{1}[a-zA-Z]+$" meta:resourcekey="revEmailResource1"></asp:RegularExpressionValidator>
+                            CssClass="sfError" ControlToValidate="txtEmail" SetFocusOnError="True" ValidationExpression="^[a-zA-Z][a-zA-Z0-9_-]+@[a-zA-Z]+[.]{1}[a-zA-Z]+$"
+                            meta:resourcekey="revEmailResource1"></asp:RegularExpressionValidator>
                     </td>
                 </tr>
                 <tr>
@@ -125,10 +136,10 @@
                                         Height="200px" meta:resourcekey="lbAvailableModulesResource1"></asp:ListBox>
                                 </div>
                                 <div class="sfSelectleftright sfSelectarrow">
-                                    <label class="icon-arrow-slim-e">
-                                        <asp:Button ID="add" runat="server" OnClick="add_Click" meta:resourcekey="addResource1" /></label>
-                                    <label class="icon-arrow-slim-w">
-                                        <asp:Button ID="remove" runat="server" OnClick="remove_Click" meta:resourcekey="removeResource1" /></label>
+                                        <label class="icon-arrow-slim-e">
+                                            <asp:Button ID="add" runat="server" OnClick="add_Click" meta:resourcekey="addResource1" /></label>
+                                        <label class="icon-arrow-slim-w">
+                                            <asp:Button ID="remove" runat="server" OnClick="remove_Click" meta:resourcekey="removeResource1" /></label>
                                 </div>
                                 <div class='sfSelectedModules'>
                                     <asp:ListBox ID="lbModulesList" CssClass="sfListmenubig" runat="server" SelectionMode="Multiple"
@@ -149,14 +160,12 @@
         </div>
     </div>
     <div class="sfButtonwrapper">
-        <label class="icon-download-package sfBtn">
-            <asp:Button ID="imbCreate" runat="server"
-                OnClick="imbCreate_Click" ValidationGroup="vdgExtension" meta:resourcekey="imbCreateResource1" />Download Package</label>
-        <label class="icon-close sfBtn">
-            Cancel
-            <asp:Button ID="btnCancelled" runat="server" AlternateText="Cancel"
-                UseSubmitBehavior="False"
-                OnClientClick="javascript:return window.location=CancelURL;" meta:resourcekey="btnCancelledResource1" /></label>
+    <label class="icon-download-package sfBtn">
+        <asp:Button ID="imbCreate" runat="server" 
+            meta:resourcekey="imbCreateResource1" OnClick="imbCreate_Click" ValidationGroup="vdgExtension" />Download Package</label>
+       <label class="icon-close sfBtn">Cancel <asp:Button ID="btnCancelled" runat="server" AlternateText="Cancel" 
+             meta:resourcekey="btnCancelResource2" UseSubmitBehavior="False"
+            OnClientClick="javascript:return window.location=CancelURL;" /></label>
     </div>
 </div>
 

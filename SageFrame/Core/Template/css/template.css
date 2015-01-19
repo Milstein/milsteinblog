@@ -11,8 +11,7 @@ html {
 body {
 	color: #545454;
 	background-color: #ffffff;
-	font:18px/1.5 Lobster Two, Raleway-regular, sans-serif;
-	font-weight: 300;
+	font:18px/1.7 Lobster Two, Raleway-regular, sans-serif;
 }
 input, button, select, textarea { 
 	font-family: inherit;
@@ -20,7 +19,7 @@ input, button, select, textarea {
 	line-height: inherit;
 }
 a {
-	color: #428bca;
+	color: #2E5CAE;
 	text-decoration: none;
 }
 a:hover, a:focus {
@@ -765,6 +764,9 @@ input.sfWarning {
   color: #ffffff;
   background-color: #5cb85c;
   border-color: #4cae4c;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 20px;
 }
 
 .sfSuccessBtn:hover,
@@ -1105,12 +1107,12 @@ html, body, body >form {
 .sfNavigation li.sfActive > a { border-bottom:1px solid #797979; position:relative;}
 .sfNavigation li.sfActive > a:after { position: absolute; width:100%; height:1px; content: ""; display: inline-block; left:0; background:#bcbcbc;
 top:100%; margin-top: -3px;}
-.sf-menu a { font:24px/1.7 Lobster Two, Raleway-regular, sans-serif; font-weight: 300;}
+.sf-menu a { font:24px/1.7 "Lobster Two", "Raleway-regular", sans-serif;}
 .sf-menu > li > a { padding-left:0; padding-right:0; }
 .sf-menu > li { padding:0 20px;}
 
 /* Media */
-.sfMediaBody { font:18px/1.5 "Lobster Two", "Raleway-Light", sans-serif;}
+.sfMediaBody { font:18px/1.7 "Lobster Two", "Raleway-Light", sans-serif;}
 h3.sfMediaHeading { font:20px "Lobster Two", "Raleway-regular",sans-serif;}
 
 
@@ -1146,11 +1148,11 @@ a:focus { outline:none;}
 -o-transform: translateX(-50%) translateY(-50%);
 transform: translateX(-50%) translateY(-50%);}
 
-#sfSlider .sfContent h1 { font:34px "Lobster Two", "Raleway-Light", sans-serif; text-shadow:0 0 5px rgba(0, 0, 0, 0.5);}
-#sfSlider p { font-size:22px; font-family:"Lobster Two", "Raleway-Light", sans-serif;  text-shadow:0 0 5px rgba(0, 0, 0, 0.5);}
+#sfSlider .sfContent h1 { font:34px "Lobster Two","Raleway-Light", sans-serif; text-shadow:0 0 5px rgba(0, 0, 0, 0.5);}
+#sfSlider p { font-size:22px; font-family:"Lobster Two","Raleway-Light", sans-serif;  text-shadow:0 0 5px rgba(0, 0, 0, 0.5);}
 .sfInnerBanner { height:150px; background: url(../images/sfbanner-inner.jpg) no-repeat center top !important; text-align: center; color:#eee; position: relative;}
- .sfInnerBanner h1 { margin:0; text-shadow: 0 2px 5px rgba(0,0,0,.5); width:90%; font-size: 42px; position: absolute; top:50%; left:50%; color:#fff;
-  -webkit-transform: translateY(-50%)  translateX(-50%) ;
+.sfInnerBanner h1 { margin:0; width:90%; font-size: 42px; position: absolute; top:50%; left:50%; color:#fff;
+ -webkit-transform: translateY(-50%)  translateX(-50%) ;
  -moz-transform: translateY(-50%)  translateX(-50%) ;
  -ms-transform: translateY(-50%)  translateX(-50%) ;
  -o-transform: translateY(-50%)  translateX(-50%) ;
@@ -1305,4 +1307,3 @@ transform: translateX(-50%);}
 -ms-transform: translate(0%);
 -o-transform: translate(0%);
 transform: translate(0%);}
-

@@ -123,12 +123,6 @@
   <data name="btnGenerateShortUrlResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="hypCodeResource1.Text" xml:space="preserve">
-    <value>[hypCode]</value>
-  </data>
-  <data name="hypCodeResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblShortUrlResource1.Text" xml:space="preserve">
     <value />
   </data>

@@ -14,7 +14,8 @@
                 <td>
                     <asp:Label ID="lblMessageTemplateType1" runat="server" CssClass="sfFormLabel" Text="Message Template Type" meta:resourcekey="lblMessageTemplateType1Resource1"></asp:Label>
                 </td>
-                <td width="5%">:
+                <td width="5%">
+                    :
                 </td>
                 <td>
                     <asp:DropDownList ID="ddlMessageTemplateType" ToolTip="Select Message Template Type"
@@ -28,13 +29,15 @@
                     <asp:Label ID="lblAddMessageTemplateToken" runat="server" CssClass="icon-addnew sfBtn"
                         Text="Add Message Template Token" AssociatedControlID="hypAddMessageTemplateToken" meta:resourcekey="lblAddMessageTemplateTokenResource1"></asp:Label>
                 </td>
-                <td></td>
+                <td>
+                </td>
             </tr>
             <tr>
                 <td>
                     <asp:Label ID="lblFromEmail" runat="server" CssClass="sfFormLabel" Text="From Email" meta:resourcekey="lblFromEmailResource1"></asp:Label>
                 </td>
-                <td>:
+                <td>
+                    :
                 </td>
                 <td>
                     <asp:TextBox ID="txtMailFrom" runat="server" ToolTip="From Email Address" ValidationGroup="vdgMessageTemplate"
@@ -46,13 +49,15 @@
                         Text="Invalid Email Address" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
                         CssClass="sfError" meta:resourcekey="RegularExpressionValidator1Resource1"></asp:RegularExpressionValidator>
                 </td>
-                <td></td>
+                <td>
+                </td>
             </tr>
             <tr>
                 <td>
                     <asp:Label ID="lblSubject" runat="server" CssClass="sfFormLabel" Text="Subject" meta:resourcekey="lblSubjectResource1"></asp:Label>
                 </td>
-                <td>:
+                <td>
+                    :
                 </td>
                 <td>
                     <div style="float: left;">
@@ -60,21 +65,21 @@
                             CssClass="sfNormalTextBox" meta:resourcekey="txtSubjectResource1"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtSubject"
                             SetFocusOnError="True" ErrorMessage="*" ValidationGroup="vdgMessageTemplate"
-                            CssClass="sfsNormalRed" meta:resourcekey="RequiredFieldValidator2Resource1"></asp:RequiredFieldValidator>
-                    </div>
+                            CssClass="sfsNormalRed" meta:resourcekey="RequiredFieldValidator2Resource1"></asp:RequiredFieldValidator></div>
                     <div class="sfFormLinkButton">
                         <asp:HyperLink ID="lnkAddSubjectMessageToken" runat="server" meta:resourcekey="lnkAddSubjectMessageTokenResource1" />
                         <asp:Label ID="lblAddSubjectMessageToken" runat="server" CssClass="icon-addnew sfBtn"
-                            Text="Add Subject Token" AssociatedControlID="lnkAddSubjectMessageToken" meta:resourcekey="lblAddSubjectMessageTokenResource1"></asp:Label>
-                    </div>
+                            Text="Add Subject Token" AssociatedControlID="lnkAddSubjectMessageToken" meta:resourcekey="lblAddSubjectMessageTokenResource1"></asp:Label></div>
                 </td>
-                <td></td>
+                <td>
+                </td>
             </tr>
             <tr>
                 <td>
                     <asp:Label ID="lblMessage" runat="server" CssClass="sfFormLabel" Text="Message" meta:resourcekey="lblMessageResource1"></asp:Label>
                 </td>
-                <td>:
+                <td>
+                    :
                 </td>
                 <td>
                     <div class="sfFormLinkButton">
@@ -83,11 +88,14 @@
                             AssociatedControlID="lnkAddBodyMessageToken" CssClass="icon-addnew sfBtn" meta:resourcekey="lblAddBodyMessageTokenResource1"></asp:Label>
                     </div>
                 </td>
-                <td></td>
+                <td>
+                </td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>
+                </td>
+                <td>
+                </td>
                 <td>
                     <div class="sfCkeditor sfCurve">
                         <table cellspacing="0" cellpadding="0" border="0" id="tblTextEditor" runat="server"
@@ -122,18 +130,21 @@
                         </label>
                     </div>
                 </td>
-                <td></td>
+                <td>
+                </td>
             </tr>
             <tr>
                 <td>
                     <asp:Label ID="lblIsActive" runat="server" CssClass="sfFormLabel" Text="Active" meta:resourcekey="lblIsActiveResource1"></asp:Label>
                 </td>
-                <td>:
+                <td>
+                    :
                 </td>
                 <td>
                     <asp:CheckBox ID="chkIsActive" runat="server" CssClass="cssClassCheckBox" meta:resourcekey="chkIsActiveResource1" />
                 </td>
-                <td></td>
+                <td>
+                </td>
             </tr>
         </table>
     </div>
@@ -166,7 +177,7 @@
             <Columns>
                 <asp:TemplateField HeaderText="Message Template Subject" meta:resourcekey="TemplateFieldResource1">
                     <ItemTemplate>
-                        <asp:LinkButton ID="LinkButton1" runat="server" CommandArgument='<%# Eval("MessageTemplateID") %>' CommandName="Edit" meta:resourcekey="LinkButton1Resource1"><asp:Label runat="server" Text='<%# Eval("Subject") %>' ID="lblSubject" meta:resourcekey="lblSubjectResource2"></asp:Label>
+                        <asp:LinkButton ID="LinkButton1" runat="server" CommandArgument='<%# Eval("MessageTemplateID") %>' CommandName="Edit"><asp:Label runat="server" Text='<%# Eval("Subject") %>' ID="lblSubject" meta:resourcekey="lblSubjectResource2"></asp:Label>
 </asp:LinkButton>
                     </ItemTemplate>
                     <HeaderStyle HorizontalAlign="Left" />
@@ -174,13 +185,13 @@
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="From Email" meta:resourcekey="TemplateFieldResource2">
                     <ItemTemplate>
-                        <asp:Label ID="lblFromEmail" runat="server" Text='<%# Eval("MailFrom") %>' meta:resourcekey="lblFromEmailResource2"></asp:Label>
+                        <asp:Label ID="lblFromEmail" runat="server" meta:resourcekey="lblFromEmailResource2" Text='<%# Eval("MailFrom") %>'></asp:Label>
                     </ItemTemplate>
                     <HeaderStyle HorizontalAlign="Left" />
                     <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" />
                 </asp:TemplateField>
                 <asp:BoundField DataField="IsActive" HeaderText="Active" meta:resourcekey="BoundFieldResource1">
-                    <HeaderStyle CssClass="cssClassColumnIsActive" />
+                <HeaderStyle CssClass="cssClassColumnIsActive" />
                 </asp:BoundField>
                 <asp:TemplateField HeaderText="Added On" meta:resourcekey="TemplateFieldResource3">
                     <ItemTemplate>
@@ -198,7 +209,7 @@
                 </asp:TemplateField>
                 <asp:TemplateField meta:resourcekey="TemplateFieldResource5">
                     <ItemTemplate>
-                        <asp:LinkButton ID="imbEdit" runat="server" CausesValidation="False" CommandArgument='<%# Eval("MessageTemplateID") %>' CommandName="Edit" CssClass="icon-edit" ToolTip="Edit" meta:resourcekey="imbEditResource1"></asp:LinkButton>
+                        <asp:LinkButton ID="imbEdit" runat="server" CausesValidation="False" CommandArgument='<%# Eval("MessageTemplateID") %>' CommandName="Edit" CssClass="icon-edit" meta:resourcekey="imbEditResource1" ToolTip="Edit"></asp:LinkButton>
                     </ItemTemplate>
                     <HeaderStyle CssClass="cssClassColumnEdit" />
                     <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" />
@@ -210,36 +221,35 @@
         </asp:GridView>
     </div>
 </asp:Panel>
-<cc2:ModalPopupExtender runat="server" ID="mpeAddMessageTokenModalPopup" TargetControlID="hiddenTargetControlForAddMessageTokenModalPopup"
-    PopupControlID="pnlAddMessageTokenPopup" BackgroundCssClass="ModalPopupBG" OkControlID="btnAddMessageTokenOk"
-    CancelControlID="btnAddMessageTokenCancel" PopupDragHandleControlID="pnlAddMessageTokenHandle"
-    RepositionMode="RepositionOnWindowScroll" DynamicServicePath="" Enabled="True">
-</cc2:ModalPopupExtender>
+<cc2:modalpopupextender runat="server" id="mpeAddMessageTokenModalPopup" targetcontrolid="hiddenTargetControlForAddMessageTokenModalPopup"
+    popupcontrolid="pnlAddMessageTokenPopup" backgroundcssclass="ModalPopupBG" okcontrolid="btnAddMessageTokenOk"
+    cancelcontrolid="btnAddMessageTokenCancel" popupdraghandlecontrolid="pnlAddMessageTokenHandle"
+    repositionmode="RepositionOnWindowScroll" dynamicservicepath="" enabled="True">
+</cc2:modalpopupextender>
 <asp:Panel ID="pnlAddMessageTokenPopup" runat="server" Style="display: none;" meta:resourcekey="pnlAddMessageTokenPopupResource1">
     <div class="sfPopup">
         <div class="sfPopupinner">
             <asp:Panel ID="pnlAddMessageTokenHandle" runat="server" CssClass="cssClassPopTitle" meta:resourcekey="pnlAddMessageTokenHandleResource1">
-                Select message token
-            </asp:Panel>
+                Select message token</asp:Panel>
             <div class="sfPopupclose" id="btnAddMessageTokenCancel" runat="server">
             </div>
             <asp:Panel ID="pnlPopupBody" runat="server" meta:resourcekey="pnlPopupBodyResource1">
-                <asp:ListBox ID="lstMessageToken" runat="server" Rows="10" CssClass="cssClassPopUpMessage" meta:resourcekey="lstMessageTokenResource1"></asp:ListBox>
+                <asp:ListBox ID="lstMessageToken" runat="server" Rows="10" CssClass="cssClassPopUpMessage" meta:resourcekey="lstMessageTokenResource1">
+                </asp:ListBox>
             </asp:Panel>
             <div class="sfButtonwrapper">
                 <input type="button" id="btnAddMessageTokenOk" runat="server" value="Add" class="sfBtn" />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
+            &nbsp;&nbsp;</div>
         </div>
     </div>
 </asp:Panel>
 <asp:HiddenField runat="server" ID="hiddenTargetControlForAddMessageTokenModalPopup" />
-<cc2:ModalPopupExtender BackgroundCssClass="ModalPopupBG" ID="mpeMessageTemplateType"
-    OkControlID="btnCancelMessageTemplateType" CancelControlID="btnCancelMessageTemplateType"
-    TargetControlID="btnopen" PopupControlID="pnlMessageTemplateType" PopupDragHandleControlID="pnlDragHandlerMessageTemplateType"
-    RepositionMode="RepositionOnWindowScroll" runat="server" DynamicServicePath=""
-    Enabled="True">
-</cc2:ModalPopupExtender>
+<cc2:modalpopupextender backgroundcssclass="ModalPopupBG" id="mpeMessageTemplateType"
+    okcontrolid="btnCancelMessageTemplateType" cancelcontrolid="btnCancelMessageTemplateType"
+    targetcontrolid="btnopen" popupcontrolid="pnlMessageTemplateType" popupdraghandlecontrolid="pnlDragHandlerMessageTemplateType"
+    repositionmode="RepositionOnWindowScroll" runat="server" dynamicservicepath=""
+    enabled="True">
+</cc2:modalpopupextender>
 <asp:Panel ID="pnlMessageTemplateType" runat="server" Style="display: none" CssClass="sfPopup" meta:resourcekey="pnlMessageTemplateTypeResource1">
     <asp:Panel ID="pnlDragHandlerMessageTemplateType" runat="server" meta:resourcekey="pnlDragHandlerMessageTemplateTypeResource1">
         <asp:Label ID="lblAMTT" runat="server" Text="Add Message Template Type" CssClass="cssClassPopTitle" meta:resourcekey="lblAMTTResource1"></asp:Label>
@@ -253,7 +263,8 @@
                     <asp:Label ID="lblMessageTemplateType" runat="server" CssClass="cssClassFormLabel"
                         Text="Message Template Type" meta:resourcekey="lblMessageTemplateTypeResource1"></asp:Label>
                 </td>
-                <td>:
+                <td>
+                    :
                 </td>
                 <td>
                     <asp:TextBox ID="txtMessageTemplateType" runat="server" EnableViewState="False" meta:resourcekey="txtMessageTemplateTypeResource1"></asp:TextBox>
@@ -271,12 +282,12 @@
         </div>
     </div>
 </asp:Panel>
-<cc2:ModalPopupExtender BackgroundCssClass="ModalPopupBG" ID="mpeMessageTemplateToken"
-    OkControlID="btnCancelMessageTemplateToken" CancelControlID="btnCancelMessageTemplateToken"
-    TargetControlID="btnopen" PopupControlID="pnlMessageTemplateToken" PopupDragHandleControlID="pnlDragHandlerMessageTemplateToken"
-    RepositionMode="RepositionOnWindowScroll" runat="server" DynamicServicePath=""
-    Enabled="True">
-</cc2:ModalPopupExtender>
+<cc2:modalpopupextender backgroundcssclass="ModalPopupBG" id="mpeMessageTemplateToken"
+    okcontrolid="btnCancelMessageTemplateToken" cancelcontrolid="btnCancelMessageTemplateToken"
+    targetcontrolid="btnopen" popupcontrolid="pnlMessageTemplateToken" popupdraghandlecontrolid="pnlDragHandlerMessageTemplateToken"
+    repositionmode="RepositionOnWindowScroll" runat="server" dynamicservicepath=""
+    enabled="True">
+</cc2:modalpopupextender>
 <asp:Panel ID="pnlMessageTemplateToken" runat="server" Style="display: none" CssClass="sfPopup" meta:resourcekey="pnlMessageTemplateTokenResource1">
     <asp:Panel ID="pnlDragHandlerMessageTemplateToken" runat="server" CssClass="cssClassPopTitle" meta:resourcekey="pnlDragHandlerMessageTemplateTokenResource1">
         <asp:Label ID="lblMessageTempToken" runat="server" Text="Add Message Template Token" meta:resourcekey="lblMessageTempTokenResource1"></asp:Label>
@@ -290,7 +301,8 @@
                     <asp:Label ID="lblMessageTemplateToken" runat="server" CssClass="cssClassFormLabel"
                         Text="Message Template Token" meta:resourcekey="lblMessageTemplateTokenResource1"></asp:Label>
                 </td>
-                <td>:
+                <td>
+                    :
                 </td>
                 <td>
                     <asp:TextBox ID="txtMessageTemplateToken" runat="server" EnableViewState="False" meta:resourcekey="txtMessageTemplateTokenResource1"></asp:TextBox>
@@ -323,6 +335,6 @@
             $(errLbl).val('*');
             $(errLbl).hide();
         }
-    }
+    }   
 </script>
 

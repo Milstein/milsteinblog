@@ -273,10 +273,10 @@
   <data name="Label4Resource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="Label6Resource1.Text" xml:space="preserve">
-    <value>Basic settings for your Hosting Account</value>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>SuperUser Settings</value>
   </data>
-  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="Label7Resource1.Text" xml:space="preserve">
@@ -304,7 +304,7 @@
     <value />
   </data>
   <data name="lblAdvanceSettingResource1.Text" xml:space="preserve">
-    <value>SuperUser Settings</value>
+    <value>Advanced Settings</value>
   </data>
   <data name="lblAdvanceSettingResource1.ToolTip" xml:space="preserve">
     <value />
@@ -322,7 +322,7 @@
     <value />
   </data>
   <data name="lblBasicSettingsHelpResource1.Text" xml:space="preserve">
-    <value>In this section, you can set up the basic settings for your site.</value>
+    <value>Basic settings for your Hosting Account</value>
   </data>
   <data name="lblBasicSettingsHelpResource1.ToolTip" xml:space="preserve">
     <value />
@@ -760,9 +760,6 @@
     <value />
   </data>
   <data name="TabContainerResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabSuperUserSettingResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="txtCopyrightResource1.Text" xml:space="preserve">

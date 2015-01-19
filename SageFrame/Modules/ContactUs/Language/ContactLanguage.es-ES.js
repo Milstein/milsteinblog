@@ -6,7 +6,4 @@ var ContactLocal = {
 "Message":"mensaje",
 "Submit":"presentar",
 "Your Email ID":"Su ID de correo electrónico"
-
-
-
 }

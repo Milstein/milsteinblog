@@ -2,7 +2,7 @@
 
 <script type="text/javascript">
     //<![CDATA[
-    $(function () {
+    $(function() {
         $(this).MenuManager({
             CultureCode: '<%=CultureCode %>',
             UserModuleID: '<%=UserModuleID %>'
@@ -11,7 +11,8 @@
     //]]>	
 </script>
 
-<h1>Menu Manager</h1>
+<h1>
+    Menu Manager</h1>
 <div class="sfAdvanceRadioBtn">
     <div id="tabMenu">
         <div id="dvView" class="clearfix">
@@ -38,7 +39,8 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td></td>
+                                            <td>
+                                            </td>
                                             <td>
                                                 <div class="sfCheckbox">
                                                     <label>
@@ -82,21 +84,19 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                <br />
-                                            </td>
-                                        </tr>
+                                      <tr>
+                                      <td colspan="2">
+                                      <br />
+                                      </td>
+                                      </tr>
                                         <tr>
                                             <td colspan="2">
                                                 <div class="sfCheckbox">
-                                                    <label class="sfFormlabel">
-                                                        <input type="checkbox" id="chkLinkActive" />
-
+                                                    <label class="sfFormlabel">  <input type="checkbox" id="chkLinkActive" />
+                                                  
                                                         Active:</label>
-                                                    <label class="sfFormlabel">
-                                                        <input type="checkbox" id="chkLinkVisible" />
-
+                                                    <label class="sfFormlabel">  <input type="checkbox" id="chkLinkVisible" />
+                                                  
                                                         Visible:</label>
                                                 </div>
                                             </td>
@@ -105,7 +105,7 @@
                                 </div>
                                 <div class="divHtmlContent" style="display: none">
                                     <table width="100%" cellpadding="0" cellspacing="0">
-                                        <tr>
+                                        <tr >
                                             <td width="10%">
                                                 <label class="sfFormlabel">
                                                     Link Title</label>
@@ -144,9 +144,8 @@
                                     <span>Choose Pages &nbsp;</span><i class="icon-info" data-title="List of pages that you can include in the menu "></i>
                                 </h4>
                                 <div class="sfCheckbox sfMargintop clearfix">
-                                    <label>
-                                        <input type="checkbox" class="sfCheckbox" id="chkPageOrder" />
-
+                                    <label><input type="checkbox" class="sfCheckbox" id="chkPageOrder" />
+                                    
                                         Preserve Page Order</label>
                                 </div>
                                 <div id="divPagelist" class="sfPageList">
@@ -191,7 +190,8 @@
             </div>
             <div class="sfRightdiv">
                 <div class="sfRightDivContainer">
-                    <h3>Manage</h3>
+                    <h3>
+                        Manage</h3>
                     <div class="sfRadiobutton sfRadioTab">
                         <label class="sfActive">
                             <input id="rdbView" type="radio" name="rdbsetting" checked="checked" value="1" style="display: none" />
@@ -300,8 +300,7 @@
         </div>
         <div id="divAddUsers" title="Search Users" class="sfFormwrapper" style="display: none">
             <p class="sfNote">
-                All form fields are required.
-            </p>
+                All form fields are required.</p>
             <table cellpadding="0" cellspacing="0" width="0">
                 <tr>
                     <td>

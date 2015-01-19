@@ -58,7 +58,7 @@
                 });
             },
             InitTabs: function () {
-                $('#tabDashboard').tabs({ fx: [null, { height: 'show', opacity: 'show' }] });
+                $('#tabDashboard').tabs({ fx: [null, { height: 'show', opacity: 'show'}] });
             },
             BindEvents: function () {
                 var v = $("#form1").validate({
@@ -93,16 +93,15 @@
                         order = order + 1;
                         var url = $('#ddlPages option:selected').val() + DashboardMgr.config.PageExtension;
                         var imagepath = $('div.sfUploadedFiles img.sfIcon').prop("title");
-                        var param = {
-                            linkObj: {
-                                DisplayName: $('#txtLnkName').val(),
-                                URL: url,
-                                ImagePath: imagepath,
-                                DisplayOrder: order,
-                                PageID: $('#ddlPages').val(),
-                                IsActive: $('#chkIsActiveQuicklink').prop("checked"),
-                                QuickLinkID: parseInt(DashboardMgr.config.QuickLinkID)
-                            },
+                        var param = { linkObj: {
+                            DisplayName: $('#txtLnkName').val(),
+                            URL: url,
+                            ImagePath: imagepath,
+                            DisplayOrder: order,
+                            PageID: $('#ddlPages').val(),
+                            IsActive: $('#chkIsActiveQuicklink').prop("checked"),
+                            QuickLinkID: parseInt(DashboardMgr.config.QuickLinkID)
+                        },
                             UserName: DashboardMgr.config.UserName,
                             PortalID: DashboardMgr.config.PortalID,
                             userModuleId: DashboardMgr.config.userModuleId,
@@ -167,18 +166,17 @@
                             var imagepath = $('div.sfUploadedTabIcon img.sfIcon').prop("title");
                             var depth = 0;
 
-                            var param = {
-                                sidebarObj: {
-                                    DisplayName: $('#txtTabName').val(),
-                                    Depth: depth,
-                                    ImagePath: imagepath,
-                                    URL: url,
-                                    ParentID: 0,
-                                    IsActive: true,
-                                    DisplayOrder: order,
-                                    SidebarItemID: parseInt(DashboardMgr.config.SidebarItemID),
-                                    PageID: 2
-                                },
+                            var param = { sidebarObj: {
+                                DisplayName: $('#txtTabName').val(),
+                                Depth: depth,
+                                ImagePath: imagepath,
+                                URL: url,
+                                ParentID: 0,
+                                IsActive: true,
+                                DisplayOrder: order,
+                                SidebarItemID: parseInt(DashboardMgr.config.SidebarItemID),
+                                PageID: 2
+                            },
                                 UserName: DashboardMgr.config.UserName,
                                 PortalID: DashboardMgr.config.PortalID,
                                 userModuleId: DashboardMgr.config.userModuleId,
@@ -217,18 +215,17 @@
                         var url = $('#ddlPagesSidebar option:selected').val() + DashboardMgr.config.PageExtension;
                         var imagepath = $('div.sfUploadedFilesSidebar img.sfIcon').prop("title");
                         var depth = $('#ddlParentLinks').val() > 0 ? $('#ddlParentLinks').val() : 0;
-                        var param = {
-                            sidebarObj: {
-                                DisplayName: $('#txtSidebarName').val(),
-                                Depth: depth,
-                                ImagePath: imagepath,
-                                URL: url,
-                                ParentID: $('#ddlParentLinks').val(),
-                                IsActive: $('#chkIsActiveSidebar').prop("checked"),
-                                DisplayOrder: order,
-                                SidebarItemID: parseInt(DashboardMgr.config.SidebarItemID),
-                                PageID: $('#ddlPagesSidebar').val()
-                            },
+                        var param = { sidebarObj: {
+                            DisplayName: $('#txtSidebarName').val(),
+                            Depth: depth,
+                            ImagePath: imagepath,
+                            URL: url,
+                            ParentID: $('#ddlParentLinks').val(),
+                            IsActive: $('#chkIsActiveSidebar').prop("checked"),
+                            DisplayOrder: order,
+                            SidebarItemID: parseInt(DashboardMgr.config.SidebarItemID),
+                            PageID: $('#ddlPagesSidebar').val()
+                        },
                             UserName: DashboardMgr.config.UserName,
                             PortalID: DashboardMgr.config.PortalID,
                             userModuleId: DashboardMgr.config.userModuleId,
@@ -615,8 +612,7 @@
             },
             DeleteLink: function (quicklinkid) {
 
-                var param = JSON2.stringify({
-                    QuickLinkID: parseInt(quicklinkid),
+                var param = JSON2.stringify({ QuickLinkID: parseInt(quicklinkid),
                     UserName: DashboardMgr.config.UserName,
                     PortalID: DashboardMgr.config.PortalID,
                     userModuleId: DashboardMgr.config.userModuleId,
@@ -637,8 +633,7 @@
                 });
             },
             DeleteSidebarItem: function (sidebaritemid) {
-                var param = JSON2.stringify({
-                    SidebarItemID: parseInt(sidebaritemid),
+                var param = JSON2.stringify({ SidebarItemID: parseInt(sidebaritemid),
                     UserName: DashboardMgr.config.UserName,
                     PortalID: DashboardMgr.config.PortalID,
                     userModuleId: DashboardMgr.config.userModuleId,
@@ -950,7 +945,8 @@
                                 <label class="sfFormlabel">
                                     Display Name</label>
                             </td>
-                            <td width="30">:
+                            <td width="30">
+                                :
                             </td>
                             <td>
                                 <input type="text" id="txtSidebarName" name="txtSidebarName" class="sfInputbox" />
@@ -961,7 +957,8 @@
                                 <label class="sfFormlabel">
                                     Parent</label>
                             </td>
-                            <td width="30">:
+                            <td width="30">
+                                :
                             </td>
                             <td>
                                 <select id="ddlParentLinks" class="sfListmenu">
@@ -973,7 +970,8 @@
                                 <label class="sfFormlabel">
                                     Pages</label>
                             </td>
-                            <td width="30">:
+                            <td width="30">
+                                :
                             </td>
                             <td>
                                 <select id="ddlPagesSidebar" class="sfListmenu">
@@ -985,7 +983,8 @@
                                 <label class="sfFormlabel">
                                     Upload Icon</label>
                             </td>
-                            <td width="30">:
+                            <td width="30">
+                                :
                             </td>
                             <td>
                                 <input type="file" id="fupIconSidebar" class="sfListmenu" />
@@ -994,8 +993,7 @@
                                 <br />
                                 <p class="sfNote sfLocale">
                                     <i class="icon-info"></i>&nbsp;&nbsp;If you don't choose an icon image file, default
-                                    system icon will be set automatically.
-                                </p>
+                                    system icon will be set automatically.</p>
                             </td>
                         </tr>
                         <tr>
@@ -1003,16 +1001,19 @@
                                 <label class="sfFormlabel">
                                     Active</label>
                             </td>
-                            <td width="30">:
+                            <td width="30">
+                                :
                             </td>
                             <td>
                                 <input type="checkbox" checked="checked" id="chkIsActiveSidebar" />
                             </td>
                         </tr>
                         <tr>
-                            <td>&nbsp
+                            <td>
+                                &nbsp
                             </td>
-                            <td width="30"></td>
+                            <td width="30">
+                            </td>
                             <td>
                                 <div class="sfButtonwrapper sftype1 clearfix sfMarginnone">
                                     <i class="icon-addnew sfBtn" id="btnAddSidebar">Add Sidebar Item</i> <i class="icon-close sfBtn"
@@ -1075,7 +1076,8 @@
                         <label class="sfFormlabel">
                             Choose Appearance:</label>
                     </td>
-                    <td width="30">:
+                    <td width="30">
+                        :
                     </td>
                     <td>
                         <div class="sfRadio sfAppearanceOptions">
@@ -1098,7 +1100,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2"></td>
+                    <td colspan="2">
+                    </td>
                     <td>
                         <div class="sftype1 sfMargintop">
                             <label id="btnSaveAppearance" class="sfSave">

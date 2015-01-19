@@ -37,7 +37,7 @@
                 <asp:TemplateField HeaderText="Delete" meta:resourcekey="TemplateFieldResource6">
                     <ItemTemplate>
                         <asp:LinkButton ID="imbDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("ContactUsID") %>'
-                            CommandName="Delete" CssClass="icon-delete"
+                            CommandName="Delete" CssClass="icon-delete" 
                             OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete ?');" meta:resourcekey="imbDeleteResource1" />
                     </ItemTemplate>
                     <HeaderStyle CssClass="sfDelete" />

@@ -304,7 +304,7 @@
     <value />
   </data>
   <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
-    <value>AddedOn</value>
+    <value />
   </data>
   <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
     <value />
@@ -322,15 +322,6 @@
     <value />
   </data>
   <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
     <value />
   </data>
 </root>

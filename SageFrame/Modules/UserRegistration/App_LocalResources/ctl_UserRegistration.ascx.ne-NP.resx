@@ -324,4 +324,7 @@
   <data name="UserNameResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="lblTitleResource1.Text" xml:space="preserve">
+    <value>दर्ता</value>
+  </data>
 </root>

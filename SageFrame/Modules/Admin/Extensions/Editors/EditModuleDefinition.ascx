@@ -5,13 +5,15 @@
 <div>
     <asp:Panel ID="pnlNewModuleSettings" runat="server" meta:resourcekey="pnlNewModuleSettingsResource1">
         <div class="sfCollapsewrapper sfFormwrapper sfModuleMgmt">
-            <asp:UpdatePanel ID="udpModuleSettings" runat="server">
+            <asp:UpdatePanel ID="udpModuleSettings" runat="server">            
                 <ContentTemplate>
                     <div id="divModuleSettings" runat="server" class="sfCollapsecontent">
                         <div>
-                            <h3>Module Settings</h3>
+                            <h3>
+                                Module Settings</h3>
                             <p class="sfNote">
-                                <asp:Label ID="lblModuleSettingsHelp" runat="server" Text="In this section, you can set up more advanced settings for Module Controls on this Module." meta:resourcekey="lblModuleSettingsHelpResource1"></asp:Label>
+                                <asp:Label ID="lblModuleSettingsHelp" runat="server" Text="In this section, you can set up more advanced settings for Module Controls on this Module."
+                                    meta:resourcekey="lblModuleSettingsHelpResource1"></asp:Label>
                             </p>
                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
@@ -64,7 +66,7 @@
         </div>
         <div class="sfButtonwrapper">
             <asp:LinkButton ID="imbCreate" runat="server" OnClick="imbCreate_Click" CssClass="icon-save sfBtn"
-                ValidationGroup="vdgExtension" Text="Save Module" meta:resourcekey="imbCreateResource1" />
+                ValidationGroup="vdgExtension" meta:resourcekey="imbCreateResource1" Text="Save Module" />
             <asp:LinkButton ID="imbBack" runat="server" CausesValidation="False" CssClass="icon-close sfBtn"
                 Text="Cancel" OnClick="imbBack_Click" meta:resourcekey="imbBackResource1" />
         </div>

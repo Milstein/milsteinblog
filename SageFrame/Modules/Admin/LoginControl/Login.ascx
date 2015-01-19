@@ -4,7 +4,7 @@
 <script type="text/javascript">
     //<![CDATA[   
     var elementId = '#<%=UserName.ClientID%>';
-    $(function () {
+    $(function() {
         $(".sfLocale").SystemLocalize();
     });
     //]]>	
@@ -18,23 +18,24 @@
                     <asp:Label ID="lblAdminLogin" runat="server" Text="Login" meta:resourcekey="lblAdminLoginResource1"></asp:Label>
                 </h2>
                 <p class="sfUserName">
-                    <asp:TextBox ID="UserName" placeholder="Username" runat="server" autofocus="autofocus"
-                        CssClass="sfInputbox" meta:resourcekey="UserNameResource1"></asp:TextBox>
+                    <asp:TextBox ID="UserName" placeholder="Username" runat="server" meta:resourcekey="UserNameResource1" autofocus="autofocus"
+                        CssClass="sfInputbox"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName"
                         ErrorMessage="Username is required." ToolTip="Username is required." ValidationGroup="Login1"
-                        CssClass="sfErrorA"
-                        Text="*" meta:resourcekey="UserNameRequiredResource1"></asp:RequiredFieldValidator>
+                        CssClass="sfErrorA" meta:resourcekey="UserNameRequiredResource1"
+                        Text="*"></asp:RequiredFieldValidator>
                 </p>
                 <p class="sfPassword">
                     <asp:TextBox ID="Password" placeholder="Password" runat="server" TextMode="Password"
-                        CssClass="sfInputbox" oncopy="return false" onpaste="return false" oncut="return false" meta:resourcekey="PasswordResource1"></asp:TextBox>
+                        meta:resourcekey="PasswordResource1" CssClass="sfInputbox" oncopy="return false" onpaste="return false" oncut="return false"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password"
                         ErrorMessage="Password is required." ToolTip="Password is required." ValidationGroup="Login1"
-                        CssClass="sfErrorA" Text="*" meta:resourcekey="PasswordRequiredResource1"></asp:RequiredFieldValidator>
+                        CssClass="sfErrorA" meta:resourcekey="PasswordRequiredResource1" Text="*"></asp:RequiredFieldValidator>
                 </p>
                 <p>
-                    <asp:CheckBox ID="chkRememberMe" runat="server" CssClass="sfCheckBox" meta:resourcekey="chkRememberMeResource1" />
-                    <asp:Label ID="lblrmnt" runat="server" Text="Remember me." CssClass="sfFormlabel" meta:resourcekey="lblrmntResource1"></asp:Label>
+                    <asp:CheckBox ID="chkRememberMe" runat="server" CssClass="sfCheckBox" meta:resourcekey="RememberMeResource1" />
+                    <asp:Label ID="lblrmnt" runat="server" Text="Remember me." CssClass="sfFormlabel"
+                        meta:resourcekey="lblrmntResource1"></asp:Label>
                 </p>
                 <div id="dvCaptchaField" runat="server" style="clear: both;">
                     <p>
@@ -49,7 +50,8 @@
                                 <p class="sfCaptcha">
                                     <asp:TextBox placeholder="Enter captcha text" ID="CaptchaValue" runat="server" CssClass="sfInputbox" meta:resourcekey="CaptchaValueResource1"></asp:TextBox>
                                     <asp:RequiredFieldValidator ID="rfvCaptchaValueValidator" runat="server" ControlToValidate="CaptchaValue"
-                                        Display="Dynamic" ErrorMessage="*" ValidationGroup="Login1" CssClass="sfErrorA" meta:resourcekey="rfvCaptchaValueValidatorResource1"></asp:RequiredFieldValidator>
+                                        Display="Dynamic" ErrorMessage="*" ValidationGroup="Login1" CssClass="sfErrorA"
+                                        meta:resourcekey="rfvCaptchaValueValidatorResource1"></asp:RequiredFieldValidator>
                                     <asp:CompareValidator ID="cvCaptchaValue" runat="server" Display="Dynamic" ErrorMessage="*"
                                         ControlToValidate="CaptchaValue" ValueToCompare="121" CssClass="sfError" meta:resourcekey="cvCaptchaValueResource1"></asp:CompareValidator>
                                 </p>
@@ -59,15 +61,15 @@
                 </div>
                 <p style="float: left; width: 50%;">
                     <span class="cssClassForgotPass">
-                        <asp:HyperLink ID="hypForgotPassword" runat="server"
-                            Text="Forgot Password?" meta:resourcekey="hypForgotPasswordResource1"></asp:HyperLink>
+                        <asp:HyperLink ID="hypForgotPassword" runat="server" meta:resourcekey="hypForgotPasswordResource1"
+                            Text="Forgot Password?"></asp:HyperLink>
                     </span>
                 </p>
                 <div class="sfButtonwrapper" style="float: right;">
                     <span><span>
                         <asp:Button ID="LoginButton" runat="server" CommandName="Login" CssClass="sfBtn"
-                            OnClick="LoginButton_Click" Text="Sign In"
-                            ValidationGroup="Login1" meta:resourcekey="LoginButtonResource1" />
+                            meta:resourcekey="LoginButtonResource1" OnClick="LoginButton_Click" Text="Sign In"
+                            ValidationGroup="Login1" />
                     </span></span>
                 </div>
                 <p style="clear: both;">
@@ -76,7 +78,8 @@
             </div>
         </div>
         <div class="OpenID" align="center" runat="server" id="divOpenIDProvider">
-            <h3 class="sfLocale">Login with any of these OpenID providers:
+            <h3 class="sfLocale">
+                Login with any of these OpenID providers:
             </h3>
             <asp:ImageButton runat="server" ID="imgBtnFacebook" ImageUrl="images/Login_with_Facebook.png"
                 OnClick="imgBtnFacebook_Click" meta:resourcekey="imgBtnFacebookResource1" />

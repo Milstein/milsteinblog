@@ -8,7 +8,8 @@
 <div>
     <asp:Wizard ID="wizInstall" runat="server" Width="100%" DisplaySideBar="False" ActiveStepIndex="0"
         DisplayCancelButton="True" OnNextButtonClick="wizInstall_NextButtonClick" OnCancelButtonClick="wizInstall_CancelButtonClick"
-        OnFinishButtonClick="wizInstall_FinishButtonClick" OnActiveStepChanged="wizInstall_ActiveStepChanged" meta:resourcekey="wizInstallResource1">
+        OnFinishButtonClick="wizInstall_FinishButtonClick" OnActiveStepChanged="wizInstall_ActiveStepChanged"
+        meta:resourcekey="wizInstallResource1">
         <FinishNavigationTemplate>
             <div class="sfButtonwrapper">
                 <asp:Button ID="FinishButton" runat="server" AlternateText="Finish" CausesValidation="False"
@@ -17,7 +18,8 @@
         </FinishNavigationTemplate>
         <HeaderTemplate>
             <h3>
-                <asp:Label ID="lblTitle" CssClass="cssClassNormalTitle" runat="server" Text="Available Modules" meta:resourcekey="lblTitleResource1"></asp:Label>
+                <asp:Label ID="lblTitle" CssClass="cssClassNormalTitle" runat="server" Text="Available Modules"
+                    meta:resourcekey="lblTitleResource1"></asp:Label>
             </h3>
         </HeaderTemplate>
         <StartNavigationTemplate>
@@ -29,37 +31,48 @@
             </div>
         </StartNavigationTemplate>
         <WizardSteps>
-            <asp:WizardStep ID="Step0" runat="Server" Title="Introduction" StepType="Start" AllowReturn="false" meta:resourcekey="Step0Resource1">
+            <asp:WizardStep ID="Step0" runat="Server" Title="Introduction" StepType="Start" AllowReturn="false"
+                meta:resourcekey="Step0Resource1">
                 <div class="sfFormwrapper sfPadding">
-                    <asp:Label ID="lblWarningMessage" runat="server" CssClass="sfError" EnableViewState="False" meta:resourcekey="lblWarningMessageResource1" />
-                    <asp:Panel ID="pnlPackage" runat="server"
-                        CssClass="sfGridwrapper" meta:resourcekey="pnlPackageResource1">
-                        <asp:GridView ID="gdvModule" runat="server" AutoGenerateColumns="false" meta:resourcekey="gdvModuleResource1">
+                    <asp:Label ID="lblWarningMessage" runat="server" CssClass="sfError" EnableViewState="False"
+                        meta:resourcekey="lblWarningMessageResource1" />
+                    <asp:Panel ID="pnlPackage" runat="server" meta:resourcekey="pnlPackageResource1"
+                        CssClass="sfGridwrapper">
+                        <asp:GridView ID="gdvModule" runat="server" AutoGenerateColumns="false" 
+                            meta:resourcekey="gdvModuleResource1">
                             <Columns>
                                 <asp:TemplateField HeaderText="Name" meta:resourcekey="TemplateFieldResource1">
                                     <ItemTemplate>
-                                        <asp:Label ID="lblname" runat="server" Text='<%# Eval("Name") %>' meta:resourcekey="lblnameResource1"></asp:Label>
+                                        <asp:Label ID="lblname" runat="server" Text='<%# Eval("Name") %>' 
+                                            meta:resourcekey="lblnameResource1"></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
-                                <asp:TemplateField HeaderText="Friendly Name" meta:resourcekey="TemplateFieldResource2">
+                                <asp:TemplateField HeaderText="Friendly Name" 
+                                    meta:resourcekey="TemplateFieldResource2">
                                     <ItemTemplate>
-                                        <asp:Label ID="lblFriendlyname" runat="server"
+                                        <asp:Label ID="lblFriendlyname" runat="server" 
                                             Text='<%# Eval("FriendlyName") %>' meta:resourcekey="lblFriendlynameResource1"></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
-                                <asp:TemplateField HeaderText="Description" meta:resourcekey="TemplateFieldResource3">
+                                <asp:TemplateField HeaderText="Description" 
+                                    meta:resourcekey="TemplateFieldResource3">
                                     <ItemTemplate>
-                                        <asp:Label ID="lblDescription" runat="server" Text='<%# Eval("Description") %>' meta:resourcekey="lblDescriptionResource1"></asp:Label>
+                                        <asp:Label ID="lblDescription" runat="server" Text='<%# Eval("Description") %>' 
+                                            meta:resourcekey="lblDescriptionResource1"></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
-                                <asp:TemplateField HeaderText="Version" meta:resourcekey="TemplateFieldResource4">
+                                <asp:TemplateField HeaderText="Version" 
+                                    meta:resourcekey="TemplateFieldResource4">
                                     <ItemTemplate>
-                                        <asp:Label ID="lblVersion" runat="server" Text='<%# Eval("Version") %>' meta:resourcekey="lblVersionResource1"></asp:Label>
+                                        <asp:Label ID="lblVersion" runat="server" Text='<%# Eval("Version") %>' 
+                                            meta:resourcekey="lblVersionResource1"></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
-                                <asp:TemplateField HeaderText="Install" meta:resourcekey="TemplateFieldResource5">
+                                <asp:TemplateField HeaderText="Install" 
+                                    meta:resourcekey="TemplateFieldResource5">
                                     <ItemTemplate>
-                                        <asp:CheckBox ID="cbInstall" runat="server" meta:resourcekey="cbInstallResource1" />
+                                        <asp:CheckBox ID="cbInstall" runat="server" 
+                                            meta:resourcekey="cbInstallResource1" />
                                     </ItemTemplate>
                                 </asp:TemplateField>
                             </Columns>
@@ -67,13 +80,15 @@
                     </asp:Panel>
                 </div>
             </asp:WizardStep>
-            <asp:WizardStep ID="Step1" runat="Server" Title="ReleaseNotes" StepType="Step" AllowReturn="false" meta:resourcekey="Step1Resource1">
+            <asp:WizardStep ID="Step1" runat="Server" Title="ReleaseNotes" StepType="Step" AllowReturn="false"
+                meta:resourcekey="Step3Resource1">
                 <div class="sfFormwrapper">
                     <table cellspacing="0" cellpadding="0" border="0" width="100%">
                         <tr>
                             <td>
-                                <asp:Panel ID="pnlReleaseNotes" runat="server" CssClass="" Width="650px" meta:resourcekey="pnlReleaseNotesResource1">
-                                    <asp:Label ID="lblReleaseNotes" runat="server" Text="ReleaseNotes:" CssClass="sfFormlabel" meta:resourcekey="lblReleaseNotesResource1"></asp:Label>
+                                <asp:Panel ID="pnlReleaseNotes" runat="server" Width="650px" meta:resourcekey="pnlReleaseNotesResource1">
+                                    <asp:Label ID="lblReleaseNotes" runat="server" Text="ReleaseNotes:" CssClass="sfFormlabel"
+                                        meta:resourcekey="lblReleaseNotesResource1"></asp:Label>
                                     <asp:Label ID="lblReleaseNotesD" runat="server" Text="" meta:resourcekey="lblReleaseNotesDResource1"></asp:Label>
                                 </asp:Panel>
                             </td>
@@ -81,13 +96,14 @@
                     </table>
                 </div>
             </asp:WizardStep>
-            <asp:WizardStep ID="Step2" runat="server" Title="License" StepType="Step" AllowReturn="false" meta:resourcekey="Step2Resource1">
+            <asp:WizardStep ID="Step2" runat="server" Title="License" StepType="Step" AllowReturn="false"
+                meta:resourcekey="Step4Resource1">
                 <div class="sfFormwrapper">
                     <div class="sfLicense">
                         <table cellspacing="0" cellpadding="0" border="0" width="100%">
                             <tr>
                                 <td>
-                                    <asp:Panel ID="Panel1" runat="server" CssClass="" meta:resourcekey="Panel1Resource1">
+                                    <asp:Panel ID="Panel1" runat="server" meta:resourcekey="Panel1Resource1">
                                         <asp:Label ID="lblLicense" runat="server" Text="License:" meta:resourcekey="lblLicenseResource1"></asp:Label>
                                         <asp:Label ID="lblLicenseD" runat="server" Text="" meta:resourcekey="lblLicenseDResource1"></asp:Label>
                                     </asp:Panel>
@@ -101,19 +117,22 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <asp:Label ID="lblAcceptMessage" runat="server" EnableViewState="False" CssClass="sfError" meta:resourcekey="lblAcceptMessageResource1" />
+                                    <asp:Label ID="lblAcceptMessage" runat="server" EnableViewState="False" CssClass="sfError"
+                                        meta:resourcekey="lblAcceptMessageResource1" />
                                 </td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </asp:WizardStep>
-            <asp:WizardStep ID="Step3" runat="Server" Title="InstallResults" StepType="Finish" meta:resourcekey="Step3Resource1">
+            <asp:WizardStep ID="Step3" runat="Server" Title="InstallResults" StepType="Finish"
+                meta:resourcekey="Step5Resource1">
                 <div class="sfFormwrapper">
                     <table cellspacing="0" cellpadding="0" border="0" width="100%">
                         <tr>
                             <td>
-                                <asp:Label ID="lblInstallMessage" runat="server" EnableViewState="False" CssClass="sfSuccess" meta:resourcekey="lblInstallMessageResource1" />
+                                <asp:Label ID="lblInstallMessage" runat="server" EnableViewState="False" CssClass="sfSuccess"
+                                    meta:resourcekey="lblInstallMessageResource1" />
                             </td>
                         </tr>
                     </table>

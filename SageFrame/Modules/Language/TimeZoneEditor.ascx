@@ -8,9 +8,11 @@
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
                 <td width="15%">
-                    <asp:Label ID="lblAvailableLocales" runat="server" CssClass="sfFormlabel" Text="Available Locales" meta:resourcekey="lblAvailableLocalesResource1"></asp:Label>
+                    <asp:Label ID="lblAvailableLocales" runat="server" CssClass="sfFormlabel" Text="Available Locales"
+                        meta:resourcekey="lblAvailableLocalesResource1"></asp:Label>
                 </td>
-                <td width="30">:
+                <td width="30">
+                    :
                 </td>
                 <td>
                     <asp:DropDownList ID="ddlAvailableLocales" runat="server" CssClass="sfListmenu" AutoPostBack="True"
@@ -22,7 +24,8 @@
         </table>
     </div>
     <div class="sfFormwrapper sfGridwrapper">
-        <asp:GridView ID="gdvTimeZoneEditor" runat="server" AutoGenerateColumns="False" Width="100%" meta:resourcekey="gdvTimeZoneEditorResource1">
+        <asp:GridView ID="gdvTimeZoneEditor" runat="server" AutoGenerateColumns="False" Width="100%"
+            meta:resourcekey="gdvTimeZoneEditorResource1">
             <Columns>
                 <asp:TemplateField HeaderText="Name" meta:resourcekey="TemplateFieldResource1">
                     <ItemTemplate>
@@ -30,8 +33,8 @@
                             Text='<%# Eval("name") %>' meta:resourcekey="txtTimeZoneNameResource1"></asp:TextBox>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:BoundField DataField="key" HeaderText="Key"
-                    HeaderStyle-CssClass="sfKey" ItemStyle-CssClass="sfKey" meta:resourcekey="BoundFieldResource1">
+                <asp:BoundField DataField="key" HeaderText="Key" meta:resourcekey="BoundFieldResource1"
+                    HeaderStyle-CssClass="sfKey" ItemStyle-CssClass="sfKey">
                     <HeaderStyle CssClass="sfKey"></HeaderStyle>
                     <ItemStyle CssClass="sfKey"></ItemStyle>
                 </asp:BoundField>
@@ -46,7 +49,8 @@
 <div class="sfButtonwrapper">
     <label class="sfLocale icon-save sfBtn">
         Save
-        <asp:Button ID="imbUpdate" runat="server" Style="width: 16px" OnClick="imbUpdate_Click" meta:resourcekey="imbUpdateResource1" />
+        <asp:Button ID="imbUpdate" runat="server" Style="width: 16px" OnClick="imbUpdate_Click"
+            meta:resourcekey="imbUpdateResource1" />
     </label>
     <label class="sfLocale icon-close sfBtn">
         Cancel

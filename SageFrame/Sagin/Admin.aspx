@@ -36,7 +36,7 @@
     <asp:Literal ID="SageFrameModuleCSSlinks" runat="server" meta:resourcekey="SageFrameModuleCSSlinksResource1"></asp:Literal>
     <link id="lnkLoginCss" href="" rel="stylesheet" type="text/css" runat="server" />
     <title>SageFrame Website</title>
-    <asp:Literal ID="LitLangResc" runat="server" meta:resourcekey="LitLangRescResource1"></asp:Literal>
+    <asp:Literal ID="LitLangResc" runat="server"></asp:Literal>
 </head>
 <body>
     <form id="form1" runat="server" enctype="multipart/form-data">
@@ -59,8 +59,8 @@
     </noscript>
     <div id="sfOuterwrapper">
         <div class="sfLogoholder">
-            <a href="http://www.milstein.me" target="_blank" class="sflogo" title="Milson Munakami 'Mils†ein®'">
-                <asp:Image ID="imgLogo" runat="server" alt="Milson Munakami 'Mils†ein®'" title="Milson Munakami 'Mils†ein®'" meta:resourcekey="imgLogoResource1" />
+            <a href="http://www.sageframe.com" target="_blank" class="sflogo">
+                <asp:Image ID="imgLogo" runat="server" alt="SageFrame" meta:resourcekey="imgLogoResource1" />
             </a>
         </div>
         <div class="sfSagewrapper">

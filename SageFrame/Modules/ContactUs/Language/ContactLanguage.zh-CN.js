@@ -6,7 +6,4 @@ var ContactLocal = {
 "Message":"信息",
 "Submit":"提交",
 "Your Email ID":"您的电子邮件ID"
-
-
-
 }

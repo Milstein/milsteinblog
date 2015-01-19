@@ -2,7 +2,7 @@
     Inherits="Modules_Admin_CacheMaintenance_CacheMaintenance" %>
 
 <script language="javascript" type="text/javascript">
-    $(function () {
+    $(function() {
 
         $(this).CacheMaintenance({
             CultureCode: 'en-US',
@@ -34,7 +34,8 @@
             <div class="sfGridwrapper">
                 <table width="100%" id="tblHeavyCache">
                     <tr>
-                        <th>Check All
+                        <th>
+                            Check All
                         </th>
                         <th>
                             <input type="checkbox" id="chkCheckAllHeavyCache" class="sfCheckbox" />

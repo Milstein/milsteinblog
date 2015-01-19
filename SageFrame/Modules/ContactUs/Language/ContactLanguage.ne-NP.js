@@ -6,7 +6,4 @@ var ContactLocal = {
 "Message":"सन्देश",
 "Submit":"सब्मित",
 "Your Email ID":"तपाईंको इमेल आईडी"
-
-
-
 }

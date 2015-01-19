@@ -6,7 +6,4 @@
     'Message': 'Message',
     'Submit': 'Submit',
     'Your Email ID': 'Your Email ID'
-
-
-
 }

@@ -12,11 +12,13 @@
     </FooterTemplate>
     <ItemTemplate>
         <li><a id="hypPageURL" runat="server" href='<%# Eval("Url") %>'><span class="sfModuleicon">
-            <asp:Literal runat="server" ID="ltrImage" Text='<%# Eval("IconFile") %>'></asp:Literal>
+                <asp:Literal runat="server" ID="ltrImage" Text='<%# Eval("IconFile") %>'></asp:Literal>
         </span>
-            <asp:Label class="sfModulename" ID="lblPageName" runat="server" Text='<%# Eval("PageName") %>' meta:resourcekey="lblPageNameResource1"></asp:Label>
+            <asp:Label class="sfModulename" ID="lblPageName" runat="server" Text='<%# Eval("PageName") %>'
+                meta:resourcekey="lblPageNameResource1"></asp:Label>
         </a>
-            <asp:Label ID="lblSEOName" runat="server" Visible="False" Text='<%# Eval("PageName") %>' meta:resourcekey="lblSEONameResource1"></asp:Label>
+            <asp:Label ID="lblSEOName" runat="server" Visible="False" Text='<%# Eval("PageName") %>'
+                meta:resourcekey="lblSEONameResource1"></asp:Label>
         </li>
     </ItemTemplate>
 </asp:Repeater>

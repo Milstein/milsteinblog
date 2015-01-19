@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="CDNView.ascx.cs" Inherits="Modules_HTML_CDNView" %>
 
 <script type="text/javascript">
-    $(function () {
+    $(function() {
         $(this).SageFrameCDN({
             UserModuleID: '<%=UserModuleID %>'
         });
@@ -13,7 +13,8 @@
         Enable CDN :</label>
     <input type="checkbox" id="chkEnableCDN" />
 </div>--%>
-<h1>Content Delivery Network</h1>
+<h1>
+    Content Delivery Network</h1>
 <div class="clearfix sfAddUrl">
     <div class="sfCol_50">
         <fieldset>

@@ -5,8 +5,8 @@
     //<![CDATA[
     $(function () {
         //myProfileDrop
-
-
+       
+        
 
         $(".sfLocalee").SystemLocalize();
         $('#imgAdmin').attr("src", SageFrameAppPath + "/Administrator/Templates/Default/images/admin-icon.png");
@@ -108,7 +108,8 @@
             <div id="signin_menu" class="clearfix">
                 <ul>
                     <li>
-                        <h6 class="sfLocalee">Customize:</h6>
+                        <h6 class="sfLocalee">
+                            Customize:</h6>
                         <p>
                             <label class="sfLocalee">
                                 Themes:</label>
@@ -131,10 +132,12 @@
                             </asp:DropDownList>
                         </p>
                         <p>
-                            <asp:Button ID="btnApply" OnClick="btnApply_Click" runat="server" Text="Apply" CssClass="sfBtn" meta:resourcekey="btnApplyResource1" />
+                            <asp:Button ID="btnApply" OnClick="btnApply_Click" runat="server" Text="Apply" CssClass="sfBtn"
+                                meta:resourcekey="btnApplyResource1" />
                         </p>
                         <div class="sfMode">
-                            <h6 class="sfLocalee">Mode:</h6>
+                            <h6 class="sfLocalee">
+                                Mode:</h6>
                             <label class="sfLocale">
                                 <input id="rdbEdit" name="mode" type="radio" />
                                 Edit</label>

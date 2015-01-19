@@ -7,5 +7,5 @@
 </div>
 <div runat="server">
     <asp:Label ID="lblShortUrl" runat="server" meta:resourcekey="lblShortUrlResource1"></asp:Label>
-    <asp:HyperLink ID="hypCode" runat="server" Target="_blank" meta:resourcekey="hypCodeResource1" Text="[hypCode]"></asp:HyperLink>
+    <asp:HyperLink ID="hypCode" runat="server" Target="_blank"></asp:HyperLink>
 </div>

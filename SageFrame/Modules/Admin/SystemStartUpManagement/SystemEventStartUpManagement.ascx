@@ -109,22 +109,22 @@
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="Event Location" meta:resourcekey="TemplateFieldResource2">
                     <ItemTemplate>
-                        <asp:Label ID="lblEventLocation" runat="server" Text='<%# Eval("EventLocationName") %>' meta:resourcekey="lblEventLocationResource2"></asp:Label>
+                        <asp:Label ID="lblEventLocation" runat="server" meta:resourcekey="lblEventLocationResource2" Text='<%# Eval("EventLocationName") %>'></asp:Label>
                     </ItemTemplate>
                     <HeaderStyle HorizontalAlign="Left" />
                     <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" />
                 </asp:TemplateField>
                 <asp:BoundField DataField="IsAdmin" HeaderText="Is Admin" meta:resourcekey="BoundFieldResource1">
-                    <HeaderStyle CssClass="sfColumnIsActive" />
+                <HeaderStyle CssClass="sfColumnIsActive" />
                 </asp:BoundField>
                 <asp:BoundField DataField="IsControlUrl" HeaderText="Is ControlUrl" meta:resourcekey="BoundFieldResource2">
-                    <HeaderStyle CssClass="sfColumnIsActive" />
+                <HeaderStyle CssClass="sfColumnIsActive" />
                 </asp:BoundField>
                 <asp:BoundField DataField="IsSystem" HeaderText="Is System" meta:resourcekey="BoundFieldResource3">
-                    <HeaderStyle CssClass="sfColumnIsActive" />
+                <HeaderStyle CssClass="sfColumnIsActive" />
                 </asp:BoundField>
                 <asp:BoundField DataField="IsActive" HeaderText="Is Active" meta:resourcekey="BoundFieldResource4">
-                    <HeaderStyle CssClass="sfColumnIsActive" />
+                <HeaderStyle CssClass="sfColumnIsActive" />
                 </asp:BoundField>
                 <asp:TemplateField HeaderText="AddedOn" meta:resourcekey="TemplateFieldResource3">
                     <ItemTemplate>
@@ -135,21 +135,21 @@
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="AddedBy" meta:resourcekey="TemplateFieldResource4">
                     <ItemTemplate>
-                        <asp:Label ID="lblAddedeBY" runat="server" Text='<%# Eval("AddedBy") %>' meta:resourcekey="lblAddedeBYResource1"></asp:Label>
+                        <asp:Label ID="lblAddedeBY" runat="server" meta:resourcekey="lblAddedeBYResource1" Text='<%# Eval("AddedBy") %>'></asp:Label>
                     </ItemTemplate>
                     <HeaderStyle CssClass="sfAddedBy" HorizontalAlign="Left" />
                     <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" />
                 </asp:TemplateField>
                 <asp:TemplateField meta:resourcekey="TemplateFieldResource5">
                     <ItemTemplate>
-                        <asp:ImageButton ID="imbEdit" runat="server" CausesValidation="False" CommandArgument='<%# Eval("PortalStartUpID") %>' CommandName="EditEvent" ImageUrl='<%# GetTemplateImageUrl("imgedit.png", true) %>' ToolTip="Edit" meta:resourcekey="imbEditResource1" />
+                        <asp:ImageButton ID="imbEdit" runat="server" CausesValidation="False" CommandArgument='<%# Eval("PortalStartUpID") %>' CommandName="EditEvent" ImageUrl='<%# GetTemplateImageUrl("imgedit.png", true) %>' meta:resourcekey="imbEditResource1" ToolTip="Edit" />
                     </ItemTemplate>
                     <HeaderStyle CssClass="sfColumnEdit" />
                     <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" />
                 </asp:TemplateField>
-                <asp:TemplateField meta:resourcekey="TemplateFieldResource6">
+                <asp:TemplateField meta:resourceKey="TemplateFieldResource3">
                     <ItemTemplate>
-                        <asp:ImageButton ID="imbDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("PortalStartUpID") %>' CommandName="DeleteEvent" ImageUrl='<%# GetTemplateImageUrl("imgdelete.png", true) %>' OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete this startup event?');" meta:resourcekey="imbDeleteResource1" />
+                        <asp:ImageButton ID="imbDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("PortalStartUpID") %>' CommandName="DeleteEvent" ImageUrl='<%# GetTemplateImageUrl("imgdelete.png", true) %>' meta:resourceKey="imbDeleteResource1" OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete this startup event?');" />
                     </ItemTemplate>
                     <HeaderStyle CssClass="sfDelete" VerticalAlign="Top" />
                     <ItemStyle VerticalAlign="Top" />

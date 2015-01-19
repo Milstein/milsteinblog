@@ -12,12 +12,14 @@
             </tr>
             <tr>
                 <td width="25%">
-                    <asp:Label ID="lblShowinUserModule" runat="server" CssClass="sfFormlabel" Text=" Show In UserModule:" meta:resourcekey="lblShowinUserModuleResource1" />
+                    <asp:Label ID="lblShowinUserModule" runat="server" CssClass="sfFormlabel" Text=" Show In UserModule:"
+                        meta:resourcekey="lblShowinUserModuleResource1" />
                 </td>
                 <td width="27%">
                     <asp:CheckBox ID="chkShow" runat="server" CssClass="sfCheckbox" Checked="True" meta:resourcekey="chkShowResource1" />
                 </td>
-                <td width="48%">&nbsp;
+                <td width="48%">
+                    &nbsp;
                 </td>
             </tr>
             <tr>
@@ -36,7 +38,8 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblAddUnitType" runat="server" CssClass="sfFormlabel" Text="Add Unit Type:" meta:resourcekey="lblAddUnitTypeResource1"></asp:Label>
+                    <asp:Label ID="lblAddUnitType" runat="server" CssClass="sfFormlabel" Text="Add Unit Type:"
+                        meta:resourcekey="lblAddUnitTypeResource1"></asp:Label>
                 </td>
                 <td colspan="2">
                     <asp:DropDownList DataTextField="Key" DataValueField="Value" ID="ddlAddType" CssClass="sfListmenu"
@@ -46,7 +49,8 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblChannelID" runat="server" CssClass="sfFormlabel" Text="Channel ID:" meta:resourcekey="lblChannelIDResource1"></asp:Label>
+                    <asp:Label ID="lblChannelID" runat="server" CssClass="sfFormlabel" Text="Channel ID:"
+                        meta:resourcekey="lblChannelIDResource1"></asp:Label>
                 </td>
                 <td colspan="2">
                     <asp:TextBox ID="txtChannelID" runat="server" CssClass="sfInputbox" meta:resourcekey="txtChannelIDResource1"></asp:TextBox>
@@ -54,7 +58,8 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblBorderColor" runat="server" CssClass="sfFormlabel" Text="Border Color:" meta:resourcekey="lblBorderColorResource1"></asp:Label>
+                    <asp:Label ID="lblBorderColor" runat="server" CssClass="sfFormlabel" Text="Border Color:"
+                        meta:resourcekey="lblBorderColorResource1"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="txtBorder" runat="server" CssClass="sfInputbox" meta:resourcekey="txtBorderResource1"></asp:TextBox>
@@ -67,7 +72,8 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblBackColor" runat="server" CssClass="sfFormlabel" Text="Back Color:" meta:resourcekey="lblBackColorResource1"></asp:Label>
+                    <asp:Label ID="lblBackColor" runat="server" CssClass="sfFormlabel" Text="Back Color:"
+                        meta:resourcekey="lblBackColorResource1"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="txtbackcolor" runat="server" CssClass="sfInputbox" meta:resourcekey="txtbackcolorResource1"></asp:TextBox>
@@ -80,7 +86,8 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblLinkColor" runat="server" CssClass="sfFormlabel" Text="Link Color:" meta:resourcekey="lblLinkColorResource1"></asp:Label>
+                    <asp:Label ID="lblLinkColor" runat="server" CssClass="sfFormlabel" Text="Link Color:"
+                        meta:resourcekey="lblLinkColorResource1"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="txtLink" runat="server" CssClass="sfInputbox" meta:resourcekey="txtLinkResource1"></asp:TextBox>
@@ -93,7 +100,8 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblTextColor" runat="server" CssClass="sfFormlabel" Text="Text Color:" meta:resourcekey="lblTextColorResource1"></asp:Label>
+                    <asp:Label ID="lblTextColor" runat="server" CssClass="sfFormlabel" Text="Text Color:"
+                        meta:resourcekey="lblTextColorResource1"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="txtText" runat="server" CssClass="sfInputbox" meta:resourcekey="txtTextResource1"></asp:TextBox>
@@ -106,7 +114,8 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblURLColor" runat="server" CssClass="sfFormlabel" Text="URL Color:" meta:resourcekey="lblURLColorResource1"></asp:Label>
+                    <asp:Label ID="lblURLColor" runat="server" CssClass="sfFormlabel" Text="URL Color:"
+                        meta:resourcekey="lblURLColorResource1"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="txtURL" runat="server" CssClass="sfInputbox" meta:resourcekey="txtURLResource1"></asp:TextBox>
@@ -119,11 +128,13 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblAlternate" runat="server" CssClass="sfFormlabel" Text="Alternate ads:" meta:resourcekey="lblAlternateResource1"></asp:Label>
+                    <asp:Label ID="lblAlternate" runat="server" CssClass="sfFormlabel" Text="Alternate ads:"
+                        meta:resourcekey="lblAlternateResource1"></asp:Label>
                 </td>
                 <td colspan="2">
                     <asp:DropDownList ID="ddlAlternateAds" DataTextField="Key" DataValueField="Value"
-                        CssClass="sfListmenu" AutoPostBack="True" runat="server" OnSelectedIndexChanged="ddlAlternateAds_SelectedIndexChanged" meta:resourcekey="ddlAlternateAdsResource1">
+                        CssClass="sfListmenu" AutoPostBack="True" runat="server" OnSelectedIndexChanged="ddlAlternateAds_SelectedIndexChanged"
+                        meta:resourcekey="ddlAlternateAdsResource1">
                     </asp:DropDownList>
                 </td>
             </tr>
@@ -153,20 +164,26 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblIsActive" runat="server" CssClass="sfFormlabel" Text="Active:" meta:resourcekey="lblIsActiveResource1"></asp:Label>
+                    <asp:Label ID="lblIsActive" runat="server" CssClass="sfFormlabel" Text="Active:"
+                        meta:resourcekey="lblIsActiveResource1"></asp:Label>
                 </td>
                 <td colspan="2" style="text-align: left">
-                    <asp:CheckBox ID="chkActive" runat="server" CssClass="sfCheckbox" Checked="True" meta:resourcekey="chkActiveResource1" />
+                    <asp:CheckBox ID="chkActive" runat="server" CssClass="sfCheckbox" Checked="True"
+                        meta:resourcekey="chkActiveResource1" />
                 </td>
             </tr>
             <tr>
-                <td colspan="3" height="10"></td>
+                <td colspan="3" height="10">
+                </td>
             </tr>
         </table>
         <div class="sfButtonwrapper">
-            <asp:LinkButton ID="ImbPreview" ToolTip="Preview" runat="server" Text="Preview" OnClick="Preview_Click" CssClass="sfLocale icon-preview sfBtn" meta:resourcekey="ImbPreviewResource1" />
-            <asp:LinkButton ID="ImbSave" runat="server" Text="Save" ToolTip="Save" OnClick="btnSave_Click" CssClass="sfLocale icon-save sfBtn" ValidationGroup="adsense" meta:resourcekey="ImbSaveResource1" />
-            <asp:LinkButton ID="imbDelete" Visible="False" Text="Delete" ToolTip="Delete" runat="server" OnClick="imbDelete_Click" CssClass="sfLocale icon-close sfBtn" meta:resourcekey="imbDeleteResource1" />
+            <asp:LinkButton ID="ImbPreview" ToolTip="Preview" runat="server" Text="Preview" OnClick="Preview_Click" CssClass="sfLocale icon-preview sfBtn"
+                meta:resourcekey="ImbPreviewResource1" />
+            <asp:LinkButton ID="ImbSave" runat="server" Text="Save" ToolTip="Save" OnClick="btnSave_Click" CssClass="sfLocale icon-save sfBtn"
+                meta:resourcekey="ImbSaveResource1" ValidationGroup="adsense" />
+            <asp:LinkButton ID="imbDelete" Visible="False" Text="Delete" ToolTip="Delete" runat="server" OnClick="imbDelete_Click" CssClass="sfLocale icon-close sfBtn"
+                meta:resourcekey="imbDeleteResource1" />
         </div>
         <wwc:AdUnit ID="AdUnit1" runat="server" Visible="False" AdUnitFormat="LeaderBoard_728x90_H"
             AdUnitType="TextAndImage" AffiliateId="" AlternateAdType="PublicServiceAds" AnotherUrl=""

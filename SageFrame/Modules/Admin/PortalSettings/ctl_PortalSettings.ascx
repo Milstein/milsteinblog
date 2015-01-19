@@ -5,33 +5,36 @@
     TagPrefix="sfe" %>
 <h1>
 
-    <asp:Label ID="lblPortalSetting" runat="server" Text="Portal Setting Management" meta:resourcekey="lblPortalSettingResource1"></asp:Label>
+    <asp:Label ID="lblPortalSetting" runat="server" Text="Portal Setting Management"
+        meta:resourcekey="lblPortalSettingResource1"></asp:Label>
 </h1>
 <asp:Label ID="lblError" runat="server" meta:resourcekey="lblErrorResource1"></asp:Label>
-<ajax:TabContainer ID="TabContainer" runat="server" ActiveTabIndex="0" 
-    meta:resourcekey="TabContainerResource1" CssClass="">
+<ajax:TabContainer ID="TabContainer" runat="server" ActiveTabIndex="0" meta:resourcekey="TabContainerResource1">
     <ajax:TabPanel ID="tabBasicSetting" runat="server" OnClientActiveTabChanged="ActiveTabChanged"  meta:resourcekey="tabBasicSettingResource1">
         <HeaderTemplate>
             <asp:Label ID="lblBasicSetting" runat="server" Text="Basic Settings" meta:resourcekey="lblBasicSettingResource1"></asp:Label>
         </HeaderTemplate>
         <ContentTemplate>
-
+        
             <div class="sfCollapsewrapper">
                 <sfe:sectionheadcontrol ID="shcSite" runat="server" Section="tblSite" IncludeRule="false"
                     IsExpanded="true" Text="Site Details" />
                 <div id="tblSite" runat="server" class="sfCollapsecontent">
                     <p class="sfNote">
-                        <asp:Label ID="lblBasicSettingsHelp" runat="server" Text="In this section, you can set up the basic settings for your site." meta:resourcekey="lblBasicSettingsHelpResource1"></asp:Label>
+                        <asp:Label ID="lblBasicSettingsHelp" runat="server" Text="In this section, you can set up the basic settings for your site."
+                            meta:resourcekey="lblBasicSettingsHelpResource1"></asp:Label>
                     </p>
                     <div class="sfFormwrapper">
                         <table border="0" cellpadding="0" cellspacing="0" width="100% ">
                             <tr>
                                 <td width="20%">
                                     <asp:Label ID="lblPortalTitle" runat="server" CssClass="sfFormlabel" Text="Title"
-                                        ToolTip="This is the Title for your portal. The text you enter will show up in the Title Bar." meta:resourcekey="lblPortalTitleResource1"></asp:Label>
+                                        ToolTip="This is the Title for your portal. The text you enter will show up in the Title Bar."
+                                        meta:resourcekey="lblPortalTitleResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:TextBox ID="txtPortalTitle" runat="server" MaxLength="256" CssClass="sfInputbox" meta:resourcekey="txtPortalTitleResource1"></asp:TextBox>
+                                    <asp:TextBox ID="txtPortalTitle" runat="server" MaxLength="256" CssClass="sfInputbox"
+                                        meta:resourcekey="txtPortalTitleResource1"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
@@ -47,7 +50,8 @@
                             <tr>
                                 <td>
                                     <asp:Label ID="lblKeyWords" runat="server" CssClass="sfFormlabel" Text="Key Words"
-                                        ToolTip="Enter some keywords for your site (separated by commas). These keywords are used by search engines to help index your site." meta:resourcekey="lblKeyWordsResource1"></asp:Label>
+                                        ToolTip="Enter some keywords for your site (separated by commas). These keywords are used by search engines to help index your site."
+                                        meta:resourcekey="lblKeyWordsResource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:TextBox ID="txtKeyWords" runat="server" TextMode="MultiLine" Rows="5" MaxLength="256"
@@ -71,7 +75,8 @@
                                         CssClass="sfFormlabel" ToolTip="Google AdSense ID used for google adsence." meta:resourcekey="lblPortalGoogleAdSenseIDResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:TextBox ID="txtPortalGoogleAdSenseID" runat="server" MaxLength="100" CssClass="sfInputbox" meta:resourcekey="txtPortalGoogleAdSenseIDResource1"></asp:TextBox>
+                                    <asp:TextBox ID="txtPortalGoogleAdSenseID" runat="server" MaxLength="100" CssClass="sfInputbox"
+                                        meta:resourcekey="txtPortalGoogleAdSenseIDResource1"></asp:TextBox>
                                 </td>
                             </tr>
                         </table>
@@ -90,7 +95,8 @@
                                         ToolTip="Show Profile Link" meta:resourcekey="lblPortalShowProfileLinkResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:RadioButtonList ID="rblPortalShowProfileLink" runat="server" CssClass="sfRadio" meta:resourcekey="rblPortalShowProfileLinkResource1">
+                                    <asp:RadioButtonList ID="rblPortalShowProfileLink" runat="server" CssClass="sfRadio"
+                                        meta:resourcekey="rblPortalShowProfileLinkResource1">
                                     </asp:RadioButtonList>
                                 </td>
                             </tr>
@@ -100,16 +106,19 @@
                                         ToolTip="Show Sidebar" meta:resourcekey="Label7Resource1"></asp:Label>
                                 </td>
                                 <td class="cssClassButtonListWrapper">
-                                    <asp:CheckBox ID="chkShowSidebar" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkShowSidebarResource1"></asp:CheckBox>
+                                    <asp:CheckBox ID="chkShowSidebar" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkShowSidebarResource1">
+                                    </asp:CheckBox>
                                 </td>
                             </tr>
                             <tr style="display: none">
                                 <td>
                                     <asp:Label ID="lblEnableRememberme" runat="server" CssClass="sfFormlabel" Text="Enable Remember me?"
-                                        ToolTip="Sets the remember me checkbox on login controls. If remember me is allowed, users can create cookies that are persisted over multiple visits." meta:resourcekey="lblEnableRemembermeResource1"></asp:Label>
+                                        ToolTip="Sets the remember me checkbox on login controls. If remember me is allowed, users can create cookies that are persisted over multiple visits."
+                                        meta:resourcekey="lblEnableRemembermeResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:CheckBox ID="chkEnableRememberme" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkEnableRemembermeResource1"></asp:CheckBox>
+                                    <asp:CheckBox ID="chkEnableRememberme" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkEnableRemembermeResource1">
+                                    </asp:CheckBox>
                                 </td>
                             </tr>
                         </table>
@@ -132,7 +141,8 @@
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <asp:Label ID="Label1" runat="server" CssClass="sfFormlabel" Text="Optimize CSS?" meta:resourcekey="Label1Resource1"></asp:Label>
+                                    <asp:Label ID="Label1" runat="server" CssClass="sfFormlabel" Text="Optimize CSS?"
+                                        meta:resourcekey="Label1Resource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:CheckBox runat="server" ID="chkOptCss" CssClass="sfCheckbox" meta:resourcekey="chkOptCssResource1" />
@@ -140,7 +150,8 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <asp:Label ID="Label2" runat="server" CssClass="sfFormlabel" Text="Optimize JS?" meta:resourcekey="Label2Resource1"></asp:Label>
+                                    <asp:Label ID="Label2" runat="server" CssClass="sfFormlabel" Text="Optimize JS?"
+                                        meta:resourcekey="Label2Resource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:CheckBox ID="chkOptJs" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkOptJsResource1" />
@@ -148,15 +159,18 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <asp:Label ID="Label3" runat="server" CssClass="sfFormlabel" Text="Refresh Cache" meta:resourcekey="Label3Resource1"></asp:Label>
+                                    <asp:Label ID="Label3" runat="server" CssClass="sfFormlabel" Text="Refresh Cache"
+                                        meta:resourcekey="Label3Resource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:LinkButton ID="btnRefreshCache" runat="server" CssClass="icon-refresh sfBtn" Text="Refresh" OnClick="btnRefreshCache_Click" meta:resourcekey="btnRefreshCacheResource1" />
+                                    <asp:LinkButton ID="btnRefreshCache" runat="server" CssClass="icon-refresh sfBtn" Text="Refresh" OnClick="btnRefreshCache_Click"
+                                        meta:resourcekey="btnRefreshCacheResource1" />
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <asp:Label ID="Label4" runat="server" CssClass="sfFormlabel" Text="Enable Dashboard Live Feeds?" meta:resourcekey="Label4Resource1"></asp:Label>
+                                    <asp:Label ID="Label4" runat="server" CssClass="sfFormlabel" Text="Enable Dashboard Live Feeds?"
+                                        meta:resourcekey="Label4Resource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:CheckBox ID="chkLiveFeeds" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkLiveFeedsResource1" />
@@ -222,7 +236,7 @@
                     </div>
                 </div>
             </div>
-
+            
         </ContentTemplate>
     </ajax:TabPanel>
     <ajax:TabPanel ID="tabAdvanceSetting"  runat="server" meta:resourcekey="tabAdvanceSettingResource1">
@@ -236,7 +250,8 @@
                 <div id="tblSecurity" runat="server" class="sfCollapsecontent">
                     <div class="sfFormwrapper">
                         <p class="sfNote">
-                            <asp:Label ID="lblAdvancedSettingsHelp" runat="server" Text="In this section, you can set up more advanced settings for your site." meta:resourcekey="lblAdvancedSettingsHelpResource1"></asp:Label>
+                            <asp:Label ID="lblAdvancedSettingsHelp" runat="server" Text="In this section, you can set up more advanced settings for your site."
+                                meta:resourcekey="lblAdvancedSettingsHelpResource1"></asp:Label>
                         </p>
                         <table cellpadding="0" cellspacing="0" border="0" width="100%">
                             <tr>
@@ -257,14 +272,11 @@
                                     administrators of your website can only add new users manually.</span>
                             </p>
                             <p>
-                                <strong>Private:</strong> <span>The register link appears. When a user registers, the administrators have to approve the user before the user is granted access.</span>
-                            </p>
+                                <strong>Private:</strong> <span>The register link appears. When a user registers, the administrators have to approve the user before the user is granted access.</span></p>
                             <p>
-                                <strong>Public:</strong> <span>TThis is the default setting for your SageFrame portal. The register link appears. When a user registers, s/he is given instant access to your site as a member without any verification.</span>
-                            </p>
+                                <strong>Public:</strong> <span>TThis is the default setting for your SageFrame portal. The register link appears. When a user registers, s/he is given instant access to your site as a member without any verification.</span></p>
                             <p>
-                                <strong>Verified:</strong> <span>The registration link appears. When a user registers, s/he is sent an email with a verification code. S/he is asked to enter verification code in the first login. After the verification, s/he is given the access to your site as a member. Once s/he is verified, no longer it is needed to enter the verification code.</span>
-                            </p>
+                                <strong>Verified:</strong> <span>The registration link appears. When a user registers, s/he is sent an email with a verification code. S/he is asked to enter verification code in the first login. After the verification, s/he is given the access to your site as a member. Once s/he is verified, no longer it is needed to enter the verification code.</span></p>
                         </div>
                     </div>
                 </div>
@@ -291,7 +303,8 @@
                                         ToolTip="The Home Page" meta:resourcekey="lblPortalDefaultPageResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:DropDownList ID="ddlPortalDefaultPage" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlPortalDefaultPageResource1">
+                                    <asp:DropDownList ID="ddlPortalDefaultPage" runat="server" CssClass="sfListmenu"
+                                        meta:resourcekey="ddlPortalDefaultPageResource1">
                                     </asp:DropDownList>
                                 </td>
                             </tr>
@@ -301,7 +314,8 @@
                                         ToolTip="The user profile page" meta:resourcekey="lblPortalUserProfilePageResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:DropDownList ID="ddlPortalUserProfilePage" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlPortalUserProfilePageResource1">
+                                    <asp:DropDownList ID="ddlPortalUserProfilePage" runat="server" CssClass="sfListmenu"
+                                        meta:resourcekey="ddlPortalUserProfilePageResource1">
                                     </asp:DropDownList>
                                 </td>
                             </tr>
@@ -311,7 +325,8 @@
                                         ToolTip="The User Registration Page" meta:resourcekey="lblUserRegistrationPageResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:DropDownList ID="ddlUserRegistrationPage" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlUserRegistrationPageResource1">
+                                    <asp:DropDownList ID="ddlUserRegistrationPage" runat="server" CssClass="sfListmenu"
+                                        meta:resourcekey="ddlUserRegistrationPageResource1">
                                     </asp:DropDownList>
                                 </td>
                             </tr>
@@ -321,7 +336,8 @@
                                         ToolTip="The User Activation Page" meta:resourcekey="lblPortalUserActivationResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:DropDownList ID="ddlPortalUserActivation" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlPortalUserActivationResource1">
+                                    <asp:DropDownList ID="ddlPortalUserActivation" runat="server" CssClass="sfListmenu"
+                                        meta:resourcekey="ddlPortalUserActivationResource1">
                                     </asp:DropDownList>
                                 </td>
                             </tr>
@@ -331,7 +347,8 @@
                                         ToolTip="The User Forgot Password Page" meta:resourcekey="lblPortalForgotPasswordResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:DropDownList ID="ddlPortalForgotPassword" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlPortalForgotPasswordResource1">
+                                    <asp:DropDownList ID="ddlPortalForgotPassword" runat="server" CssClass="sfListmenu"
+                                        meta:resourcekey="ddlPortalForgotPasswordResource1">
                                     </asp:DropDownList>
                                 </td>
                             </tr>
@@ -341,7 +358,8 @@
                                         Text="Page Not Accessible Page" ToolTip="The Page Not Accessible Page" meta:resourcekey="lblPortalPageNotAccessibleResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:DropDownList ID="ddlPortalPageNotAccessible" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlPortalPageNotAccessibleResource1">
+                                    <asp:DropDownList ID="ddlPortalPageNotAccessible" runat="server" CssClass="sfListmenu"
+                                        meta:resourcekey="ddlPortalPageNotAccessibleResource1">
                                     </asp:DropDownList>
                                 </td>
                             </tr>
@@ -351,7 +369,8 @@
                                         ToolTip="The Page Not Found Page" meta:resourcekey="lblPortalPageNotFoundResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:DropDownList ID="ddlPortalPageNotFound" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlPortalPageNotFoundResource1">
+                                    <asp:DropDownList ID="ddlPortalPageNotFound" runat="server" CssClass="sfListmenu"
+                                        meta:resourcekey="ddlPortalPageNotFoundResource1">
                                     </asp:DropDownList>
                                 </td>
                             </tr>
@@ -361,7 +380,8 @@
                                         ToolTip="The Password Recovery Page" meta:resourcekey="lblPortalPasswordRecoveryResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:DropDownList ID="ddlPortalPasswordRecovery" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlPortalPasswordRecoveryResource1">
+                                    <asp:DropDownList ID="ddlPortalPasswordRecovery" runat="server" CssClass="sfListmenu"
+                                        meta:resourcekey="ddlPortalPasswordRecoveryResource1">
                                     </asp:DropDownList>
                                 </td>
                             </tr>
@@ -373,16 +393,16 @@
 
                 <script type="text/javascript">
                     //<![CDATA[
-                    $(function () {
+                    $(function() {
                         if (MsgTemplate == 'default')
                             $('#<%= rdbDefault.ClientID %>').attr('checked', true);
                         else
                             $('#<%= rdbCustom.ClientID %>').attr('checked', true);
-                        $('a.sfDefaultSuccess').click(function () {
+                        $('a.sfDefaultSuccess').click(function() {
                             SageFrame.messaging.show("Success message", "success", false);
-                        }); $('a.sfDefaultError').click(function () {
+                        }); $('a.sfDefaultError').click(function() {
                             SageFrame.messaging.show("Error message!!", "error", false);
-                        }); $('a.sfDefaultAlert').click(function () {
+                        }); $('a.sfDefaultAlert').click(function() {
                             SageFrame.messaging.show("Alert message!!", "alert", false);
                         });
                     });
@@ -393,14 +413,14 @@
                     IncludeRule="false" IsExpanded="false" Text="Message Settings" />
                 <div id="dvMessageSetting" runat="server" class="sfCollapsecontent">
                     <div id="dvDefault">
-                        <span>Default<input id="rdbDefault" type="radio" value="default" runat="server" />
-                        </span>
-                        <span>Custom<input id="rdbCustom" type="radio" value="custom" runat="server" />
-                        </span>
+                        <span>Default<input id="rdbDefault" type="radio" value="default" runat="server" /> </span>
+                        <span>Custom<input id="rdbCustom" type="radio" value="custom" runat="server" /> </span>
                         <br />
                         <br />
-                        <h2>Show Message Preview</h2>
-                        <a href="#" class="sfDefaultSuccess">Success</a> <a href="#" class="sfDefaultError">Error</a> <a href="#" class="sfDefaultAlert">Alert</a>
+                        <h2>
+                            Show Message Preview</h2>
+                        <a href="#" class="sfDefaultSuccess">Success</a> <a href="#" class="sfDefaultError">
+                            Error</a> <a href="#" class="sfDefaultAlert">Alert</a>
                     </div>
                 </div>
             </div>
@@ -423,7 +443,8 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td width="20%"></td>
+                                <td width="20%">
+                                </td>
                                 <td>
                                     <div class="sfRadiobutton">
                                         <asp:RadioButtonList ID="rbLanguageType" runat="server" AutoPostBack="True" RepeatDirection="Horizontal"
@@ -450,7 +471,8 @@
                                         ToolTip="Site Email Address." meta:resourcekey="lblSiteAdminEmailAddressResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:TextBox ID="txtSiteAdminEmailAddress" runat="server" MaxLength="50" CssClass="sfInputbox" meta:resourcekey="txtSiteAdminEmailAddressResource1"></asp:TextBox>
+                                    <asp:TextBox ID="txtSiteAdminEmailAddress" runat="server" MaxLength="50" CssClass="sfInputbox"
+                                        meta:resourcekey="txtSiteAdminEmailAddressResource1"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
@@ -459,7 +481,8 @@
                                         ToolTip="This is the Title for your CPanle" meta:resourcekey="lblCPanelTitleResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:TextBox ID="txtLogoTemplate" runat="server" MaxLength="255" CssClass="sfInputbox" meta:resourcekey="txtLogoTemplateResource1"></asp:TextBox>
+                                    <asp:TextBox ID="txtLogoTemplate" runat="server" MaxLength="255" CssClass="sfInputbox"
+                                        meta:resourcekey="txtLogoTemplateResource1"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
@@ -468,7 +491,8 @@
                                         ToolTip="This is the Title for your CPanle Copyright" meta:resourcekey="lblCPanleCopyrightResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:TextBox ID="txtCopyright" runat="server" MaxLength="255" CssClass="sfInputbox" meta:resourcekey="txtCopyrightResource1"></asp:TextBox>
+                                    <asp:TextBox ID="txtCopyright" runat="server" MaxLength="255" CssClass="sfInputbox"
+                                        meta:resourcekey="txtCopyrightResource1"></asp:TextBox>
                                 </td>
                             </tr>
                         </table>
@@ -477,20 +501,22 @@
             </div>
         </ContentTemplate>
     </ajax:TabPanel>
-    <ajax:TabPanel ID="tabSuperUserSetting" runat="server" meta:resourcekey="tabSuperUserSettingResource1">
+    <ajax:TabPanel ID="TabPanel1" runat="server" meta:resourcekey="tabAdvanceSettingResource1">
         <HeaderTemplate>
-            <asp:Label ID="lblSuperUserSetting" runat="server" Text="SuperUser Settings" meta:resourcekey="lblAdvanceSettingResource1"></asp:Label>
+            <asp:Label ID="Label5" runat="server" Text="SuperUser Settings" meta:resourcekey="Label5Resource1"></asp:Label>
         </HeaderTemplate>
         <ContentTemplate>
             <div class="sfCollapsewrapper">
                 <div class="sfButtonwrapper">
-                    <asp:LinkButton ID="imbRestart" runat="server" OnClick="imbRestart_Click" Text="Restart Application" CssClass="icon-refresh sfBtn" ToolTip="Restart Application" meta:resourcekey="imbRestartResource1" />
+                    <asp:LinkButton ID="imbRestart" runat="server" OnClick="imbRestart_Click"  Text="Restart Application" CssClass="icon-refresh sfBtn" ToolTip="Restart Application"
+                        meta:resourcekey="imbRestartResource1" />
                 </div>
                 <sfe:sectionheadcontrol ID="shcConfiguration" runat="server" Section="tblConfiguration"
                     IncludeRule="false" IsExpanded="true" Text="Configuration" />
                 <div id="tblConfiguration" runat="server" class="sfCollapsecontent">
                     <p class="sfNote">
-                        <asp:Label ID="Label6" runat="server" Text="Basic settings for your Hosting Account" meta:resourcekey="Label6Resource1"></asp:Label>
+                        <asp:Label ID="Label6" runat="server" Text="Basic settings for your Hosting Account"
+                            meta:resourcekey="lblBasicSettingsHelpResource1"></asp:Label>
                     </p>
                     <div class="sfFormwrapper sfPadding">
                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -515,7 +541,8 @@
                             <tr>
                                 <td>
                                     <asp:Label ID="lblDataProvider" runat="server" CssClass="sfFormlabel" Text="Data Provider"
-                                        ToolTip="The provider name which is identified as the default data provider in the web.config file" meta:resourcekey="lblDataProviderResource1"></asp:Label>
+                                        ToolTip="The provider name which is identified as the default data provider in the web.config file"
+                                        meta:resourcekey="lblDataProviderResource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:Label ID="lblVDataProvider" runat="server" meta:resourcekey="lblVDataProviderResource1"></asp:Label>
@@ -524,7 +551,8 @@
                             <tr>
                                 <td>
                                     <asp:Label ID="lblDotNetFrameWork" runat="server" CssClass="sfFormlabel" Text=".Net Framework"
-                                        ToolTip="The .NET Framework version which the application is running on - specified through IIS" meta:resourcekey="lblDotNetFrameWorkResource1"></asp:Label>
+                                        ToolTip="The .NET Framework version which the application is running on - specified through IIS"
+                                        meta:resourcekey="lblDotNetFrameWorkResource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:Label ID="lblVDotNetFrameWork" runat="server" meta:resourcekey="lblVDotNetFrameWorkResource1"></asp:Label>
@@ -533,7 +561,8 @@
                             <tr>
                                 <td>
                                     <asp:Label ID="lblASPDotNetIdentiy" runat="server" CssClass="sfFormlabel" Text="ASP.NET Identity"
-                                        ToolTip="The Windows user account under which the application is running. This is the account which needs to be granted folder permissions on the server." meta:resourcekey="lblASPDotNetIdentiyResource1"></asp:Label>
+                                        ToolTip="The Windows user account under which the application is running. This is the account which needs to be granted folder permissions on the server."
+                                        meta:resourcekey="lblASPDotNetIdentiyResource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:Label ID="lblVASPDotNetIdentiy" runat="server" meta:resourcekey="lblVASPDotNetIdentiyResource1"></asp:Label>
@@ -569,7 +598,8 @@
                             <tr>
                                 <td>
                                     <asp:Label ID="lblRelativePath" runat="server" CssClass="sfFormlabel" Text="Relative Path"
-                                        ToolTip="The relative location of the application in relation to the root of the site." meta:resourcekey="lblRelativePathResource1"></asp:Label>
+                                        ToolTip="The relative location of the application in relation to the root of the site."
+                                        meta:resourcekey="lblRelativePathResource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:Label ID="lblVRelativePath" runat="server" meta:resourcekey="lblVRelativePathResource1"></asp:Label>
@@ -595,7 +625,8 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <asp:Label ID="lblGUID" runat="server" CssClass="sfFormlabel" Text="GUID" ToolTip="The globally unique identifier which can be used to identify this application." meta:resourcekey="lblGUIDResource1"></asp:Label>
+                                    <asp:Label ID="lblGUID" runat="server" CssClass="sfFormlabel" Text="GUID" ToolTip="The globally unique identifier which can be used to identify this application."
+                                        meta:resourcekey="lblGUIDResource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:Label ID="lblVGUID" runat="server" meta:resourcekey="lblVGUIDResource1"></asp:Label>
@@ -651,7 +682,8 @@
                             <tr>
                                 <td width="20%">
                                     <asp:Label ID="lblCopyright" runat="server" CssClass="sfFormlabel" Text="Show Copyright Credits?"
-                                        ToolTip="Select this to add the SageFrame copyright credits to the Page Source" meta:resourcekey="lblCopyrightResource1"></asp:Label>
+                                        ToolTip="Select this to add the SageFrame copyright credits to the Page Source"
+                                        meta:resourcekey="lblCopyrightResource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:CheckBox ID="chkCopyright" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkCopyrightResource1" />
@@ -663,7 +695,8 @@
                                         ToolTip="Select this to use Custom Error Messages" meta:resourcekey="lblUseCustomErrorMessagesResource1"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:CheckBox ID="chkUseCustomErrorMessages" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkUseCustomErrorMessagesResource1" />
+                                    <asp:CheckBox ID="chkUseCustomErrorMessages" runat="server" CssClass="sfCheckbox"
+                                        meta:resourcekey="chkUseCustomErrorMessagesResource1" />
                                 </td>
                             </tr>
                         </table>
@@ -679,11 +712,13 @@
                             <tr>
                                 <td width="20%">
                                     <asp:Label ID="lblSMTPServerAndPort" runat="server" CssClass="sfFormlabel" Text="SMTP Server and Port"
-                                        ToolTip="Enter the SMTP Server Address. You can also specify an alternate port by adding a colon and the port number (e.g. smtp.googlemail.com:587). Enter the SMTP server name only to use default port number (25)" meta:resourcekey="lblSMTPServerAndPortResource1"></asp:Label>
+                                        ToolTip="Enter the SMTP Server Address. You can also specify an alternate port by adding a colon and the port number (e.g. smtp.googlemail.com:587). Enter the SMTP server name only to use default port number (25)"
+                                        meta:resourcekey="lblSMTPServerAndPortResource1"></asp:Label>
                                 </td>
                                 <td>
                                     <div class="sfSmtptest">
-                                        <asp:TextBox ID="txtSMTPServerAndPort" runat="server" MaxLength="50" CssClass="sfInputbox" meta:resourcekey="txtSMTPServerAndPortResource1"></asp:TextBox>
+                                        <asp:TextBox ID="txtSMTPServerAndPort" runat="server" MaxLength="50" CssClass="sfInputbox"
+                                            meta:resourcekey="txtSMTPServerAndPortResource1"></asp:TextBox>
                                         <asp:LinkButton ID="lnkTestSMTP" CssClass="sfBtn" runat="server" Text="Test" OnClick="lnkTestSMTP_Click"
                                             CausesValidation="False" meta:resourcekey="lnkTestSMTPResource1"></asp:LinkButton>
                                         <asp:Label ID="lblSMTPEmailTestResult" runat="server" CssClass="NormalRed" meta:resourcekey="lblSMTPEmailTestResultResource1" />
@@ -693,7 +728,8 @@
                             <tr>
                                 <td>
                                     <asp:Label ID="lblSMTPAuthentication" runat="server" CssClass="sfFormlabel" Text="SMTP Authentication"
-                                        ToolTip="Enter the SMTP Server Address. You can also specify an alternate port by adding a colon and the port number (e.g. smtp.googlemail.com:587). Enter the SMTP server name only to use default port number (25)" meta:resourcekey="lblSMTPAuthenticationResource1"></asp:Label>
+                                        ToolTip="Enter the SMTP Server Address. You can also specify an alternate port by adding a colon and the port number (e.g. smtp.googlemail.com:587). Enter the SMTP server name only to use default port number (25)"
+                                        meta:resourcekey="lblSMTPAuthenticationResource1"></asp:Label>
                                 </td>
                                 <td id="tdSMTPAuthentication" class="sfRadiobutton">
                                     <asp:RadioButtonList ID="rblSMTPAuthentication" runat="server" AutoPostBack="True"
@@ -705,7 +741,8 @@
                             <tr>
                                 <td>
                                     <asp:Label ID="lblSMTPEnableSSL" runat="server" CssClass="sfFormlabel" Text="SMTP Enable SSL"
-                                        ToolTip="Enter the SMTP Server Address. You can also specify an alternate port by adding a colon and the port number (e.g. smtp.googlemail.com:587). Enter the SMTP server name only to use default port number (25)" meta:resourcekey="lblSMTPEnableSSLResource1"></asp:Label>
+                                        ToolTip="Enter the SMTP Server Address. You can also specify an alternate port by adding a colon and the port number (e.g. smtp.googlemail.com:587). Enter the SMTP server name only to use default port number (25)"
+                                        meta:resourcekey="lblSMTPEnableSSLResource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:CheckBox ID="chkSMTPEnableSSL" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkSMTPEnableSSLResource1" />
@@ -746,13 +783,14 @@
                                 </td>
                                 <td>
                                     <asp:TextBox ID="txtFileExtensions" runat="server" TextMode="MultiLine" Rows="5"
-                                        CssClass="sfTextarea" meta:resourcekey="txtFileExtensionsResource1"></asp:TextBox>
+                                        meta:resourcekey="txtFileExtensionsResource1" CssClass="sfTextarea"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
                                     <asp:Label ID="lblHelpUrl" runat="server" CssClass="sfFormlabel" Text="Help URL"
-                                        ToolTip="Enter the URL for the Online Help you will be providing. If you leave the entry blank then no Online Help will be offered for the Admin/Host areas of SageFrame." meta:resourcekey="lblHelpUrlResource1"></asp:Label>
+                                        ToolTip="Enter the URL for the Online Help you will be providing. If you leave the entry blank then no Online Help will be offered for the Admin/Host areas of SageFrame."
+                                        meta:resourcekey="lblHelpUrlResource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:TextBox ID="txtHelpUrl" runat="server" CssClass="sfInputbox" meta:resourcekey="txtHelpUrlResource1"></asp:TextBox>
@@ -765,7 +803,8 @@
                                 <td>
                                     <asp:TextBox runat="server" ID="txtPageExtension" CssClass="sfInputbox" meta:resourcekey="txtPageExtensionResource1"></asp:TextBox>
                                 </td>
-                                <td>put dot(.) before Extension. For Eg, .aspx
+                                <td>
+                                    put dot(.) before Extension. For Eg, .aspx
                                 </td>
                             </tr>
                             <tr>
@@ -775,22 +814,24 @@
                                 <td>
                                     <asp:CheckBox runat="server" ID="txtScheduler" CssClass="sfCheckBox" meta:resourcekey="txtSchedulerResource1" />
                                 </td>
-                                <td>Check the checkbox to enable Scheduler run
+                                <td>
+                                    Check the checkbox to enable Scheduler run
                                 </td>
                             </tr>
                             <tr>
                                 <td>
                                     <asp:Label runat="server" Text="User Agent" ID="Label8" CssClass="sfFormlabel" meta:resourcekey="Label8Resource1"></asp:Label>
                                 </td>
-                                <td>
-                                    <i class="icon-pc"></i>
+                                <td>   
+                                <i class="icon-pc"></i>                                 
                                     <asp:RadioButton runat="server" ID="rdBtnPC" Text="PC" GroupName="userAgent" meta:resourcekey="rdBtnPCResource1" />
                                     <i class="icon-handheld"></i>
-                                    <asp:RadioButton runat="server" ID="rdBtnMobile" Text="Mobile" GroupName="userAgent" meta:resourcekey="rdBtnMobileResource1" />
-                                    <i class="icon-default"></i>
-                                    <asp:RadioButton runat="server" ID="rdBtnDefault" Text="Default" GroupName="userAgent" meta:resourcekey="rdBtnDefaultResource1" />
+                                    <asp:RadioButton runat="server" ID="rdBtnMobile" Text="Mobile" GroupName="userAgent" meta:resourcekey="rdBtnMobileResource1"/>
+                                     <i class="icon-default"></i>
+                                    <asp:RadioButton runat="server" ID="rdBtnDefault" Text="Default" GroupName="userAgent" meta:resourcekey="rdBtnDefaultResource1"/>
                                 </td>
-                                <td>Sets the user view of the site whether it's for a PC or a mobile use.
+                                <td>
+                                    Sets the user view of the site whether it's for a PC or a mobile use.
                                 </td>
                             </tr>
                             <tr>
@@ -800,18 +841,20 @@
                                 <td>
                                     <asp:CheckBox runat="server" ID="chkDashboardHelp" CssClass="sfCheckBox" meta:resourcekey="chkDashboardHelpResource1" />
                                 </td>
-                                <td>Check the checkbox to enable Dasboard Help
+                                <td>
+                                    Check the checkbox to enable Dasboard Help
                                 </td>
                             </tr>
-
-                            <tr>
+                            
+                             <tr>
                                 <td>
                                     <asp:Label runat="server" Text="Server Cookie Expiration" ID="lblCookieExpiration" CssClass="sfFormlabel" meta:resourcekey="lblCookieExpirationResource1"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:TextBox runat="server" ID="txtServerCookieExpiration" meta:resourcekey="txtServerCookieExpirationResource1"></asp:TextBox>
                                 </td>
-                                <td>Set The Server Cookie expiration time in minute (better be greater than 5 min)
+                                <td>
+                                    Set The Server Cookie expiration time in minute (better be greater than 5 min)
                                 </td>
                             </tr>
                         </table>
@@ -823,9 +866,9 @@
 </ajax:TabContainer>
 <div class="sfButtonwrapper">
     <asp:LinkButton ID="imbSave" runat="server" OnClick="imbSave_Click" ToolTip="Save"
-        CssClass="icon-save sfBtn" Text="Save" meta:resourcekey="imbSaveResource1" />
-
+        meta:resourcekey="imbSaveResource1" CssClass="icon-save sfBtn" Text="Save" />
+   
     <asp:LinkButton ID="imbRefresh" runat="server" ToolTip="Refresh" OnClick="imbRefresh_Click"
-        CssClass="icon-refresh sfBtn" Text="Refresh" meta:resourcekey="imbRefreshResource1" />
-
+     CssClass="icon-refresh sfBtn"   meta:resourcekey="imbRefreshResource1" Text="Refresh" />
+    
 </div>

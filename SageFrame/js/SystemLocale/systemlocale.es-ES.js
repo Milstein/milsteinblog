@@ -31,5 +31,6 @@ var SystemLocale = {
 "Click here to UnSubscribe":"Haga clic aquí para darse de baja",
 "You are already a subscribed member":"Usted ya es un miembro suscrito",
 "Subscribed Successfully":"suscrito con éxito",
-"Invalid Email":"no válida de correo electrónico"
+"Invalid Email": "no válida de correo electrónico",
+"UnSubscribe": "Darse de baja"
 };

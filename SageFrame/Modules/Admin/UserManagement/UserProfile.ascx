@@ -75,7 +75,8 @@
                     </div>
                     <div class="sfProfileimage" runat="server" id="imgProfileEdit">
                         <label class="sfLocale icon-close">
-                            <asp:Button ID="btnDeleteProfilePic" runat="server" OnClick="btnDeleteProfilePic_Click" meta:resourcekey="btnDeleteProfilePicResource1" /></label><br />
+                            <asp:Button ID="btnDeleteProfilePic" runat="server" OnClick="btnDeleteProfilePic_Click"
+                                meta:resourcekey="btnDeleteProfilePicResource1" /></label><br />
                     </div>
                     <asp:FileUpload ID="fuImage" runat="server" meta:resourcekey="fuImageResource1" />
                 </div>
@@ -99,7 +100,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <asp:Label ID="lblFullName" runat="server" CssClass="sfFormlabel" Text="FullName" meta:resourcekey="lblFullNameResource1"></asp:Label>
+                                <asp:Label ID="lblFullName" runat="server" CssClass="sfFormlabel" Text="FullName"
+                                    meta:resourcekey="lblFullNameResource1"></asp:Label>
                             </td>
                             <td>
                                 <asp:TextBox ID="txtFullName" runat="server" CssClass="sfInputbox" meta:resourcekey="txtFullNameResource1"></asp:TextBox>
@@ -107,7 +109,8 @@
                         </tr>
                         <tr runat="server">
                             <td runat="server">
-                                <asp:Label ID="lblBirthDate" runat="server" CssClass="sfFormlabel" Text="BirthDate" meta:resourcekey="lblBirthDateResource1"></asp:Label>
+                                <asp:Label ID="lblBirthDate" runat="server" CssClass="sfFormlabel" Text="BirthDate"
+                                    meta:resourcekey="lblBirthDateResource1"></asp:Label>
                             </td>
                             <td runat="server">
                                 <asp:TextBox runat="server" ID="txtBirthDate" CssClass="sfInputbox" meta:resourcekey="txtBirthDateResource1"></asp:TextBox>
@@ -118,8 +121,8 @@
                                 <asp:Label ID="lblGender" runat="server" CssClass="sfFormlabel" Text="Gender" meta:resourcekey="lblGenderResource1"></asp:Label>
                             </td>
                             <td runat="server">
-                                <asp:RadioButtonList runat="server" ID="rdbGender"
-                                    RepeatDirection="Horizontal" meta:resourcekey="rdbGenderResource1">
+                                <asp:RadioButtonList runat="server" ID="rdbGender" meta:resourcekey="rdbGenderResource1"
+                                    RepeatDirection="Horizontal">
                                     <asp:ListItem Selected="True" meta:resourcekey="ListItemResource1">Male</asp:ListItem>
                                     <asp:ListItem meta:resourcekey="ListItemResource2">Female</asp:ListItem>
                                 </asp:RadioButtonList>
@@ -127,7 +130,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <asp:Label ID="lblLocation" runat="server" CssClass="sfFormlabel" Text="Location" meta:resourcekey="lblLocationResource1"></asp:Label>
+                                <asp:Label ID="lblLocation" runat="server" CssClass="sfFormlabel" Text="Location"
+                                    meta:resourcekey="lblLocationResource1"></asp:Label>
                             </td>
                             <td>
                                 <asp:TextBox ID="txtLocation" runat="server" CssClass="sfInputbox" meta:resourcekey="txtLocationResource1"></asp:TextBox>
@@ -135,10 +139,12 @@
                         </tr>
                         <tr>
                             <td>
-                                <asp:Label ID="lblAboutYou" runat="server" CssClass="sfFormlabel" Text="About You" meta:resourcekey="lblAboutYouResource1"></asp:Label>
+                                <asp:Label ID="lblAboutYou" runat="server" CssClass="sfFormlabel" Text="About You"
+                                    meta:resourcekey="lblAboutYouResource1"></asp:Label>
                             </td>
                             <td>
-                                <asp:TextBox ID="txtAboutYou" runat="server" CssClass="sfInputbox" TextMode="MultiLine" meta:resourcekey="txtAboutYouResource1"></asp:TextBox>
+                                <asp:TextBox ID="txtAboutYou" runat="server" CssClass="sfInputbox" TextMode="MultiLine"
+                                    meta:resourcekey="txtAboutYouResource1"></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
@@ -162,7 +168,7 @@
                             <td>
                                 <asp:TextBox ID="txtEmail2" runat="server" CssClass="sfInputbox" meta:resourcekey="txtEmail2Resource1"></asp:TextBox>
                                 <asp:RegularExpressionValidator ID="revEmail2" runat="server" ControlToValidate="txtEmail2"
-                                    Display="Dynamic" SetFocusOnError="True" ValidationGroup="rfvUserProfile"
+                                    Display="Dynamic" SetFocusOnError="True"  ValidationGroup="rfvUserProfile"
                                     ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" CssClass="sfError" meta:resourcekey="revEmail2Resource1"></asp:RegularExpressionValidator>
                             </td>
                         </tr>
@@ -171,13 +177,14 @@
                             <td>
                                 <asp:TextBox ID="txtEmail3" runat="server" CssClass="sfInputbox" meta:resourcekey="txtEmail3Resource1"></asp:TextBox>
                                 <asp:RegularExpressionValidator ID="revEmail3" runat="server" ControlToValidate="txtEmail3"
-                                    Display="Dynamic" SetFocusOnError="True" ValidationGroup="rfvUserProfile"
+                                    Display="Dynamic" SetFocusOnError="True"  ValidationGroup="rfvUserProfile"
                                     ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" CssClass="sfError" meta:resourcekey="revEmail3Resource1"></asp:RegularExpressionValidator>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <asp:Label ID="lblResPhone" runat="server" CssClass="sfFormlabel" Text="Res. Phone" meta:resourcekey="lblResPhoneResource1"></asp:Label>
+                                <asp:Label ID="lblResPhone" runat="server" CssClass="sfFormlabel" Text="Resident Phone"
+                                    meta:resourcekey="lblResPhoneResource1"></asp:Label>
                             </td>
                             <td>
                                 <asp:TextBox ID="txtResPhone" runat="server" CssClass="sfInputbox" meta:resourcekey="txtResPhoneResource1"></asp:TextBox>
@@ -185,7 +192,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <asp:Label ID="lblMobilePhone" runat="server" CssClass="sfFormlabel" Text="Mobile" meta:resourcekey="lblMobilePhoneResource1"></asp:Label>
+                                <asp:Label ID="lblMobilePhone" runat="server" CssClass="sfFormlabel" Text="Mobile"
+                                    meta:resourcekey="lblMobilePhoneResource1"></asp:Label>
                             </td>
                             <td>
                                 <asp:TextBox ID="txtMobile" runat="server" CssClass="sfInputbox" meta:resourcekey="txtMobileResource1"></asp:TextBox>
@@ -206,7 +214,8 @@
                             Save
                         <asp:Button runat="Server" ID="btnSave" OnClick="btnSave_Click"
                             ValidationGroup="rfvUserProfile" meta:resourcekey="btnSaveResource1" /></label>
-                        <asp:LinkButton ID="lnkCancel" CssClass="sfBtn" runat="server" Text="Cancel" OnClick="lnkCancel_Click" meta:resourcekey="lnkCancelResource1"></asp:LinkButton>
+                        <asp:LinkButton ID="lnkCancel" CssClass="sfBtn" runat="server" Text="Cancel" OnClick="lnkCancel_Click"
+                            meta:resourcekey="lnkCancelResource1"></asp:LinkButton>
                     </div>
                 </div>
             </div>
@@ -215,24 +224,27 @@
                     border="0">
                     <tr id="Tr1" runat="server">
                         <td id="Td1" width="36%" runat="server">
-                            <asp:Label ID="lblNewPassword" runat="server" CssClass="sfFormlabel" Text="New Password" meta:resourcekey="lblNewPasswordResource1"></asp:Label>
+                            <asp:Label ID="lblNewPassword" runat="server" CssClass="sfFormlabel" Text="New Password"
+                                meta:resourcekey="lblNewPasswordResource1"></asp:Label>
                         </td>
                         <td id="Td3" runat="server">
                             <div class="sfPassword">
                                 <asp:TextBox ID="txtNewPassword" runat="server" MaxLength="20" CssClass="sfInputbox password"
-                                    TextMode="Password" ValidationGroup="vgManagePassword" oncopy="return false" onpaste="return false" oncut="return false" meta:resourcekey="txtNewPasswordResource1"></asp:TextBox>
+                                    TextMode="Password" ValidationGroup="vgManagePassword" meta:resourcekey="txtNewPasswordResource1" oncopy="return false" onpaste="return false" oncut="return false"></asp:TextBox>
                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtNewPassword"
-                                    ErrorMessage="Password is required." CssClass="sfRequired" ValidationGroup="vgManagePassword" meta:resourcekey="RequiredFieldValidator1Resource1"></asp:RequiredFieldValidator>
+                                    ErrorMessage="Password is required." CssClass="sfRequired" ValidationGroup="vgManagePassword"
+                                    meta:resourcekey="RequiredFieldValidator1Resource1"></asp:RequiredFieldValidator>
                             </div>
                         </td>
                     </tr>
                     <tr id="Tr2" runat="server">
                         <td id="Td4" runat="server">
-                            <asp:Label ID="lblRetypeNewPassword" runat="server" CssClass="sfFormlabel" Text="Retype New Password" meta:resourcekey="lblRetypeNewPasswordResource1"></asp:Label>
+                            <asp:Label ID="lblRetypeNewPassword" runat="server" CssClass="sfFormlabel" Text="Retype New Password"
+                                meta:resourcekey="lblRetypeNewPasswordResource1"></asp:Label>
                         </td>
                         <td id="Td6" runat="server">
                             <asp:TextBox ID="txtRetypeNewPassword" runat="server" MaxLength="20" CssClass="sfInputbox"
-                                TextMode="Password" ValidationGroup="vgManagePassword" oncopy="return false" onpaste="return false" oncut="return false" meta:resourcekey="txtRetypeNewPasswordResource1"></asp:TextBox>
+                                TextMode="Password" ValidationGroup="vgManagePassword" meta:resourcekey="txtRetypeNewPasswordResource1" oncopy="return false" onpaste="return false" oncut="return false"></asp:TextBox>
                             <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtRetypeNewPassword"
                                 ErrorMessage="Type password again." CssClass="sfRequired" ValidationGroup="vgManagePassword"
                                 Display="Dynamic" meta:resourcekey="RequiredFieldValidator5Resource1"></asp:RequiredFieldValidator>
@@ -304,7 +316,8 @@
                 </tr>
                 <tr id="trviewBirthDate" runat="server">
                     <td runat="server">
-                        <asp:Label ID="lblBirthDateTest" runat="server" Text="BirthDate" CssClass="sfFormlabel" meta:resourcekey="lblBirthDateTestResource1"></asp:Label>
+                        <asp:Label ID="lblBirthDateTest" runat="server" Text="BirthDate" CssClass="sfFormlabel"
+                            meta:resourcekey="lblBirthDateTestResource1"></asp:Label>
                     </td>
                     <td>
                         <asp:Label runat="server" ID="lblviewBirthDate" meta:resourcekey="lblviewBirthDateResource1"></asp:Label>
@@ -312,7 +325,8 @@
                 </tr>
                 <tr id="trviewGender" runat="server">
                     <td runat="server">
-                        <asp:Label ID="lblGenderText" runat="server" Text="Gender" CssClass="sfFormlabel" meta:resourcekey="lblGenderTextResource1"></asp:Label>
+                        <asp:Label ID="lblGenderText" runat="server" Text="Gender" CssClass="sfFormlabel"
+                            meta:resourcekey="lblGenderTextResource1"></asp:Label>
                     </td>
                     <td>
                         <asp:Label runat="server" ID="lblviewGender" meta:resourcekey="lblviewGenderResource1"></asp:Label>
@@ -346,7 +360,7 @@
                 </tr>
                 <tr id="trViewResPhone" runat="server">
                     <td>
-                        <asp:Label ID="Label10" runat="server" CssClass="sfFormlabel" Text="Res. Phone" meta:resourcekey="Label10Resource1"></asp:Label>
+                        <asp:Label ID="Label10" runat="server" CssClass="sfFormlabel" Text="Resident Phone" meta:resourcekey="Label10Resource1"></asp:Label>
                     </td>
                     <td colspan="2">
                         <asp:Label ID="lblViewResPhone" runat="server" meta:resourcekey="lblViewResPhoneResource1"></asp:Label>
@@ -372,7 +386,8 @@
             <div class="sfButtonwrapper" id="divEditprofile" runat="server">
                 <label class="sfLocale sfBtn">
                     Edit
-                <asp:Button runat="server" ID="btnEdit" OnClick="btnEdit_Click" meta:resourcekey="btnEditResource1" />
+                <asp:Button runat="server" ID="btnEdit" OnClick="btnEdit_Click"
+                    meta:resourcekey="btnEditResource1" />
                 </label>
             </div>
         </div>

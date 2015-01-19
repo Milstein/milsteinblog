@@ -142,7 +142,7 @@
     <value />
   </data>
   <data name="cvPasswordResource1.ErrorMessage" xml:space="preserve">
-    <value>Password Doesn't Match</value>
+    <value>Password doesn't Match</value>
   </data>
   <data name="cvPasswordResource1.Text" xml:space="preserve">
     <value />
@@ -166,7 +166,7 @@
     <value />
   </data>
   <data name="Label10Resource1.Text" xml:space="preserve">
-    <value>Res. Phone</value>
+    <value>Resident Phone</value>
   </data>
   <data name="Label10Resource1.ToolTip" xml:space="preserve">
     <value />
@@ -316,7 +316,7 @@
     <value />
   </data>
   <data name="lblResPhoneResource1.Text" xml:space="preserve">
-    <value>Res. Phone</value>
+    <value>Resident Phone</value>
   </data>
   <data name="lblResPhoneResource1.ToolTip" xml:space="preserve">
     <value />

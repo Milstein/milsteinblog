@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="upgrade.aspx.cs" Inherits="upgrade" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="upgrade.aspx.cs" Inherits="upgrade" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -38,7 +38,7 @@
 </head>
 <body>
 	<div class="sfUpgradeWrap clearfix">
-    <h1>Sageframe v3.5 upgrading...</h1>
+    <h1>Sageframe v3.1 upgrading...</h1>
     <p>This might take a while</p>
     <div class="sfFormwrapper sfPadding clearfix">
         <div id="reportDiv">

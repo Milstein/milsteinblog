@@ -46,7 +46,7 @@
         return false;
     }
 
-    function clickButton(e, buttonid) {
+    function clickButton(e, buttonid) {     
         var evt = e ? e : window.event;
         var bt = document.getElementById(buttonid);
         if (bt) {
@@ -80,7 +80,7 @@
         });
     }
 
-    function GetGraphDetails(FAQId) {
+      function GetGraphDetails(FAQId) {
         $.ajax({
             type: "POST",
             url: baseURL + 'WebService.asmx/GetGraphDetails',
@@ -155,19 +155,19 @@
             }
         });
     }
+    
 
-
-
+          
 </script>
 <div class="sfFormwrapper">
     <div id="dvPreviewGraph" class="sfPopupwrap" style="display: none;">
         <div class="sfPopup sfFormPreview">
-            <h2>Chart Graph <a href="#" class="sfClose"><span id="spnClose">Close</span></a></h2>
+            <h2>
+                Chart Graph <a href="#" class="sfClose"><span id="spnClose">Close</span></a></h2>
             <div class="sfPopupcontents">
                 <div class="sfPreviewbody sfFormcontentinner">
                     <div id="h2EmptyGraph" class="ncEmptyGraph" style="display: none">
-                        <span class="sfLocalee">No Review For This Question.</span>
-                    </div>
+                        <span class="sfLocalee">No Review For This Question.</span></div>
                     <div id="dvGraphs" class="popupbox" style="display: none;">
                     </div>
                 </div>
@@ -177,7 +177,8 @@
     <div id="dvReview" class="sfPopupwrap" style="display: none;">
         <div class="sfPopup sfFormPreview">
             <h2>
-                <span id="spnHeaderquestion"></span><a href="#" class="sfClose"><span id="spnReviewclose">Close</span></a></h2>
+                <span id="spnHeaderquestion"></span><a href="#" class="sfClose"><span id="spnReviewclose">
+                    Close</span></a></h2>
             <div class="sfPopupcontents">
                 <div class="sfPreviewbody sfFormcontentinner">
                     <ul id="ulFaqReview">
@@ -193,10 +194,9 @@
             <cc1:TabContainer ID="TabSetting" runat="server" ActiveTabIndex="0" meta:resourcekey="TabSettingResource1">
                 <cc1:TabPanel ID="TabMainSetting" runat="server" meta:resourcekey="TabMainSettingResource1">
                     <HeaderTemplate>
-                        <asp:Label ID="lblMasterSetting" runat="server" Text="FAQ List" meta:resourcekey="lblMasterSettingResource1"></asp:Label>
-                    </HeaderTemplate>
+                        <asp:Label ID="lblMasterSetting" runat="server" Text="FAQ List" meta:resourcekey="lblMasterSettingResource1"></asp:Label></HeaderTemplate>
                     <ContentTemplate>
-                        <div id="dvAddFAQ" runat="server" class="sfButtonwrapper">
+                        <div id="dvAddFAQ" runat="server" class="sfButtonwrapper">                         
                             <asp:ImageButton ID="imbAddFaq" runat="server" OnClick="imbAddFaq_Click" meta:resourcekey="imbAddFaqResource1" />
                             <asp:Label ID="lblAddFaq" CssClass="sfFormlabel" runat="server" AssociatedControlID="imbAddFaq"
                                 Text="Add FAQs" meta:resourcekey="lblAddFaqResource1"></asp:Label>
@@ -207,7 +207,8 @@
                                     <td runat="server">
                                         <asp:Label ID="lblCategory" runat="server" Text="Category" CssClass="sfFormlabel sfLocalee"></asp:Label>
                                     </td>
-                                    <td style="width: 30px" runat="server">:
+                                    <td style="width: 30px" runat="server">
+                                        :
                                     </td>
                                     <td runat="server">
                                         <div id="dvddlCategory" runat="server">
@@ -220,7 +221,8 @@
                                     <td id="Td1" runat="server">
                                         <asp:Label ID="lblFAQQuestion" runat="server" Text="Question" CssClass="sfFormlabel sfLocalee"></asp:Label>
                                     </td>
-                                    <td style="width: 30px" runat="server">:
+                                    <td style="width: 30px" runat="server">
+                                        :
                                     </td>
                                     <td id="Td2" runat="server">
                                         <asp:TextBox ID="txtQuestion" runat="server" CssClass="sfInputbox" Width="500px"></asp:TextBox><br />
@@ -232,11 +234,12 @@
                                     <td id="Td3" runat="server">
                                         <asp:Label ID="lblFAQAnswer" runat="server" CssClass="sfFormlabel sfLocalee" Text="Answer"></asp:Label>
                                     </td>
-                                    <td style="width: 30px" runat="server">:
+                                    <td style="width: 30px" runat="server">
+                                        :
                                     </td>
                                     <td id="Td4" runat="server">
                                         <CKEditor:CKEditorControl ID="CkEditorFAQAnswer" runat="server" Width="900px"
-                                            textmode="MultiLine" textmode="MultiLine"></CKEditor:CKEditorControl>
+                                            textmode="MultiLine"></CKEditor:CKEditorControl>
                                         <asp:RequiredFieldValidator ID="rfv" runat="server" CssClass="sfLocalee" ErrorMessage="Answer is required !!"
                                             ControlToValidate="CkEditorFAQAnswer" ValidationGroup="btnSave"></asp:RequiredFieldValidator><br />
                                     </td>
@@ -258,14 +261,14 @@
                                     <asp:DropDownList ID="ddlCategoryList" runat="server" CssClass="sfListmenu" AutoPostBack="True"
                                         OnSelectedIndexChanged="ddlCategoryList_SelectedIndexChanged" meta:resourcekey="ddlCategoryListResource1">
                                     </asp:DropDownList>
-
+                                 
                                 </div>
                                 <div class="sfFAQSearch">
-                                    <asp:Label ID="lblSearchFaq" runat="server" Text="Search :" CssClass="sfFormlabel" meta:resourcekey="lblSearchFaqResource1"></asp:Label>
-                                    <asp:TextBox ID="txtSearchFAQ" CssClass="sfInputbox" runat="server" meta:resourcekey="txtSearchFAQResource1"></asp:TextBox>
-                                    <asp:ImageButton ID="imbSearchFAQ" OnClick="imbSearchFAQ_Click" runat="server" meta:resourcekey="imbSearchFAQResource1" />
-
-                                </div>
+                                <asp:Label ID="lblSearchFaq" runat="server" Text="Search :" CssClass="sfFormlabel" meta:resourcekey="lblSearchFaqResource1"></asp:Label>
+                                <asp:TextBox ID="txtSearchFAQ"  CssClass="sfInputbox" runat="server" meta:resourcekey="txtSearchFAQResource1"></asp:TextBox>
+                                <asp:ImageButton ID="imbSearchFAQ" OnClick="imbSearchFAQ_Click" runat="server" meta:resourcekey="imbSearchFAQResource1" />
+                               
+                                </div>                                   
                                 <div class="sfPageSize">
                                     <asp:Label ID="lblRows" runat="server" Text="Show rows" CssClass="sfFormlabel sfLocalee" meta:resourcekey="lblRowsResource1"></asp:Label>
                                     <asp:DropDownList ID="ddlRecordsPerPage" runat="server" CssClass="sfListmenu sfAuto"
@@ -287,7 +290,7 @@
                                     OnSelectedIndexChanged="gdvFAQ_SelectedIndexChanged" OnSelectedIndexChanging="gdvFAQ_SelectedIndexChanging" OnPageIndexChanging="gdvFAQ_PageIndexChanging" AllowPaging="True" meta:resourcekey="gdvFAQResource1">
                                     <AlternatingRowStyle CssClass="sfEven" />
                                     <Columns>
-                                        <asp:TemplateField HeaderText="S.N" meta:resourcekey="TemplateFieldResource1">
+                                        <asp:TemplateField HeaderText="S.No." meta:resourcekey="TemplateFieldResource1">
                                             <ItemTemplate>
                                                 <%# Container.DataItemIndex+1 %>
                                             </ItemTemplate>
@@ -297,23 +300,25 @@
                                             <ItemTemplate>
                                                 <table style="width: 100%; border: none;">
                                                     <tr>
-                                                        <td onclick='flipFlopException(&#039;_<%# Eval("FAQId") %>&#039;)' style="cursor: pointer; width: 30%"><span style="overflow: hidden;">&nbsp;
-                                                            <asp:Label ID="lblPageHead" runat="server" Font-Bold="True" Text='<%# Eval("Question") %>' meta:resourcekey="lblPageHeadResource1"></asp:Label>
-                                                        </span></td>
+                                                        <td onclick='flipFlopException(&#039;_<%# Eval("FAQId") %>&#039;)' style="cursor: pointer;
+                                                            width: 30%"><span style="overflow: hidden;">&nbsp;
+                                                            <asp:Label ID="lblPageHead" runat="server" Font-Bold="True" meta:resourcekey="lblPageHeadResource1" Text='<%# Eval("Question") %>'></asp:Label>
+                                                            </span></td>
                                                     </tr>
-                                                    <tr id='_<%# (DataBinder.Eval(Container.DataItem,"FAQId").ToString()) %>' style="display: none; width: 100%">
+                                                    <tr id='_<%# (DataBinder.Eval(Container.DataItem,"FAQId").ToString()) %>' style="display: none;
+                                                        width: 100%">
                                                         <td class="sfFAQDetails" colspan="4">
-                                                            <asp:Panel ID="pnlClientIP" runat="server" Width="100%" meta:resourcekey="pnlClientIPResource1">
+                                                            <asp:Panel ID="pnlClientIP" runat="server" meta:resourcekey="pnlClientIPResource1" Width="100%">
                                                                 <p>
-                                                                    <asp:Label ID="lblAnswer" runat="server" CssClass="sfFormlabel" Text="Answer:" meta:resourcekey="lblAnswerResource1"></asp:Label>
+                                                                    <asp:Label ID="lblAnswer" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblAnswerResource1" Text="Answer:"></asp:Label>
                                                                     <asp:Literal ID="ltrAnswer" runat="server" Text='<%# (DataBinder.Eval(Container.DataItem,"Answer").ToString()) %>'></asp:Literal>
                                                                 </p>
                                                                 <p>
-                                                                    <asp:Label ID="lblAddedBy" runat="server" CssClass="sfFormlabel" Text="Added By:" meta:resourcekey="lblAddedByResource1"></asp:Label>
+                                                                    <asp:Label ID="lblAddedBy" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblAddedByResource1" Text="Added By:"></asp:Label>
                                                                     <asp:Literal ID="ltrAddedBy" runat="server" Text='<%# (DataBinder.Eval(Container.DataItem,"AddedBy").ToString()) %>'></asp:Literal>
                                                                 </p>
                                                                 <p>
-                                                                    <asp:Label ID="lblAddedOn" runat="server" CssClass="sfFormlabel" Text="AddedOn:" meta:resourcekey="lblAddedOnResource1"></asp:Label>
+                                                                    <asp:Label ID="lblAddedOn" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblAddedOnResource1" Text="AddedOn:"></asp:Label>
                                                                     <asp:Literal ID="ltrAddedOn" runat="server" Text='<%# (DataBinder.Eval(Container.DataItem,"AddedOn").ToString()) %>'></asp:Literal>
                                                                 </p>
                                                             </asp:Panel>
@@ -342,7 +347,7 @@
                                         </asp:TemplateField>
                                         <asp:TemplateField HeaderText="Delete" meta:resourcekey="TemplateFieldResource6">
                                             <ItemTemplate>
-                                                <asp:ImageButton ID="ImgDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("FAQId") %>' CommandName="Delete" ImageUrl='<%# GetTemplateImageUrl("imgdelete.png", true) %>' OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete FAQ ?');" meta:resourcekey="ImgDeleteResource1" />
+                                                <asp:ImageButton ID="ImgDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("FAQId") %>' CommandName="Delete" ImageUrl='<%# GetTemplateImageUrl("imgdelete.png", true) %>' meta:resourcekey="ImgDeleteResource1" OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete FAQ ?');" />
                                             </ItemTemplate>
                                             <HeaderStyle CssClass="sfDelete" VerticalAlign="Top" />
                                         </asp:TemplateField>
@@ -356,8 +361,7 @@
                 </cc1:TabPanel>
                 <cc1:TabPanel ID="TabPanel1" runat="server" meta:resourcekey="TabPanel1Resource1">
                     <HeaderTemplate>
-                        <asp:Label ID="Label1" runat="server" Text="FAQ Category" meta:resourcekey="Label1Resource1"></asp:Label>
-                    </HeaderTemplate>
+                        <asp:Label ID="Label1" runat="server" Text="FAQ Category" meta:resourcekey="Label1Resource1"></asp:Label></HeaderTemplate>
                     <ContentTemplate>
                         <div id="dvUpdateCategory" runat="server">
                             <table>
@@ -365,7 +369,8 @@
                                     <td>
                                         <asp:Label ID="lblCategoryName" CssClass="sfFormlabel" Text="Enter Category" runat="server" meta:resourcekey="lblCategoryNameResource1"></asp:Label>
                                     </td>
-                                    <td style="width: 30px">:
+                                    <td style="width: 30px">
+                                        :
                                     </td>
                                     <td>
                                         <asp:TextBox ID="txtCategoryName" Width="500px" runat="server" ValidationGroup="btnSaveCategory"
@@ -393,7 +398,7 @@
                                 OnSelectedIndexChanging="gdvCategory_SelectedIndexChanging" meta:resourcekey="gdvCategoryResource1">
                                 <AlternatingRowStyle CssClass="sfEven" />
                                 <Columns>
-                                    <asp:TemplateField HeaderText="S.N" meta:resourcekey="TemplateFieldResource7">
+                                    <asp:TemplateField HeaderText="S.No." meta:resourcekey="TemplateFieldResource7">
                                         <ItemTemplate>
                                             <%# Container.DataItemIndex+1 %>
                                         </ItemTemplate>

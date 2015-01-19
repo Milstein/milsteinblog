@@ -9,10 +9,12 @@
                 <uc1:LoginStatus ID="LoginStatus1" runat="server" />
             </li>
             <li>New User?</li>
-            <li><a href=''></a></li>
+            <li><a href=''>
+                </a></li>
         </AnonymousTemplate>
         <LoggedInTemplate>
-            <li></li>
+            <li>
+            </li>
         </LoggedInTemplate>
     </asp:LoginView>
 </ul>

@@ -243,13 +243,13 @@
   <data name="Step0Resource1.Title" xml:space="preserve">
     <value>Introduction</value>
   </data>
-  <data name="Step1Resource1.Title" xml:space="preserve">
+  <data name="Step3Resource1.Title" xml:space="preserve">
     <value>ReleaseNotes</value>
   </data>
-  <data name="Step2Resource1.Title" xml:space="preserve">
+  <data name="Step4Resource1.Title" xml:space="preserve">
     <value>License</value>
   </data>
-  <data name="Step3Resource1.Title" xml:space="preserve">
+  <data name="Step5Resource1.Title" xml:space="preserve">
     <value>InstallResults</value>
   </data>
   <data name="StepNextButtonResource1.Text" xml:space="preserve">

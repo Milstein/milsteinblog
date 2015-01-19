@@ -31,5 +31,6 @@ var SystemLocale = {
 "Click here to UnSubscribe":"点击此处退订",
 "You are already a subscribed member":"您已经是订阅会员",
 "Subscribed Successfully":"认购成功",
-"Invalid Email":"无效的电子邮件"
+"Invalid Email":"无效的电子邮件",
+"UnSubscribe": "退订"
 };

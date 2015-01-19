@@ -120,15 +120,6 @@
   <data name="ddlRecordsPerPageResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="ddlRecordsPerPageResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ddlRecordsPerPageResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ddlRecordsPerPageResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="gdvExtensionsResource1.Caption" xml:space="preserve">
     <value />
   </data>
@@ -138,55 +129,10 @@
   <data name="gdvExtensionsResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="gdvExtensionsResource2.Caption" xml:space="preserve">
-    <value />
-  </data>
-  <data name="gdvExtensionsResource2.EmptyDataText" xml:space="preserve">
-    <value>No Record to Show...</value>
-  </data>
-  <data name="gdvExtensionsResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="gdvExtensionsResource3.Caption" xml:space="preserve">
-    <value />
-  </data>
-  <data name="gdvExtensionsResource3.EmptyDataText" xml:space="preserve">
-    <value>No Record to Show...</value>
-  </data>
-  <data name="gdvExtensionsResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="gdvExtensionsResource4.Caption" xml:space="preserve">
-    <value />
-  </data>
-  <data name="gdvExtensionsResource4.EmptyDataText" xml:space="preserve">
-    <value>No Record to Show...</value>
-  </data>
-  <data name="gdvExtensionsResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="imbAvailableModulesResource1.AlternateText" xml:space="preserve">
     <value />
   </data>
   <data name="imbAvailableModulesResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbAvailableModulesResource2.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbAvailableModulesResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbAvailableModulesResource3.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbAvailableModulesResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbAvailableModulesResource4.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbAvailableModulesResource4.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="imbBtnSaveChangesResource1.AlternateText" xml:space="preserve">
@@ -195,46 +141,10 @@
   <data name="imbBtnSaveChangesResource1.ToolTip" xml:space="preserve">
     <value>Save changes</value>
   </data>
-  <data name="imbBtnSaveChangesResource2.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbBtnSaveChangesResource2.ToolTip" xml:space="preserve">
-    <value>Save changes</value>
-  </data>
-  <data name="imbBtnSaveChangesResource3.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbBtnSaveChangesResource3.ToolTip" xml:space="preserve">
-    <value>Save changes</value>
-  </data>
-  <data name="imbBtnSaveChangesResource4.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbBtnSaveChangesResource4.ToolTip" xml:space="preserve">
-    <value>Save changes</value>
-  </data>
   <data name="imbCreateCompositeModuleResource1.AlternateText" xml:space="preserve">
     <value />
   </data>
   <data name="imbCreateCompositeModuleResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreateCompositeModuleResource2.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreateCompositeModuleResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreateCompositeModuleResource3.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreateCompositeModuleResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreateCompositeModuleResource4.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreateCompositeModuleResource4.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="imbCreateNewModuleResource1.AlternateText" xml:space="preserve">
@@ -243,70 +153,16 @@
   <data name="imbCreateNewModuleResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbCreateNewModuleResource2.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreateNewModuleResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreateNewModuleResource3.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreateNewModuleResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreateNewModuleResource4.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreateNewModuleResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="imbCreatePackageResource1.AlternateText" xml:space="preserve">
     <value />
   </data>
   <data name="imbCreatePackageResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbCreatePackageResource2.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreatePackageResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreatePackageResource3.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreatePackageResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreatePackageResource4.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbCreatePackageResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="imbDeleteResource1.Text" xml:space="preserve">
     <value />
   </data>
   <data name="imbDeleteResource1.ToolTip" xml:space="preserve">
-    <value>Delete Module</value>
-  </data>
-  <data name="imbDeleteResource2.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbDeleteResource2.ToolTip" xml:space="preserve">
-    <value>Delete Module</value>
-  </data>
-  <data name="imbDeleteResource3.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbDeleteResource3.ToolTip" xml:space="preserve">
-    <value>Delete Module</value>
-  </data>
-  <data name="imbDeleteResource4.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbDeleteResource4.ToolTip" xml:space="preserve">
     <value>Delete Module</value>
   </data>
   <data name="imbDownloadModulesResource1.AlternateText" xml:space="preserve">
@@ -321,40 +177,10 @@
   <data name="imbDownloadModulesResource2.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbDownloadModulesResource3.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbDownloadModulesResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbDownloadModulesResource4.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbDownloadModulesResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="imbEditResource1.Text" xml:space="preserve">
     <value />
   </data>
   <data name="imbEditResource1.ToolTip" xml:space="preserve">
-    <value>Edit Module</value>
-  </data>
-  <data name="imbEditResource2.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbEditResource2.ToolTip" xml:space="preserve">
-    <value>Edit Module</value>
-  </data>
-  <data name="imbEditResource3.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbEditResource3.ToolTip" xml:space="preserve">
-    <value>Edit Module</value>
-  </data>
-  <data name="imbEditResource4.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbEditResource4.ToolTip" xml:space="preserve">
     <value>Edit Module</value>
   </data>
   <data name="imbInstallModuleResource1.AlternateText" xml:space="preserve">
@@ -363,46 +189,10 @@
   <data name="imbInstallModuleResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbInstallModuleResource2.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbInstallModuleResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbInstallModuleResource3.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbInstallModuleResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbInstallModuleResource4.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imbInstallModuleResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="imgSearchResource1.AlternateText" xml:space="preserve">
     <value />
   </data>
   <data name="imgSearchResource1.ToolTip" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="imgSearchResource2.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgSearchResource2.ToolTip" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="imgSearchResource3.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgSearchResource3.ToolTip" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="imgSearchResource4.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgSearchResource4.ToolTip" xml:space="preserve">
     <value>Search</value>
   </data>
   <data name="lblAvailableModuleResource1.Text" xml:space="preserve">
@@ -411,46 +201,10 @@
   <data name="lblAvailableModuleResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblAvailableModuleResource2.Text" xml:space="preserve">
-    <value>Available Module</value>
-  </data>
-  <data name="lblAvailableModuleResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblAvailableModuleResource3.Text" xml:space="preserve">
-    <value>Available Module</value>
-  </data>
-  <data name="lblAvailableModuleResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblAvailableModuleResource4.Text" xml:space="preserve">
-    <value>Available Module</value>
-  </data>
-  <data name="lblAvailableModuleResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblCreateCompositeModuleResource1.Text" xml:space="preserve">
     <value>Create Composite Package</value>
   </data>
   <data name="lblCreateCompositeModuleResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblCreateCompositeModuleResource2.Text" xml:space="preserve">
-    <value>Create Composite Package</value>
-  </data>
-  <data name="lblCreateCompositeModuleResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblCreateCompositeModuleResource3.Text" xml:space="preserve">
-    <value>Create Composite Package</value>
-  </data>
-  <data name="lblCreateCompositeModuleResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblCreateCompositeModuleResource4.Text" xml:space="preserve">
-    <value>Create Composite Package</value>
-  </data>
-  <data name="lblCreateCompositeModuleResource4.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblCreateNewModuleResource1.Text" xml:space="preserve">
@@ -459,58 +213,13 @@
   <data name="lblCreateNewModuleResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblCreateNewModuleResource2.Text" xml:space="preserve">
-    <value>Create New Module</value>
-  </data>
-  <data name="lblCreateNewModuleResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblCreateNewModuleResource3.Text" xml:space="preserve">
-    <value>Create New Module</value>
-  </data>
-  <data name="lblCreateNewModuleResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblCreateNewModuleResource4.Text" xml:space="preserve">
-    <value>Create New Module</value>
-  </data>
-  <data name="lblCreateNewModuleResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblCreatePackageResource1.Text" xml:space="preserve">
     <value>Create Package</value>
   </data>
   <data name="lblCreatePackageResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblCreatePackageResource2.Text" xml:space="preserve">
-    <value>Create Package</value>
-  </data>
-  <data name="lblCreatePackageResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblCreatePackageResource3.Text" xml:space="preserve">
-    <value>Create Package</value>
-  </data>
-  <data name="lblCreatePackageResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblCreatePackageResource4.Text" xml:space="preserve">
-    <value>Create Package</value>
-  </data>
-  <data name="lblCreatePackageResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblDescriptionResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblDescriptionResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblDescriptionResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblDescriptionResource4.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblDownloadModulesResource1.Text" xml:space="preserve">
@@ -525,52 +234,13 @@
   <data name="lblDownloadModulesResource2.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblDownloadModulesResource3.Text" xml:space="preserve">
-    <value>Download Modules</value>
-  </data>
-  <data name="lblDownloadModulesResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblDownloadModulesResource4.Text" xml:space="preserve">
-    <value>Download Modules</value>
-  </data>
-  <data name="lblDownloadModulesResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblInstallModuleResource1.Text" xml:space="preserve">
     <value>Install Module</value>
   </data>
   <data name="lblInstallModuleResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblInstallModuleResource2.Text" xml:space="preserve">
-    <value>Install Module</value>
-  </data>
-  <data name="lblInstallModuleResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblInstallModuleResource3.Text" xml:space="preserve">
-    <value>Install Module</value>
-  </data>
-  <data name="lblInstallModuleResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblInstallModuleResource4.Text" xml:space="preserve">
-    <value>Install Module</value>
-  </data>
-  <data name="lblInstallModuleResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblInUseResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblInUseResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblInUseResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblInUseResource4.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblIsActiveResource1.Text" xml:space="preserve">
@@ -579,46 +249,10 @@
   <data name="lblIsActiveResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblIsActiveResource2.Text" xml:space="preserve">
-    <value>Active</value>
-  </data>
-  <data name="lblIsActiveResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblIsActiveResource3.Text" xml:space="preserve">
-    <value>Active</value>
-  </data>
-  <data name="lblIsActiveResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblIsActiveResource4.Text" xml:space="preserve">
-    <value>Active</value>
-  </data>
-  <data name="lblIsActiveResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblSaveChangesResource1.Text" xml:space="preserve">
     <value>Save changes</value>
   </data>
   <data name="lblSaveChangesResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSaveChangesResource2.Text" xml:space="preserve">
-    <value>Save changes</value>
-  </data>
-  <data name="lblSaveChangesResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSaveChangesResource3.Text" xml:space="preserve">
-    <value>Save changes</value>
-  </data>
-  <data name="lblSaveChangesResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSaveChangesResource4.Text" xml:space="preserve">
-    <value>Save changes</value>
-  </data>
-  <data name="lblSaveChangesResource4.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblSearchModuleResource1.Text" xml:space="preserve">
@@ -627,46 +261,10 @@
   <data name="lblSearchModuleResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblSearchModuleResource2.Text" xml:space="preserve">
-    <value>Search Module</value>
-  </data>
-  <data name="lblSearchModuleResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSearchModuleResource3.Text" xml:space="preserve">
-    <value>Search Module</value>
-  </data>
-  <data name="lblSearchModuleResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSearchModuleResource4.Text" xml:space="preserve">
-    <value>Search Module</value>
-  </data>
-  <data name="lblSearchModuleResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblSearchResource1.Text" xml:space="preserve">
     <value />
   </data>
   <data name="lblSearchResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSearchResource2.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSearchResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSearchResource3.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSearchResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSearchResource4.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSearchResource4.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblSRowResource1.Text" xml:space="preserve">
@@ -675,46 +273,10 @@
   <data name="lblSRowResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblSRowResource2.Text" xml:space="preserve">
-    <value>Show rows</value>
-  </data>
-  <data name="lblSRowResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSRowResource3.Text" xml:space="preserve">
-    <value>Show rows</value>
-  </data>
-  <data name="lblSRowResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSRowResource4.Text" xml:space="preserve">
-    <value>Show rows</value>
-  </data>
-  <data name="lblSRowResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblTypeResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblTypeResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblTypeResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblTypeResource4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblVersionResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblVersionResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblVersionResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblVersionResource4.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="ListItemResource1.Text" xml:space="preserve">
@@ -723,125 +285,11 @@
   <data name="ListItemResource1.Value" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="ListItemResource10.Text" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="ListItemResource10.Value" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="ListItemResource11.Text" xml:space="preserve">
-    <value>100</value>
-  </data>
-  <data name="ListItemResource11.Value" xml:space="preserve">
-    <value>100</value>
-  </data>
-  <data name="ListItemResource12.Text" xml:space="preserve">
-    <value>150</value>
-  </data>
-  <data name="ListItemResource12.Value" xml:space="preserve">
-    <value>150</value>
-  </data>
-  <data name="ListItemResource13.Text" xml:space="preserve">
-    <value>200</value>
-  </data>
-  <data name="ListItemResource13.Value" xml:space="preserve">
-    <value>200</value>
-  </data>
-  <data name="ListItemResource14.Text" xml:space="preserve">
-    <value>250</value>
-  </data>
-  <data name="ListItemResource14.Value" xml:space="preserve">
-    <value>250</value>
-  </data>
-  <data name="ListItemResource15.Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="ListItemResource15.Value" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="ListItemResource16.Text" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="ListItemResource16.Value" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="ListItemResource17.Text" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="ListItemResource17.Value" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="ListItemResource18.Text" xml:space="preserve">
-    <value>100</value>
-  </data>
-  <data name="ListItemResource18.Value" xml:space="preserve">
-    <value>100</value>
-  </data>
-  <data name="ListItemResource19.Text" xml:space="preserve">
-    <value>150</value>
-  </data>
-  <data name="ListItemResource19.Value" xml:space="preserve">
-    <value>150</value>
-  </data>
   <data name="ListItemResource2.Text" xml:space="preserve">
     <value>25</value>
   </data>
   <data name="ListItemResource2.Value" xml:space="preserve">
     <value>25</value>
-  </data>
-  <data name="ListItemResource20.Text" xml:space="preserve">
-    <value>200</value>
-  </data>
-  <data name="ListItemResource20.Value" xml:space="preserve">
-    <value>200</value>
-  </data>
-  <data name="ListItemResource21.Text" xml:space="preserve">
-    <value>250</value>
-  </data>
-  <data name="ListItemResource21.Value" xml:space="preserve">
-    <value>250</value>
-  </data>
-  <data name="ListItemResource22.Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="ListItemResource22.Value" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="ListItemResource23.Text" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="ListItemResource23.Value" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="ListItemResource24.Text" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="ListItemResource24.Value" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="ListItemResource25.Text" xml:space="preserve">
-    <value>100</value>
-  </data>
-  <data name="ListItemResource25.Value" xml:space="preserve">
-    <value>100</value>
-  </data>
-  <data name="ListItemResource26.Text" xml:space="preserve">
-    <value>150</value>
-  </data>
-  <data name="ListItemResource26.Value" xml:space="preserve">
-    <value>150</value>
-  </data>
-  <data name="ListItemResource27.Text" xml:space="preserve">
-    <value>200</value>
-  </data>
-  <data name="ListItemResource27.Value" xml:space="preserve">
-    <value>200</value>
-  </data>
-  <data name="ListItemResource28.Text" xml:space="preserve">
-    <value>250</value>
-  </data>
-  <data name="ListItemResource28.Value" xml:space="preserve">
-    <value>250</value>
   </data>
   <data name="ListItemResource3.Text" xml:space="preserve">
     <value>50</value>
@@ -873,28 +321,7 @@
   <data name="ListItemResource7.Value" xml:space="preserve">
     <value>250</value>
   </data>
-  <data name="ListItemResource8.Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="ListItemResource8.Value" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="ListItemResource9.Text" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="ListItemResource9.Value" xml:space="preserve">
-    <value>25</value>
-  </data>
   <data name="lnkNameResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lnkNameResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lnkNameResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lnkNameResource4.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
@@ -906,96 +333,6 @@
   <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
     <value>Name</value>
   </data>
-  <data name="TemplateFieldResource10.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource10.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource10.HeaderText" xml:space="preserve">
-    <value>Type</value>
-  </data>
-  <data name="TemplateFieldResource11.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource11.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource11.HeaderText" xml:space="preserve">
-    <value>Description</value>
-  </data>
-  <data name="TemplateFieldResource12.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource12.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource12.HeaderText" xml:space="preserve">
-    <value>Version</value>
-  </data>
-  <data name="TemplateFieldResource13.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource13.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource13.HeaderText" xml:space="preserve">
-    <value>In Use</value>
-  </data>
-  <data name="TemplateFieldResource14.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource14.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource14.HeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource15.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource15.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource15.HeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource16.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource16.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource16.HeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource17.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource17.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource17.HeaderText" xml:space="preserve">
-    <value>Name</value>
-  </data>
-  <data name="TemplateFieldResource18.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource18.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource18.HeaderText" xml:space="preserve">
-    <value>Type</value>
-  </data>
-  <data name="TemplateFieldResource19.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource19.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource19.HeaderText" xml:space="preserve">
-    <value>Description</value>
-  </data>
   <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
     <value />
   </data>
@@ -1005,96 +342,6 @@
   <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
     <value>Type</value>
   </data>
-  <data name="TemplateFieldResource20.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource20.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource20.HeaderText" xml:space="preserve">
-    <value>Version</value>
-  </data>
-  <data name="TemplateFieldResource21.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource21.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource21.HeaderText" xml:space="preserve">
-    <value>In Use</value>
-  </data>
-  <data name="TemplateFieldResource22.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource22.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource22.HeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource23.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource23.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource23.HeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource24.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource24.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource24.HeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource25.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource25.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource25.HeaderText" xml:space="preserve">
-    <value>Name</value>
-  </data>
-  <data name="TemplateFieldResource26.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource26.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource26.HeaderText" xml:space="preserve">
-    <value>Type</value>
-  </data>
-  <data name="TemplateFieldResource27.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource27.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource27.HeaderText" xml:space="preserve">
-    <value>Description</value>
-  </data>
-  <data name="TemplateFieldResource28.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource28.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource28.HeaderText" xml:space="preserve">
-    <value>Version</value>
-  </data>
-  <data name="TemplateFieldResource29.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource29.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource29.HeaderText" xml:space="preserve">
-    <value>In Use</value>
-  </data>
   <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
     <value />
   </data>
@@ -1103,33 +350,6 @@
   </data>
   <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
     <value>Description</value>
-  </data>
-  <data name="TemplateFieldResource30.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource30.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource30.HeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource31.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource31.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource31.HeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource32.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource32.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource32.HeaderText" xml:space="preserve">
-    <value />
   </data>
   <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
     <value />
@@ -1176,37 +396,10 @@
   <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
     <value />
   </data>
-  <data name="TemplateFieldResource9.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource9.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
-    <value>Name</value>
-  </data>
   <data name="txtSearchTextResource1.Text" xml:space="preserve">
     <value />
   </data>
   <data name="txtSearchTextResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtSearchTextResource2.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtSearchTextResource2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtSearchTextResource3.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtSearchTextResource3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtSearchTextResource4.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtSearchTextResource4.ToolTip" xml:space="preserve">
     <value />
   </data>
 </root>

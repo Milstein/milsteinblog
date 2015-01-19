@@ -13,27 +13,22 @@
 <div class="sfFormwrapper">
     <div class="sfEmptyFAQ" style="display: none">
         <p class="sfLocalee">
-            No question has been posted.
-        </p>
+            No question has been posted.</p>
     </div>
-
+   
     <div class="dvFAQwrapper">
-        <div class="uvField uvField-idea">
-            <label for="suggestion_title" class="uvFieldInner">
-                <span>
-                    <input type="text" class="uvFieldText" id="txtSearchFaq" /></span>
-                <span>
-                    <input type="button" class="sfBtn" id="btnSearchFAQ" value="Search" /></span>
+    <div class="uvField uvField-idea">
+            <label for="suggestion_title" class="uvFieldInner">              
+                    <span><input type="text" class="uvFieldText" id="txtSearchFaq" /></span>
+                        <span><input type="button" class="sfBtn" id="btnSearchFAQ" value="Search" /></span>
             </label>
-        </div>
-        <div class="sfEmptyresult" style="display: none;">
-            <p>No Result has been found.</p>
-        </div>
+        </div>     
+         <div class="sfEmptyresult" style="display:none;"><p>No Result has been found.</p></div>  
         <div id="divFAQ" class="Containerlist">
             <ul id="ulFAQList" class="content">
             </ul>
             <div id="Pagination">
-            </div>
+        </div>
         </div>
         <%--<div id="AddQuestion" style="display: none">
             <input type="button" id="btnAddQuestion" class="sfBtn sfLocalee" value="Ask Question" />

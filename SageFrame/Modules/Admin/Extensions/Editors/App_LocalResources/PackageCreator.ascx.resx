@@ -123,10 +123,10 @@
   <data name="btnBackResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="btnCancelledResource1.Text" xml:space="preserve">
+  <data name="btnCancelResource2.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
-  <data name="btnCancelledResource1.ToolTip" xml:space="preserve">
+  <data name="btnCancelResource2.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="btnNextResource1.Text" xml:space="preserve">
@@ -135,16 +135,10 @@
   <data name="btnNextResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="btnPreviousResource1.Text" xml:space="preserve">
+  <data name="btnPreviousResource2.Text" xml:space="preserve">
     <value>Previous</value>
   </data>
-  <data name="btnPreviousResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="chkEditSupportsPartialRenderingResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="chkEditSupportsPartialRenderingResource1.ToolTip" xml:space="preserve">
+  <data name="btnPreviousResource2.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="chkIncludeSourceResource1.Text" xml:space="preserve">
@@ -165,43 +159,25 @@
   <data name="chkPackageResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="chkSettingSupportsPartialRenderingResource1.Text" xml:space="preserve">
+  <data name="chkSupportsPartialRenderingResource1.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="chkSettingSupportsPartialRenderingResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="chkViewSupportsPartialRenderingResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="chkViewSupportsPartialRenderingResource1.ToolTip" xml:space="preserve">
+  <data name="chkSupportsPartialRenderingResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="ddlEditControlSrcResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="ddlEditIconResource1.ToolTip" xml:space="preserve">
+  <data name="ddlIconResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="ddlSettingControlSrcResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ddlSettingIconResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ddlTypeIconResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="ddlTypeResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="ddlViewControlSrcResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ddlViewIconResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="DropDownList5Resource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="fuIncludeSourceResource1.ToolTip" xml:space="preserve">
@@ -219,64 +195,10 @@
   <data name="InstallScriptTxtResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="Label10Resource1.Text" xml:space="preserve">
-    <value>*</value>
-  </data>
-  <data name="Label10Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="Label11Resource1.Text" xml:space="preserve">
     <value>Display Order</value>
   </data>
   <data name="Label11Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label12Resource1.Text" xml:space="preserve">
-    <value>Icon</value>
-  </data>
-  <data name="Label12Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label13Resource1.Text" xml:space="preserve">
-    <value>Help URL</value>
-  </data>
-  <data name="Label13Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label14Resource1.Text" xml:space="preserve">
-    <value>Supports Partial Rendering?</value>
-  </data>
-  <data name="Label14Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label1Resource1.Text" xml:space="preserve">
-    <value>In this section you can select Assemblies to include in this package.</value>
-  </data>
-  <data name="Label1Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label20Resource1.Text" xml:space="preserve">
-    <value>Key</value>
-  </data>
-  <data name="Label20Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label21Resource1.Text" xml:space="preserve">
-    <value>Title</value>
-  </data>
-  <data name="Label21Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label22Resource1.Text" xml:space="preserve">
-    <value>Type</value>
-  </data>
-  <data name="Label22Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label23Resource1.Text" xml:space="preserve">
-    <value>*</value>
-  </data>
-  <data name="Label23Resource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="Label24Resource1.Text" xml:space="preserve">
@@ -285,52 +207,10 @@
   <data name="Label24Resource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="Label25Resource1.Text" xml:space="preserve">
-    <value>Icon</value>
-  </data>
-  <data name="Label25Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label26Resource1.Text" xml:space="preserve">
-    <value>Help URL</value>
-  </data>
-  <data name="Label26Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label27Resource1.Text" xml:space="preserve">
-    <value>Supports Partial Rendering?</value>
-  </data>
-  <data name="Label27Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label2Resource1.Text" xml:space="preserve">
-    <value>Cache Time</value>
-  </data>
-  <data name="Label2Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="Label6Resource1.Text" xml:space="preserve">
     <value>Source</value>
   </data>
   <data name="Label6Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label7Resource1.Text" xml:space="preserve">
-    <value>Key:</value>
-  </data>
-  <data name="Label7Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label8Resource1.Text" xml:space="preserve">
-    <value>Title</value>
-  </data>
-  <data name="Label8Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label9Resource1.Text" xml:space="preserve">
-    <value>Type</value>
-  </data>
-  <data name="Label9Resource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lbAvailableModulesResource1.ToolTip" xml:space="preserve">
@@ -343,7 +223,7 @@
     <value />
   </data>
   <data name="lblcompatibleversionsResource1.Text" xml:space="preserve">
-    <value>Compatible versions</value>
+    <value>Cache Time</value>
   </data>
   <data name="lblcompatibleversionsResource1.ToolTip" xml:space="preserve">
     <value />
@@ -420,6 +300,12 @@
   <data name="lblManifestNameResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="lblManifestPreviewResource1.Text" xml:space="preserve">
+    <value>In this section you can select Assemblies to include in this package.</value>
+  </data>
+  <data name="lblManifestPreviewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="lblmodulenameResource1.Text" xml:space="preserve">
     <value>Module name</value>
   </data>
@@ -456,6 +342,12 @@
   <data name="lblSupportsPartialRenderingResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="lblTitleResource1.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="lblTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="lblTypeResource1.Text" xml:space="preserve">
     <value>Type</value>
   </data>
@@ -468,12 +360,6 @@
   <data name="lblUnistallScriptResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblViewTitleResource1.Text" xml:space="preserve">
-    <value>Title</value>
-  </data>
-  <data name="lblViewTitleResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lbModulesListResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
@@ -481,60 +367,6 @@
     <value />
   </data>
   <data name="lstFolderFilesResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RegularExpressionValidator1Resource1.ErrorMessage" xml:space="preserve">
-    <value>The Help Url is not valid.</value>
-  </data>
-  <data name="RegularExpressionValidator1Resource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RegularExpressionValidator1Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RegularExpressionValidator2Resource1.ErrorMessage" xml:space="preserve">
-    <value>The Help Url is not valid.</value>
-  </data>
-  <data name="RegularExpressionValidator2Resource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RegularExpressionValidator2Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
-    <value>*</value>
-  </data>
-  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RequiredFieldValidator2Resource1.ErrorMessage" xml:space="preserve">
-    <value>*</value>
-  </data>
-  <data name="RequiredFieldValidator2Resource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RequiredFieldValidator2Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RequiredFieldValidator3Resource1.ErrorMessage" xml:space="preserve">
-    <value>*</value>
-  </data>
-  <data name="RequiredFieldValidator3Resource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RequiredFieldValidator3Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RequiredFieldValidator4Resource1.ErrorMessage" xml:space="preserve">
-    <value>*</value>
-  </data>
-  <data name="RequiredFieldValidator4Resource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RequiredFieldValidator4Resource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="revHelpUrlResource1.ErrorMessage" xml:space="preserve">
@@ -591,10 +423,10 @@
   <data name="txtbusinesscontrollerclassResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="txtCacheTimeResource1.Text" xml:space="preserve">
+  <data name="txtCacheTime.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="txtCacheTimeResource1.ToolTip" xml:space="preserve">
+  <data name="txtCacheTime.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="txtcompatibleversionsResource1.Text" xml:space="preserve">
@@ -609,28 +441,22 @@
   <data name="txtDisplayOrderResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="txtEditHelpURLResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtEditHelpURLResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtEditKeyResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtEditKeyResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtEditTitleResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtEditTitleResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="txtfriendlynameResource1.Text" xml:space="preserve">
     <value />
   </data>
   <data name="txtfriendlynameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHelpURLResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHelpURLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtKeyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtKeyResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="txtManifestNameResource1.Text" xml:space="preserve">
@@ -651,40 +477,10 @@
   <data name="txtPackageNameResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="txtSettingHelpURLResource1.Text" xml:space="preserve">
+  <data name="txtTitleResource1.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="txtSettingHelpURLResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtSettingKeyResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtSettingKeyResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtSettingTitleResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtSettingTitleResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtViewHelpURLResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtViewHelpURLResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtViewKeyResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtViewKeyResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtViewTitleResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtViewTitleResource1.ToolTip" xml:space="preserve">
+  <data name="txtTitleResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="UnistallScriptTxtResource1.Text" xml:space="preserve">

@@ -6,9 +6,11 @@
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
                 <td width="15%">
-                    <asp:Label ID="lblAvailableLocales" runat="server" CssClass="sfFormlabel" Text="Available Locales" meta:resourcekey="lblAvailableLocalesResource1"></asp:Label>
+                    <asp:Label ID="lblAvailableLocales" runat="server" CssClass="sfFormlabel" Text="Available Locales"
+                        meta:resourcekey="lblAvailableLocalesResource1"></asp:Label>
                 </td>
-                <td width="30">:
+                <td width="30">
+                    :
                 </td>
                 <td>
                     <asp:DropDownList ID="ddlAvailableLocales" runat="server" CssClass="sfListmenu" AutoPostBack="True"
@@ -24,7 +26,7 @@
             runat="server" Width="100%" AutoGenerateColumns="False" OnSelectedIndexChanged="gdvLocalPage_SelectedIndexChanged"
             OnSelectedIndexChanging="gdvLocalPage_SelectedIndexChanging" OnPageIndexChanging="gdvLocalPage_PageIndexChanging" meta:resourcekey="gdvLocalPageResource1">
             <Columns>
-                <asp:TemplateField HeaderText="S.N" meta:resourcekey="TemplateFieldResource1">
+                <asp:TemplateField HeaderText="S.No." meta:resourcekey="TemplateFieldResource1">
                     <ItemTemplate>
                         <%#Container.DataItemIndex+1%>
                     </ItemTemplate>
@@ -34,13 +36,13 @@
                         <asp:Label ID="lbldefaultValue" runat="server" Text='<%# Eval("PageName") %>' meta:resourcekey="lbldefaultValueResource1"></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="Local Values" meta:resourcekey="TemplateFieldResource3">
+                <asp:TemplateField HeaderText="Local Values" meta:resourcekey="TemplateFieldResource6">
                     <ItemTemplate>
                         <asp:TextBox ID="txtLocalPageName" Style="width: 350px" ToolTip="<%# Container.DataItemIndex+1 %>"
                             runat="server" CssClass="sfInputbox" Text='<%# Eval("LocalPageName") %>'></asp:TextBox>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="Local Caption" meta:resourcekey="TemplateFieldResource4">
+                <asp:TemplateField HeaderText="Local Caption" meta:resourcekey="TemplateFieldResource3">
                     <ItemTemplate>
                         <asp:TextBox ID="txtLocalPageCaption" Style="width: 200px" ToolTip="<%# Container.DataItemIndex+1 %>"
                             runat="server" CssClass="sfInputbox" Text='<%# Eval("LocalPageCaption") %>'></asp:TextBox>
@@ -54,11 +56,11 @@
     <div class="sfButtonwrapper">
         <label class="sfLocale icon-save sfBtn">
             Save
-            <asp:Button ID="imbUpdate" runat="server" OnClick="imbUpdate_Click"
-                Style="height: 16px" meta:resourcekey="imbUpdateResource1" />
+            <asp:Button ID="imbUpdate" runat="server" meta:resourcekey="imbUpdateResource1" OnClick="imbUpdate_Click"
+                Style="height: 16px" />
         </label>
         <label class="sfLocale icon-close sfBtn">
             Cancel
-            <asp:Button ID="imbCancel" runat="server" OnClick="imbCancel_Click" meta:resourcekey="imbCancelResource1" /><label></label>
+            <asp:Button ID="imbCancel" runat="server" meta:resourcekey="imbCancelResource1" OnClick="imbCancel_Click" /><label></label>
     </div>
 </div>

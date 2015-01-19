@@ -170,7 +170,8 @@
         <table border="0" cellpadding="0" cellspacing="0" width="100%">
             <tr>
                 <td width="20%">
-                    <asp:Label ID="lblfriendlyname" runat="server" Text="Friendly name" CssClass="sfFormlabel" meta:resourcekey="lblfriendlynameResource1"></asp:Label>
+                    <asp:Label ID="lblfriendlyname" runat="server" Text="Friendly name" CssClass="sfFormlabel"
+                        meta:resourcekey="lblfriendlynameResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
@@ -180,7 +181,8 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblmodulename" runat="server" Text="Module name" CssClass="sfFormlabel required" meta:resourcekey="lblmodulenameResource1"></asp:Label>
+                    <asp:Label ID="lblmodulename" runat="server" Text="Module name" CssClass="sfFormlabel required"
+                        meta:resourcekey="lblmodulenameResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
@@ -196,12 +198,14 @@
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:TextBox ID="txtbusinesscontrollerclass" runat="server" CssClass="sfInputbox" meta:resourcekey="txtbusinesscontrollerclassResource1"></asp:TextBox>
+                    <asp:TextBox ID="txtbusinesscontrollerclass" runat="server" CssClass="sfInputbox"
+                        meta:resourcekey="txtbusinesscontrollerclassResource1"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblcompatibleversions" runat="server" Text="Compatible versions" CssClass="sfFormlabel" meta:resourcekey="lblcompatibleversionsResource1"></asp:Label>
+                    <asp:Label ID="lblcompatibleversions" runat="server" Text="Compatible versions" CssClass="sfFormlabel"
+                        meta:resourcekey="lblcompatibleversionsResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
@@ -211,17 +215,18 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label2" runat="server" Text="Cache Time" CssClass="sfFormlabel" meta:resourcekey="Label2Resource1"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="Cache Time" CssClass="sfFormlabel" meta:resourcekey="lblcompatibleversionsResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:TextBox ID="txtCacheTime" runat="server" CssClass="sfInputbox" meta:resourcekey="txtCacheTimeResource1"></asp:TextBox>
+                    <asp:TextBox ID="txtCacheTime" runat="server" CssClass="sfInputbox" meta:resourcekey="txtCacheTime"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblModuleSelect" runat="server" Text="Select a Folder" CssClass="sfFormlabel  required" meta:resourcekey="lblModuleSelectResource1"></asp:Label>
+                    <asp:Label ID="lblModuleSelect" runat="server" Text="Select a Folder" CssClass="sfFormlabel  required"
+                        meta:resourcekey="lblModuleSelectResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
@@ -256,7 +261,8 @@
         </div>
         <div>
             <h3>
-                <asp:Label ID="lblUnistallScript" runat="server" Text="Sql Script for Uninstall:" meta:resourcekey="lblUnistallScriptResource1"></asp:Label>
+                <asp:Label ID="lblUnistallScript" runat="server" Text="Sql Script for Uninstall:"
+                    meta:resourcekey="lblUnistallScriptResource1"></asp:Label>
             </h3>
             <asp:FileUpload ID="fuUnistallScript" runat="server" meta:resourcekey="fuUnistallScriptResource1" />
             <asp:HiddenField ID="hdnUnInstallSQLFileName" runat="server" />
@@ -271,7 +277,8 @@
         </div>
         <div id="divIncludeSource" style="display: none" class="sfUploadfile clearfix">
             <p>
-                <asp:Label ID="lblIncludeSource" runat="server" Text="Upload Source Files Zip:" CssClass="sfFormlabel" meta:resourcekey="lblIncludeSourceResource1"></asp:Label>
+                <asp:Label ID="lblIncludeSource" runat="server" Text="Upload Source Files Zip:" CssClass="sfFormlabel"
+                    meta:resourcekey="lblIncludeSourceResource1"></asp:Label>
             </p>
             <asp:FileUpload ID="fuIncludeSource" runat="server" meta:resourcekey="fuIncludeSourceResource1" />
             <asp:HiddenField ID="hdnSrcZipFile" runat="server" />
@@ -282,7 +289,8 @@
 <div id="div3" style="display: none">
     <div class="sfFormwrapper sfPadding">
         <p class="sfNote">
-            <asp:Label ID="lblFilesList" runat="server" Text="The List of files for the package is shown here.In this section you can add,edit or delete the files for this package." meta:resourcekey="lblFilesListResource1"></asp:Label>
+            <asp:Label ID="lblFilesList" runat="server" Text="The List of files for the package is shown here.In this section you can add,edit or delete the files for this package."
+                meta:resourcekey="lblFilesListResource1"></asp:Label>
         </p>
         <asp:ListBox runat="server" ID="lstFolderFiles" SelectionMode="Multiple" CssClass="sfListmenubig sfFullwidth" meta:resourcekey="lstFolderFilesResource1" />
         <br />
@@ -315,21 +323,23 @@
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:TextBox ID="txtViewKey" runat="server" CssClass="sfInputbox CheckView" meta:resourcekey="txtViewKeyResource1"></asp:TextBox>
+                    <asp:TextBox ID="txtViewKey" runat="server" CssClass="sfInputbox CheckView" meta:resourcekey="txtKeyResource1"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="rfvModulekey" runat="server" ControlToValidate="txtViewKey"
-                        ValidationGroup="vdgExtension" ErrorMessage="*" SetFocusOnError="True" CssClass="sfError" meta:resourcekey="rfvModulekeyResource1"></asp:RequiredFieldValidator>
+                        ValidationGroup="vdgExtension" ErrorMessage="*" SetFocusOnError="True" CssClass="sfError"
+                        meta:resourcekey="rfvModulekeyResource1"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblViewTitle" runat="server" Text="Title" CssClass="sfFormlabel" meta:resourcekey="lblViewTitleResource1"></asp:Label>
+                    <asp:Label ID="lblViewTitle" runat="server" Text="Title" CssClass="sfFormlabel" meta:resourcekey="lblTitleResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:TextBox ID="txtViewTitle" runat="server" CssClass="sfInputbox" meta:resourcekey="txtViewTitleResource1"></asp:TextBox>
+                    <asp:TextBox ID="txtViewTitle" runat="server" CssClass="sfInputbox" meta:resourcekey="txtTitleResource1"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="rfvModuleTitle" runat="server" ControlToValidate="txtViewTitle"
-                        ValidationGroup="vdgExtension" ErrorMessage="*" SetFocusOnError="True" CssClass="sfError" meta:resourcekey="rfvModuleTitleResource1"></asp:RequiredFieldValidator>
+                        ValidationGroup="vdgExtension" ErrorMessage="*" SetFocusOnError="True" CssClass="sfError"
+                        meta:resourcekey="rfvModuleTitleResource1"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr visible="false" runat="server">
@@ -340,7 +350,8 @@
                 </td>
                 <td>
                     <asp:DropDownList ID="ddlType" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlTypeResource1" />
-                    <asp:Label ID="lblErrorControlType" runat="server" CssClass="sfError" Text="*" Visible="False" meta:resourcekey="lblErrorControlTypeResource1"></asp:Label>
+                    <asp:Label ID="lblErrorControlType" runat="server" CssClass="sfError" Text="*" Visible="False"
+                        meta:resourcekey="lblErrorControlTypeResource1"></asp:Label>
                 </td>
             </tr>
             <tr id="rowDisplayOrder" runat="server" visible="False">
@@ -361,20 +372,22 @@
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:DropDownList ID="ddlViewIcon" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlViewIconResource1" />
+                    <asp:DropDownList ID="ddlViewIcon" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlIconResource1" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblHelpURL" runat="server" Text="Help URL" CssClass="sfFormlabel" meta:resourcekey="lblHelpURLResource1"></asp:Label>
+                    <asp:Label ID="lblHelpURL" runat="server" Text="Help URL" CssClass="sfFormlabel"
+                        meta:resourcekey="lblHelpURLResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:TextBox ID="txtViewHelpURL" runat="server" CssClass="sfInputbox" meta:resourcekey="txtViewHelpURLResource1"></asp:TextBox>
+                    <asp:TextBox ID="txtViewHelpURL" runat="server" CssClass="sfInputbox" meta:resourcekey="txtHelpURLResource1"></asp:TextBox>
                     <asp:RegularExpressionValidator ID="revHelpUrl" runat="server" ControlToValidate="txtViewHelpURL"
                         CssClass="sfError" ErrorMessage="The Help Url is not valid." SetFocusOnError="True"
-                        ValidationExpression="^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&amp;?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$" meta:resourcekey="revHelpUrlResource1"></asp:RegularExpressionValidator>
+                        ValidationExpression="^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&amp;?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$"
+                        meta:resourcekey="revHelpUrlResource1"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
@@ -385,7 +398,8 @@
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:CheckBox ID="chkViewSupportsPartialRendering" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkViewSupportsPartialRenderingResource1" />
+                    <asp:CheckBox ID="chkViewSupportsPartialRendering" runat="server" CssClass="sfCheckbox"
+                        meta:resourcekey="chkSupportsPartialRenderingResource1" />
                 </td>
             </tr>
         </table>
@@ -404,37 +418,40 @@
                 </tr>
                 <tr>
                     <td width="20%">
-                        <asp:Label ID="Label7" runat="server" Text="Key:" CssClass="sfFormlabel" meta:resourcekey="Label7Resource1"></asp:Label>
+                        <asp:Label ID="Label7" runat="server" Text="Key:" CssClass="sfFormlabel" meta:resourcekey="lblKeyResource1"></asp:Label>
                     </td>
                     <td width="30">:
                     </td>
                     <td>
-                        <asp:TextBox ID="txtEditKey" runat="server" CssClass="sfInputbox" meta:resourcekey="txtEditKeyResource1"></asp:TextBox>
+                        <asp:TextBox ID="txtEditKey" runat="server" CssClass="sfInputbox" meta:resourcekey="txtKeyResource1"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtEditKey"
-                            ValidationGroup="vdgExtension" ErrorMessage="*" SetFocusOnError="True" CssClass="sfError" meta:resourcekey="RequiredFieldValidator1Resource1"></asp:RequiredFieldValidator>
+                            ValidationGroup="vdgExtension" ErrorMessage="*" SetFocusOnError="True" CssClass="sfError"
+                            meta:resourcekey="rfvModulekeyResource1"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="Label8" runat="server" Text="Title" CssClass="sfFormlabel" meta:resourcekey="Label8Resource1"></asp:Label>
+                        <asp:Label ID="Label8" runat="server" Text="Title" CssClass="sfFormlabel" meta:resourcekey="lblTitleResource1"></asp:Label>
                     </td>
                     <td width="30">:
                     </td>
                     <td>
-                        <asp:TextBox ID="txtEditTitle" runat="server" CssClass="sfInputbox" meta:resourcekey="txtEditTitleResource1"></asp:TextBox>
+                        <asp:TextBox ID="txtEditTitle" runat="server" CssClass="sfInputbox" meta:resourcekey="txtTitleResource1"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtEditTitle"
-                            ValidationGroup="vdgExtension" ErrorMessage="*" SetFocusOnError="True" CssClass="sfError" meta:resourcekey="RequiredFieldValidator2Resource1"></asp:RequiredFieldValidator>
+                            ValidationGroup="vdgExtension" ErrorMessage="*" SetFocusOnError="True" CssClass="sfError"
+                            meta:resourcekey="rfvModuleTitleResource1"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr visible="false" runat="server">
                     <td>
-                        <asp:Label ID="Label9" runat="server" Text="Type" CssClass="sfFormlabel" meta:resourcekey="Label9Resource1"></asp:Label>
+                        <asp:Label ID="Label9" runat="server" Text="Type" CssClass="sfFormlabel" meta:resourcekey="lblTypeResource1"></asp:Label>
                     </td>
                     <td width="30">:
                     </td>
                     <td>
-                        <asp:DropDownList ID="ddlTypeIcon" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlTypeIconResource1" />
-                        <asp:Label ID="Label10" runat="server" CssClass="sfError" Text="*" Visible="False" meta:resourcekey="Label10Resource1"></asp:Label>
+                        <asp:DropDownList ID="ddlTypeIcon" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlTypeResource1" />
+                        <asp:Label ID="Label10" runat="server" CssClass="sfError" Text="*" Visible="False"
+                            meta:resourcekey="lblErrorControlTypeResource1"></asp:Label>
                     </td>
                 </tr>
                 <tr id="Tr4" runat="server" visible="False">
@@ -449,35 +466,38 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="Label12" runat="server" Text="Icon" CssClass="sfFormlabel" meta:resourcekey="Label12Resource1"></asp:Label>
+                        <asp:Label ID="Label12" runat="server" Text="Icon" CssClass="sfFormlabel" meta:resourcekey="lblIconResource1"></asp:Label>
                     </td>
                     <td width="30">:
                     </td>
                     <td>
-                        <asp:DropDownList ID="ddlEditIcon" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlEditIconResource1" />
+                        <asp:DropDownList ID="ddlEditIcon" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlIconResource1" />
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="Label13" runat="server" Text="Help URL" CssClass="sfFormlabel" meta:resourcekey="Label13Resource1"></asp:Label>
+                        <asp:Label ID="Label13" runat="server" Text="Help URL" CssClass="sfFormlabel" meta:resourcekey="lblHelpURLResource1"></asp:Label>
                     </td>
                     <td width="30">:
                     </td>
                     <td>
-                        <asp:TextBox ID="txtEditHelpURL" runat="server" CssClass="sfInputbox" meta:resourcekey="txtEditHelpURLResource1"></asp:TextBox>
+                        <asp:TextBox ID="txtEditHelpURL" runat="server" CssClass="sfInputbox" meta:resourcekey="txtHelpURLResource1"></asp:TextBox>
                         <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtEditHelpURL"
                             CssClass="sfError" ErrorMessage="The Help Url is not valid." SetFocusOnError="True"
-                            ValidationExpression="^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&amp;?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$" meta:resourcekey="RegularExpressionValidator1Resource1"></asp:RegularExpressionValidator>
+                            ValidationExpression="^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&amp;?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$"
+                            meta:resourcekey="revHelpUrlResource1"></asp:RegularExpressionValidator>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="Label14" runat="server" Text="Supports Partial Rendering?" CssClass="sfFormlabel" meta:resourcekey="Label14Resource1"></asp:Label>
+                        <asp:Label ID="Label14" runat="server" Text="Supports Partial Rendering?" CssClass="sfFormlabel"
+                            meta:resourcekey="lblSupportsPartialRenderingResource1"></asp:Label>
                     </td>
                     <td width="30">:
                     </td>
                     <td>
-                        <asp:CheckBox ID="chkEditSupportsPartialRendering" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkEditSupportsPartialRenderingResource1" />
+                        <asp:CheckBox ID="chkEditSupportsPartialRendering" runat="server" CssClass="sfCheckbox"
+                            meta:resourcekey="chkSupportsPartialRenderingResource1" />
                     </td>
                 </tr>
             </table>
@@ -496,37 +516,40 @@
             </tr>
             <tr>
                 <td width="20%">
-                    <asp:Label ID="Label20" runat="server" Text="Key" CssClass="sfFormlabel" meta:resourcekey="Label20Resource1"></asp:Label>
+                    <asp:Label ID="Label20" runat="server" Text="Key" CssClass="sfFormlabel" meta:resourcekey="lblKeyResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:TextBox ID="txtSettingKey" runat="server" CssClass="sfInputbox" meta:resourcekey="txtSettingKeyResource1"></asp:TextBox>
+                    <asp:TextBox ID="txtSettingKey" runat="server" CssClass="sfInputbox" meta:resourcekey="txtKeyResource1"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtSettingKey"
-                        ValidationGroup="vdgExtension" ErrorMessage="*" SetFocusOnError="True" CssClass="sfError" meta:resourcekey="RequiredFieldValidator3Resource1"></asp:RequiredFieldValidator>
+                        ValidationGroup="vdgExtension" ErrorMessage="*" SetFocusOnError="True" CssClass="sfError"
+                        meta:resourcekey="rfvModulekeyResource1"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label21" runat="server" Text="Title" CssClass="sfFormlabel" meta:resourcekey="Label21Resource1"></asp:Label>
+                    <asp:Label ID="Label21" runat="server" Text="Title" CssClass="sfFormlabel" meta:resourcekey="lblTitleResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:TextBox ID="txtSettingTitle" runat="server" CssClass="sfInputbox" meta:resourcekey="txtSettingTitleResource1"></asp:TextBox>
+                    <asp:TextBox ID="txtSettingTitle" runat="server" CssClass="sfInputbox" meta:resourcekey="txtTitleResource1"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtSettingTitle"
-                        ValidationGroup="vdgExtension" ErrorMessage="*" SetFocusOnError="True" CssClass="sfError" meta:resourcekey="RequiredFieldValidator4Resource1"></asp:RequiredFieldValidator>
+                        ValidationGroup="vdgExtension" ErrorMessage="*" SetFocusOnError="True" CssClass="sfError"
+                        meta:resourcekey="rfvModuleTitleResource1"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr visible="false" runat="server">
                 <td>
-                    <asp:Label ID="Label22" runat="server" Text="Type" CssClass="sfFormlabel" meta:resourcekey="Label22Resource1"></asp:Label>
+                    <asp:Label ID="Label22" runat="server" Text="Type" CssClass="sfFormlabel" meta:resourcekey="lblTypeResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:DropDownList ID="DropDownList5" runat="server" CssClass="sfListmenu" meta:resourcekey="DropDownList5Resource1" />
-                    <asp:Label ID="Label23" runat="server" CssClass="sfError" Text="*" Visible="False" meta:resourcekey="Label23Resource1"></asp:Label>
+                    <asp:DropDownList ID="DropDownList5" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlTypeResource1" />
+                    <asp:Label ID="Label23" runat="server" CssClass="sfError" Text="*" Visible="False"
+                        meta:resourcekey="lblErrorControlTypeResource1"></asp:Label>
                 </td>
             </tr>
             <tr id="Tr8" runat="server" visible="False">
@@ -541,35 +564,38 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label25" runat="server" Text="Icon" CssClass="sfFormlabel" meta:resourcekey="Label25Resource1"></asp:Label>
+                    <asp:Label ID="Label25" runat="server" Text="Icon" CssClass="sfFormlabel" meta:resourcekey="lblIconResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:DropDownList ID="ddlSettingIcon" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlSettingIconResource1" />
+                    <asp:DropDownList ID="ddlSettingIcon" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlIconResource1" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label26" runat="server" Text="Help URL" CssClass="sfFormlabel" meta:resourcekey="Label26Resource1"></asp:Label>
+                    <asp:Label ID="Label26" runat="server" Text="Help URL" CssClass="sfFormlabel" meta:resourcekey="lblHelpURLResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:TextBox ID="txtSettingHelpURL" runat="server" CssClass="sfInputbox" meta:resourcekey="txtSettingHelpURLResource1"></asp:TextBox>
+                    <asp:TextBox ID="txtSettingHelpURL" runat="server" CssClass="sfInputbox" meta:resourcekey="txtHelpURLResource1"></asp:TextBox>
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtSettingHelpURL"
                         CssClass="sfError" ErrorMessage="The Help Url is not valid." SetFocusOnError="True"
-                        ValidationExpression="^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&amp;?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$" meta:resourcekey="RegularExpressionValidator2Resource1"></asp:RegularExpressionValidator>
+                        ValidationExpression="^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&amp;?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$"
+                        meta:resourcekey="revHelpUrlResource1"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label27" runat="server" Text="Supports Partial Rendering?" CssClass="sfFormlabel" meta:resourcekey="Label27Resource1"></asp:Label>
+                    <asp:Label ID="Label27" runat="server" Text="Supports Partial Rendering?" CssClass="sfFormlabel"
+                        meta:resourcekey="lblSupportsPartialRenderingResource1"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td>
-                    <asp:CheckBox ID="chkSettingSupportsPartialRendering" runat="server" CssClass="sfCheckbox" meta:resourcekey="chkSettingSupportsPartialRenderingResource1" />
+                    <asp:CheckBox ID="chkSettingSupportsPartialRendering" runat="server" CssClass="sfCheckbox"
+                        meta:resourcekey="chkSupportsPartialRenderingResource1" />
                 </td>
             </tr>
         </table>
@@ -578,7 +604,8 @@
 <div id="div5" style="display: none">
     <div class="sfFormwrapper sfPadding">
         <p class="sfNote">
-            <asp:Label ID="Label1" runat="server" Text="In this section you can select Assemblies to include in this package." meta:resourcekey="Label1Resource1"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="In this section you can select Assemblies to include in this package."
+                meta:resourcekey="lblManifestPreviewResource1"></asp:Label>
         </p>
         <asp:ListBox runat="server" ID="lstAssembly" SelectionMode="Multiple" CssClass="sfListmenubig CheckDLL"
             Height="300px" Width="500px" meta:resourcekey="lstAssemblyResource1"></asp:ListBox>
@@ -587,19 +614,23 @@
 <div id="div6" style="display: none">
     <div class="sfFormwrapper sfPadding">
         <div>
-            <asp:Label ID="lblCreateManifest" runat="server" Text="Create Manifest:" CssClass="sfFormlabel" meta:resourcekey="lblCreateManifestResource1"></asp:Label>
+            <asp:Label ID="lblCreateManifest" runat="server" Text="Create Manifest:" CssClass="sfFormlabel"
+                meta:resourcekey="lblCreateManifestResource1"></asp:Label>
             <asp:CheckBox ID="chkManifest" runat="server" Checked="True" meta:resourcekey="chkManifestResource1" />
         </div>
         <div class="dnnFormItem" id="trManifest2" runat="server">
-            <asp:Label ID="lblManifestName" runat="server" Text="Manifest File Name:" CssClass="sfFormlabel" meta:resourcekey="lblManifestNameResource1"></asp:Label>
+            <asp:Label ID="lblManifestName" runat="server" Text="Manifest File Name:" CssClass="sfFormlabel"
+                meta:resourcekey="lblManifestNameResource1"></asp:Label>
             <asp:TextBox ID="txtManifestName" runat="server" Style="width: 250px" meta:resourcekey="txtManifestNameResource1" />
         </div>
         <div class="dnnFormItem">
-            <asp:Label ID="lblCreatePackage" runat="server" Text="Create Package:" CssClass="sfFormlabel" meta:resourcekey="lblCreatePackageResource1"></asp:Label>
+            <asp:Label ID="lblCreatePackage" runat="server" Text="Create Package:" CssClass="sfFormlabel"
+                meta:resourcekey="lblCreatePackageResource1"></asp:Label>
             <asp:CheckBox ID="chkPackage" runat="server" Checked="True" meta:resourcekey="chkPackageResource1" />
         </div>
         <div class="dnnFormItem">
-            <asp:Label ID="lblPackageName" runat="server" Text="Package Zip Name:" CssClass="sfFormlabel" meta:resourcekey="lblPackageNameResource1"></asp:Label>
+            <asp:Label ID="lblPackageName" runat="server" Text="Package Zip Name:" CssClass="sfFormlabel"
+                meta:resourcekey="lblPackageNameResource1"></asp:Label>
             <asp:TextBox ID="txtPackageName" runat="server" meta:resourcekey="txtPackageNameResource1" />
             <asp:HiddenField ID="tmpFoldName" runat="server" />
         </div>
@@ -607,13 +638,13 @@
 </div>
 <div class="sfButtonwrapper">
     <asp:Button ID="btnPrevious" runat="server" AlternateText="Previous" CausesValidation="False"
-        CommandName="Previous" CssClass="sfBtn" Text="Previous" meta:resourcekey="btnPreviousResource1" />
+        CommandName="Previous" CssClass="sfBtn" Text="Previous" meta:resourcekey="btnPreviousResource2" />
     <asp:Button ID="btnNext" runat="server" AlternateText="Next" CausesValidation="False"
-        CommandName="Next" CssClass="sfBtn" Text="Next"
-        OnClick="btnSubmit_Click" meta:resourcekey="btnNextResource1" />
+        CommandName="Next" CssClass="sfBtn" Text="Next" meta:resourcekey="btnNextResource1"
+        OnClick="btnSubmit_Click" />
     <asp:Button ID="btnCancelled" runat="server" AlternateText="Cancel" CssClass="sfBtn"
-        Text="Cancel" UseSubmitBehavior="False"
-        OnClientClick="javascript:return window.location=sageRootPah+'Admin/Modules.aspx';" meta:resourcekey="btnCancelledResource1" />
+        Text="Cancel" meta:resourcekey="btnCancelResource2" UseSubmitBehavior="False"
+        OnClientClick="javascript:return window.location=sageRootPah+'Admin/Modules.aspx';" />
 </div>
 <asp:Button ID="btnBack" runat="server" AlternateText="Back" CssClass="sfBtn" Text="Back"
     CausesValidation="False" UseSubmitBehavior="False" OnClick="btnBack_Click" meta:resourcekey="btnBackResource1" />
