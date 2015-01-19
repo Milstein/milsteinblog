@@ -27,6 +27,6 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\bin\Release\Sa
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\bin\Release\SageFrame.BreadCrum.pdb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\bin\Release\SageFrame.Common.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\bin\Release\SageFrame.Common.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.pdb
-C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache

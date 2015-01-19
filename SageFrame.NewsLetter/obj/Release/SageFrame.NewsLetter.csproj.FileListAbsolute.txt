@@ -82,6 +82,6 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.NewsLetter\bin\Release\S
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.NewsLetter\bin\Release\SageFrame.Templating.pdb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.NewsLetter\bin\Release\SageFrame.CDN.pdb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.NewsLetter\bin\Release\SageFrame.Scheduler.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.NewsLetter\obj\Release\SageFrame.NewsLetter.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.NewsLetter\obj\Release\SageFrame.NewsLetter.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.NewsLetter\obj\Release\SageFrame.NewsLetter.pdb
-C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.NewsLetter\obj\Release\SageFrame.NewsLetter.csprojResolveAssemblyReference.cache

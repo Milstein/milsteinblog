@@ -91,6 +91,6 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\bin\Release\SageF
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Dashboard.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Common.pdb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Dashboard.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.pdb
-C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.csprojResolveAssemblyReference.cache

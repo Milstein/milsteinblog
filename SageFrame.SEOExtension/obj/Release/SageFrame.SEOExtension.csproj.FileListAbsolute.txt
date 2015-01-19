@@ -27,6 +27,6 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SEOExtension\bin\Release
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SEOExtension\bin\Release\SageFrame.SEOExtension.pdb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SEOExtension\bin\Release\SageFrame.Common.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SEOExtension\bin\Release\SageFrame.Common.pdb
+C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.pdb
-C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.csprojResolveAssemblyReference.cache
