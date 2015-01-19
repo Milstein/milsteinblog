@@ -16,5 +16,5 @@
 <div class="sfLanguageContainer">
 	<asp:Label ID="lblLang" runat="server" Text="Your Language:" 
     CssClass="sfFormlabel" meta:resourcekey="lblLangResource1"></asp:Label>
-	<asp:Literal ID="ltrNav" runat="server" EnableViewState="False" meta:resourcekey="ltrNavResource1"></asp:Literal>
+	<asp:Literal ID="ltrNav" runat="server" EnableViewState="False"></asp:Literal>
 </div>

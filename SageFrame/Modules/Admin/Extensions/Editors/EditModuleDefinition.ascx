@@ -18,7 +18,7 @@
                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
                                     <td width="20%">
-                                        <asp:Label ID="lblCreate" runat="server" Text="Create Module From" CssClass="sfFormlabel" meta:resourcekey="lblCreateResource1"></asp:Label>
+                                        <asp:Label ID="lblCreate" runat="server" Text="Create Module From" CssClass="sfFormlabel"></asp:Label>
                                     </td>
                                     <td>
                                         <asp:DropDownList ID="ddlCreate" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlCreateResource1">
@@ -28,7 +28,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <asp:Label ID="lblOwnerFolder" runat="server" Text="Owner Folder" CssClass="sfFormlabel" meta:resourcekey="lblOwnerFolderResource1"></asp:Label>
+                                        <asp:Label ID="lblOwnerFolder" runat="server" Text="Owner Folder" CssClass="sfFormlabel"></asp:Label>
                                     </td>
                                     <td>
                                         <asp:DropDownList ID="ddlOwner" runat="server" CssClass="sfListmenu" AutoPostBack="True"
@@ -37,7 +37,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <asp:Label ID="lblModuleFolder" runat="server" Text="Module Folder" CssClass="sfFormlabel" meta:resourcekey="lblModuleFolderResource1"></asp:Label>
+                                        <asp:Label ID="lblModuleFolder" runat="server" Text="Module Folder" CssClass="sfFormlabel"></asp:Label>
                                     </td>
                                     <td>
                                         <asp:DropDownList ID="ddlModule" runat="server" CssClass="sfListmenu" AutoPostBack="True"
@@ -46,7 +46,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <asp:Label ID="lblFiles" runat="server" Text="Source" CssClass="sfFormlabel" meta:resourcekey="lblFilesResource1"></asp:Label>
+                                        <asp:Label ID="lblFiles" runat="server" Text="Source" CssClass="sfFormlabel"></asp:Label>
                                     </td>
                                     <td>
                                         <asp:DropDownList ID="ddlFiles" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlFilesResource1" />
@@ -67,8 +67,13 @@
         <div class="sfButtonwrapper">
             <asp:LinkButton ID="imbCreate" runat="server" OnClick="imbCreate_Click" CssClass="icon-save sfBtn"
                 ValidationGroup="vdgExtension" meta:resourcekey="imbCreateResource1" Text="Save Module" />
+            <%--<asp:Label ID="lblCreateModule" runat="server" Text="Save Module"
+                AssociatedControlID="imbCreate" 
+                meta:resourcekey="lblCreateModuleResource1" />--%>
             <asp:LinkButton ID="imbBack" runat="server" CausesValidation="False" CssClass="icon-close sfBtn"
                 Text="Cancel" OnClick="imbBack_Click" meta:resourcekey="imbBackResource1" />
+            <%--   <asp:Label ID="lblBack" runat="server" Text="Cancel" 
+                AssociatedControlID="imbBack" meta:resourcekey="lblBackResource1" />--%>
         </div>
     </asp:Panel>
 </div>

@@ -6,39 +6,39 @@
             AllowPaging="True" OnPageIndexChanging="gdvContacters_PageIndexChanging" OnRowCancelingEdit="gdvContacters_RowCancelingEdit"
             OnRowCommand="gdvContacters_RowCommand" OnRowDataBound="gdvContacters_RowDataBound"
             OnRowDeleting="gdvContacters_RowDeleting" OnRowEditing="gdvContacters_RowEditing"
-            OnRowUpdating="gdvContacters_RowUpdating" EmptyDataText="...Contact Not  Found..." meta:resourcekey="gdvContactersResource1">
+            OnRowUpdating="gdvContacters_RowUpdating" EmptyDataText="...Contact Not  Found...">
             <Columns>
-                <asp:TemplateField HeaderText="S.No." meta:resourcekey="TemplateFieldResource1">
+                <asp:TemplateField HeaderText="S.No.">
                     <ItemTemplate>
                         <%#Container.DataItemIndex+1 %>
                     </ItemTemplate>
                     <HeaderStyle VerticalAlign="Top" CssClass="sfEdit" />
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="Name" meta:resourcekey="TemplateFieldResource2">
+                <asp:TemplateField HeaderText="Name">
                     <ItemTemplate>
-                        <asp:Label ID="lblName" runat="server" Text='<%# Eval("Name") %>' meta:resourcekey="lblNameResource1" />
+                        <asp:Label ID="lblName" runat="server" Text='<%# Eval("Name")%>' />
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="Email" meta:resourcekey="TemplateFieldResource3">
+                <asp:TemplateField HeaderText="Email">
                     <ItemTemplate>
-                        <asp:Label ID="lblEmail" runat="server" Text='<%# Eval("Email") %>' meta:resourcekey="lblEmailResource1" />
+                        <asp:Label ID="lblEmail" runat="server" Text='<%# Eval("Email")%>' />
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="Date" meta:resourcekey="TemplateFieldResource4">
+                <asp:TemplateField HeaderText="Date">
                     <ItemTemplate>
-                        <asp:Label ID="lblDate" runat="server" Text='<%# Eval("AddedOn") %>' meta:resourcekey="lblDateResource1" />
+                        <asp:Label ID="lblDate" runat="server" Text='<%# Eval("AddedOn")%>' />
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="Message" meta:resourcekey="TemplateFieldResource5">
+                <asp:TemplateField HeaderText="Message">
                     <ItemTemplate>
-                        <asp:Label ID="lblMessage" runat="server" Text='<%# Eval("Message") %>' meta:resourcekey="lblMessageResource1" />
+                        <asp:Label ID="lblMessage" runat="server" Text='<%# Eval("Message")%>' />
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="Delete" meta:resourcekey="TemplateFieldResource6">
+                <asp:TemplateField HeaderText="Delete">
                     <ItemTemplate>
                         <asp:LinkButton ID="imbDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("ContactUsID") %>'
                             CommandName="Delete" CssClass="icon-delete" 
-                            OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete ?');" meta:resourcekey="imbDeleteResource1" />
+                            OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you want to delete ?');" />
                     </ItemTemplate>
                     <HeaderStyle CssClass="sfDelete" />
                 </asp:TemplateField>

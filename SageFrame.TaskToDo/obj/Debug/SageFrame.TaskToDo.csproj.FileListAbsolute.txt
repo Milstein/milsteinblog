@@ -21,3 +21,7 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.TaskToDo.p
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.TaskToDo.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.TaskToDo.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.TaskToDo\obj\Debug\SageFrame.TaskToDo.pdb

@@ -32,3 +32,10 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\bin\Release\Sa
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Scheduler\bin\Release\SageFrame.Common.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Scheduler\bin\Release\SageFrame.Common.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.pdb

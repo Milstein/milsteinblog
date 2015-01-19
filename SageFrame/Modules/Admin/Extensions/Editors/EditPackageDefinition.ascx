@@ -126,24 +126,24 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="lblSelectPackage" runat="server" CssClass="sfFormlabel" Text="Select Modules" meta:resourcekey="lblSelectPackageResource1"></asp:Label>
+                        <asp:Label ID="lblSelectPackage" runat="server" CssClass="sfFormlabel" Text="Select Modules"></asp:Label>
                     </td>
                     <td colspan="3">
                         <asp:UpdatePanel ID="Upanel1" runat="server" UpdateMode="Conditional">
                             <ContentTemplate>
                                 <div class='sfAvailableModules'>
                                     <asp:ListBox ID="lbAvailableModules" runat="server" CssClass="sfListmenubig" SelectionMode="Multiple"
-                                        Height="200px" meta:resourcekey="lbAvailableModulesResource1"></asp:ListBox>
+                                        Height="200px"></asp:ListBox>
                                 </div>
                                 <div class="sfSelectleftright sfSelectarrow">
                                         <label class="icon-arrow-slim-e">
-                                            <asp:Button ID="add" runat="server" OnClick="add_Click" meta:resourcekey="addResource1" /></label>
+                                            <asp:Button ID="add" runat="server" OnClick="add_Click" /></label>
                                         <label class="icon-arrow-slim-w">
-                                            <asp:Button ID="remove" runat="server" OnClick="remove_Click" meta:resourcekey="removeResource1" /></label>
+                                            <asp:Button ID="remove" runat="server" OnClick="remove_Click" /></label>
                                 </div>
                                 <div class='sfSelectedModules'>
                                     <asp:ListBox ID="lbModulesList" CssClass="sfListmenubig" runat="server" SelectionMode="Multiple"
-                                        Height="200px" meta:resourcekey="lbModulesListResource1"></asp:ListBox>
+                                        Height="200px"></asp:ListBox>
                                     <asp:RequiredFieldValidator ID="rfvModulesList" runat="server" ControlToValidate="lbModulesList"
                                         ValidationGroup="vdgExtension" ErrorMessage="* Please choose items" SetFocusOnError="True"
                                         CssClass="sfError" meta:resourcekey="rfvModulesListResource1"></asp:RequiredFieldValidator>

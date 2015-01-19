@@ -75,7 +75,7 @@
                     <p class="sfNote">
                         Please select the modules to include in the language pack</p>
                     <input type="checkbox" id="chkSelectAll" />
-                    <asp:Label ID="lblSelectAll" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblSelectAllResource1" Text="Select All"></asp:Label>
+                    <asp:Label ID="lblSelectAll" runat="server" CssClass="sfFormlabel" meta:resourcekey="lblSelectAllResource1">Select All</asp:Label>
                     <ul>
                         <asp:Repeater ID="rptrModules" runat="server">
                             <ItemTemplate>
@@ -103,7 +103,7 @@
         </tr>
         <tr>
             <td>
-                <asp:Label runat="server" ID="lblDownLoadPathLabel" CssClass="sfFormlabel" meta:resourcekey="lblDownLoadPathLabelResource1" Text="Download Package:"></asp:Label>
+                <asp:Label runat="server" ID="lblDownLoadPathLabel" CssClass="sfFormlabel" meta:resourcekey="lblDownLoadPathLabelResource1">Download Package:</asp:Label>
             </td>
             <td>
                 <asp:LinkButton ID="lnkBtnDownloadPackage" runat="server" OnClick="lnkBtnDownloadPackage_Click"

@@ -75,9 +75,9 @@
 </div>
 <div id="fade">
 </div>
-<asp:HiddenField ID="hdntemp" runat="server" />
+<asp:HiddenField ID="hdntemp" Value="" runat="server" />
 <asp:HyperLink ID="hlRefresh" runat="server" NavigateUrl="~/SageFrame/Admin/Localization.aspx"
-    Visible="False" meta:resourcekey="hlRefreshResource1" Text="There has been few action on the website's culture so ,Please click here to refresh the page."></asp:HyperLink>
+    Visible="False">There has been few action on the website's culture so ,Please click here to refresh the page.</asp:HyperLink>
 <div id="langEditFirstDiv" runat="server">
     <h1>
         <asp:Label ID="lblTimeZoneEditor" runat="server" Text="Language Manager" meta:resourcekey="lblTimeZoneEditorResource1"></asp:Label>
@@ -130,7 +130,7 @@
         <label class="icon-menu sfBtn sfLocale">
             Localize Module Title
             <asp:Button ID="imbLocalizeModuleTitle" OnClick="imbLocalizeModuleTitle_Click" runat="server"
-                Style="width: 14px;" meta:resourcekey="imbLocalizeModuleTitleResource1" /></label>
+                Style="width: 14px;" /></label>
     </div>
     <div class="sfFormwrapper sfPadding">
         <asp:HiddenField ID="hdnCultureCode" runat="server" Value="en-US" />
@@ -301,7 +301,7 @@
                             <RowStyle CssClass="sfOdd" />
                         </asp:GridView>
                     </div>
-                    <asp:Label ID="lblScriptRunner" runat="server" meta:resourcekey="lblScriptRunnerResource1"></asp:Label>
+                    <asp:Label ID="lblScriptRunner" runat="server"></asp:Label>
                 </div>
                 <div class="sfButtonwrapper" id="controlButtons" runat="server">
                 <label class="sfLocale icon-arrow-slimdouble-w sfBtn" style="margin-left:20px;">

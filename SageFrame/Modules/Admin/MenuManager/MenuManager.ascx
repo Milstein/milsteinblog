@@ -24,7 +24,7 @@
                                 <span id="lblMenuItm">Choose Menu Item Type &nbsp;</span><i class="icon-info" data-title="This is from where you can include items into your menu"></i>
                             </h3>
                             <div class="sfRadiobutton">
-                                <asp:Literal ID="ltrMenuRadioButtons" runat="server" meta:resourcekey="ltrMenuRadioButtonsResource1"></asp:Literal>
+                                <asp:Literal ID="ltrMenuRadioButtons" runat="server"></asp:Literal>
                             </div>
                             <div id="trSubtext">
                                 <div class="divSubText" style="display: none">
@@ -272,7 +272,7 @@
                     </fieldset>
                     <fieldset id="MenuMgrPermissiom" class="sfMenupermission" style="display: none">
                         <legend>
-                            <asp:Label ID="lblpermissions" runat="server" Text="Menu Permission Settings" meta:resourcekey="lblpermissionsResource1"></asp:Label>
+                            <asp:Label ID="lblpermissions" runat="server" Text="Menu Permission Settings"></asp:Label>
                         </legend>
                         <div class="sfButtonwrapper sftype1">
                             <label class="sfAdd" id="imbAddUsers">

@@ -170,7 +170,7 @@ $(function() {
                         You are:</label>
                 </td>
                 <td>
-                    <asp:Label ID="lblUserName" runat="server" meta:resourcekey="lblUserNameResource1"></asp:Label>
+                    <asp:Label ID="lblUserName" runat="server"></asp:Label>
                 </td>
             </tr>
             <tr class="sfEven">
@@ -179,7 +179,7 @@ $(function() {
                         Portal Name:</label>
                 </td>
                 <td>
-                    <asp:Label ID="lblPortalName" runat="server" meta:resourcekey="lblPortalNameResource1"></asp:Label>
+                    <asp:Label ID="lblPortalName" runat="server"></asp:Label>
                 </td>
             </tr>
             <tr class="sfOdd">
@@ -188,7 +188,7 @@ $(function() {
                         Pages Count:</label>
                 </td>
                 <td>
-                    <asp:Label ID="lblPageCount" runat="server" meta:resourcekey="lblPageCountResource1"></asp:Label>
+                    <asp:Label ID="lblPageCount" runat="server"></asp:Label>
                 </td>
             </tr>
             <tr class="sfEven">
@@ -197,7 +197,7 @@ $(function() {
                         Total No Of Users:</label>
                 </td>
                 <td>
-                    <asp:Label ID="lblTotalUserCount" runat="server" meta:resourcekey="lblTotalUserCountResource1"></asp:Label>
+                    <asp:Label ID="lblTotalUserCount" runat="server"></asp:Label>
                 </td>
             </tr>
             <tr class="sfOdd">
@@ -206,7 +206,7 @@ $(function() {
                         Users Online:</label>
                 </td>
                 <td>
-                    <asp:Label ID="lblUserCount" runat="server" meta:resourcekey="lblUserCountResource1"></asp:Label>
+                    <asp:Label ID="lblUserCount" runat="server"></asp:Label>
                 </td>
             </tr>
             <tr class="sfEven">
@@ -215,7 +215,7 @@ $(function() {
                         Active Template:</label>
                 </td>
                 <td>
-                    <asp:Label ID="lblTemplate" runat="server" meta:resourcekey="lblTemplateResource1"></asp:Label>
+                    <asp:Label ID="lblTemplate" runat="server"></asp:Label>
                 </td>
             </tr>
         </table>

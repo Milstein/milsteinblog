@@ -129,32 +129,44 @@
   <data name="ddlOwnerResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbBackResource1.Text" xml:space="preserve">
-    <value>Cancel</value>
+  <data name="imbBackResource1.AlternateText" xml:space="preserve">
+    <value />
   </data>
   <data name="imbBackResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbCreateResource1.Text" xml:space="preserve">
-    <value>Save Module</value>
+  <data name="imbCreateResource1.AlternateText" xml:space="preserve">
+    <value />
   </data>
   <data name="imbCreateResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="lblBackResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreateModuleResource1.Text" xml:space="preserve">
+    <value>Save Module</value>
+  </data>
+  <data name="lblCreateModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="lblCreateResource1.Text" xml:space="preserve">
-    <value>Create Module From</value>
+    <value>Create Module From:</value>
   </data>
   <data name="lblCreateResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblFilesResource1.Text" xml:space="preserve">
-    <value>Source</value>
+    <value>Source:</value>
   </data>
   <data name="lblFilesResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblModuleFolderResource1.Text" xml:space="preserve">
-    <value>Module Folder</value>
+    <value>Module Folder:</value>
   </data>
   <data name="lblModuleFolderResource1.ToolTip" xml:space="preserve">
     <value />
@@ -166,7 +178,7 @@
     <value />
   </data>
   <data name="lblOwnerFolderResource1.Text" xml:space="preserve">
-    <value>Owner Folder</value>
+    <value>Owner Folder:</value>
   </data>
   <data name="lblOwnerFolderResource1.ToolTip" xml:space="preserve">
     <value />

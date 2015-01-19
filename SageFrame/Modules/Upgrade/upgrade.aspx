@@ -38,7 +38,7 @@
 </head>
 <body>
 	<div class="sfUpgradeWrap clearfix">
-    <h1>Sageframe v3.1 upgrading...</h1>
+    <h1>Sageframe v3.5 upgrading...</h1>
     <p>This might take a while</p>
     <div class="sfFormwrapper sfPadding clearfix">
         <div id="reportDiv">

@@ -30,3 +30,9 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\bin\Release\Sa
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\bin\Release\SageFrame.BreadCrum.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\bin\Release\SageFrame.BreadCrum.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\bin\Release\SageFrame.Common.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\bin\Release\SageFrame.Common.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.pdb

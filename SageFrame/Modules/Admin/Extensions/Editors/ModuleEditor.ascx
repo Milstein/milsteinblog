@@ -37,7 +37,7 @@
                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                                 <td width="20%">
-                                    <asp:Label ID="lblModuleName" runat="server" CssClass="sfFormlabel" Text="Module Name" meta:resourcekey="lblModuleNameResource1"></asp:Label>
+                                    <asp:Label ID="lblModuleName" runat="server" CssClass="sfFormlabel" Text="Module Name"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:Label ID="lblModuleNameD" runat="server" CssClass="cssClassFormLabelField" meta:resourceKey="lblModuleNameDResource1"></asp:Label>
@@ -46,7 +46,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <asp:Label ID="lblFolderName" runat="server" CssClass="sfFormlabel" Text="Folder Name" meta:resourcekey="lblFolderNameResource1"></asp:Label>
+                                    <asp:Label ID="lblFolderName" runat="server" CssClass="sfFormlabel" Text="Folder Name"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:TextBox ID="txtFolderName" runat="server" CssClass="sfInputbox" MaxLength="200"
@@ -56,16 +56,16 @@
                             <tr>
                                 <td>
                                     <asp:Label ID="lblBusinessControllerClass" runat="server" CssClass="sfFormlabel"
-                                        Text="Business Controller Class" meta:resourcekey="lblBusinessControllerClassResource1"></asp:Label>
+                                        Text="Business Controller Class"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:TextBox ID="txtBusinessControllerClass" runat="server" CssClass="sfInputbox"
-                                        MaxLength="500" meta:resourcekey="txtBusinessControllerClassResource1"></asp:TextBox>
+                                        MaxLength="500"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <asp:Label ID="lblDependencies" runat="server" CssClass="sfFormlabel" Text="Dependencies" meta:resourcekey="lblDependenciesResource1"></asp:Label>
+                                    <asp:Label ID="lblDependencies" runat="server" CssClass="sfFormlabel" Text="Dependencies"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:TextBox ID="txtDependencies" runat="server" CssClass="sfInputbox" meta:resourceKey="txtDependenciesResource1"></asp:TextBox>
@@ -73,7 +73,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <asp:Label ID="lblPermissions" runat="server" CssClass="sfFormlabel" Text="Permissions" meta:resourcekey="lblPermissionsResource1"></asp:Label>
+                                    <asp:Label ID="lblPermissions" runat="server" CssClass="sfFormlabel" Text="Permissions"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:TextBox ID="txtPermissions" runat="server" CssClass="sfInputbox" meta:resourceKey="txtPermissionsResource1"></asp:TextBox>
@@ -81,7 +81,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <asp:Label ID="lblIsPortable" runat="server" CssClass="sfFormlabel" Text="Is Portable?" meta:resourcekey="lblIsPortableResource1"></asp:Label>
+                                    <asp:Label ID="lblIsPortable" runat="server" CssClass="sfFormlabel" Text="Is Portable?"></asp:Label>
                                 </td>
                                 <td>
                                     <asp:CheckBox ID="chkIsPortable" runat="server" CssClass="sfCheckbox" Enabled="False"
@@ -150,7 +150,7 @@
                                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                     <tr>
                                         <td width="20%">
-                                            <asp:Label ID="lblDefinition" runat="server" CssClass="sfFormlabel" Text="Select Definition" meta:resourcekey="lblDefinitionResource1" />
+                                            <asp:Label ID="lblDefinition" runat="server" CssClass="sfFormlabel" Text="Select Definition" />
                                         </td>
                                         <td>
                                             <asp:DropDownList ID="ddlDefinitions" runat="server" AutoPostBack="True" CssClass="sfListmenu"
@@ -160,7 +160,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <asp:Label ID="lblFriendlyName" runat="server" CssClass="sfFormlabel" Text="Friendly Name" meta:resourcekey="lblFriendlyNameResource1" />
+                                            <asp:Label ID="lblFriendlyName" runat="server" CssClass="sfFormlabel" Text="Friendly Name" />
                                         </td>
                                         <td>
                                             <asp:TextBox ID="txtFriendlyName" ValidationGroup="ModuleDef" runat="server" CssClass="sfInputbox"
@@ -171,13 +171,13 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <asp:Label ID="lblDefaultCacheTime" runat="server" Text="Default Cache Time" CssClass="sfFormlabel" meta:resourcekey="lblDefaultCacheTimeResource1"></asp:Label>
+                                            <asp:Label ID="lblDefaultCacheTime" runat="server" Text="Default Cache Time" CssClass="sfFormlabel"></asp:Label>
                                         </td>
                                         <td>
                                             <asp:TextBox ID="txtDefaultCacheTime" CssClass="sfInputbox" ValidationGroup="ModuleDef"
                                                 runat="server" MaxLength="200" meta:resourcekey="txtDefaultCacheTimeResource1" />
                                             <asp:RequiredFieldValidator ID="rfvCacheTime" ValidationGroup="ModuleDef" ControlToValidate="txtDefaultCacheTime"
-                                                runat="server" ErrorMessage="*" meta:resourcekey="rfvCacheTimeResource1"></asp:RequiredFieldValidator>
+                                                runat="server" ErrorMessage="*"></asp:RequiredFieldValidator>
                                         </td>
                                     </tr>
                                 </table>
@@ -246,7 +246,7 @@
                                 <asp:TemplateField meta:resourcekey="TemplateFieldResource5">
                                     <ItemTemplate>
                                         <asp:LinkButton ID="imbDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("ModuleControlID") %>'
-                                            CssClass="icon-delete" CommandName="Delete" ToolTip="Delete ModuleControl" OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you delete this Module Control?');" meta:resourcekey="imbDeleteResource1" />
+                                            CssClass="icon-delete" CommandName="Delete" ToolTip="Delete ModuleControl" OnClientClick="return ConfirmDialog(this, 'Confirmation', 'Are you sure you delete this Module Control?');" />
                                     </ItemTemplate>
                                     <HeaderStyle CssClass="sfDelete" />
                                 </asp:TemplateField>

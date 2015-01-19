@@ -21,3 +21,7 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.SageBanner
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.SageBanner.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.SageBanner.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb

@@ -127,37 +127,37 @@
     <value />
   </data>
   <data name="lblDescriptionResource1.Text" xml:space="preserve">
-    <value>Description</value>
+    <value>Description:</value>
   </data>
   <data name="lblDescriptionResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblEmailResource1.Text" xml:space="preserve">
-    <value>Email</value>
+    <value>Email:</value>
   </data>
   <data name="lblEmailResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblLicenseResource1.Text" xml:space="preserve">
-    <value>License</value>
+    <value>License:</value>
   </data>
   <data name="lblLicenseResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblOrganizationResource1.Text" xml:space="preserve">
-    <value>Organization</value>
+    <value>Organization:</value>
   </data>
   <data name="lblOrganizationResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblOwnerResource1.Text" xml:space="preserve">
-    <value>Owner</value>
+    <value>Owner:</value>
   </data>
   <data name="lblOwnerResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblPackageNameResource1.Text" xml:space="preserve">
-    <value>Package Name</value>
+    <value>Package Name:</value>
   </data>
   <data name="lblPackageNameResource1.ToolTip" xml:space="preserve">
     <value />
@@ -169,19 +169,19 @@
     <value />
   </data>
   <data name="lblReleaseNotesResource1.Text" xml:space="preserve">
-    <value>Release Notes</value>
+    <value>Release Notes:</value>
   </data>
   <data name="lblReleaseNotesResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblUrlResource1.Text" xml:space="preserve">
-    <value>Url</value>
+    <value>Url:</value>
   </data>
   <data name="lblUrlResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblVersionResource1.Text" xml:space="preserve">
-    <value>Version</value>
+    <value>Version:</value>
   </data>
   <data name="lblVersionResource1.ToolTip" xml:space="preserve">
     <value />
@@ -202,6 +202,15 @@
     <value />
   </data>
   <data name="revUrlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvPackageNameResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfvPackageNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvPackageNameResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="txtDescriptionResource1.Text" xml:space="preserve">

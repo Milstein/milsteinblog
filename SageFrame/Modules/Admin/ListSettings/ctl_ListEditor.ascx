@@ -25,12 +25,16 @@
                         <asp:Button ID="imgAddList1" runat="server" OnClick="imgAddSubList_Click" ToolTip="Add List"
                             meta:resourcekey="imgAddList1Resource1" /></label>
                             <label class="sfLocale icon-delete sfBtn">                           
-                           <asp:Label runat="server" ID="lblDeleteList" meta:resourcekey="lblDeleteListResource1"></asp:Label>
+                           <asp:Label runat="server" ID="lblDeleteList"></asp:Label>
                         <asp:Button ID="imgDeleteList" runat="server" OnClick="imgDeleteList_Click"
                             OnClientClick="if(confirm('Are you sure you want to delete?')!=true)return false;" ToolTip="Delete List"
                             meta:resourcekey="imgDeleteListResource1"  />
                        </label>
                             
+                          <%--  <label class="sfLocale icon-close sfBtn"> Cancel--%>
+                       <%-- <asp:Button ID="imgCancelAll" runat="server" OnClick="imgCancelAll_Click" ToolTip="Cancel"
+                            Visible="False" meta:resourcekey="imgCancelAllResource1" />--%>
+                      <%-- </label>--%>
                     </div>
                 <div class="sfGridwrapper sfListing curve sfTableOption">
                     <table cellpadding="0" cellspacing="0" border="0" >
@@ -60,12 +64,12 @@
                                      <asp:DropDownList ID="ddlGridPageSize" CssClass="sfListmenusmall" AutoPostBack="True"
                                     runat="server" OnSelectedIndexChanged="ddlGridPageSize_SelectedIndexChanged"
                                     meta:resourcekey="ddlGridPageSizeResource1">
-                                    <asp:ListItem Value="0" meta:resourcekey="ListItemResource1" Text="All"></asp:ListItem>
-                                    <asp:ListItem Value="10" Selected="True" meta:resourcekey="ListItemResource2" Text="10"></asp:ListItem>
-                                    <asp:ListItem Value="25" meta:resourcekey="ListItemResource3" Text="25"></asp:ListItem>
-                                    <asp:ListItem Value="50" meta:resourcekey="ListItemResource4" Text="50"></asp:ListItem>
-                                    <asp:ListItem Value="75" meta:resourcekey="ListItemResource5" Text="75"></asp:ListItem>
-                                    <asp:ListItem Value="100" meta:resourcekey="ListItemResource6" Text="100"></asp:ListItem>
+                                    <asp:ListItem Value="0" meta:resourcekey="ListItemResource1">All</asp:ListItem>
+                                    <asp:ListItem Value="10" Selected="True" meta:resourcekey="ListItemResource2">10</asp:ListItem>
+                                    <asp:ListItem Value="25" meta:resourcekey="ListItemResource3">25</asp:ListItem>
+                                    <asp:ListItem Value="50" meta:resourcekey="ListItemResource4">50</asp:ListItem>
+                                    <asp:ListItem Value="75" meta:resourcekey="ListItemResource5">75</asp:ListItem>
+                                    <asp:ListItem Value="100" meta:resourcekey="ListItemResource6">100</asp:ListItem>
                                 </asp:DropDownList>
                             </td>
                             
@@ -79,38 +83,47 @@
                             GridLines="None" OnRowEditing="gdvSubList_RowEditing" OnRowDeleting="gdvSubList_RowDeleting"
                             OnRowDataBound="gdvSubList_RowDataBound" Width="100%" AllowPaging="True" OnPageIndexChanging="gdvSubList_PageIndexChanging"
                             meta:resourcekey="gdvSubListResource1">
-                            <AlternatingRowStyle CssClass="sfEven" />
                             <Columns>
-                                <asp:BoundField DataField="Text" HeaderText="Text" meta:resourceKey="BoundFieldResource1" SortExpression="Text">
-                                <HeaderStyle Width="75%" />
-                                <ItemStyle Width="70%" />
+                                <asp:BoundField DataField="Text" HeaderText="Text" SortExpression="Text" meta:resourcekey="BoundFieldResource1">
+                                    <HeaderStyle Width="75%" />
+                                    <ItemStyle Width="70%" />
                                 </asp:BoundField>
-                                <asp:BoundField DataField="Value" HeaderText="Value" meta:resourceKey="BoundFieldResource2" SortExpression="Value">
-                                <HeaderStyle Width="10%" />
-                                <ItemStyle Width="10%" />
+                                <asp:BoundField DataField="Value" HeaderText="Value" SortExpression="Value" meta:resourcekey="BoundFieldResource2">
+                                    <HeaderStyle Width="10%" />
+                                    <ItemStyle Width="10%" />
                                 </asp:BoundField>
-                                <asp:TemplateField meta:resourceKey="TemplateFieldResource1">
+                                <asp:TemplateField meta:resourcekey="TemplateFieldResource1">
                                     <ItemTemplate>
                                         <div class="sfMoveNS">
-                                            <asp:LinkButton ID="imgListUp" runat="server" CausesValidation="False" CommandArgument='<%# Eval("EntryID") %>' CommandName="SortUp" CssClass="icon-arrow-n" meta:resourceKey="imgListUpResource1" ToolTip="Move Up"></asp:LinkButton>
-                                            <asp:LinkButton ID="imgListDown" runat="server" CausesValidation="False" CommandArgument='<%# Eval("EntryID") %>' CommandName="SortDown" CssClass="icon-arrow-s" meta:resourceKey="imgListDownResource1" ToolTip="Move Down"></asp:LinkButton>
+                                            <asp:LinkButton ID="imgListUp" runat="server" CausesValidation="False" CommandArgument='<%# Eval("EntryID") %>'
+                                                CommandName="SortUp"  CssClass="icon-arrow-n"
+                                                ToolTip="Move Up" meta:resourcekey="imgListUpResource1" /> 
+                                                                                 
+                                            <asp:LinkButton ID="imgListDown" runat="server" CausesValidation="False" CommandArgument='<%# Eval("EntryID") %>'
+                                                CommandName="SortDown" CssClass="icon-arrow-s"
+                                                ToolTip="Move Down" meta:resourcekey="imgListDownResource1" />
                                         </div>
                                     </ItemTemplate>
                                     <HeaderStyle CssClass="sfEdit" />
                                 </asp:TemplateField>
-                                <asp:TemplateField meta:resourceKey="TemplateFieldResource2">
+                                <asp:TemplateField meta:resourcekey="TemplateFieldResource2">
                                     <ItemTemplate>
-                                        <asp:LinkButton ID="imgEdit" runat="server" CausesValidation="False" CommandArgument='<%# Eval("EntryID") %>' CommandName="Edit" CssClass="icon-edit" meta:resourceKey="imgEditResource1" ToolTip="Edit"></asp:LinkButton>
+                                        <asp:LinkButton ID="imgEdit" runat="server" CausesValidation="False" CommandArgument='<%# Eval("EntryID") %>'
+                                            CommandName="Edit" CssClass="icon-edit"
+                                            ToolTip="Edit" meta:resourcekey="imgEditResource1" />
                                     </ItemTemplate>
                                     <HeaderStyle CssClass="sfEdit" />
                                 </asp:TemplateField>
-                                <asp:TemplateField meta:resourceKey="TemplateFieldResource3">
+                                <asp:TemplateField meta:resourcekey="TemplateFieldResource3">
                                     <ItemTemplate>
-                                        <asp:LinkButton ID="imgDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("EntryID") %>' CommandName="Delete" CssClass="icon-delete" meta:resourceKey="imgDeleteResource1" ToolTip="Delete"></asp:LinkButton>
+                                        <asp:LinkButton ID="imgDelete" runat="server" CausesValidation="False" CommandArgument='<%# Eval("EntryID") %>'
+                                            CommandName="Delete" CssClass="icon-delete"
+                                            ToolTip="Delete" meta:resourcekey="imgDeleteResource1" />
                                     </ItemTemplate>
                                     <HeaderStyle CssClass="sfDelete" />
                                 </asp:TemplateField>
                             </Columns>
+                            <AlternatingRowStyle CssClass="sfEven" />
                             <PagerStyle CssClass="sfPagination" />
                             <RowStyle CssClass="sfOdd" />
                         </asp:GridView>

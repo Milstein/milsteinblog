@@ -23,3 +23,8 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Templating
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Templating\obj\Debug\SageFrame.Templating.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.Templating.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.Templating.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Templating\obj\Debug\SageFrame.Templating.csprojResolveAssemblyReference.cache
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb

@@ -18,3 +18,7 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Version.dl
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.Version.pdb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Version\obj\Debug\SageFrame.Version.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Version\obj\Debug\SageFrame.Version.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.Version.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.Version.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Version\obj\Debug\SageFrame.Version.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Version\obj\Debug\SageFrame.Version.pdb

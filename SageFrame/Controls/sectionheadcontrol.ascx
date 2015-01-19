@@ -4,7 +4,7 @@
     <div class="sfAccordianholder">
         <div class="sfAccordianheader">
             <h2 class="Curve">
-                <asp:Label ID="lblTitle" runat="server" EnableViewState="False" meta:resourcekey="lblTitleResource1"></asp:Label>
+                <asp:Label ID="lblTitle" runat="server" EnableViewState="False"></asp:Label>
             </h2>
         </div>
     </div>

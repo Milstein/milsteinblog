@@ -81,7 +81,7 @@
             </tr>
             <tr>
                 <td colspan="2">
-                    <asp:Panel ID="pnlRunningMode" runat="server" GroupingText="Running Mode" meta:resourcekey="pnlRunningModeResource1">
+                    <asp:Panel ID="pnlRunningMode" runat="server" GroupingText="Running Mode">
                         <table cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                                 <td width="22%">

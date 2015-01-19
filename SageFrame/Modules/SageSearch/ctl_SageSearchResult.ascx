@@ -17,7 +17,7 @@
 </script>
 
 <div class="sfSearchresult sfWrapper">
-    <asp:Panel ID="pnlSearchWord" runat="server" CssClass="sfSearchwrapper" meta:resourcekey="pnlSearchWordResource1">
+    <asp:Panel ID="pnlSearchWord" runat="server" CssClass="sfSearchwrapper">
     </asp:Panel>
     <div class="clear">
     </div>

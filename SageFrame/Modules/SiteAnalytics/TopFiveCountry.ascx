@@ -56,7 +56,7 @@
         height: 300px; float: left">
     </div>
     <div class="sftotalVisitor clearfix">
-        <asp:Literal runat="server" ID="ltrTotal" meta:resourcekey="ltrTotalResource1"></asp:Literal>
-        <asp:HyperLink runat="server" ID="hyLnkSiteAnalytics" Text="View Full Statistics" CssClass="icon-chart sfBtn" meta:resourcekey="hyLnkSiteAnalyticsResource1"></asp:HyperLink>
+        <asp:Literal runat="server" ID="ltrTotal"></asp:Literal>
+        <asp:HyperLink runat="server" ID="hyLnkSiteAnalytics" Text="View Full Statistics" CssClass="icon-chart sfBtn"></asp:HyperLink>
     </div>
 </div>

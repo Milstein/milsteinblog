@@ -21,3 +21,7 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\DashBoardControl.pdb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\DashBoardControl.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\DashBoardControl.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb

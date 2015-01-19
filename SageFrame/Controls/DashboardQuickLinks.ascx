@@ -46,11 +46,11 @@
 <div class="sfTopwrapper">
   <!--Logo-->
   <div class="sfLogo"> <a href="../Admin/Admin<%=Extension %>"> <img src="<%=appPath%>/Administrator/Templates/Default/images/sageframe.png" alt="Sageframe" /></a>
-    <asp:Label runat="server" ID="lblVersion" meta:resourcekey="lblVersionResource1"></asp:Label>
+    <asp:Label runat="server" ID="lblVersion"></asp:Label>
   </div>
   <!--Quick Links-->
   <div class="sfquicklinks ">
-    <asp:Literal ID="ltrQuicklinks" runat="server" meta:resourcekey="ltrQuicklinksResource1"></asp:Literal>
+    <asp:Literal ID="ltrQuicklinks" runat="server"></asp:Literal>
   </div>
   <div class="clear"></div>
 </div>

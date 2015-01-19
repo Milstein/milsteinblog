@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="LocalPage.ascx.cs" Inherits="Modules_LocalPage_LocalPage" %>
 <h1>
-    <asp:Label ID="lblLocalPageEditor" runat="server" Text="Localize Menu" meta:resourcekey="lblLocalPageEditorResource1"></asp:Label></h1>
+    <asp:Label ID="lblLocalPageEditor" runat="server" Text="Localize Menu"></asp:Label></h1>
 <div>
     <div class="sfFormwrapper sfTableOption">
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -24,16 +24,16 @@
     <div class="sfGridwrapper">
         <asp:GridView ID="gdvLocalPage" class="cssClassKeyValueGrid" DataKeyNames="PageID"
             runat="server" Width="100%" AutoGenerateColumns="False" OnSelectedIndexChanged="gdvLocalPage_SelectedIndexChanged"
-            OnSelectedIndexChanging="gdvLocalPage_SelectedIndexChanging" OnPageIndexChanging="gdvLocalPage_PageIndexChanging" meta:resourcekey="gdvLocalPageResource1">
+            OnSelectedIndexChanging="gdvLocalPage_SelectedIndexChanging" OnPageIndexChanging="gdvLocalPage_PageIndexChanging">
             <Columns>
-                <asp:TemplateField HeaderText="S.No." meta:resourcekey="TemplateFieldResource1">
+                <asp:TemplateField HeaderText="S.No.">
                     <ItemTemplate>
                         <%#Container.DataItemIndex+1%>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="Default Values" meta:resourcekey="TemplateFieldResource2">
+                <asp:TemplateField HeaderText="Default Values">
                     <ItemTemplate>
-                        <asp:Label ID="lbldefaultValue" runat="server" Text='<%# Eval("PageName") %>' meta:resourcekey="lbldefaultValueResource1"></asp:Label>
+                        <asp:Label ID="lbldefaultValue" runat="server" Text='<%# Eval("PageName") %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="Local Values" meta:resourcekey="TemplateFieldResource6">
@@ -42,7 +42,7 @@
                             runat="server" CssClass="sfInputbox" Text='<%# Eval("LocalPageName") %>'></asp:TextBox>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="Local Caption" meta:resourcekey="TemplateFieldResource3">
+                <asp:TemplateField HeaderText="Local Caption">
                     <ItemTemplate>
                         <asp:TextBox ID="txtLocalPageCaption" Style="width: 200px" ToolTip="<%# Container.DataItemIndex+1 %>"
                             runat="server" CssClass="sfInputbox" Text='<%# Eval("LocalPageCaption") %>'></asp:TextBox>

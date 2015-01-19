@@ -31,7 +31,7 @@
         <tr>
             <td>
                 <div class="sfButtonwrapper">
-                    <asp:CheckBox ID="chkRunAsScript" runat="server" Text="Run as Script"
+                    <asp:CheckBox ID="chkRunAsScript" runat="server" Text="Run as Script" TextAlign="Right"
                         ToolTip="include 'GO' directives; for testing &amp; update scripts" CssClass="sfCheckbox"
                         meta:resourcekey="chkRunAsScriptResource1" />
                     <label class="icon-execute sfLocale sfBtn">

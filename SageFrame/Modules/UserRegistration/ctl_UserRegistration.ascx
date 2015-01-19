@@ -15,7 +15,7 @@
         });
 
 
-        $(".sfLocale").SystemLocalize();
+        $(".sfLocalee").SystemLocalize();
         var FinishButton = '#' + '<%=FinishButton.ClientID %>';
         var pwdID = '#' + '<%=Password.ClientID%>';
         $('#minchar').remove();
@@ -61,7 +61,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                         <td colspan="2">
-                            <span class="sfAllrequired sfLocale">* All Fields are compulsory.</span>
+                            <span class="sfAllrequired sfLocalee">* All Fields are compulsory.</span>
                         </td>
                     </tr>
                     <tr>
@@ -170,6 +170,9 @@
                                     <asp:RequiredFieldValidator ID="rfvCaptchaValueValidator" runat="server" ControlToValidate="CaptchaValue"
                                         Display="Dynamic" ErrorMessage="*" ValidationGroup="CreateUserWizard1" CssClass="sfError"
                                         meta:resourcekey="rfvCaptchaValueValidatorResource1"></asp:RequiredFieldValidator>
+                                    <%-- <asp:CompareValidator ID="cvCaptchaValue" runat="server" Display="Dynamic" ErrorMessage="*"
+                                                ValidationGroup="CreateUserWizard1" ControlToValidate="CaptchaValue"
+                                                CssClass="sfError" meta:resourcekey="cvCaptchaValueResource1"></asp:CompareValidator>--%>
                                 </ContentTemplate>
                             </asp:UpdatePanel>
                         </td>

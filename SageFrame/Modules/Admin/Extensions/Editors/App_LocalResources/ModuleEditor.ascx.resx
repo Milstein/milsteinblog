@@ -153,52 +153,64 @@
   <data name="gdvControlsResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbAddControlResource1.Text" xml:space="preserve">
-    <value>Add Module Control</value>
+  <data name="imbAddControlResource1.AlternateText" xml:space="preserve">
+    <value />
   </data>
   <data name="imbAddControlResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbCancelResource1.Text" xml:space="preserve">
-    <value>Cancel</value>
+  <data name="imbCancelResource1.AlternateText" xml:space="preserve">
+    <value />
   </data>
   <data name="imbCancelResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbDeleteResource1.Text" xml:space="preserve">
+  <data name="imbDeleteResource1.AlternateText" xml:space="preserve">
     <value />
   </data>
   <data name="imbDeleteResource1.ToolTip" xml:space="preserve">
     <value>Delete ModuleControl</value>
   </data>
-  <data name="imbEditResource1.Text" xml:space="preserve">
+  <data name="imbEditResource1.AlternateText" xml:space="preserve">
     <value />
   </data>
   <data name="imbEditResource1.ToolTip" xml:space="preserve">
     <value>Edit ModuleControl</value>
   </data>
-  <data name="imbUninstallResource1.Text" xml:space="preserve">
-    <value>Uninstall Extension</value>
+  <data name="imbUninstallResource1.AlternateText" xml:space="preserve">
+    <value />
   </data>
   <data name="imbUninstallResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbUpdateDefinitionResource1.Text" xml:space="preserve">
-    <value>Update Definition</value>
+  <data name="imbUpdateDefinitionResource1.AlternateText" xml:space="preserve">
+    <value />
   </data>
   <data name="imbUpdateDefinitionResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbUpdateResource1.Text" xml:space="preserve">
-    <value>Update Module</value>
+  <data name="imbUpdateResource1.AlternateText" xml:space="preserve">
+    <value />
   </data>
   <data name="imbUpdateResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="lblAddControlResource1.Text" xml:space="preserve">
+    <value>Add Module Control</value>
+  </data>
+  <data name="lblAddControlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="lblBusinessControllerClassResource1.Text" xml:space="preserve">
-    <value>Business Controller Class</value>
+    <value>Business Controller Class:</value>
   </data>
   <data name="lblBusinessControllerClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCancelResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblCancelResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblControlKeyResource1.ToolTip" xml:space="preserve">
@@ -217,7 +229,7 @@
     <value />
   </data>
   <data name="lblDefaultCacheTimeResource1.Text" xml:space="preserve">
-    <value>Default Cache Time</value>
+    <value>Default Cache Time:</value>
   </data>
   <data name="lblDefaultCacheTimeResource1.ToolTip" xml:space="preserve">
     <value />
@@ -229,13 +241,13 @@
     <value />
   </data>
   <data name="lblDefinitionResource1.Text" xml:space="preserve">
-    <value>Select Definition</value>
+    <value>Select Definition:</value>
   </data>
   <data name="lblDefinitionResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblDependenciesResource1.Text" xml:space="preserve">
-    <value>Dependencies</value>
+    <value>Dependencies:</value>
   </data>
   <data name="lblDependenciesResource1.ToolTip" xml:space="preserve">
     <value />
@@ -247,13 +259,13 @@
     <value />
   </data>
   <data name="lblFolderNameResource1.Text" xml:space="preserve">
-    <value>Folder Name</value>
+    <value>Folder Name:</value>
   </data>
   <data name="lblFolderNameResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblFriendlyNameResource1.Text" xml:space="preserve">
-    <value>Friendly Name</value>
+    <value>Friendly Name:</value>
   </data>
   <data name="lblFriendlyNameResource1.ToolTip" xml:space="preserve">
     <value />
@@ -301,15 +313,21 @@
     <value />
   </data>
   <data name="lblModuleNameResource1.Text" xml:space="preserve">
-    <value>Module Name</value>
+    <value>Module Name:</value>
   </data>
   <data name="lblModuleNameResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblPermissionsResource1.Text" xml:space="preserve">
-    <value>Permissions</value>
+    <value>Permissions:</value>
   </data>
   <data name="lblPermissionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnInstallExtensionResource1.Text" xml:space="preserve">
+    <value>Uninstall Extension</value>
+  </data>
+  <data name="lblUnInstallExtensionResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblUpdatedByResource1.Text" xml:space="preserve">
@@ -318,13 +336,16 @@
   <data name="lblUpdatedByResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="rfvCacheTimeResource1.ErrorMessage" xml:space="preserve">
-    <value>*</value>
+  <data name="lblUpdateDefinitionResource1.Text" xml:space="preserve">
+    <value>Update Definition</value>
   </data>
-  <data name="rfvCacheTimeResource1.Text" xml:space="preserve">
+  <data name="lblUpdateDefinitionResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="rfvCacheTimeResource1.ToolTip" xml:space="preserve">
+  <data name="lblUpdateModuleResource1.Text" xml:space="preserve">
+    <value>Update Module</value>
+  </data>
+  <data name="lblUpdateModuleResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="TabContainerManageModulesResource1.ToolTip" xml:space="preserve">

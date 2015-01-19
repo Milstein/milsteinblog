@@ -2,7 +2,7 @@
     Inherits="Modules_Admin_DashboardInfo_DashboardInfo" %>
 <div class="sfWelcomeWrap clearfix" runat="server" id="divDashboardHelp">
     <label class="icon-close sfFloatRight">
-        <asp:Button runat="server" ID="btnDisableDashboardhelp" OnClick="btnDisableDashboardhelp_Click" meta:resourcekey="btnDisableDashboardhelpResource1" />
+        <asp:Button runat="server" ID="btnDisableDashboardhelp" OnClick="btnDisableDashboardhelp_Click" />
     </label>
     <h1>
         Hi! Welcome to SageFrame Welcome Screen.</h1>
@@ -28,15 +28,11 @@
                 <a target="new" href="http://sageframe.com/Documentation.aspx">
                     Document Library</a> <a target="new" href="http://sageframe.com/Developer-Guide.aspx">
                        Developer Guide </a><a href="http://sageframe.com/Video-Gallery.aspx">Video Gallery</a>
-                <li class="sfModuleList">
+                 <li class="sfModuleList">
                     <h3>
-                        SageFrame3.1 Specials</h3>
-                    <a href="#">Schedular </a> 
-                    <a href="#">Upgrader </a> 
-                    <a href="#">Online Module Installation </a> 
-                    <a href="#">Fixed Layout & Menu Manager </a> 
-                    <a href="#">Improved Security</a> 
-                    <a href="#">Optimized performance</a>
+                        SageFrame3.5 Specials</h3>
+                    <a href="#">Payment Gateway Settings </a> 
+                    <a href="#">User Import and Export</a>                     
                     </li>
         </ul>
     </div>

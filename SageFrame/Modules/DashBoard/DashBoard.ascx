@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="DashBoard.ascx.cs" Inherits="SageFrame.Modules.DashBoard.DashBoard" %>
 <h2>
-    <asp:Label ID="lblSfInfo" runat="server" Text="SageFrame CPanel" meta:resourcekey="lblSfInfoResource1"></asp:Label>
+    <asp:Label ID="lblSfInfo" runat="server" Text="Milson Munakami 'Mils†ein®' Control Panel"></asp:Label>
 </h2>
 <asp:Repeater ID="rptDashBoard" runat="server">
     <HeaderTemplate>
@@ -12,7 +12,9 @@
     </FooterTemplate>
     <ItemTemplate>
         <li><a id="hypPageURL" runat="server" href='<%# Eval("Url") %>'><span class="sfModuleicon">
-                <asp:Literal runat="server" ID="ltrImage" Text='<%# Eval("IconFile") %>'></asp:Literal>
+           <%-- <asp:Image ID="imgDisplayImage" ImageAlign="Middle" runat="server" CssClass="sfImageheight"
+                ImageUrl='<%# Eval("IconFile") %>' meta:resourcekey="imgDisplayImageResource1" />--%>
+                <asp:Literal runat="server" ID="ltrImage" Text='<%# Eval("IconFile")%>'></asp:Literal>
         </span>
             <asp:Label class="sfModulename" ID="lblPageName" runat="server" Text='<%# Eval("PageName") %>'
                 meta:resourcekey="lblPageNameResource1"></asp:Label>

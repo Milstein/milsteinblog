@@ -66,7 +66,7 @@
 </h1>
 <div class="clearfix sfAdvanceRadioBtn">
     <div id="dvPageType">
-        <asp:Literal ID="ltrPageRadioButtons" runat="server" meta:resourcekey="ltrPageRadioButtonsResource1"></asp:Literal>
+        <asp:Literal ID="ltrPageRadioButtons" runat="server"></asp:Literal>
     </div>
     <div class="clear">
     </div>
@@ -97,10 +97,10 @@
                             <div id="dvTabPanel">
                                 <ul>
                                     <li><a href="#dvEdit">
-                                        <asp:Label ID="lblEdit" runat="server" Text="Module Basics" meta:resourcekey="lblEditResource1"></asp:Label>
+                                        <asp:Label ID="lblEdit" runat="server" Text="Module Basics"></asp:Label>
                                     </a></li>
                                     <li><a href="#dvPermissions">
-                                        <asp:Label ID="lblSetting" runat="server" Text="Permissions" meta:resourcekey="lblSettingResource1"></asp:Label>
+                                        <asp:Label ID="lblSetting" runat="server" Text="Permissions"></asp:Label>
                                     </a></li>
                                 </ul>
                                 <div id="dvEdit" class="sfFormwrapper sfModulepopbox">
@@ -301,7 +301,7 @@
                             <div class="ChangeLayout">
                                 <label>
                                     Assign layout option:</label>
-                                <asp:Literal runat="server" ID="ltrLayouts" meta:resourcekey="ltrLayoutsResource1"></asp:Literal>
+                                <asp:Literal runat="server" ID="ltrLayouts"></asp:Literal>
                                 <input type="button" value="Preserve Layout" id="btnSavelayout" class="sfBtn"
                                     style="display: none;" />
                                 <input type="button" value="Cancel" id="btnLayoutCancel" class="sfBtn" style="display: none;" />
@@ -542,7 +542,7 @@
                     <span class="icon-search sfSearchModules"></span>
                 </div>
             </h3>
-            <asp:Literal runat="server" ID="ltrAdminModules" meta:resourcekey="ltrAdminModulesResource1"></asp:Literal>
+            <asp:Literal runat="server" ID="ltrAdminModules"></asp:Literal>
             <div id="divFloat" class="clearfix">
                 <%--<span id="spnFix" class="sfFloatPin">
                     <img alt="" src="<%=appPath%>/Administrator/Templates/Default/images/pin.png" /></span>--%>

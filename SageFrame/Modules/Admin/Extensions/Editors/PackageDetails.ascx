@@ -12,23 +12,23 @@
         <table border="0" cellpadding="0" cellspacing="0" width="100%">
             <tr>
                 <td width="20%">
-                    <asp:Label ID="lblPackageName" runat="server" Text="Package Name" CssClass="sfFormlabel" meta:resourcekey="lblPackageNameResource1"></asp:Label>
+                    <asp:Label ID="lblPackageName" runat="server" Text="Package Name" CssClass="sfFormlabel"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtPackageName" runat="server" CssClass="sfInputbox required" meta:resourcekey="txtPackageNameResource1"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <asp:Label ID="lblDescription" runat="server" Text="Description" CssClass="sfFormlabel" meta:resourcekey="lblDescriptionResource1"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="txtDescription" runat="server" CssClass="sfInputbox" Rows="5" TextMode="MultiLine" meta:resourcekey="txtDescriptionResource1"></asp:TextBox>
+                    <asp:TextBox ID="txtPackageName" runat="server" CssClass="sfInputbox required"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblVersion" runat="server" Text="Version" CssClass="sfFormlabel" meta:resourcekey="lblVersionResource1"></asp:Label>
+                    <asp:Label ID="lblDescription" runat="server" Text="Description" CssClass="sfFormlabel"></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="txtDescription" runat="server" CssClass="sfInputbox" Rows="5" TextMode="MultiLine"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="lblVersion" runat="server" Text="Version" CssClass="sfFormlabel"></asp:Label>
                 </td>
                 <td>
                     <asp:DropDownList ID="ddlFirst" runat="server" CssClass="sfListmenu sfAuto" meta:resourcekey="ddlFirstResource1">
@@ -41,23 +41,23 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblLicense" runat="server" Text="License" CssClass="sfFormlabel" meta:resourcekey="lblLicenseResource1"></asp:Label>
+                    <asp:Label ID="lblLicense" runat="server" Text="License" CssClass="sfFormlabel"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtLicense" runat="server" CssClass="sfInputbox" Rows="5" TextMode="MultiLine" meta:resourcekey="txtLicenseResource1"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <asp:Label ID="lblReleaseNotes" runat="server" Text="Release Notes" CssClass="sfFormlabel" meta:resourcekey="lblReleaseNotesResource1"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="txtReleaseNotes" runat="server" CssClass="sfInputbox" Rows="5" TextMode="MultiLine" meta:resourcekey="txtReleaseNotesResource1"></asp:TextBox>
+                    <asp:TextBox ID="txtLicense" runat="server" CssClass="sfInputbox" Rows="5" TextMode="MultiLine"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblOwner" runat="server" Text="Owner" CssClass="sfFormlabel" meta:resourcekey="lblOwnerResource1"></asp:Label>
+                    <asp:Label ID="lblReleaseNotes" runat="server" Text="Release Notes" CssClass="sfFormlabel"></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="txtReleaseNotes" runat="server" CssClass="sfInputbox" Rows="5" TextMode="MultiLine"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="lblOwner" runat="server" Text="Owner" CssClass="sfFormlabel"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="txtOwner" runat="server" CssClass="sfInputbox" meta:resourcekey="txtOwnerResource1"></asp:TextBox>
@@ -65,15 +65,15 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblOrganization" runat="server" Text="Organization" CssClass="sfFormlabel" meta:resourcekey="lblOrganizationResource1"></asp:Label>
+                    <asp:Label ID="lblOrganization" runat="server" Text="Organization" CssClass="sfFormlabel"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtOrganization" runat="server" CssClass="sfInputbox" meta:resourcekey="txtOrganizationResource1"></asp:TextBox>
+                    <asp:TextBox ID="txtOrganization" runat="server" CssClass="sfInputbox"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblUrl" runat="server" Text="Url" CssClass="sfFormlabel" meta:resourcekey="lblUrlResource1"></asp:Label>
+                    <asp:Label ID="lblUrl" runat="server" Text="Url" CssClass="sfFormlabel"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="txtUrl" runat="server" CssClass="sfInputbox" meta:resourcekey="txtUrlResource1"></asp:TextBox>
@@ -85,7 +85,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblEmail" runat="server" Text="Email" CssClass="sfFormlabel" meta:resourcekey="lblEmailResource1"></asp:Label>
+                    <asp:Label ID="lblEmail" runat="server" Text="Email" CssClass="sfFormlabel"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="txtEmail" runat="server" CssClass="sfInputbox" meta:resourcekey="txtEmailResource1"></asp:TextBox>

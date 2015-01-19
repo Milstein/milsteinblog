@@ -232,13 +232,13 @@
     <value />
   </data>
   <data name="UserNameRequiredResource1.ErrorMessage" xml:space="preserve">
-    <value>Username is required.</value>
+    <value>User Name is required.</value>
   </data>
   <data name="UserNameRequiredResource1.Text" xml:space="preserve">
     <value>*</value>
   </data>
   <data name="UserNameRequiredResource1.ToolTip" xml:space="preserve">
-    <value>Username is required.</value>
+    <value>User Name is required.</value>
   </data>
   <data name="UserNameResource1.Text" xml:space="preserve">
     <value />

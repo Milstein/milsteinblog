@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="LayoutManager.ascx.cs"
     Inherits="Modules_LayoutManager_LayoutManager" %>
 <h1>
-    <asp:Label ID="lblTemplateMgr" runat="server" Text="Template Manager" meta:resourcekey="lblTemplateMgrResource1"></asp:Label>
+    <asp:Label ID="lblTemplateMgr" runat="server" Text="Template Manager"></asp:Label>
 </h1>
 <div class="clearfix">
     <div class="sfTemplatemanger clearfix">
@@ -9,13 +9,13 @@
             Available Templates</h3>
         <div class="sftype1 sfCreatetemplate sfTableOption">
             <div class="sfUploadTemplate">
-                <asp:Label ID="lblUploadTemp" CssClass="sfFormlabel" runat="server" meta:resourcekey="lblUploadTempResource1" Text="Upload Template"></asp:Label>
-                <asp:FileUpload ID="fupUploadTemp" runat="server" meta:resourcekey="fupUploadTempResource1" />
+                <asp:Label ID="lblUploadTemp" CssClass="sfFormlabel" runat="server" Text="Upload Template"></asp:Label>
+                <asp:FileUpload ID="fupUploadTemp" runat="server" />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please Choose Template"
-                 CssClass="sfUploadError"   ControlToValidate="fupUploadTemp" Display="Dynamic" ValidationGroup="rfvTemplate" meta:resourcekey="RequiredFieldValidator1Resource1"></asp:RequiredFieldValidator>
+                 CssClass="sfUploadError"   ControlToValidate="fupUploadTemp" Display="Dynamic" ValidationGroup="rfvTemplate"></asp:RequiredFieldValidator>
                 <label class="sfLocale icon-upload sfBtn">
                     Upload
-                    <asp:Button ID="btnUpload" runat="server" OnClick="btnUpload_Click" ValidationGroup="rfvTemplate" meta:resourcekey="btnUploadResource1" /></label></div>
+                    <asp:Button ID="btnUpload" runat="server" OnClick="btnUpload_Click" ValidationGroup="rfvTemplate" /></label></div>
             <div id="sfCreateTemplate" style="display: none" class="clearfix sfFloatRight">
                 <input type="text" id="txtNewTemplate" class="sfInputbox" />
                 <input type="button" id="btnSaveTemplate" class="sfBtn" value="Ok" />

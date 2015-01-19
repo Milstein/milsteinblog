@@ -18,3 +18,7 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.IPAddressToCountryResolv
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.IPAddressToCountryResolver\bin\Release\SageFrame.IPAddressToCountryResolver.pdb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.IPAddressToCountryResolver\obj\Release\SageFrame.IPAddressToCountryResolver.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.IPAddressToCountryResolver\obj\Release\SageFrame.IPAddressToCountryResolver.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.IPAddressToCountryResolver\bin\Release\SageFrame.IPAddressToCountryResolver.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.IPAddressToCountryResolver\bin\Release\SageFrame.IPAddressToCountryResolver.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.IPAddressToCountryResolver\obj\Release\SageFrame.IPAddressToCountryResolver.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.IPAddressToCountryResolver\obj\Release\SageFrame.IPAddressToCountryResolver.pdb

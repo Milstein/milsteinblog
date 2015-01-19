@@ -17,4 +17,4 @@
     //]]>
 </script>
 
-<asp:Literal EnableViewState="False" runat="server" ID="sageSlider" meta:resourcekey="sageSliderResource1"></asp:Literal>
+<asp:Literal EnableViewState="false" runat="server" ID="sageSlider"></asp:Literal>

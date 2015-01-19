@@ -71,7 +71,7 @@
     <label class="sfLocale icon-page-preview sfBtn">
         Export Event Logs to Excel
         <asp:Button ID="btnExportToExcel" runat="server" ToolTip=" Export Event Logs to Excel"
-            CausesValidation="False" OnClick="btnExportToExcel_Click" meta:resourcekey="btnExportToExcelResource1" />
+            CausesValidation="False" OnClick="btnExportToExcel_Click" />
     </label>
 </div>
 <div class="sfFormwrapper sfPadding sfTableOption">
@@ -206,7 +206,7 @@
                 <td colspan="2" runat="server">
                     <p class="sfNote">
                         <i class="icon-info"></i>
-                        <asp:Label ID="Label4" runat="server" Text="<strong>Please note:</strong> By using these features below, you may be sending sensitive data over the Internet in clear text (not encrypted). Before sending your exception submission, please review the contents of your exception log to verify that no sensitive data is contained within it. The row that is checked is sent as an email along with the optional message." meta:resourcekey="Label4Resource1"></asp:Label>
+                        <asp:Label ID="Label4" runat="server" Text="<strong>Please note:</strong> By using these features below, you may be sending sensitive data over the Internet in clear text (not encrypted). Before sending your exception submission, please review the contents of your exception log to verify that no sensitive data is contained within it. The row that is checked is sent as an email along with the optional message."></asp:Label>
                     </p>
                 </td>
             </tr>
@@ -216,35 +216,35 @@
                         <table id="tblSendExceptionsInfo" runat="server" width="100%" cellpadding="0" cellspacing="0">
                             <tr id="tr1" runat="server">
                                 <td class="SubHead" style="width: 175px" valign="top" runat="server">
-                                    <asp:Label ID="lblEmailAddress1" runat="server" CssClass="sfFormlabel" Text="Email Address: " meta:resourcekey="lblEmailAddress1Resource1"></asp:Label>
+                                    <asp:Label ID="lblEmailAddress1" runat="server" CssClass="sfFormlabel" Text="Email Address: "></asp:Label>
                                 </td>
                                 <td runat="server">
-                                    <asp:TextBox ID="txtEmailAdd" runat="server" CssClass="sfInputbox" meta:resourcekey="txtEmailAddResource1" />
+                                    <asp:TextBox ID="txtEmailAdd" runat="server" CssClass="sfInputbox" />
                                     <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="*"
                                         CssClass="sfError" ControlToValidate="txtEmailAdd" ValidationExpression="^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z0-9][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$"
-                                        ValidationGroup="sendMail" Display="Dynamic" meta:resourcekey="RegularExpressionValidator1Resource1"></asp:RegularExpressionValidator>
+                                        ValidationGroup="sendMail" Display="Dynamic"></asp:RegularExpressionValidator>
                                     <asp:RequiredFieldValidator ID="rfvEmailAdd" runat="server" ControlToValidate="txtEmailAdd"
                                         CssClass="sfError" ErrorMessage="Please Enter Your Email Address" SetFocusOnError="True"
-                                        ValidationGroup="sendMail" Display="Dynamic" meta:resourcekey="rfvEmailAddResource1"></asp:RequiredFieldValidator>
+                                        ValidationGroup="sendMail" Display="Dynamic"></asp:RequiredFieldValidator>
                                 </td>
                             </tr>
                             <tr runat="server">
                                 <td align="left" width="200" runat="server">
-                                    <asp:Label ID="Label2" runat="server" CssClass="sfFormlabel" Text="Subject:" meta:resourcekey="Label2Resource1"></asp:Label>
+                                    <asp:Label ID="Label2" runat="server" CssClass="sfFormlabel" Text="Subject:"></asp:Label>
                                 </td>
                                 <td runat="server">
-                                    <asp:TextBox ID="txtSubject1" runat="server" CssClass="sfInputbox" meta:resourcekey="txtSubject1Resource1" />
+                                    <asp:TextBox ID="txtSubject1" runat="server" CssClass="sfInputbox" />
                                     <asp:RequiredFieldValidator ID="rfvsubject" runat="server" ControlToValidate="txtSubject1"
-                                        CssClass="sfError" ErrorMessage="Enter the subject" SetFocusOnError="True" ValidationGroup="sendMail" meta:resourcekey="rfvsubjectResource1"></asp:RequiredFieldValidator>
+                                        CssClass="sfError" ErrorMessage="Enter the subject" SetFocusOnError="True" ValidationGroup="sendMail"></asp:RequiredFieldValidator>
                                 </td>
                             </tr>
                             <tr runat="server">
                                 <td align="left" width="200" runat="server">
-                                    <asp:Label ID="Label3" runat="server" CssClass="sfFormlabel" Text="Message(Optional):" meta:resourcekey="Label3Resource1"></asp:Label>
+                                    <asp:Label ID="Label3" runat="server" CssClass="sfFormlabel" Text="Message(Optional):"></asp:Label>
                                 </td>
                                 <td runat="server">
                                     <asp:TextBox ID="txtMessage1" CssClass="sfTextarea" runat="server" Rows="6" Columns="25"
-                                        TextMode="MultiLine" Width="350px" Height="150px" meta:resourcekey="txtMessage1Resource1"></asp:TextBox>
+                                        TextMode="MultiLine" Width="350px" Height="150px"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr runat="server">
@@ -256,7 +256,7 @@
                                         <label class="sfLocale icon-send sfBtn">
                                             Send
                                             <asp:Button ID="imgSendEmail" runat="server" ToolTip="Send Email" OnClick="imgSendEmail_Click"
-                                                ValidationGroup="sendMail" meta:resourcekey="imgSendEmailResource1" />
+                                                ValidationGroup="sendMail" />
                                         </label>
                                     </div>
                                 </td>

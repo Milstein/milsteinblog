@@ -31,7 +31,7 @@
         </tr>
         <tr>
             <td>
-                <asp:Label ID="lblLogoText" CssClass="sfFormlabel" runat="server" Text="Logo Text" meta:resourcekey="lblLogoTextResource1"></asp:Label>
+                <asp:Label ID="lblLogoText" CssClass="sfFormlabel" runat="server" Text="Logo Text"></asp:Label>
             </td>
             <td>
                 <textarea id="txtLogoText" class="sfTextarea"></textarea>

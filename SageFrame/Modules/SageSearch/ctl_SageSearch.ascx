@@ -17,5 +17,5 @@
     //]]>
 </script>
 
-<asp:Panel ID="pnlSearch" runat="server" CssClass="sfSearchwrapper" meta:resourcekey="pnlSearchResource1">
+<asp:Panel ID="pnlSearch" runat="server" CssClass="sfSearchwrapper">
 </asp:Panel>

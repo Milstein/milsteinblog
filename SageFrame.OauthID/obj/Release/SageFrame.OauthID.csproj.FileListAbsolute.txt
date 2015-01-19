@@ -30,3 +30,9 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.OauthID\bin\Release\Sage
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.OauthID\obj\Release\SageFrame.OauthID.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.OauthID\obj\Release\SageFrame.OauthID.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.OauthID\obj\Release\SageFrame.OauthID.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\bin\Release\SageFrame.OauthID.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\bin\Release\SageFrame.OauthID.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\bin\Release\SageFrame.Common.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\bin\Release\SageFrame.Common.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\obj\Release\SageFrame.OauthID.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\obj\Release\SageFrame.OauthID.pdb

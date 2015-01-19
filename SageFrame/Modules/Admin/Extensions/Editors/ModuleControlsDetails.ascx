@@ -31,7 +31,7 @@
                                         OnSelectedIndexChanged="ddlSource_SelectedIndexChanged" /></td>
               </tr>
               <tr>
-                <td width="20%"><asp:Label ID="lblKey" runat="server" Text="Key" CssClass="sfFormlabel" meta:resourcekey="lblKeyResource1" ></asp:Label></td>
+                <td width="20%"><asp:Label ID="lblKey" runat="server" Text="Key" CssClass="sfFormlabel" ></asp:Label></td>
                 
                 <td><asp:TextBox ID="txtKey" runat="server" CssClass="sfInputbox" 
                                         meta:resourcekey="txtKeyResource1"></asp:TextBox>
@@ -41,7 +41,7 @@
               </tr>
               <tr>
                 <td><asp:Label ID="lblTitle" runat="server" Text="Title" 
-                                        CssClass="sfFormlabel" meta:resourcekey="lblTitleResource1"></asp:Label></td>
+                                        CssClass="sfFormlabel"></asp:Label></td>
                 
                 <td><asp:TextBox ID="txtTitle" runat="server" CssClass="sfInputbox" 
                                         meta:resourcekey="txtTitleResource1"></asp:TextBox>
@@ -51,7 +51,7 @@
               </tr>
               <tr>
                 <td><asp:Label ID="lblType" runat="server" Text="Type" 
-                                        CssClass="sfFormlabel" meta:resourcekey="lblTypeResource1" ></asp:Label></td>
+                                        CssClass="sfFormlabel" ></asp:Label></td>
                 
                 <td><asp:DropDownList ID="ddlType" runat="server" CssClass="sfListmenu" 
                                         meta:resourcekey="ddlTypeResource1" />
@@ -66,14 +66,14 @@
               </tr>
               <tr>
                 <td><asp:Label ID="lblIcon" runat="server" Text="Icon" 
-                                        CssClass="sfFormlabel" meta:resourcekey="lblIconResource1"></asp:Label></td>
+                                        CssClass="sfFormlabel"></asp:Label></td>
                 
                 <td><asp:DropDownList ID="ddlIcon" runat="server" CssClass="sfListmenu" 
                                         meta:resourcekey="ddlIconResource1" /></td>
               </tr>
               <tr>
                 <td><asp:Label ID="lblHelpURL" runat="server" Text="Help URL" 
-                                        CssClass="sfFormlabel" meta:resourcekey="lblHelpURLResource1" ></asp:Label></td>
+                                        CssClass="sfFormlabel" ></asp:Label></td>
                 
                 <td><asp:TextBox ID="txtHelpURL" runat="server" CssClass="sfInputbox" 
                                         meta:resourcekey="txtHelpURLResource1"></asp:TextBox>
@@ -85,7 +85,7 @@
               </tr>
               <tr>
                 <td><asp:Label ID="lblSupportsPartialRendering" runat="server" Text="Supports Partial Rendering?"
-                                        CssClass="sfFormlabel" meta:resourcekey="lblSupportsPartialRenderingResource1"></asp:Label></td>
+                                        CssClass="sfFormlabel"></asp:Label></td>
                
                 <td><asp:CheckBox ID="chkSupportsPartialRendering" runat="server" 
                                         CssClass="sfCheckbox" 
@@ -100,9 +100,15 @@
         <asp:LinkButton ID="imbUpdateModlueControl" runat="server" CssClass="icon-save sfBtn"
                     OnClick="imbUpdateModlueControl_Click" ValidationGroup="vdgExtension" 
                     meta:resourcekey="imbUpdateModlueControlResource1" Text="Save" />
+       <%-- <asp:Label Style="cursor: hand;" ID="lblCreateModule" runat="server" Text="Save"
+                    AssociatedControlID="imbUpdateModlueControl" 
+                    meta:resourcekey="lblCreateModuleResource1" />--%>
         <asp:LinkButton ID="imbCancelModlueControl" runat="server" CausesValidation="False" Text="Cancel"
                     OnClick="imbCancelModlueControl_Click" CssClass="icon-close sfBtn"
                     meta:resourcekey="imbCancelModlueControlResource1" />
+       <%-- <asp:Label Style="cursor: hand;" ID="lblCancel" runat="server" Text="Cancel " 
+                    AssociatedControlID="imbCancelModlueControl" 
+                    meta:resourcekey="lblCancelResource1" />--%>
       </div>
   </ContentTemplate>
 </asp:UpdatePanel>

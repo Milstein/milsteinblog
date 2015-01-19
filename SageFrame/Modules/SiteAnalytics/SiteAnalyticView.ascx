@@ -80,9 +80,9 @@
     </div>
     <div id="divExport" style="clear: both;">
       <asp:Button ID="btnExportToExcel" runat="server" CssClass="sfBtn" Text="Export to Excel"
-                OnClick="btnExportToExcel_Click" meta:resourcekey="btnExportToExcelResource1" />
+                OnClick="btnExportToExcel_Click" />
       <asp:Button ID="btnExportToPDF" runat="server" CssClass="sfBtn" Text="Export to PDF"
-                OnClick="btnExportToPDF_Click" meta:resourcekey="btnExportToPDFResource1" />
+                OnClick="btnExportToPDF_Click" />
       <%--            <asp:PostBackTrigger ControlID="btnExportToExcel" />
             <asp:PostBackTrigger ControlID="btnExportToPDF" />--%>
     </div>

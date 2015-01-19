@@ -12,7 +12,8 @@
             <div class="sfButtonwrapper">
                 <label class="sfLocale sfBtn">
                     Next <i class="icon-arrow-slimdouble-e"></i>
-                    <asp:Button ID="StartNextButton" runat="server" CommandName="MoveNext" CausesValidation="False" meta:resourcekey="StartNextButtonResource1" />
+                    <asp:Button ID="StartNextButton" runat="server" CommandName="MoveNext"
+                        Text="" CausesValidation="False" meta:resourcekey="StartNextButtonResource1" />
                 </label>
             </div>
         </StartNavigationTemplate>
@@ -138,7 +139,7 @@
             <div class="sfButtonwrapper">
                 <label class="sfLocale icon-complete sfBtn">
                     Finish
-                    <asp:Button ID="FinishButton" runat="server" CommandName="MoveComplete" CssClass="sfBtn"
+                    <asp:Button ID="FinishButton" runat="server" CommandName="MoveComplete" Text="" CssClass="sfBtn"
                         meta:resourcekey="FinishButtonResource1" />
                 </label>
             </div>
@@ -146,11 +147,11 @@
         <StepNavigationTemplate>
             <div class="sfButtonwrapper">
              <label class="sfLocale sfBtn">Previous <i class="icon-arrow-slimdouble-w"></i>
-                <asp:Button ID="StepPreviousButton" runat="server" CausesValidation="False"
+                <asp:Button ID="StepPreviousButton" runat="server" CausesValidation="False" Text=""
                      CommandName="MovePrevious" meta:resourcekey="StepPreviousButtonResource1" />
                    </label>
                     <label class="sfLocale sfBtn">Next <i class="icon-arrow-slimdouble-e"></i>
-                <asp:Button ID="StepNextButton" runat="server" CommandName="MoveNext"
+                <asp:Button ID="StepNextButton" runat="server" CommandName="MoveNext" Text=""
                     CssClass="sfBtn" meta:resourcekey="StepNextButtonResource1" />
             </div>
         </StepNavigationTemplate>

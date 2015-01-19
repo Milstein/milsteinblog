@@ -30,3 +30,9 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.TaskToDo\bin\Release\Sag
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.TaskToDo\obj\Release\SageFrame.TaskToDo.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.TaskToDo\obj\Release\SageFrame.TaskToDo.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.TaskToDo\obj\Release\SageFrame.TaskToDo.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.TaskToDo\bin\Release\SageFrame.TaskToDo.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.TaskToDo\bin\Release\SageFrame.TaskToDo.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.TaskToDo\bin\Release\SageFrame.Common.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.TaskToDo\bin\Release\SageFrame.Common.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.TaskToDo\obj\Release\SageFrame.TaskToDo.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.TaskToDo\obj\Release\SageFrame.TaskToDo.pdb

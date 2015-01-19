@@ -129,16 +129,28 @@
   <data name="ddlTypeResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbCancelModlueControlResource1.Text" xml:space="preserve">
-    <value>Cancel</value>
+  <data name="imbCancelModlueControlResource1.AlternateText" xml:space="preserve">
+    <value />
   </data>
   <data name="imbCancelModlueControlResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbUpdateModlueControlResource1.Text" xml:space="preserve">
-    <value>Save</value>
+  <data name="imbUpdateModlueControlResource1.AlternateText" xml:space="preserve">
+    <value />
   </data>
   <data name="imbUpdateModlueControlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCancelResource1.Text" xml:space="preserve">
+    <value>Cancel </value>
+  </data>
+  <data name="lblCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreateModuleResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblCreateModuleResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblErrorControlTypeResource1.Text" xml:space="preserve">
@@ -148,19 +160,19 @@
     <value />
   </data>
   <data name="lblHelpURLResource1.Text" xml:space="preserve">
-    <value>Help URL</value>
+    <value>Help URL:</value>
   </data>
   <data name="lblHelpURLResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblIconResource1.Text" xml:space="preserve">
-    <value>Icon</value>
+    <value>Icon:</value>
   </data>
   <data name="lblIconResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblKeyResource1.Text" xml:space="preserve">
-    <value>Key</value>
+    <value>Key:</value>
   </data>
   <data name="lblKeyResource1.ToolTip" xml:space="preserve">
     <value />
@@ -178,13 +190,13 @@
     <value />
   </data>
   <data name="lblTitleResource1.Text" xml:space="preserve">
-    <value>Title</value>
+    <value>Title:</value>
   </data>
   <data name="lblTitleResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblTypeResource1.Text" xml:space="preserve">
-    <value>Type</value>
+    <value>Type:</value>
   </data>
   <data name="lblTypeResource1.ToolTip" xml:space="preserve">
     <value />

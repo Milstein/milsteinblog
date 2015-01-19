@@ -27,10 +27,10 @@
 <h1>
     SageFrame Upgrader</h1>
 <div class="sfFormwrapper">
-    <asp:FileUpload ID="fuUpgrade" runat="server" meta:resourcekey="fuUpgradeResource1" />
+    <asp:FileUpload ID="fuUpgrade" runat="server" />
     <div class="sfButtonwrapper">
     <label class="icon-update sfBtn sfLocale">Upgrade
-        <asp:Button ID="btnUpload"  runat="server" OnClick="btnUpload_Click" meta:resourcekey="btnUploadResource1"
+        <asp:Button ID="btnUpload"  runat="server" OnClick="btnUpload_Click"
            /></label>
-        <asp:Label ID="lblErrorMsg" runat="server" CssClass="sfRequired" meta:resourcekey="lblErrorMsgResource1"></asp:Label></div>
+        <asp:Label ID="lblErrorMsg" runat="server" Text="" CssClass="sfRequired"></asp:Label></div>
 </div>

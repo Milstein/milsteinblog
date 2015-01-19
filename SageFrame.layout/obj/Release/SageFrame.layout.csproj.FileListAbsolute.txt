@@ -94,3 +94,11 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\bin\Release\SageF
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\bin\Release\SageFrame.layout.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\bin\Release\SageFrame.layout.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Common.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Dashboard.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Common.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Dashboard.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.pdb

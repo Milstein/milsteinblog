@@ -232,11 +232,12 @@
                 </td>
                 <td>
                     <div class="sfAvailableModules">
-                        <asp:ListBox ID="lbAvailableModules" runat="server" CssClass="sfListmenubig required" Height="200px" meta:resourcekey="lbAvailableModulesResource1"></asp:ListBox>
+                        <asp:ListBox ID="lbAvailableModules" runat="server" CssClass="sfListmenubig required"
+                            SelectionMode="Single" Height="200px"></asp:ListBox>
                     </div>
                     <div class='sfSelectedModules' style="display: none">
                         <asp:ListBox ID="lbModulesList" CssClass="sfListmenubig" runat="server" SelectionMode="Multiple"
-                            Height="200px" meta:resourcekey="lbModulesListResource1"></asp:ListBox>
+                            Height="200"></asp:ListBox>
                         <asp:RequiredFieldValidator ID="rfvModulesList" runat="server" ControlToValidate="lbModulesList"
                             ValidationGroup="vdgExtension" ErrorMessage="* Please choose items" SetFocusOnError="True"
                             CssClass="sfError" meta:resourcekey="rfvModulesListResource1"></asp:RequiredFieldValidator>
@@ -252,35 +253,35 @@
             <h2>
                 <asp:Label ID="lblInstallScript" runat="server" Text="Sql Script for Install:" meta:resourcekey="lblInstallScriptResource1"></asp:Label>
             </h2>
-            <asp:FileUpload ID="fuInstallScript" runat="server" meta:resourcekey="fuInstallScriptResource1" />
+            <asp:FileUpload ID="fuInstallScript" runat="server" />
             <asp:HiddenField ID="hdnInstallScriptFileName" runat="server" />
             <span id="lblInstallScriptFileName"></span>
             <h3>OR Paste SQL Script below:</h3>
             <asp:TextBox Rows="18" Columns="280" runat="server" ID="InstallScriptTxt" TextMode="MultiLine"
-                CssClass="sfTextarea sfFullwidth CheckSqlInstallContent" meta:resourcekey="InstallScriptTxtResource1" />
+                CssClass="sfTextarea sfFullwidth CheckSqlInstallContent" />
         </div>
         <div>
             <h3>
                 <asp:Label ID="lblUnistallScript" runat="server" Text="Sql Script for Uninstall:"
                     meta:resourcekey="lblUnistallScriptResource1"></asp:Label>
             </h3>
-            <asp:FileUpload ID="fuUnistallScript" runat="server" meta:resourcekey="fuUnistallScriptResource1" />
+            <asp:FileUpload ID="fuUnistallScript" runat="server" />
             <asp:HiddenField ID="hdnUnInstallSQLFileName" runat="server" />
             <span id="lblUninstallScriptName"></span>
             <h3>OR Paste SQL Script below:</h3>
             <asp:TextBox Rows="18" Columns="280" runat="server" ID="UnistallScriptTxt" TextMode="MultiLine"
-                CssClass="sfTextarea sfFullwidth" meta:resourcekey="UnistallScriptTxtResource1" />
+                CssClass="sfTextarea sfFullwidth" />
         </div>
         <br />
         <div class="sfCheckbox">
-            <asp:CheckBox ID="chkIncludeSource" runat="server" Text="Include Source File?" meta:resourcekey="chkIncludeSourceResource1" />
+            <asp:CheckBox ID="chkIncludeSource" runat="server" Text="Include Source File?" />
         </div>
         <div id="divIncludeSource" style="display: none" class="sfUploadfile clearfix">
             <p>
                 <asp:Label ID="lblIncludeSource" runat="server" Text="Upload Source Files Zip:" CssClass="sfFormlabel"
                     meta:resourcekey="lblIncludeSourceResource1"></asp:Label>
             </p>
-            <asp:FileUpload ID="fuIncludeSource" runat="server" meta:resourcekey="fuIncludeSourceResource1" />
+            <asp:FileUpload ID="fuIncludeSource" runat="server" />
             <asp:HiddenField ID="hdnSrcZipFile" runat="server" />
             <span id="spIncludeSourceInfo" />
         </div>
@@ -292,7 +293,7 @@
             <asp:Label ID="lblFilesList" runat="server" Text="The List of files for the package is shown here.In this section you can add,edit or delete the files for this package."
                 meta:resourcekey="lblFilesListResource1"></asp:Label>
         </p>
-        <asp:ListBox runat="server" ID="lstFolderFiles" SelectionMode="Multiple" CssClass="sfListmenubig sfFullwidth" meta:resourcekey="lstFolderFilesResource1" />
+        <asp:ListBox runat="server" ID="lstFolderFiles" SelectionMode="Multiple" CssClass="sfListmenubig sfFullwidth" />
         <br />
         <br />
         <div class="sfCheckbox">
@@ -308,12 +309,12 @@
         <table border="0" cellpadding="0" cellspacing="0" width="100%">
             <tr id="rowSource" runat="server">
                 <td width="20%" id="Td5" runat="server">
-                    <asp:Label ID="lblSource" runat="server" Text="Source" CssClass="sfFormlabel" meta:resourcekey="lblSourceResource1"></asp:Label>
+                    <asp:Label ID="lblSource" runat="server" Text="Source" CssClass="sfFormlabel"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td id="Td6" runat="server">
-                    <asp:DropDownList runat="server" ID="ddlViewControlSrc" CssClass="sfListmenu" meta:resourcekey="ddlViewControlSrcResource1" />
+                    <asp:DropDownList runat="server" ID="ddlViewControlSrc" CssClass="sfListmenu" AutoPostBack="False" />
                 </td>
             </tr>
             <tr>
@@ -356,13 +357,13 @@
             </tr>
             <tr id="rowDisplayOrder" runat="server" visible="False">
                 <td id="Td7" runat="server">
-                    <asp:Label ID="lblDisplayOrder" runat="server" Text="Display Order" CssClass="sfFormlabel" meta:resourcekey="lblDisplayOrderResource1"></asp:Label>
+                    <asp:Label ID="lblDisplayOrder" runat="server" Text="Display Order" CssClass="sfFormlabel"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td id="Td8" runat="server">
                     <asp:TextBox ID="txtDisplayOrder" runat="server" CssClass="sfInputbox" MaxLength="2"
-                        Text="0" meta:resourcekey="txtDisplayOrderResource1"></asp:TextBox>
+                        Text="0"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -408,12 +409,12 @@
             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr id="Tr3" runat="server">
                     <td id="Td13" runat="server">
-                        <asp:Label ID="Label6" runat="server" Text="Source" CssClass="sfFormlabel" meta:resourcekey="Label6Resource1"></asp:Label>
+                        <asp:Label ID="Label6" runat="server" Text="Source" CssClass="sfFormlabel"></asp:Label>
                     </td>
                     <td width="30">:
                     </td>
                     <td id="Td14" runat="server">
-                        <asp:DropDownList ID="ddlEditControlSrc" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlEditControlSrcResource1" />
+                        <asp:DropDownList ID="ddlEditControlSrc" runat="server" CssClass="sfListmenu" AutoPostBack="False" />
                     </td>
                 </tr>
                 <tr>
@@ -456,12 +457,12 @@
                 </tr>
                 <tr id="Tr4" runat="server" visible="False">
                     <td id="Td15" runat="server">
-                        <asp:Label ID="Label11" runat="server" Text="Display Order" CssClass="sfFormlabel" meta:resourcekey="Label11Resource1"></asp:Label>
+                        <asp:Label ID="Label11" runat="server" Text="Display Order" CssClass="sfFormlabel"></asp:Label>
                     </td>
                     <td width="30">:
                     </td>
                     <td id="Td16" runat="server">
-                        <asp:TextBox ID="TextBox4" runat="server" CssClass="sfInputbox" MaxLength="2" Text="0" meta:resourcekey="TextBox4Resource1"></asp:TextBox>
+                        <asp:TextBox ID="TextBox4" runat="server" CssClass="sfInputbox" MaxLength="2" Text="0"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -506,12 +507,12 @@
         <table border="0" cellpadding="0" cellspacing="0" width="100%">
             <tr id="Tr7" runat="server">
                 <td id="Td21" runat="server">
-                    <asp:Label ID="lblSettingControlSearc" runat="server" Text="Source" CssClass="sfFormlabel" meta:resourcekey="lblSettingControlSearcResource1"></asp:Label>
+                    <asp:Label ID="lblSettingControlSearc" runat="server" Text="Source" CssClass="sfFormlabel"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td id="Td22" runat="server">
-                    <asp:DropDownList ID="ddlSettingControlSrc" runat="server" CssClass="sfListmenu" meta:resourcekey="ddlSettingControlSrcResource1" />
+                    <asp:DropDownList ID="ddlSettingControlSrc" runat="server" AutoPostBack="False" CssClass="sfListmenu" />
                 </td>
             </tr>
             <tr>
@@ -554,12 +555,12 @@
             </tr>
             <tr id="Tr8" runat="server" visible="False">
                 <td id="Td23" runat="server">
-                    <asp:Label ID="Label24" runat="server" Text="Display Order" CssClass="sfFormlabel" meta:resourcekey="Label24Resource1"></asp:Label>
+                    <asp:Label ID="Label24" runat="server" Text="Display Order" CssClass="sfFormlabel"></asp:Label>
                 </td>
                 <td width="30">:
                 </td>
                 <td id="Td24" runat="server">
-                    <asp:TextBox ID="TextBox8" runat="server" CssClass="sfInputbox" MaxLength="2" Text="0" meta:resourcekey="TextBox8Resource1"></asp:TextBox>
+                    <asp:TextBox ID="TextBox8" runat="server" CssClass="sfInputbox" MaxLength="2" Text="0"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -608,7 +609,7 @@
                 meta:resourcekey="lblManifestPreviewResource1"></asp:Label>
         </p>
         <asp:ListBox runat="server" ID="lstAssembly" SelectionMode="Multiple" CssClass="sfListmenubig CheckDLL"
-            Height="300px" Width="500px" meta:resourcekey="lstAssemblyResource1"></asp:ListBox>
+            Height="300px" Width="500px"></asp:ListBox>
     </div>
 </div>
 <div id="div6" style="display: none">
@@ -616,22 +617,22 @@
         <div>
             <asp:Label ID="lblCreateManifest" runat="server" Text="Create Manifest:" CssClass="sfFormlabel"
                 meta:resourcekey="lblCreateManifestResource1"></asp:Label>
-            <asp:CheckBox ID="chkManifest" runat="server" Checked="True" meta:resourcekey="chkManifestResource1" />
+            <asp:CheckBox ID="chkManifest" runat="server" Checked="True" />
         </div>
         <div class="dnnFormItem" id="trManifest2" runat="server">
             <asp:Label ID="lblManifestName" runat="server" Text="Manifest File Name:" CssClass="sfFormlabel"
                 meta:resourcekey="lblManifestNameResource1"></asp:Label>
-            <asp:TextBox ID="txtManifestName" runat="server" Style="width: 250px" meta:resourcekey="txtManifestNameResource1" />
+            <asp:TextBox ID="txtManifestName" runat="server" Style="width: 250px" />
         </div>
         <div class="dnnFormItem">
             <asp:Label ID="lblCreatePackage" runat="server" Text="Create Package:" CssClass="sfFormlabel"
                 meta:resourcekey="lblCreatePackageResource1"></asp:Label>
-            <asp:CheckBox ID="chkPackage" runat="server" Checked="True" meta:resourcekey="chkPackageResource1" />
+            <asp:CheckBox ID="chkPackage" runat="server" Checked="True" />
         </div>
         <div class="dnnFormItem">
             <asp:Label ID="lblPackageName" runat="server" Text="Package Zip Name:" CssClass="sfFormlabel"
                 meta:resourcekey="lblPackageNameResource1"></asp:Label>
-            <asp:TextBox ID="txtPackageName" runat="server" meta:resourcekey="txtPackageNameResource1" />
+            <asp:TextBox ID="txtPackageName" runat="server" />
             <asp:HiddenField ID="tmpFoldName" runat="server" />
         </div>
     </div>
@@ -647,4 +648,4 @@
         OnClientClick="javascript:return window.location=sageRootPah+'Admin/Modules.aspx';" />
 </div>
 <asp:Button ID="btnBack" runat="server" AlternateText="Back" CssClass="sfBtn" Text="Back"
-    CausesValidation="False" UseSubmitBehavior="False" OnClick="btnBack_Click" meta:resourcekey="btnBackResource1" />
+    CausesValidation="False" UseSubmitBehavior="False" OnClick="btnBack_Click" />

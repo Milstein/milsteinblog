@@ -278,8 +278,8 @@
     <PasswordDoesnotMatched>Passwords don't match.</PasswordDoesnotMatched>
     <PasswordLength>Password must contain at least four characters.</PasswordLength>
     <RecoveryCodeAlreadyActivated>The recovery code is no longer active.</RecoveryCodeAlreadyActivated>
-    <SecureConnectionFPError>Problem occurred while sending email!It may be because server does not support secure connection. Please contact the administrator.</SecureConnectionFPError>
-    <SecureConnectionFPRError>Your password has been changed successfully.But problem occurred while sending email!It may be because server does not support secure connection. Please contact the administrator.</SecureConnectionFPRError>
+    <SecureConnectionFPError>Problem occurred while sending email! It may be because server does not support secure connection. Please contact the administrator.</SecureConnectionFPError>
+    <SecureConnectionFPRError>Your password has been changed successfully. But problem occurred while sending email! It may be because server does not support secure connection. Please contact the administrator.</SecureConnectionFPRError>
   </PasswordRecovery>
   <UserRegistration>
     <InvalidActivationCode>Invalid activation code!</InvalidActivationCode>

@@ -21,3 +21,7 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.CDN.pdb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.CDN\obj\Debug\SageFrame.CDN.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.CDN\obj\Debug\SageFrame.CDN.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.CDN\obj\Debug\SageFrame.CDN.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.CDN.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.CDN.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.CDN\obj\Debug\SageFrame.CDN.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.CDN\obj\Debug\SageFrame.CDN.pdb

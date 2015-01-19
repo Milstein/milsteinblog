@@ -127,33 +127,21 @@
     <value>Active</value>
   </data>
   <data name="btnCustomizeEditorResource1.Text" xml:space="preserve">
-    <value />
+    <value>Customize Editor</value>
   </data>
   <data name="btnCustomizeEditorResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="btnDefaultResource1.Text" xml:space="preserve">
-    <value />
+    <value>Default Editor</value>
   </data>
   <data name="btnDefaultResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnOkMessageTemplateTokenResource1.Text" xml:space="preserve">
-    <value>Add</value>
-  </data>
-  <data name="btnOkMessageTemplateTokenResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="btnOkMessageTemplateTypeResource1.Text" xml:space="preserve">
     <value>Add</value>
   </data>
   <data name="btnOkMessageTemplateTypeResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnopenResource1.Text" xml:space="preserve">
-    <value>Button</value>
-  </data>
-  <data name="btnopenResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="chkIsActiveResource1.Text" xml:space="preserve">
@@ -174,37 +162,31 @@
   <data name="grdListResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="hypAddMessageTemplateTokenResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="hypAddMessageTemplateTokenResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="hypAddMessageTemplateTypeResource1.Text" xml:space="preserve">
-    <value />
+    <value>Add Message Template Type</value>
   </data>
   <data name="hypAddMessageTemplateTypeResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="imbAddNewResource1.Text" xml:space="preserve">
+  <data name="imbAddNewResource1.AlternateText" xml:space="preserve">
     <value />
   </data>
   <data name="imbAddNewResource1.ToolTip" xml:space="preserve">
     <value>Click to add message template</value>
   </data>
-  <data name="imbCancelResource1.Text" xml:space="preserve">
+  <data name="imbCancelResource1.AlternateText" xml:space="preserve">
     <value />
   </data>
   <data name="imbCancelResource1.ToolTip" xml:space="preserve">
     <value>Click to cancel</value>
   </data>
-  <data name="imbEditResource1.Text" xml:space="preserve">
+  <data name="imbEditResource1.AlternateText" xml:space="preserve">
     <value />
   </data>
   <data name="imbEditResource1.ToolTip" xml:space="preserve">
     <value>Edit</value>
   </data>
-  <data name="imbSaveResource1.Text" xml:space="preserve">
+  <data name="imbSaveResource1.AlternateText" xml:space="preserve">
     <value />
   </data>
   <data name="imbSaveResource1.ToolTip" xml:space="preserve">
@@ -222,16 +204,10 @@
   <data name="lblAddEditMessageTemplateResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblAddMessageTemplateTokenResource1.Text" xml:space="preserve">
-    <value>Add Message Template Token</value>
+  <data name="lblAddNewResource1.Text" xml:space="preserve">
+    <value>Add New Message Template</value>
   </data>
-  <data name="lblAddMessageTemplateTokenResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblAddMessageTemplateTypeResource1.Text" xml:space="preserve">
-    <value>Add Message Template Type</value>
-  </data>
-  <data name="lblAddMessageTemplateTypeResource1.ToolTip" xml:space="preserve">
+  <data name="lblAddNewResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblAddSubjectMessageTokenResource1.Text" xml:space="preserve">
@@ -246,16 +222,10 @@
   <data name="lblAMTTResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblErrorMessageTemplateTokenResource1.Text" xml:space="preserve">
-    <value>*</value>
+  <data name="lblCancelResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
   </data>
-  <data name="lblErrorMessageTemplateTokenResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblErrorMessageTemplateTypeResource1.Text" xml:space="preserve">
-    <value>*</value>
-  </data>
-  <data name="lblErrorMessageTemplateTypeResource1.ToolTip" xml:space="preserve">
+  <data name="lblCancelResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblFromEmailResource1.Text" xml:space="preserve">
@@ -285,12 +255,6 @@
   <data name="lblMessageTemplateManagementResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblMessageTemplateTokenResource1.Text" xml:space="preserve">
-    <value>Message Template Token</value>
-  </data>
-  <data name="lblMessageTemplateTokenResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblMessageTemplateType1Resource1.Text" xml:space="preserve">
     <value>Message Template Type</value>
   </data>
@@ -303,10 +267,10 @@
   <data name="lblMessageTemplateTypeResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblMessageTempTokenResource1.Text" xml:space="preserve">
-    <value>Add Message Template Token</value>
+  <data name="lblSaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
   </data>
-  <data name="lblMessageTempTokenResource1.ToolTip" xml:space="preserve">
+  <data name="lblSaveResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lblSubjectResource1.Text" xml:space="preserve">
@@ -318,14 +282,20 @@
   <data name="lblSubjectResource2.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lnkAddBodyMessageTokenResource1.Text" xml:space="preserve">
+  <data name="LinkButtonResource1.Text" xml:space="preserve">
     <value />
+  </data>
+  <data name="LinkButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkAddBodyMessageTokenResource1.Text" xml:space="preserve">
+    <value>Add Body Message Token</value>
   </data>
   <data name="lnkAddBodyMessageTokenResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="lnkAddSubjectMessageTokenResource1.Text" xml:space="preserve">
-    <value />
+    <value>Add Subject Token</value>
   </data>
   <data name="lnkAddSubjectMessageTokenResource1.ToolTip" xml:space="preserve">
     <value />
@@ -345,12 +315,6 @@
   <data name="pnlAddMessageTokenPopupResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="pnlDragHandlerMessageTemplateTokenResource1.GroupingText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pnlDragHandlerMessageTemplateTokenResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="pnlDragHandlerMessageTemplateTypeResource1.GroupingText" xml:space="preserve">
     <value />
   </data>
@@ -367,12 +331,6 @@
     <value />
   </data>
   <data name="pnlMessageTemplateResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pnlMessageTemplateTokenResource1.GroupingText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pnlMessageTemplateTokenResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="pnlMessageTemplateTypeResource1.GroupingText" xml:space="preserve">
@@ -414,24 +372,6 @@
   <data name="RequiredFieldValidator2Resource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="rfvMessageTemplateTokenResource1.ErrorMessage" xml:space="preserve">
-    <value>Message Template Token Name Is Required</value>
-  </data>
-  <data name="rfvMessageTemplateTokenResource1.Text" xml:space="preserve">
-    <value>*</value>
-  </data>
-  <data name="rfvMessageTemplateTokenResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="rfvMessageTemplateTypeResource1.ErrorMessage" xml:space="preserve">
-    <value>Message Template Type Name Is Required</value>
-  </data>
-  <data name="rfvMessageTemplateTypeResource1.Text" xml:space="preserve">
-    <value>*</value>
-  </data>
-  <data name="rfvMessageTemplateTypeResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
     <value />
   </data>
@@ -457,7 +397,7 @@
     <value />
   </data>
   <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
-    <value>Added On</value>
+    <value>AddedOn</value>
   </data>
   <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
     <value />
@@ -466,7 +406,7 @@
     <value />
   </data>
   <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
-    <value>Updated On</value>
+    <value>UpdatedOn</value>
   </data>
   <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
     <value />
@@ -482,12 +422,6 @@
   </data>
   <data name="txtMailFromResource1.ToolTip" xml:space="preserve">
     <value>From Email Address</value>
-  </data>
-  <data name="txtMessageTemplateTokenResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtMessageTemplateTokenResource1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="txtMessageTemplateTypeResource1.Text" xml:space="preserve">
     <value />

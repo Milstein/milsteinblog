@@ -172,7 +172,7 @@ var DashBoardGrid={
 </script>
 
 <h1>
-    <asp:Label ID="lblSfInfo" runat="server" Text="Milson Munakami 'Mils†ein®' Information Panel" meta:resourcekey="lblSfInfoResource1"></asp:Label>
+    <asp:Label ID="lblSfInfo" runat="server" Text="Milson Munakami 'Mils†ein®' Information Panel"></asp:Label>
 </h1>
 <!--Accordion-->
 <div class="sfInformation">

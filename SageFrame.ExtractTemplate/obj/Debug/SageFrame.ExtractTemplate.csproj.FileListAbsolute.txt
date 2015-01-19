@@ -21,3 +21,7 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.ExtractTem
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.ExtractTemplate.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.ExtractTemplate.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.pdb

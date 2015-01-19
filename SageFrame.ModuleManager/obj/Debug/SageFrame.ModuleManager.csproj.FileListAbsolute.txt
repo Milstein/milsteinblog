@@ -21,3 +21,7 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame\bin\SageFrame.ModuleMana
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.dll
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.ModuleManager.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.ModuleManager.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.dll
+D:\!@Localhost\!@F\milsteinblog\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.pdb
