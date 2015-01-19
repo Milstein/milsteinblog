@@ -43,3 +43,4 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame.PaymentGateWay\bin\Release\SageFrame.C
 D:\!@Localhost\!@F\milsteinblog\SageFrame.PaymentGateWay\bin\Release\SageFrame.Common.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.PaymentGateWay\obj\Release\SageFrame.PaymentGateWay.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.PaymentGateWay\obj\Release\SageFrame.PaymentGateWay.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.PaymentGateWay\obj\Release\SageFrame.PaymentGateWay.csprojResolveAssemblyReference.cache

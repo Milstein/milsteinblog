@@ -23,5 +23,6 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.IpAccess\obj\Debug\SageF
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.IpAccess.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.IpAccess.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.pdb

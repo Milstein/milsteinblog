@@ -23,5 +23,6 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Logo\obj\Debug\SageFrame
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Logo\obj\Debug\SageFrame.Logo.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.Logo.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.Logo.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Logo\obj\Debug\SageFrame.Logo.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Logo\obj\Debug\SageFrame.Logo.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Logo\obj\Debug\SageFrame.Logo.pdb

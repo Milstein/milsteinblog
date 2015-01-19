@@ -102,3 +102,4 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Common.pd
 D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Dashboard.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.csprojResolveAssemblyReference.cache

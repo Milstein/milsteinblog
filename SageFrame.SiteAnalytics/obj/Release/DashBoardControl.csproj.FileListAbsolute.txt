@@ -36,3 +36,4 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame.SiteAnalytics\bin\Release\SageFrame.Co
 D:\!@Localhost\!@F\milsteinblog\SageFrame.SiteAnalytics\bin\Release\SageFrame.Common.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.SiteAnalytics\obj\Release\DashBoardControl.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.SiteAnalytics\obj\Release\DashBoardControl.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.SiteAnalytics\obj\Release\DashBoardControl.csprojResolveAssemblyReference.cache

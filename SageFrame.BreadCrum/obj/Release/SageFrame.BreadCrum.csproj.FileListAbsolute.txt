@@ -36,3 +36,4 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\bin\Release\SageFrame.Common
 D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\bin\Release\SageFrame.Common.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache

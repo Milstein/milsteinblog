@@ -36,3 +36,4 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame.ExtractTemplate\bin\Release\SageFrame.
 D:\!@Localhost\!@F\milsteinblog\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.csprojResolveAssemblyReference.cache

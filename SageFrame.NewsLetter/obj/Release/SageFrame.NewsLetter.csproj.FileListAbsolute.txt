@@ -102,3 +102,4 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame.NewsLetter\bin\Release\SageFrame.CDN.p
 D:\!@Localhost\!@F\milsteinblog\SageFrame.NewsLetter\bin\Release\SageFrame.Scheduler.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.NewsLetter\obj\Release\SageFrame.NewsLetter.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.NewsLetter\obj\Release\SageFrame.NewsLetter.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.NewsLetter\obj\Release\SageFrame.NewsLetter.csprojResolveAssemblyReference.cache

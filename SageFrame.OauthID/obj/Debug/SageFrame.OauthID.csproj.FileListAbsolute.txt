@@ -23,5 +23,6 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.OauthID\obj\Debug\SageFr
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.OauthID.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.OauthID.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.pdb

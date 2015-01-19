@@ -36,3 +36,4 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame.ModuleManager\bin\Release\SageFrame.Co
 D:\!@Localhost\!@F\milsteinblog\SageFrame.ModuleManager\bin\Release\SageFrame.Common.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.csprojResolveAssemblyReference.cache

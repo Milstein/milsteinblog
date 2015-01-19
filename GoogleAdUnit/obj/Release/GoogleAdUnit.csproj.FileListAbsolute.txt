@@ -22,6 +22,5 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\GoogleAdUnit\obj\Release\SFE.Googl
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb
 D:\!@Localhost\!@F\milsteinblog\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.dll
 D:\!@Localhost\!@F\milsteinblog\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
-D:\!@Localhost\!@F\milsteinblog\GoogleAdUnit\obj\Release\GoogleAdUnit.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
 D:\!@Localhost\!@F\milsteinblog\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb

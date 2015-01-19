@@ -36,3 +36,4 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame.Logo\bin\Release\SageFrame.Common.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Logo\bin\Release\SageFrame.Common.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Logo\obj\Release\SageFrame.Logo.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Logo\obj\Release\SageFrame.Logo.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Logo\obj\Release\SageFrame.Logo.csprojResolveAssemblyReference.cache

@@ -101,5 +101,6 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Common.p
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Templating.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.CDN.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Upgrade\bin\Release\SageFrame.Scheduler.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Upgrade\obj\Release\SageFrame.Upgrade.pdb

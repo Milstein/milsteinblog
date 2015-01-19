@@ -23,5 +23,6 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SEOExtension\obj\Debug\S
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.SEOExtension\obj\Debug\SageFrame.SEOExtension.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.SEOExtension.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.SEOExtension.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.SEOExtension\obj\Debug\SageFrame.SEOExtension.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\SageFrame.SEOExtension\obj\Debug\SageFrame.SEOExtension.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.SEOExtension\obj\Debug\SageFrame.SEOExtension.pdb

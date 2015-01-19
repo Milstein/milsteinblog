@@ -36,3 +36,4 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\bin\Release\SageFrame.Common.d
 D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\bin\Release\SageFrame.Common.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\obj\Release\SageFrame.OauthID.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\obj\Release\SageFrame.OauthID.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.OauthID\obj\Release\SageFrame.OauthID.csprojResolveAssemblyReference.cache

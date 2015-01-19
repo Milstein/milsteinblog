@@ -23,5 +23,6 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PortalManagement\obj\Deb
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.PortalManagement.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.PortalManagement.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.pdb

@@ -23,5 +23,6 @@ C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Dashboard\obj\Debug\Sage
 C:\Users\Milson\Documents\!@FUCK\milsteinblog\SageFrame.Dashboard\obj\Debug\SageFrame.Dashboard.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.Dashboard.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.Dashboard.pdb
+D:\!@Localhost\!@F\milsteinblog\SageFrame.Dashboard\obj\Debug\SageFrame.Dashboard.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Dashboard\obj\Debug\SageFrame.Dashboard.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Dashboard\obj\Debug\SageFrame.Dashboard.pdb
