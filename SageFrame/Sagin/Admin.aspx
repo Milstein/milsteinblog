@@ -35,7 +35,7 @@
 
     <asp:Literal ID="SageFrameModuleCSSlinks" runat="server" meta:resourcekey="SageFrameModuleCSSlinksResource1"></asp:Literal>
     <link id="lnkLoginCss" href="" rel="stylesheet" type="text/css" runat="server" />
-    <title>SageFrame Website</title>
+    <title>Milson Munakami 'Mils†ein®' Website</title>
     <asp:Literal ID="LitLangResc" runat="server"></asp:Literal>
 </head>
 <body>

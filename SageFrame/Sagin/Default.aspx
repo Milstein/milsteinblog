@@ -54,7 +54,7 @@
     <asp:Literal ID="SageFrameCoreCss" EnableViewState="False" runat="server"></asp:Literal>
     <asp:Literal ID="SageFrameModuleCSSlinks" runat="server"></asp:Literal>
     <asp:Literal ID="LitLangResc" runat="server"></asp:Literal>
-    <title>SageFrame Website</title>
+    <title>Milson Munakami 'Mils†ein®' Website</title>
 </head>
 <body onload="__loadScript();">
     <form id="form1" runat="server" enctype="multipart/form-data">
