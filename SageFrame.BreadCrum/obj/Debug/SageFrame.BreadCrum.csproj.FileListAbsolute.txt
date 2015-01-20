@@ -26,3 +26,7 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.BreadCrum.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.BreadCrum.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.BreadCrum.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb

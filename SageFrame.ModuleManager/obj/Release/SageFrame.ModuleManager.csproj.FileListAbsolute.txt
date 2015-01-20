@@ -37,3 +37,9 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame.ModuleManager\bin\Release\SageFrame.Co
 D:\!@Localhost\!@F\milsteinblog\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.ModuleManager\bin\Release\SageFrame.ModuleManager.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.ModuleManager\bin\Release\SageFrame.ModuleManager.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.ModuleManager\bin\Release\SageFrame.Common.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.ModuleManager\bin\Release\SageFrame.Common.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.pdb

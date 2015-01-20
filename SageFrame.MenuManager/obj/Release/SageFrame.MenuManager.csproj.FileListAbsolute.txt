@@ -52,3 +52,12 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame.MenuManager\bin\Release\SageFrame.Page
 D:\!@Localhost\!@F\milsteinblog\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.MenuManager\bin\Release\SageFrame.MenuManager.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.MenuManager\bin\Release\SageFrame.MenuManager.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.MenuManager\bin\Release\SageFrame.Common.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.MenuManager\bin\Release\SageFrame.Pages.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.MenuManager\bin\Release\SageFrame.Common.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.MenuManager\bin\Release\SageFrame.Pages.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.pdb

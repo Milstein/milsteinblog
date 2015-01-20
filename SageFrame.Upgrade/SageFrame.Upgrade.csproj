@@ -14,9 +14,8 @@
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -54,10 +53,6 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SageFrame.Common, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\SageFrame\bin\SageFrame.Common.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core">
@@ -97,6 +92,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SageFrame.Common\SageFrame.Common.csproj">
+      <Project>{6af77849-4e47-4e74-8944-4bdad509c0a3}</Project>
+      <Name>SageFrame.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SageFrame.Core\SageFrame.Core.csproj">
       <Project>{e01db85d-70f0-4a32-ad9d-9d5ca1771d85}</Project>
       <Name>SageFrame.Core</Name>

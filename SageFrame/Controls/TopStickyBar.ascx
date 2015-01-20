@@ -159,7 +159,8 @@
             <asp:HyperLink ID="hlnkDashboard" CssClass="icon-dashboard" runat="server" meta:resourcekey="hlnkDashboardResource1" Text="Dashboard"></asp:HyperLink>
         </li>
         <li class="loggedin"><span class="icon-user">
-            <asp:Literal ID="litUserName" runat="server" Text="Logged As" meta:resourcekey="litUserNameResource1"></asp:Literal></span> &nbsp;<strong><%= userName%></strong> </li>
+            <asp:Literal ID="litUserName" runat="server" Text="Logged As" meta:resourcekey="litUserNameResource1">
+            </asp:Literal></span> &nbsp;<strong><%= userName%></strong> </li>
         <li class="logout"><span class='myProfile  icon-arrow-s'></span>
             <div class="myProfileDrop Off" style="display: none;">
                 <ul>

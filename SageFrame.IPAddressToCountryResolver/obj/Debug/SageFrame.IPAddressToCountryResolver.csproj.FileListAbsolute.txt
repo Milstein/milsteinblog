@@ -22,3 +22,7 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.IPAddressToCountryResolv
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.IPAddressToCountryResolver.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.IPAddressToCountryResolver.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.IPAddressToCountryResolver.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
