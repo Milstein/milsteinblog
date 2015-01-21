@@ -26,12 +26,13 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.NewsLetter.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.pdb
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.NewsLetter.dll
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.NewsLetter.pdb
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.dll
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.pdb
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.NewsLetter.dll
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.NewsLetter.pdb
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.dll
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.NewsLetter.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.NewsLetter.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.pdb

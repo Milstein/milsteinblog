@@ -22,11 +22,11 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.Version.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.Version.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Version\obj\Debug\SageFrame.Version.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Version\obj\Debug\SageFrame.Version.pdb
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Version.dll
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Version.pdb
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Version\obj\Debug\SageFrame.Version.dll
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Version\obj\Debug\SageFrame.Version.pdb
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.Version.dll
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.Version.pdb
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Version\obj\Debug\SageFrame.Version.dll
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Version\obj\Debug\SageFrame.Version.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Version.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Version.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Version\obj\Debug\SageFrame.Version.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Version\obj\Debug\SageFrame.Version.pdb

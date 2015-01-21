@@ -31,11 +31,12 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.PaymentGateWay.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.pdb
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.PaymentGateWay.dll
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.PaymentGateWay.pdb
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.dll
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.pdb
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.PaymentGateWay.dll
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.PaymentGateWay.pdb
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.dll
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.PaymentGateWay.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.PaymentGateWay.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.PaymentGateWay\obj\Debug\SageFrame.PaymentGateWay.pdb

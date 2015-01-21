@@ -26,12 +26,13 @@ D:\!@Localhost\!@F\milsteinblog\SageFrame\bin\SageFrame.Localization.pdb
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
 D:\!@Localhost\!@F\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Localization.dll
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Localization.pdb
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
-C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.Localization.dll
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.Localization.pdb
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.csprojResolveAssemblyReference.cache
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
 D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Localization.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Localization.pdb
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
