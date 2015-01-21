@@ -43,3 +43,9 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Security\bin\Rel
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Security\bin\Release\SageFrame.Common.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Security\obj\Release\SageFrame.Security.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Security\bin\Release\SageFrame.Security.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Security\bin\Release\SageFrame.Common.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Security\obj\Release\SageFrame.Security.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Security\obj\Release\SageFrame.Security.pdb

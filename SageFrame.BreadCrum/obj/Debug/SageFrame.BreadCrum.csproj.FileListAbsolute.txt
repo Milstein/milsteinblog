@@ -30,3 +30,7 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Br
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.BreadCrum.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.BreadCrum.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.BreadCrum.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb

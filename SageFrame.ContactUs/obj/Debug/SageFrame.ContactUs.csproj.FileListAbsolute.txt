@@ -30,3 +30,8 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\ContactUs.dl
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\ContactUs.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.ContactUs\obj\Debug\ContactUs.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.ContactUs\obj\Debug\ContactUs.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\ContactUs.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\ContactUs.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.ContactUs\obj\Debug\SageFrame.ContactUs.csprojResolveAssemblyReference.cache
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.ContactUs\obj\Debug\ContactUs.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.ContactUs\obj\Debug\ContactUs.pdb

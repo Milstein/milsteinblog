@@ -30,3 +30,7 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Ip
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.IpAccess.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.IpAccess.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.IpAccess.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.pdb

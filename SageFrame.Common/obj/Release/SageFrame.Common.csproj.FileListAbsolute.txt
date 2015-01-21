@@ -29,3 +29,8 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Common\bin\Relea
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Common\obj\Release\SageFrame.Common.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Common\obj\Release\SageFrame.Common.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Common\obj\Release\SageFrame.Common.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Common\bin\Release\SageFrame.Common.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Common\bin\Release\SageFrame.Common.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Common\obj\Release\SageFrame.Common.csprojResolveAssemblyReference.cache
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Common\obj\Release\SageFrame.Common.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Common\obj\Release\SageFrame.Common.pdb

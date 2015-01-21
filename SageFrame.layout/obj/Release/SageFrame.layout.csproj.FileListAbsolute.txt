@@ -111,3 +111,11 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.layout\bin\Relea
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Dashboard.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.layout\bin\Release\SageFrame.layout.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.layout\bin\Release\SageFrame.layout.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Common.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Dashboard.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Common.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.layout\bin\Release\SageFrame.Dashboard.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.layout\obj\Release\SageFrame.layout.pdb

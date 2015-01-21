@@ -43,3 +43,9 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.IpAccess\bin\Rel
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.IpAccess\bin\Release\SageFrame.Common.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.IpAccess\obj\Release\SageFrame.IpAccess.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.IpAccess\obj\Release\SageFrame.IpAccess.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.IpAccess\bin\Release\SageFrame.IpAccess.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.IpAccess\bin\Release\SageFrame.IpAccess.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.IpAccess\bin\Release\SageFrame.Common.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.IpAccess\bin\Release\SageFrame.Common.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.IpAccess\obj\Release\SageFrame.IpAccess.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.IpAccess\obj\Release\SageFrame.IpAccess.pdb

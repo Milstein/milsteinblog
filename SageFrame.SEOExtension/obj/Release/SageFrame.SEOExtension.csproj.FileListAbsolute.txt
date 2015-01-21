@@ -43,3 +43,9 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.SEOExtension\bin
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.SEOExtension\bin\Release\SageFrame.Common.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.SEOExtension\bin\Release\SageFrame.SEOExtension.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.SEOExtension\bin\Release\SageFrame.SEOExtension.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.SEOExtension\bin\Release\SageFrame.Common.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.SEOExtension\bin\Release\SageFrame.Common.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.pdb

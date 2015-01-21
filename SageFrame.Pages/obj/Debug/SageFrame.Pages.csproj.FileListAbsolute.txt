@@ -30,3 +30,7 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Pa
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Pages.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Pages\obj\Debug\SageFrame.Pages.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Pages\obj\Debug\SageFrame.Pages.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.Pages.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.Pages.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Pages\obj\Debug\SageFrame.Pages.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.Pages\obj\Debug\SageFrame.Pages.pdb

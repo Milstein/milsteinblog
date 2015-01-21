@@ -89,3 +89,8 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.la
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.layout.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.layout\obj\Debug\SageFrame.layout.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.layout\obj\Debug\SageFrame.layout.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.layout.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.layout.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.layout\obj\Debug\SageFrame.layout.csprojResolveAssemblyReference.cache
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.layout\obj\Debug\SageFrame.layout.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.layout\obj\Debug\SageFrame.layout.pdb

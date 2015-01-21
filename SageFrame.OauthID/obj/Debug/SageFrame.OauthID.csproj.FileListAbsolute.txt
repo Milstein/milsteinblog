@@ -30,3 +30,7 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Oa
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.OauthID.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.OauthID.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\SageFrame.OauthID.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.pdb

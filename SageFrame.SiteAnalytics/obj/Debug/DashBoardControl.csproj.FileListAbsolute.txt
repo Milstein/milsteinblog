@@ -30,3 +30,7 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\DashBoardCon
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\DashBoardControl.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\DashBoardControl.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame\bin\DashBoardControl.pdb
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
+D:\!@Localhost\!@F\!Jan20\milsteinblog\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb
