@@ -147,9 +147,6 @@
   <data name="ConfirmPasswordResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="cvCaptchaValueResource1.ErrorMessage" xml:space="preserve">
-    <value>*</value>
-  </data>
   <data name="cvPasswordCompareResource1.ErrorMessage" xml:space="preserve">
     <value>*</value>
   </data>
