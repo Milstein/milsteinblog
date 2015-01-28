@@ -30,3 +30,7 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SFE.GoogleAd
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SFE.GoogleAdUnit.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.pdb
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame\bin\SFE.GoogleAdUnit.dll
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame\bin\SFE.GoogleAdUnit.pdb
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.dll
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.pdb

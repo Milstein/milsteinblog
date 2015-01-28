@@ -120,15 +120,6 @@
   <data name="hypPreviewResource1.Text" xml:space="preserve">
     <value>Back to Home Page</value>
   </data>
-  <data name="hypPreviewResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgLogoResource1.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgLogoResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="imgPrgressResource1.AlternateText" xml:space="preserve">
     <value>Loading...</value>
   </data>
@@ -138,22 +129,7 @@
   <data name="lblPrgressResource1.Text" xml:space="preserve">
     <value>Please wait...</value>
   </data>
-  <data name="lblPrgressResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LitLangRescResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LitLangRescResource2.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LitSageScriptResource1.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="PageResource1.Title" xml:space="preserve">
     <value>Milson Munakami 'Mils†ein®' Website</value>
-  </data>
-  <data name="SageFrameModuleCSSlinksResource1.Text" xml:space="preserve">
-    <value />
   </data>
 </root>

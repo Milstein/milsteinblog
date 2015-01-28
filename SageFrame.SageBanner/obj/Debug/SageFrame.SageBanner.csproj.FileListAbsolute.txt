@@ -35,3 +35,7 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Sa
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame\bin\SageFrame.SageBanner.dll
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame\bin\SageFrame.SageBanner.pdb
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.dll
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb

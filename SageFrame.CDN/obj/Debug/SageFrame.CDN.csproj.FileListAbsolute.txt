@@ -35,3 +35,7 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.CD
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.CDN\obj\Debug\SageFrame.CDN.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.CDN\obj\Debug\SageFrame.CDN.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.CDN\obj\Debug\SageFrame.CDN.pdb
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame\bin\SageFrame.CDN.dll
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame\bin\SageFrame.CDN.pdb
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame.CDN\obj\Debug\SageFrame.CDN.dll
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame.CDN\obj\Debug\SageFrame.CDN.pdb

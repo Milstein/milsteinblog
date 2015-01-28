@@ -35,3 +35,7 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Sc
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.pdb
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame\bin\SageFrame.Scheduler.dll
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame\bin\SageFrame.Scheduler.pdb
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.dll
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.pdb

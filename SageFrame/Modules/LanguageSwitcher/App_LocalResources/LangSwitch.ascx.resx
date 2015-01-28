@@ -120,10 +120,4 @@
   <data name="lblLangResource1.Text" xml:space="preserve">
     <value>Your Language:</value>
   </data>
-  <data name="lblLangResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ltrNavResource1.Text" xml:space="preserve">
-    <value />
-  </data>
 </root>

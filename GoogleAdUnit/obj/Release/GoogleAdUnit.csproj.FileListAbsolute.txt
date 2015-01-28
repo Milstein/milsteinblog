@@ -33,3 +33,8 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\GoogleAdUnit\bin\Release\S
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.dll
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\GoogleAdUnit\obj\Release\GoogleAdUnit.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb

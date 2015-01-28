@@ -117,89 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CaptchaImageResource1.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CaptchaImageResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CaptchaValueResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CaptchaValueResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="chkRememberMeResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="chkRememberMeResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="cvCaptchaValueResource1.ErrorMessage" xml:space="preserve">
     <value>*</value>
-  </data>
-  <data name="cvCaptchaValueResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="cvCaptchaValueResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="FailureTextResource1.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="hypForgotPasswordResource1.Text" xml:space="preserve">
     <value>पासवर्ड भुल्नु भयो?</value>
   </data>
-  <data name="hypForgotPasswordResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgBtnFacebookResource1.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgBtnFacebookResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgBtnGoogleResource1.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgBtnGoogleResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgBtnLinkedInResource1.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgBtnLinkedInResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgBtnYahooResource1.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="imgBtnYahooResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblAdminLoginResource1.Text" xml:space="preserve">
     <value>लग इन</value>
-  </data>
-  <data name="lblAdminLoginResource1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="lblAlertMsgResource1.Text" xml:space="preserve">
     <value>लग इन</value>
   </data>
-  <data name="lblAlertMsgResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="lblrmntResource1.Text" xml:space="preserve">
     <value>मलाई सम्झनामा राख</value>
   </data>
-  <data name="lblrmntResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LoginButtonResource1.Text" xml:space="preserve">
     <value>साइन इन </value>
-  </data>
-  <data name="LoginButtonResource1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="PasswordRequiredResource1.ErrorMessage" xml:space="preserve">
     <value>पासवर्ड आवश्यक छ।</value>
@@ -210,26 +144,8 @@
   <data name="PasswordRequiredResource1.ToolTip" xml:space="preserve">
     <value>पासवर्ड आवश्यक छ।</value>
   </data>
-  <data name="PasswordResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PasswordResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RefreshResource1.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RefreshResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="rfvCaptchaValueValidatorResource1.ErrorMessage" xml:space="preserve">
     <value>*</value>
-  </data>
-  <data name="rfvCaptchaValueValidatorResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="rfvCaptchaValueValidatorResource1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="UserNameRequiredResource1.ErrorMessage" xml:space="preserve">
     <value>नाम आवश्यक छ।</value>
@@ -239,11 +155,5 @@
   </data>
   <data name="UserNameRequiredResource1.ToolTip" xml:space="preserve">
     <value>नाम आवश्यक छ।</value>
-  </data>
-  <data name="UserNameResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="UserNameResource1.ToolTip" xml:space="preserve">
-    <value />
   </data>
 </root>

@@ -120,7 +120,4 @@
   <data name="lblWelcomeMsgResource1.Text" xml:space="preserve">
     <value>欢迎</value>
   </data>
-  <data name="lblWelcomeMsgResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
 </root>
