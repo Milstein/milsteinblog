@@ -318,7 +318,7 @@ namespace SageFrame
                 {
                     sageNavigateUrl = GetParentURL + "/" + sfConfig.GetSettingsByKey(SageFrameSettingKeys.PortalDefaultPage).Replace(" ", "-") + SageFrameSettingKeys.PageExtension;
                 }
-                hypHome.NavigateUrl = GetHostURL + "/Admin/Admin" + Extension;
+                hypHome.NavigateUrl = sageNavigateUrl;//GetHostURL + "/Admin/Admin" + Extension;
                 // hypHome.Text = sfConfig.GetSettingsByKey(SageFrameSettingKeys.PortalDefaultPage);
                 //hypHome.ImageUrl = GetAdminImageUrl("home.png", true);
                 hypPreview.NavigateUrl = sageNavigateUrl;

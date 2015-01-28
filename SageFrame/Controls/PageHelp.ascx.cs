@@ -39,7 +39,7 @@ public partial class Modules_Admin_PageHelp_PageHelp : BaseAdministrationUserCon
             {
                 navigateURL += objApplication.ApplicationId.ToString();
             }
-            lnkpage.NavigateUrl = navigateURL + "&V=3.1";
+            lnkpage.NavigateUrl = navigateURL + "&V=3.5";
             XmlNode root = doc.DocumentElement;
             XmlNode pageNode = root.SelectSingleNode(pageName.ToLower());
             if (pageNode != null)
@@ -51,11 +51,9 @@ public partial class Modules_Admin_PageHelp_PageHelp : BaseAdministrationUserCon
                 defaultMsg = "This is a newly created page.If you want to have help notification for this page go to filemanager and update in SageAdminHelpText.xml file.";
                 StringBuilder description = new StringBuilder();
                 description.Append("<div class='sfHorTabContentHolder' id='sfHorTabContentHolder_");
-               
                 description.Append("'><p>");
                 description.Append(defaultMsg);
                 description.Append("</p></div>");
-
                 ltrPageHelp.Text = description.ToString();
             }
         }

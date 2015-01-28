@@ -60,7 +60,7 @@ public partial class Controls_TopStickyBar : BaseAdministrationUserControl
             {
                 lnkAccount.Visible = false;
             }
-            SageFrame.Application.Application app = new SageFrame.Application.Application();
+            SageFrame.Version.SageFrameVersion app = new SageFrame.Version.SageFrameVersion();
             lblVersion.Text = string.Format("V {0}", app.FormatShortVersion(app.Version, true));
         }
         hypLogo.NavigateUrl = GetPortalAdminPage();

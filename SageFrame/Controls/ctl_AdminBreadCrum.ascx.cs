@@ -87,11 +87,11 @@ namespace SageFrame.Controls
                             var pageLink = pagePath + childPages + SageFrameSettingKeys.PageExtension;
                             if (item.TabPath == "Admin")
                             {
-                                pageLink = pagePath + "Admin/Admin" + Extension;
+                                pageLink = pagePath + "/Admin/Admin" + Extension;
                             }
                             if (item.TabPath.IndexOf("Super-User") > -1)
                             {
-                                pageLink = pagePath + "Admin/Admin" + Extension;
+                                pageLink = pagePath + "/Admin/Admin" + Extension;
                             }
                             childPages += "/";
                             if (index == length - 1)
