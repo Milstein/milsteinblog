@@ -141,6 +141,12 @@
   <data name="lblPrgressResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="LitLangRescResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LitLangRescResource2.Text" xml:space="preserve">
+    <value />
+  </data>
   <data name="LitSageScriptResource1.Text" xml:space="preserve">
     <value />
   </data>
