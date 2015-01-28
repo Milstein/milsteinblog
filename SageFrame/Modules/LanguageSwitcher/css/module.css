@@ -295,7 +295,10 @@ div.FlagButtonWrapper li:hover {
     text-align:right;
     display:block;
 }
-
+.sfLanguageContainer {
+    margin-bottom: 26px;
+    margin-top: -35px;
+}
 .sfLanguageContainer > div 
 {
 	padding-left: 115px;
