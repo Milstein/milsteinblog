@@ -120,35 +120,11 @@
   <data name="btnApplyResource1.Text" xml:space="preserve">
     <value>Apply</value>
   </data>
-  <data name="btnApplyResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ddlLayoutResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ddlScreenResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ddlThemesResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="hlnkDashboardResource1.Text" xml:space="preserve">
     <value>Dashboard</value>
   </data>
-  <data name="hlnkDashboardResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="hypLogoResource1.Text" xml:space="preserve">
     <value>Dashboard</value>
-  </data>
-  <data name="hypLogoResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblVersionResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblVersionResource1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="ListItemResource1.Text" xml:space="preserve">
     <value>fluid</value>
@@ -173,8 +149,5 @@
   </data>
   <data name="lnkAccountResource1.Text" xml:space="preserve">
     <value>My Account</value>
-  </data>
-  <data name="lnkAccountResource1.ToolTip" xml:space="preserve">
-    <value />
   </data>
 </root>
