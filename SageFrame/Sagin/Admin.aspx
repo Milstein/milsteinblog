@@ -36,7 +36,7 @@
     <asp:Literal ID="SageFrameModuleCSSlinks" runat="server" meta:resourcekey="SageFrameModuleCSSlinksResource1"></asp:Literal>
     <link id="lnkLoginCss" href="" rel="stylesheet" type="text/css" runat="server" />
     <title>Milson Munakami 'Mils†ein®' Website</title>
-    <asp:Literal ID="LitLangResc" runat="server"></asp:Literal>
+    <asp:Literal ID="LitLangResc" runat="server" meta:resourcekey="LitLangRescResource2"></asp:Literal>
 </head>
 <body>
     <form id="form1" runat="server" enctype="multipart/form-data">
