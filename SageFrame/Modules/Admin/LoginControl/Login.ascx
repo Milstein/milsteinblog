@@ -22,7 +22,7 @@
                         CssClass="sfInputbox"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName"
                         ErrorMessage="Username is required." ToolTip="Username is required." ValidationGroup="Login1"
-                        CssClass="sfErrorA" meta:resourcekey="UserNameRequiredResource1" InitialValue=""
+                        CssClass="sfErrorA" meta:resourcekey="UserNameRequiredResource1"
                         Text="*"></asp:RequiredFieldValidator>
                 </p>
                 <p class="sfPassword">
