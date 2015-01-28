@@ -82,7 +82,7 @@
                     <li>
                         <div class="sfLogo">
                             <a href="../Admin/Admin<%=Extension %>">
-                                <img src="<%=appPath%>/Administrator/Templates/Default/images/sageframe.png" alt="Sageframe" /></a>
+                                <img src="<%=appPath%>/Administrator/Templates/Default/images/milstein.png" alt="Milson Munakami 'Mils†ein®' Website" title="Milson Munakami 'Mils†ein®' Website"/></a>
                             <asp:Label runat="server" ID="lblVersion"></asp:Label>
                         </div>
                     </li>

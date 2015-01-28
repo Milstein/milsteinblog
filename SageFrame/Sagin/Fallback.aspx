@@ -44,8 +44,8 @@
     <form id="form1" runat="server">
     <div class="sfFallback">
         <div class="sfLogoholder">
-            <a class="sflogo" target="_blank" href="http://www.sageframe.com/">
-                <asp:Image ID="imgLogo" runat="server" alt="SageFrame" />
+            <a class="sflogo" target="_blank" href="http://milstein.me/">
+                <asp:Image ID="imgLogo" runat="server" alt="Milson Munakami 'Mils†ein®' Website" title="Milson Munakami 'Mils†ein®' Website" />
             </a>
         </div>
         <div class="sfFallbackHolder">

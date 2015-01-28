@@ -59,8 +59,8 @@
     </noscript>
     <div id="sfOuterwrapper">
         <div class="sfLogoholder">
-            <a href="http://www.sageframe.com" target="_blank" class="sflogo">
-                <asp:Image ID="imgLogo" runat="server" alt="SageFrame" meta:resourcekey="imgLogoResource1" />
+            <a href="http://milstein.me/" target="_blank" class="sflogo">
+                <asp:Image ID="imgLogo" runat="server" alt="Milson Munakami 'Mils†ein®' Website" title="Milson Munakami 'Mils†ein®' Website" meta:resourcekey="imgLogoResource1" />
             </a>
         </div>
         <div class="sfSagewrapper">
