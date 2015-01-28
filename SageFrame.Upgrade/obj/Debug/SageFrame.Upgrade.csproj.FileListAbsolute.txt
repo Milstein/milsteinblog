@@ -36,3 +36,8 @@ C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame\bin\SageFrame.Up
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.csprojResolveAssemblyReference.cache
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.dll
 C:\Users\Milson\Documents\!@FUCK\!@Final\milsteinblog\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.pdb
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame\bin\SageFrame.Upgrade.dll
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame\bin\SageFrame.Upgrade.pdb
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.csprojResolveAssemblyReference.cache
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.dll
+C:\Users\Milson\Documents\!@FUCK\!@\milsteinblog\SageFrame.Upgrade\obj\Debug\SageFrame.Upgrade.pdb

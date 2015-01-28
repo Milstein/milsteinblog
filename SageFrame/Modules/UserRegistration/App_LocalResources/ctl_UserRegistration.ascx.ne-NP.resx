@@ -117,214 +117,61 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CaptchaImageResource1.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CaptchaImageResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="CaptchaLabelResource1.Text" xml:space="preserve">
     <value>क्याप्चा:</value>
-  </data>
-  <data name="CaptchaLabelResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CaptchaValueResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CaptchaValueResource1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="ConfirmPasswordLabelResource1.Text" xml:space="preserve">
     <value>पासवर्ड यकिन:</value>
   </data>
-  <data name="ConfirmPasswordLabelResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ConfirmPasswordResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ConfirmPasswordResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="cvCaptchaValueResource1.ErrorMessage" xml:space="preserve">
-    <value>*</value>
-  </data>
-  <data name="cvCaptchaValueResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="cvCaptchaValueResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="cvPasswordCompareResource1.ErrorMessage" xml:space="preserve">
     <value>*</value>
-  </data>
-  <data name="cvPasswordCompareResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="cvPasswordCompareResource1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="DataLabelResource1.Text" xml:space="preserve">
     <value>क्याप्चा पाठ प्रविष्ट गर्नुहोस्</value>
   </data>
-  <data name="DataLabelResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="EmailLabelResource1.Text" xml:space="preserve">
     <value>ई-मेल:</value>
   </data>
-  <data name="EmailLabelResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="EmailResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="EmailResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="FinishButtonResource1.Text" xml:space="preserve">
-    <value>रजिस्टर</value>
-  </data>
-  <data name="FinishButtonResource1.ToolTip" xml:space="preserve">
-    <value />
+    <value>रजिस्तर</value>
   </data>
   <data name="FirstNameLabelResource1.Text" xml:space="preserve">
     <value>पहिलो नाम:</value>
   </data>
-  <data name="FirstNameLabelResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="FirstNameResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="FirstNameResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LastNameLabelResource1.Text" xml:space="preserve">
-    <value>पछिल्लो नाम:</value>
+    <value>थर：</value>
   </data>
-  <data name="LastNameLabelResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LastNameResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LastNameResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblRegSuccessResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblRegSuccessResource1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="lblTitleResource1.Text" xml:space="preserve">
+    <value>दर्ता</value>
   </data>
   <data name="PasswordLabelResource1.Text" xml:space="preserve">
-    <value>पासवर्ड:</value>
-  </data>
-  <data name="PasswordLabelResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PasswordResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PasswordResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RefreshResource1.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RefreshResource1.ToolTip" xml:space="preserve">
-    <value />
+    <value>पासवर्ड：</value>
   </data>
   <data name="revEmailResource1.ErrorMessage" xml:space="preserve">
     <value>*</value>
   </data>
-  <data name="revEmailResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="revEmailResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="rfvCaptchaValueValidatorResource1.ErrorMessage" xml:space="preserve">
     <value>*</value>
-  </data>
-  <data name="rfvCaptchaValueValidatorResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="rfvCaptchaValueValidatorResource1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="rfvConfirmPasswordRequiredResource1.ErrorMessage" xml:space="preserve">
     <value>*</value>
   </data>
-  <data name="rfvConfirmPasswordRequiredResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="rfvConfirmPasswordRequiredResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="rfvEmailRequiredResource1.ErrorMessage" xml:space="preserve">
     <value>*</value>
-  </data>
-  <data name="rfvEmailRequiredResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="rfvEmailRequiredResource1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="rfvFirstNameResource1.ErrorMessage" xml:space="preserve">
     <value>*</value>
   </data>
-  <data name="rfvFirstNameResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="rfvFirstNameResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="rfvLastNameResource1.ErrorMessage" xml:space="preserve">
     <value>*</value>
-  </data>
-  <data name="rfvLastNameResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="rfvLastNameResource1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="rfvPasswordRequiredResource1.ErrorMessage" xml:space="preserve">
     <value>*</value>
   </data>
-  <data name="rfvPasswordRequiredResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="rfvPasswordRequiredResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="rfvUserNameRequiredResource1.ErrorMessage" xml:space="preserve">
     <value>*</value>
   </data>
-  <data name="rfvUserNameRequiredResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="rfvUserNameRequiredResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="USER_RESISTER_SUCESSFUL_INFORMATIONResource1.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="UserNameLabelResource1.Text" xml:space="preserve">
     <value>प्रयोगकर्ता नाम:</value>
-  </data>
-  <data name="UserNameLabelResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="UserNameResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="UserNameResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblTitleResource1.Text" xml:space="preserve">
-    <value>दर्ता</value>
   </data>
 </root>

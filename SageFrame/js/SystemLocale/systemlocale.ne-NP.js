@@ -32,5 +32,5 @@ var SystemLocale = {
 "You are already a subscribed member":"तपाईं पहिले देखि नै एक सदस्यता प्राप्त सदस्य हुनुहुन्छ",
 "Subscribed Successfully":"सफलतापूर्वक सदस्यता ग्रहण भयो|",
 "Invalid Email":"अवैध इमेल!",
-"UnSubscribe": "सदस्यता समाप्त"
+"UnSubscribe":"सदस्यता समाप्त"
 };

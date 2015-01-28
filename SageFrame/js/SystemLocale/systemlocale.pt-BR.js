@@ -32,5 +32,5 @@ var SystemLocale = {
 "You are already a subscribed member":"Você já é membro subscrito",
 "Subscribed Successfully":"Inscrito com sucesso",
 "Invalid Email":"E-mail inválido",
-"UnSubscribe": "unsubscribe"
+"UnSubscribe":"unsubscribe"
 };
