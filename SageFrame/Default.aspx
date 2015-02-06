@@ -53,6 +53,9 @@
     <asp:PlaceHolder ID="pchWhole" runat="server"></asp:PlaceHolder>
     <asp:PlaceHolder ID="pchtest" runat="server"></asp:PlaceHolder>
     <asp:Literal ID="LitSageScript" runat="server"></asp:Literal>
+	<div>
+        <input type="button" id="btnScrollTop" runat="server" value="" class="back-top Button WhiteButton Indicator sfLocale" style="white-space: pre" />
+    </div>
     <iframe id="divFrame" style="display: none" width='100%'></iframe>
     <div class="sfCpanel sfInnerwrapper" runat="server" id="divActivation">
         <asp:Literal runat="server" ID="ltrActivation"></asp:Literal>
@@ -63,7 +66,7 @@
        
         $(function() {
             $(this).LoadFirst('<%=templatefavicon%>');
-            $(".sfLocalee").SystemLocalize();
+            $(".sfLocale").SystemLocalize();
         });
         //]]>
     </script>    
